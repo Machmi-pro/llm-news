@@ -70,6 +70,26 @@ function renderModels(data) {
 
 let allEntries = [];
 
+/**
+ * Próbuje sparsować date_guess (dowolny format tekstowy znaleziony na stronie
+ * producenta, np. "2026-07-09", "October, 2023", "Jan 15, 2026") na obiekt Date.
+ * Zwraca null, jeśli się nie uda -- wtedy używamy fetched_at jako zapasowego
+ * klucza sortowania, żeby wpis i tak wylądował w rozsądnym miejscu.
+ */
+function parseEntryDate(dateGuess) {
+  if (!dateGuess) return null;
+  const cleaned = dateGuess.replace(",", "").trim();
+  const d = new Date(cleaned);
+  return isNaN(d.getTime()) ? null : d;
+}
+
+function sortKey(entry) {
+  const parsed = parseEntryDate(entry.date_guess);
+  if (parsed) return parsed.getTime();
+  const fetched = entry.fetched_at ? new Date(entry.fetched_at) : null;
+  return fetched && !isNaN(fetched.getTime()) ? fetched.getTime() : 0;
+}
+
 function renderLedger(filter) {
   const ledger = document.getElementById("changelog-ledger");
   ledger.innerHTML = "";
@@ -105,7 +125,11 @@ function renderLedger(filter) {
 }
 
 function renderChangelog(data) {
-  allEntries = (data.entries || []).slice().reverse(); // najnowsze dopisywane na końcu -> pokazujemy od najnowszych
+  // Nie zakładamy żadnej konkretnej kolejności w pliku źródłowym (różne strony
+  // producentów porządkują wpisy różnie) -- sortujemy jawnie po realnej dacie
+  // wpisu, malejąco (najnowsze pierwsze). Wpisy bez rozpoznanej daty lądują
+  // wg daty pobrania (fetched_at) jako przybliżenie.
+  allEntries = (data.entries || []).slice().sort((a, b) => sortKey(b) - sortKey(a));
 
   renderLedger("all");
 
