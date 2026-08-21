@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rejestr modeli — Claude / Codex</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="page-head">
+  <div class="head-inner">
+    <p class="eyebrow">rejestr modeli</p>
+    <h1>Claude <span class="slash">/</span> Codex</h1>
+    <p class="subtitle">Dostępne modele i zmiany prosto od producentów — aktualizowane automatycznie.</p>
+  </div>
+  <div class="meta-strip" id="meta-strip">
+    <span id="meta-models">modele: —</span>
+    <span class="dot">·</span>
+    <span id="meta-changelog">changelog: —</span>
+  </div>
+</header>
+
+<main>
+
+  <section class="panel" id="models-section">
+    <h2><span class="idx">01</span> Dostępne modele</h2>
+    <div class="model-columns">
+      <div class="model-col" data-vendor="claude">
+        <h3>Claude <span class="vendor-tag claude">Anthropic</span></h3>
+        <div class="model-list" id="claude-models"></div>
+      </div>
+      <div class="model-col" data-vendor="codex">
+        <h3>Codex / GPT <span class="vendor-tag codex">OpenAI</span></h3>
+        <div class="model-list" id="codex-models"></div>
+      </div>
+    </div>
+    <p class="warnings" id="models-warnings"></p>
+  </section>
+
+  <section class="panel" id="changelog-section">
+    <h2><span class="idx">02</span> Co nowego</h2>
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all">wszystko</button>
+      <button class="filter-btn" data-filter="Anthropic">Anthropic</button>
+      <button class="filter-btn" data-filter="OpenAI">OpenAI</button>
+    </div>
+    <div class="ledger" id="changelog-ledger"></div>
+    <p class="warnings" id="changelog-warnings"></p>
+  </section>
+
+</main>
+
+<footer>
+  <p>Źródła: strony release notes i dokumentacji modeli Anthropic oraz OpenAI. Dane odświeżane przez GitHub Actions — modele co tydzień, changelog codziennie.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
