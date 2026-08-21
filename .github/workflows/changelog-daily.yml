@@ -1,0 +1,40 @@
+name: Aktualizacja "co nowego" (codziennie)
+
+on:
+  schedule:
+    # codziennie 06:30 UTC
+    - cron: "30 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ustaw Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Zainstaluj zależności
+        run: pip install -r scripts/requirements.txt
+
+      - name: Pobierz nowe wpisy release notes
+        run: python scripts/fetch_changelog.py
+
+      - name: Commituj zmiany, jeśli są
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/changelog.json
+          if git diff --cached --quiet; then
+            echo "Brak nowych wpisów"
+          else
+            git commit -m "chore: nowe wpisy changelog ($(date -u +%Y-%m-%d))"
+            git push
+          fi
