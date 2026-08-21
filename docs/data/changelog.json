@@ -1,7 +1,2886 @@
 {
-  "entries": [],
-  "last_checked": null,
-  "fetch_warnings": [
-    "Plik wyczyszczony recznie 21.08.2026, zeby usunac wpisy z poprzednich wersji scrapera (HTML) sprzed przejscia na RSS. Nastepne uruchomienie changelog-daily.yml wypelni go swiezymi danymi z openai.com/news/rss.xml i tim-hilde.github.io/anthropic-rss/rss.xml."
-  ]
+  "entries": [
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing AI Futures",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "date_guess": "2026-08-20",
+      "source": "https://openai.com/index/introducing-ai-futures",
+      "hash": "f75bb80a9208e739",
+      "fetched_at": "2026-08-21T15:54:17.742584+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "date_guess": "2026-08-20",
+      "source": "https://openai.com/index/stampli",
+      "hash": "b2b357dba3fbbd86",
+      "fetched_at": "2026-08-21T15:54:17.742616+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Offering Zero Data Retention for frontier models",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "date_guess": "2026-08-19",
+      "source": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "hash": "31b014abafcdd922",
+      "fetched_at": "2026-08-21T15:54:17.742634+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "date_guess": "2026-08-19",
+      "source": "https://openai.com/index/replit",
+      "hash": "75aa21b9a50e2bd7",
+      "fetched_at": "2026-08-21T15:54:17.742646+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT Ads expands across Europe",
+      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "date_guess": "2026-08-18",
+      "source": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "hash": "1ab429dd87a7a9e3",
+      "fetched_at": "2026-08-21T15:54:17.742658+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Strengthening democratic oversight in national security",
+      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "date_guess": "2026-08-18",
+      "source": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "hash": "3412b8e7fc3e5499",
+      "fetched_at": "2026-08-21T15:54:17.742670+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "date_guess": "2026-08-18",
+      "source": "https://openai.com/index/partnering-with-codeai",
+      "hash": "4f08a3f74c061e5a",
+      "fetched_at": "2026-08-21T15:54:17.742681+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+      "date_guess": "2026-08-18",
+      "source": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "hash": "522a40da146c872c",
+      "fetched_at": "2026-08-21T15:54:17.742692+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "date_guess": "2026-08-18",
+      "source": "https://openai.com/index/chatgpt-for-teens",
+      "hash": "1a3cef59cb8b1236",
+      "fetched_at": "2026-08-21T15:54:17.742703+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How NVIDIA scales expertise with ChatGPT Work",
+      "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
+      "date_guess": "2026-08-18",
+      "source": "https://openai.com/index/nvidia/chatgpt-work",
+      "hash": "4d8789ece0d93eb0",
+      "fetched_at": "2026-08-21T15:54:17.742713+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "date_guess": "2026-08-18",
+      "source": "https://openai.com/index/asana",
+      "hash": "201e1564d8c3777b",
+      "fetched_at": "2026-08-21T15:54:17.742724+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The Defender’s Window",
+      "summary": "AI is reshaping cybersecurity for attackers and defenders alike. Learn how OpenAI is strengthening its defenses and what security teams can do now.",
+      "date_guess": "2026-08-17",
+      "source": "https://openai.com/index/the-defenders-window",
+      "hash": "e185921879610fd2",
+      "fetched_at": "2026-08-21T15:54:17.742739+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI joins PORTS-Pike project",
+      "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+      "date_guess": "2026-08-17",
+      "source": "https://openai.com/index/openai-joins-ports-pike-project",
+      "hash": "a4a67c51f78bc820",
+      "fetched_at": "2026-08-21T15:54:17.742749+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New policy ideas for the Intelligence Age",
+      "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+      "date_guess": "2026-08-17",
+      "source": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "hash": "3d408d1383b7da7b",
+      "fetched_at": "2026-08-21T15:54:17.742760+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The builder’s guide to GPT‑5.6",
+      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "date_guess": "2026-08-13",
+      "source": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "hash": "01430f188df74446",
+      "fetched_at": "2026-08-21T15:54:17.742771+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "date_guess": "2026-08-13",
+      "source": "https://openai.com/index/previewing-ultrafast",
+      "hash": "37edf461937746cd",
+      "fetched_at": "2026-08-21T15:54:17.742784+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+      "date_guess": "2026-08-13",
+      "source": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "hash": "3f6c94f49daec8e8",
+      "fetched_at": "2026-08-21T15:54:17.742794+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "From assistance to execution: How enterprises put AI to work",
+      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+      "date_guess": "2026-08-12",
+      "source": "https://openai.com/index/how-enterprises-put-ai-to-work",
+      "hash": "fe67309417b68bca",
+      "fetched_at": "2026-08-21T15:54:17.742806+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+      "date_guess": "2026-08-12",
+      "source": "https://openai.com/index/ringcentral",
+      "hash": "3b2f83ad0c9daa63",
+      "fetched_at": "2026-08-21T15:54:17.742817+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Testing ads in ChatGPT",
+      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
+      "date_guess": "2026-08-11",
+      "source": "https://openai.com/index/testing-ads-in-chatgpt",
+      "hash": "989e9b1a5f872d6e",
+      "fetched_at": "2026-08-21T15:54:17.742827+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Daybreak models are now available on AWS",
+      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
+      "date_guess": "2026-08-11",
+      "source": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+      "hash": "da27bcbce43a5e68",
+      "fetched_at": "2026-08-21T15:54:17.742837+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+      "date_guess": "2026-08-10",
+      "source": "https://openai.com/index/responsible-ai-infrastructure-texas",
+      "hash": "d22ebcbad608ecc5",
+      "fetched_at": "2026-08-21T15:54:17.742850+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
+      "date_guess": "2026-08-10",
+      "source": "https://openai.com/index/model-ml",
+      "hash": "1305b512c2198d80",
+      "fetched_at": "2026-08-21T15:54:17.742860+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "What building an AI-native finance function taught me",
+      "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
+      "date_guess": "2026-08-10",
+      "source": "https://openai.com/index/building-an-ai-native-finance-function",
+      "hash": "d03a548b2b83b7d4",
+      "fetched_at": "2026-08-21T15:54:17.742871+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Putting frontier cyber models in more trusted hands",
+      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
+      "date_guess": "2026-08-10",
+      "source": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+      "hash": "458746c7ab94421d",
+      "fetched_at": "2026-08-21T15:54:17.742885+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
+      "date_guess": "2026-08-10",
+      "source": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+      "hash": "7ada3a4ac41e4150",
+      "fetched_at": "2026-08-21T15:54:17.742897+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Premium seats are coming to ChatGPT Business",
+      "summary": "Premium seats are coming to ChatGPT Business. Sign up by August 20 to get $100 in workspace credits and unlock higher usage for your team's most demanding work.",
+      "date_guess": "2026-08-10",
+      "source": "https://openai.com/index/premium-seats-chatgpt-business",
+      "hash": "93a74553aa446baf",
+      "fetched_at": "2026-08-21T15:54:17.742908+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+      "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+      "date_guess": "2026-08-10",
+      "source": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+      "hash": "94cb83a7ab0f04ae",
+      "fetched_at": "2026-08-21T15:54:17.742919+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "summary": "The enterprise marketing team at Zapier uses ChatGPT Work to reduce the number of drop-offs in its lead funnel, build campaign assets, and automate reporting.",
+      "date_guess": "2026-08-10",
+      "source": "https://openai.com/index/zapier",
+      "hash": "4c82865413ecc4a9",
+      "fetched_at": "2026-08-21T15:54:17.742930+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+      "date_guess": "2026-08-07",
+      "source": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "hash": "ed6b42203a75339c",
+      "fetched_at": "2026-08-21T15:54:17.742942+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+      "date_guess": "2026-08-07",
+      "source": "https://openai.com/index/hsp-gruppe",
+      "hash": "25a92bf44d6ea40b",
+      "fetched_at": "2026-08-21T15:54:17.742953+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+      "date_guess": "2026-08-06",
+      "source": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "hash": "96d4dfd5430fe4ad",
+      "fetched_at": "2026-08-21T15:54:17.742965+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Working with the American Psychological Association on youth mental health and AI",
+      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+      "date_guess": "2026-08-06",
+      "source": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "hash": "b640a1d2598af810",
+      "fetched_at": "2026-08-21T15:54:17.742977+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "From asking to doing: How the world is putting ChatGPT to work",
+      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+      "date_guess": "2026-08-06",
+      "source": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+      "hash": "4684dbc7b1f80c6c",
+      "fetched_at": "2026-08-21T15:54:17.742988+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "date_guess": "2026-08-04",
+      "source": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "hash": "1184f2862c29e25b",
+      "fetched_at": "2026-08-21T15:54:17.742998+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New ways to learn and teach with ChatGPT Work and Codex",
+      "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+      "date_guess": "2026-08-04",
+      "source": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+      "hash": "54aa49a9783904bb",
+      "fetched_at": "2026-08-21T15:54:17.743011+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Apple is getting this wrong",
+      "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+      "date_guess": "2026-08-03",
+      "source": "https://openai.com/index/apple-is-getting-this-wrong",
+      "hash": "46cc82ee8ce60627",
+      "fetched_at": "2026-08-21T15:54:17.743022+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How we built a realtime system for responsive voice AI in six months",
+      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+      "date_guess": "2026-08-03",
+      "source": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "hash": "9a434c78b4a2af59",
+      "fetched_at": "2026-08-21T15:54:17.743032+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "date_guess": "2026-08-03",
+      "source": "https://openai.com/index/circles",
+      "hash": "949f6beef3448fb0",
+      "fetched_at": "2026-08-21T15:54:17.743043+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+      "date_guess": "2026-08-01",
+      "source": "https://openai.com/index/ten-advances-in-mathematics",
+      "hash": "fb011fe30c0bf4b5",
+      "fetched_at": "2026-08-21T15:54:17.743054+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Advancing responsible AI across Europe",
+      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "date_guess": "2026-07-31",
+      "source": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "hash": "9b8a6e8ef850948c",
+      "fetched_at": "2026-08-21T15:54:17.743065+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Building abundant intelligence",
+      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "date_guess": "2026-07-31",
+      "source": "https://openai.com/index/building-abundant-intelligence",
+      "hash": "cd181a26a1c7600d",
+      "fetched_at": "2026-08-21T15:54:17.743074+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Univé builds an AI-ready workforce",
+      "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+      "date_guess": "2026-07-31",
+      "source": "https://openai.com/index/unive",
+      "hash": "4501d7c98dfdf3bb",
+      "fetched_at": "2026-08-21T15:54:17.743087+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Disrupting a Criminal Scam Operation",
+      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "date_guess": "2026-07-31",
+      "source": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "hash": "38a2ca32522d5712",
+      "fetched_at": "2026-08-21T15:54:17.743099+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "date_guess": "2026-07-30",
+      "source": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "hash": "73c54cbab1f5497c",
+      "fetched_at": "2026-08-21T15:54:17.743111+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+      "date_guess": "2026-07-30",
+      "source": "https://openai.com/index/avatarin",
+      "hash": "3ac4365d6625d62c",
+      "fetched_at": "2026-08-21T15:54:17.743124+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "date_guess": "2026-07-29",
+      "source": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "hash": "0b825075701170c5",
+      "fetched_at": "2026-08-21T15:54:17.743134+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "date_guess": "2026-07-29",
+      "source": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "hash": "e7d567c51dae6f26",
+      "fetched_at": "2026-08-21T15:54:17.743146+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "date_guess": "2026-07-29",
+      "source": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "hash": "7c000c23115d326a",
+      "fetched_at": "2026-08-21T15:54:17.743156+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Scientific computing in the age of agentic AI",
+      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+      "date_guess": "2026-07-28",
+      "source": "https://openai.com/index/scientific-computing-agentic-ai",
+      "hash": "a0555cf4aad583ff",
+      "fetched_at": "2026-08-21T15:54:17.743167+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How AI is expanding what people do at work",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "date_guess": "2026-07-27",
+      "source": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "hash": "f9192cbb18081757",
+      "fetched_at": "2026-08-21T15:54:17.743178+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Launching Health in ChatGPT",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "date_guess": "2026-07-23",
+      "source": "https://openai.com/index/health-in-chatgpt",
+      "hash": "bb93d042994c7d7f",
+      "fetched_at": "2026-08-21T15:54:17.743189+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "date_guess": "2026-07-22",
+      "source": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+      "hash": "97c81a204aa7f3ab",
+      "fetched_at": "2026-08-21T15:54:17.743199+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
+      "date_guess": "2026-07-22",
+      "source": "https://openai.com/index/how-news-organizations-are-using-ai",
+      "hash": "5928a45887677339",
+      "fetched_at": "2026-08-21T15:54:17.743210+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Advancing the next era of national science",
+      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "date_guess": "2026-07-22",
+      "source": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "hash": "8eb4160cf7d6ae5b",
+      "fetched_at": "2026-08-21T15:54:17.743220+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing OpenAI Presence",
+      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
+      "date_guess": "2026-07-22",
+      "source": "https://openai.com/index/introducing-openai-presence",
+      "hash": "bf0be9cb5bf2a6dd",
+      "fetched_at": "2026-08-21T15:54:17.743231+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+      "date_guess": "2026-07-22",
+      "source": "https://openai.com/index/ntt-data",
+      "hash": "f2224190a72b4bad",
+      "fetched_at": "2026-08-21T15:54:17.743244+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the ChatGPT for small business program",
+      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "date_guess": "2026-07-21",
+      "source": "https://openai.com/index/introducing-chatgpt-small-business-program",
+      "hash": "88feba5097ba16ba",
+      "fetched_at": "2026-08-21T15:54:17.743254+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+      "date_guess": "2026-07-21",
+      "source": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "hash": "cba146720d52c769",
+      "fetched_at": "2026-08-21T15:54:17.743266+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "summary": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+      "date_guess": "2026-07-21",
+      "source": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "hash": "cd04243277f17cac",
+      "fetched_at": "2026-08-21T15:54:17.743280+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "date_guess": "2026-07-20",
+      "source": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "hash": "cab6ba76d24fc384",
+      "fetched_at": "2026-08-21T15:54:17.743291+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "A scorecard for the AI age",
+      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "date_guess": "2026-07-17",
+      "source": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "hash": "5a5844253da0e93e",
+      "fetched_at": "2026-08-21T15:54:17.743302+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Why teens deserve access to safe AI",
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "date_guess": "2026-07-16",
+      "source": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "hash": "261cbb03dac9dcfa",
+      "fetched_at": "2026-08-21T15:54:17.743312+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Codex became a collaborator for OpenAI’s creative team",
+      "summary": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
+      "date_guess": "2026-07-16",
+      "source": "https://openai.com/index/codex-collaborator-creative-team",
+      "hash": "9561a782a5c9af8d",
+      "fetched_at": "2026-08-21T15:54:17.743324+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "date_guess": "2026-07-16",
+      "source": "https://openai.com/index/cars24",
+      "hash": "5102a9a77eb892d9",
+      "fetched_at": "2026-08-21T15:54:17.743335+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The US is advancing AI safety through state and federal action",
+      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+      "date_guess": "2026-07-15",
+      "source": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+      "hash": "131ff55998e9b101",
+      "fetched_at": "2026-08-21T15:54:17.743347+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+      "date_guess": "2026-07-15",
+      "source": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+      "hash": "7f80961f5a783d49",
+      "fetched_at": "2026-08-21T15:54:17.743357+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How to manage AI investments in the agentic era",
+      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+      "date_guess": "2026-07-14",
+      "source": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+      "hash": "1e24734a42b802d3",
+      "fetched_at": "2026-08-21T15:54:17.743368+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Data science workflows with ChatGPT Work",
+      "summary": "Learn practical ChatGPT Work workflows for root-cause briefs, KPI memos, scoped analyses, and dashboard specifications.",
+      "date_guess": "2026-07-14",
+      "source": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
+      "hash": "c70d1cd95ff6b958",
+      "fetched_at": "2026-08-21T15:54:17.743378+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Sales workflows with ChatGPT Work",
+      "summary": "Learn practical ChatGPT Work workflows for pipeline briefs, meeting prep, account plans, forecast reviews, and deal diagnosis.",
+      "date_guess": "2026-07-14",
+      "source": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
+      "hash": "51ef75fe80753254",
+      "fetched_at": "2026-08-21T15:54:17.743388+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "date_guess": "2026-07-10",
+      "source": "https://openai.com/index/deutsche-telekom",
+      "hash": "c3b7345afd9f1737",
+      "fetched_at": "2026-08-21T15:54:17.743399+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Getting started with ChatGPT",
+      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+      "date_guess": "2026-07-10",
+      "source": "https://openai.com/academy/getting-started",
+      "hash": "2070b5c731cffddf",
+      "fetched_at": "2026-08-21T15:54:17.743409+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+      "date_guess": "2026-07-09",
+      "source": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+      "hash": "d48b7fbfe5663dcc",
+      "fetched_at": "2026-08-21T15:54:17.743419+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT is now a partner for your most ambitious work",
+      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+      "date_guess": "2026-07-09",
+      "source": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+      "hash": "958ed086d8a27a6f",
+      "fetched_at": "2026-08-21T15:54:17.743431+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+      "date_guess": "2026-07-09",
+      "source": "https://openai.com/index/gpt-5-6",
+      "hash": "c390973b5f8c8c4c",
+      "fetched_at": "2026-08-21T15:54:17.743442+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.5 Bio Bug Bounty",
+      "summary": "Details about the OpenAI Bio Bounty program",
+      "date_guess": "2026-07-09",
+      "source": "https://openai.com/index/bio-bug-bounty",
+      "hash": "43e69ae99bf94958",
+      "fetched_at": "2026-08-21T15:54:17.743450+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our approach to government and national security partnerships",
+      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "date_guess": "2026-07-08",
+      "source": "https://openai.com/index/government-national-security-partnerships",
+      "hash": "63c11dd52d43fd84",
+      "fetched_at": "2026-08-21T15:54:17.743460+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Separating signal from noise in coding evaluations",
+      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "date_guess": "2026-07-08",
+      "source": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+      "hash": "92ced11f123e0778",
+      "fetched_at": "2026-08-21T15:54:17.743472+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Helping K–12 educators build practical AI skills",
+      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+      "date_guess": "2026-07-08",
+      "source": "https://openai.com/index/k-12-educators-practical-skills",
+      "hash": "b483b67469347d51",
+      "fetched_at": "2026-08-21T15:54:17.743485+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-Live",
+      "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+      "date_guess": "2026-07-08",
+      "source": "https://openai.com/index/introducing-gpt-live",
+      "hash": "d750433e5ea6aa84",
+      "fetched_at": "2026-08-21T15:54:17.743494+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+      "date_guess": "2026-07-07",
+      "source": "https://openai.com/index/australian-payments-plus",
+      "hash": "210c4a3ddec019e6",
+      "fetched_at": "2026-08-21T15:54:17.743507+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "MUFG aims to become AI-native with OpenAI",
+      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+      "date_guess": "2026-07-07",
+      "source": "https://openai.com/index/mufg",
+      "hash": "50356785aa5fd062",
+      "fetched_at": "2026-08-21T15:54:17.743517+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How ChatGPT adoption has expanded",
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "date_guess": "2026-06-30",
+      "source": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "hash": "19aa7af292fa9ebf",
+      "fetched_at": "2026-08-21T15:54:17.743540+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "date_guess": "2026-06-30",
+      "source": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "hash": "c6318b555931a65a",
+      "fetched_at": "2026-08-21T15:54:17.743552+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Inside Genebench-Pro",
+      "summary": "",
+      "date_guess": "2026-06-30",
+      "source": "https://openai.com/index/genebench-pro/case-studies",
+      "hash": "b31b1629fdc2d7d5",
+      "fetched_at": "2026-08-21T15:54:17.743558+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GeneBench-Pro",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "date_guess": "2026-06-30",
+      "source": "https://openai.com/index/introducing-genebench-pro",
+      "hash": "47d669c99488e45d",
+      "fetched_at": "2026-08-21T15:54:17.743570+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "date_guess": "2026-06-29",
+      "source": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "hash": "daf9143724dee7fe",
+      "fetched_at": "2026-08-21T15:54:17.743581+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "date_guess": "2026-06-28",
+      "source": "https://openai.com/index/hp-frontier-partnership",
+      "hash": "8438cb5d173c4ed1",
+      "fetched_at": "2026-08-21T15:54:17.743591+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "date_guess": "2026-06-26",
+      "source": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "hash": "57d6e155c58601f8",
+      "fetched_at": "2026-08-21T15:54:17.743601+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How agents are transforming work",
+      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "date_guess": "2026-06-25",
+      "source": "https://openai.com/index/how-agents-are-transforming-work",
+      "hash": "b44fa6d4c3035f87",
+      "fetched_at": "2026-08-21T15:54:17.743614+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "date_guess": "2026-06-24",
+      "source": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "hash": "758b318fc97407e6",
+      "fetched_at": "2026-08-21T15:54:17.743626+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Helping build shared standards for advanced AI",
+      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "date_guess": "2026-06-23",
+      "source": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "hash": "bd6653b073c6d0a8",
+      "fetched_at": "2026-08-21T15:54:17.743637+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "date_guess": "2026-06-23",
+      "source": "https://openai.com/index/gpt-5-immunology-mystery",
+      "hash": "f5125725b7f92474",
+      "fetched_at": "2026-08-21T15:54:17.743648+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Omio is building the future of conversational travel",
+      "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "date_guess": "2026-06-23",
+      "source": "https://openai.com/index/omio",
+      "hash": "2e008bfa7b8ce608",
+      "fetched_at": "2026-08-21T15:54:17.743659+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+      "date_guess": "2026-06-22",
+      "source": "https://openai.com/index/patch-the-planet",
+      "hash": "b458cb9fa265af4a",
+      "fetched_at": "2026-08-21T15:54:17.743671+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+      "date_guess": "2026-06-22",
+      "source": "https://openai.com/index/daybreak-securing-the-world",
+      "hash": "be62093e04add44c",
+      "fetched_at": "2026-08-21T15:54:17.743682+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex-maxxing for long-running work",
+      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
+      "date_guess": "2026-06-22",
+      "source": "https://openai.com/index/codex-maxxing-long-running-work",
+      "hash": "3c831873898f30a6",
+      "fetched_at": "2026-08-21T15:54:17.743692+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
+      "date_guess": "2026-06-21",
+      "source": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "hash": "6532ac452773d966",
+      "fetched_at": "2026-08-21T15:54:17.743703+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New usage analytics and updated spend controls for enterprises",
+      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+      "date_guess": "2026-06-18",
+      "source": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+      "hash": "41b4ffac65ef7426",
+      "fetched_at": "2026-08-21T15:54:17.743714+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Improving health intelligence in ChatGPT",
+      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "date_guess": "2026-06-18",
+      "source": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "hash": "89386de79b905ed7",
+      "fetched_at": "2026-08-21T15:54:17.743725+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "date_guess": "2026-06-18",
+      "source": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "hash": "1bb8a00ec1aee616",
+      "fetched_at": "2026-08-21T15:54:17.743735+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "date_guess": "2026-06-17",
+      "source": "https://openai.com/index/ai-chemist-improves-reaction",
+      "hash": "8766c289870710d6",
+      "fetched_at": "2026-08-21T15:54:17.743746+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing LifeSciBench",
+      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
+      "date_guess": "2026-06-17",
+      "source": "https://openai.com/index/introducing-life-sci-bench",
+      "hash": "51d858e17ce51c9e",
+      "fetched_at": "2026-08-21T15:54:17.743758+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Predicting model behavior before release by simulating deployment",
+      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
+      "date_guess": "2026-06-16",
+      "source": "https://openai.com/index/deployment-simulation",
+      "hash": "916742014a6ed0fa",
+      "fetched_at": "2026-08-21T15:54:17.743769+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the OpenAI Partner Network",
+      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
+      "date_guess": "2026-06-14",
+      "source": "https://openai.com/index/introducing-openai-partner-network",
+      "hash": "af8f764f98bbc11c",
+      "fetched_at": "2026-08-21T15:54:17.743779+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
+      "date_guess": "2026-06-12",
+      "source": "https://openai.com/index/academy-courses-applying-ai-at-work",
+      "hash": "3fda7d427b84ca57",
+      "fetched_at": "2026-08-21T15:54:17.743789+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
+      "date_guess": "2026-06-12",
+      "source": "https://openai.com/index/preply",
+      "hash": "7a65471af461df6c",
+      "fetched_at": "2026-08-21T15:54:17.743798+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How an astrophysicist uses Codex to help simulate black holes",
+      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+      "date_guess": "2026-06-11",
+      "source": "https://openai.com/index/using-codex-to-simulate-black-holes",
+      "hash": "377e24c29ff863e0",
+      "fetched_at": "2026-08-21T15:54:17.743810+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "BBVA puts AI at the core of banking with OpenAI",
+      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
+      "date_guess": "2026-06-11",
+      "source": "https://openai.com/index/bbva",
+      "hash": "37f4e273c5ed1486",
+      "fetched_at": "2026-08-21T15:54:17.743820+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI to acquire Ona",
+      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
+      "date_guess": "2026-06-11",
+      "source": "https://openai.com/index/openai-to-acquire-ona",
+      "hash": "49f1c7ad635a85a0",
+      "fetched_at": "2026-08-21T15:54:17.743830+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "date_guess": "2026-06-11",
+      "source": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "hash": "30b2b4e7680165de",
+      "fetched_at": "2026-08-21T15:54:17.743842+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
+      "date_guess": "2026-06-10",
+      "source": "https://openai.com/index/openai-on-oracle-cloud",
+      "hash": "2e9ffeb39b55884d",
+      "fetched_at": "2026-08-21T15:54:17.743853+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
+      "date_guess": "2026-06-10",
+      "source": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "hash": "02d4bf41ee44f9f2",
+      "fetched_at": "2026-08-21T15:54:17.743863+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "From data to decisions: how LSEG is scaling trusted AI",
+      "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+      "date_guess": "2026-06-10",
+      "source": "https://openai.com/index/lseg",
+      "hash": "91b16ba22efecdba",
+      "fetched_at": "2026-08-21T15:54:17.743874+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "date_guess": "2026-06-09",
+      "source": "https://openai.com/index/nextdoor",
+      "hash": "00f04d27f2323aa3",
+      "fetched_at": "2026-08-21T15:54:17.743884+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "What Codex unlocks for Notion",
+      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+      "date_guess": "2026-06-09",
+      "source": "https://openai.com/index/notion",
+      "hash": "0619109d1791c7c8",
+      "fetched_at": "2026-08-21T15:54:17.743894+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Industrial policy for the Intelligence Age",
+      "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
+      "date_guess": "2026-06-09",
+      "source": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
+      "hash": "a360df6d34473f7d",
+      "fetched_at": "2026-08-21T15:54:17.743908+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+      "date_guess": "2026-06-08",
+      "source": "https://openai.com/index/openai-submits-confidential-s-1",
+      "hash": "4d044b98cff4202e",
+      "fetched_at": "2026-08-21T15:54:17.743917+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Built to benefit everyone: our plan",
+      "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+      "date_guess": "2026-06-08",
+      "source": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "hash": "c8dc73d58544a292",
+      "fetched_at": "2026-08-21T15:54:17.743929+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "summary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+      "date_guess": "2026-06-08",
+      "source": "https://openai.com/index/introducing-the-openai-economic-research-exchange",
+      "hash": "d3772239f54cb37b",
+      "fetched_at": "2026-08-21T15:54:17.743942+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "date_guess": "2026-06-04",
+      "source": "https://openai.com/index/endava-frontiers",
+      "hash": "e6c0755f51e17ebb",
+      "fetched_at": "2026-08-21T15:54:17.743953+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT",
+      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
+      "date_guess": "2026-06-04",
+      "source": "https://openai.com/index/chatgpt-memory-dreaming",
+      "hash": "c3d8a8008be5d3eb",
+      "fetched_at": "2026-08-21T15:54:17.743963+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Biodefense in the Intelligence Age",
+      "summary": "An action plan for AI-powered biological resilience",
+      "date_guess": "2026-06-04",
+      "source": "https://openai.com/index/biodefense-in-the-intelligence-age",
+      "hash": "2091638df24ac22d",
+      "fetched_at": "2026-08-21T15:54:17.743973+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing new capabilities to GPT-Rosalind",
+      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
+      "date_guess": "2026-06-03",
+      "source": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+      "hash": "7ded45d156421a3d",
+      "fetched_at": "2026-08-21T15:54:17.743984+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
+      "date_guess": "2026-06-03",
+      "source": "https://openai.com/index/wasmer",
+      "hash": "6c0eb230d2a81ff4",
+      "fetched_at": "2026-08-21T15:54:17.743995+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "A blueprint for democratic governance of frontier AI",
+      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
+      "date_guess": "2026-06-03",
+      "source": "https://openai.com/index/frontier-safety-blueprint",
+      "hash": "baa1e8d686549553",
+      "fetched_at": "2026-08-21T15:54:17.744005+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI public policy agenda",
+      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+      "date_guess": "2026-06-03",
+      "source": "https://openai.com/index/public-policy-agenda",
+      "hash": "89004cf8ade8b269",
+      "fetched_at": "2026-08-21T15:54:17.744016+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
+      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
+      "date_guess": "2026-06-02",
+      "source": "https://openai.com/index/travelers",
+      "hash": "6538a7bcbaebb652",
+      "fetched_at": "2026-08-21T15:54:17.744027+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT Sites",
+      "summary": "Create that kind of lightweight website or app with Codex.",
+      "date_guess": "2026-06-02",
+      "source": "https://openai.com/academy/chatgpt-sites",
+      "hash": "df88a1645dda1f1b",
+      "fetched_at": "2026-08-21T15:54:17.744035+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex for every role, tool, and workflow",
+      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
+      "date_guess": "2026-06-02",
+      "source": "https://openai.com/index/codex-for-every-role-tool-workflow",
+      "hash": "53a58d638ab7d017",
+      "fetched_at": "2026-08-21T15:54:17.744046+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Advancing youth safety and opportunity through global leadership",
+      "summary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
+      "date_guess": "2026-06-02",
+      "source": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+      "hash": "b6dd9a73bed8b991",
+      "fetched_at": "2026-08-21T15:54:17.744057+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex is becoming a productivity tool for everyone",
+      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
+      "date_guess": "2026-06-02",
+      "source": "https://openai.com/index/codex-for-knowledge-work",
+      "hash": "6d412d63ee3a9cf3",
+      "fetched_at": "2026-08-21T15:54:17.744068+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our views on AI policy and political advocacy",
+      "summary": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
+      "date_guess": "2026-06-01",
+      "source": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+      "hash": "2ff95c85bc7c40b8",
+      "fetched_at": "2026-08-21T15:54:17.744081+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Building the infrastructure for the Intelligence Age in Michigan",
+      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
+      "date_guess": "2026-06-01",
+      "source": "https://openai.com/index/stargate-michigan-data-center",
+      "hash": "31d37107caf01d82",
+      "fetched_at": "2026-08-21T15:54:17.744092+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI frontier models and Codex are now available on AWS",
+      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
+      "date_guess": "2026-06-01",
+      "source": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+      "hash": "c516d1b40884f497",
+      "fetched_at": "2026-08-21T15:54:17.744111+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "“Tech and Tariffs” Campaign: Influence activity targeting US tech policy",
+      "summary": "OpenAI banned likely PRC-origin accounts using AI to create comments and cartoons about US tech policy, tariffs, and trade restrictions.",
+      "date_guess": "2026-06-01",
+      "source": "https://openai.com/index/disrupting-malicious-uses-of-ai-tech-and-tariffs",
+      "hash": "a605ad3b6a2a0822",
+      "fetched_at": "2026-08-21T15:54:17.744121+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "“Data Center Bandwagon” Campaign: US-targeted influence activity",
+      "summary": "OpenAI banned a likely PRC-origin cluster using AI to generate social media content criticizing US data centers and AI infrastructure.",
+      "date_guess": "2026-06-01",
+      "source": "https://openai.com/index/disrupting-malicious-uses-of-ai-data-center-bandwagon",
+      "hash": "04a44269b9e2af33",
+      "fetched_at": "2026-08-21T15:54:17.744132+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Boston Children’s uses AI to unlock new diagnoses",
+      "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "date_guess": "2026-05-29",
+      "source": "https://openai.com/index/boston-childrens-hospital",
+      "hash": "7a48eee55358b1e3",
+      "fetched_at": "2026-08-21T15:54:17.744145+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Braintrust turns customer requests into code with Codex",
+      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
+      "date_guess": "2026-05-29",
+      "source": "https://openai.com/index/braintrust",
+      "hash": "e1944c5823482666",
+      "fetched_at": "2026-08-21T15:54:17.744154+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Strengthening societal resilience with Rosalind Biodefense",
+      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
+      "date_guess": "2026-05-29",
+      "source": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+      "hash": "1c6696b21f252da6",
+      "fetched_at": "2026-08-21T15:54:17.744167+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "A shared playbook for trustworthy third party evaluations",
+      "summary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
+      "date_guess": "2026-05-29",
+      "source": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+      "hash": "49abde3f6f5e8a96",
+      "fetched_at": "2026-08-21T15:54:17.744177+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Endava builds an agentic organization with Codex",
+      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
+      "date_guess": "2026-05-28",
+      "source": "https://openai.com/index/endava",
+      "hash": "8aada67718936315",
+      "fetched_at": "2026-08-21T15:54:17.744187+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI’s Frontier Governance Framework",
+      "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
+      "date_guess": "2026-05-28",
+      "source": "https://openai.com/index/openai-frontier-governance-framework",
+      "hash": "e464df3e19e15b69",
+      "fetched_at": "2026-08-21T15:54:17.744198+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "date_guess": "2026-05-27",
+      "source": "https://openai.com/index/cisco",
+      "hash": "bcca1a04eeeff10d",
+      "fetched_at": "2026-08-21T15:54:17.744209+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Building self-improving tax agents with Codex",
+      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
+      "date_guess": "2026-05-27",
+      "source": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+      "hash": "b2e79d72bf9730e7",
+      "fetched_at": "2026-08-21T15:54:17.744219+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "date_guess": "2026-05-27",
+      "source": "https://openai.com/index/warp",
+      "hash": "7be8b6a9a0418f3a",
+      "fetched_at": "2026-08-21T15:54:17.744229+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Election information and safeguards in 2026",
+      "summary": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
+      "date_guess": "2026-05-27",
+      "source": "https://openai.com/index/election-safeguards-2026",
+      "hash": "0ab40b1fad2ce2cc",
+      "fetched_at": "2026-08-21T15:54:17.744242+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "AI is becoming a first hire for small businesses",
+      "summary": "New research shows how 4 million Americans use ChatGPT to start, run, and grow small businesses, lowering the cost of entrepreneurship with AI.",
+      "date_guess": "2026-05-25",
+      "source": "https://openai.com/index/ai-first-hire-small-business",
+      "hash": "72b538c1b2b98398",
+      "fetched_at": "2026-08-21T15:54:17.744253+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "date_guess": "2026-05-25",
+      "source": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "hash": "b0190b18bdd5637a",
+      "fetched_at": "2026-08-21T15:54:17.744265+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Virgin Atlantic ships faster with Codex",
+      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
+      "date_guess": "2026-05-22",
+      "source": "https://openai.com/index/virgin-atlantic",
+      "hash": "69c88d5072e10e90",
+      "fetched_at": "2026-08-21T15:54:17.744276+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "date_guess": "2026-05-22",
+      "source": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "hash": "42436f6ac35f3e9c",
+      "fetched_at": "2026-08-21T15:54:17.744289+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "date_guess": "2026-05-21",
+      "source": "https://openai.com/index/adventhealth",
+      "hash": "d91d605cf540b5e2",
+      "fetched_at": "2026-08-21T15:54:17.744298+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
+      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
+      "date_guess": "2026-05-20",
+      "source": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
+      "hash": "d25096716194cbf8",
+      "fetched_at": "2026-08-21T15:54:17.744310+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Ramp engineers accelerate code review with Codex",
+      "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+      "date_guess": "2026-05-20",
+      "source": "https://openai.com/index/ramp",
+      "hash": "1675e91ce1f30535",
+      "fetched_at": "2026-08-21T15:54:17.744320+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The next phase of OpenAI’s Education for Countries",
+      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
+      "date_guess": "2026-05-20",
+      "source": "https://openai.com/index/the-next-phase-of-education-for-countries",
+      "hash": "12e25db47311ebab",
+      "fetched_at": "2026-08-21T15:54:17.744333+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing OpenAI for Singapore",
+      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
+      "date_guess": "2026-05-19",
+      "source": "https://openai.com/index/introducing-openai-for-singapore",
+      "hash": "ef37f6aa43f8cb7e",
+      "fetched_at": "2026-08-21T15:54:17.744343+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
+      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
+      "date_guess": "2026-05-19",
+      "source": "https://openai.com/index/advancing-content-provenance",
+      "hash": "4f42c1e55270d8a5",
+      "fetched_at": "2026-08-21T15:54:17.744353+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
+      "date_guess": "2026-05-18",
+      "source": "https://openai.com/index/dell-codex-enterprise-partnership",
+      "hash": "2cf0734ef47367fc",
+      "fetched_at": "2026-08-21T15:54:17.744364+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
+      "date_guess": "2026-05-16",
+      "source": "https://openai.com/index/malta-chatgpt-plus-partnership",
+      "hash": "d3b759eb8417c4d5",
+      "fetched_at": "2026-08-21T15:54:17.744375+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Operations workflows with ChatGPT Work",
+      "summary": "Learn practical ChatGPT Work workflows for initiative briefs, strategy updates, decision packets, and progress reporting.",
+      "date_guess": "2026-05-15",
+      "source": "https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex",
+      "hash": "43c7a19c9a9f106c",
+      "fetched_at": "2026-08-21T15:54:17.744385+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+      "date_guess": "2026-05-15",
+      "source": "https://openai.com/index/databricks",
+      "hash": "e83d37d11cf82b69",
+      "fetched_at": "2026-08-21T15:54:17.744395+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "A new personal finance experience in ChatGPT",
+      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
+      "date_guess": "2026-05-15",
+      "source": "https://openai.com/index/personal-finance-chatgpt",
+      "hash": "bb25eaaedea03435",
+      "fetched_at": "2026-08-21T15:54:17.744408+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Sea's View on the Future of Agentic Software Development with Codex",
+      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
+      "date_guess": "2026-05-14",
+      "source": "https://openai.com/index/sea-david-chen",
+      "hash": "6576009a717ea334",
+      "fetched_at": "2026-08-21T15:54:17.744417+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Work with Codex from anywhere",
+      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
+      "date_guess": "2026-05-14",
+      "source": "https://openai.com/index/work-with-codex-from-anywhere",
+      "hash": "e2758c4e2da29e32",
+      "fetched_at": "2026-08-21T15:54:17.744427+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Helping ChatGPT better recognize context in sensitive conversations",
+      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
+      "date_guess": "2026-05-14",
+      "source": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+      "hash": "b4f7d71b417ffda0",
+      "fetched_at": "2026-08-21T15:54:17.744437+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "summary": "Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.",
+      "date_guess": "2026-05-13",
+      "source": "https://openai.com/index/building-codex-windows-sandbox",
+      "hash": "4ee015d998dec98d",
+      "fetched_at": "2026-08-21T15:54:17.744447+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our response to the TanStack npm supply chain attack",
+      "summary": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats.",
+      "date_guess": "2026-05-13",
+      "source": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+      "hash": "788091ddd531885e",
+      "fetched_at": "2026-08-21T15:54:17.744469+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Finance workflows with ChatGPT Work",
+      "summary": "Learn practical ChatGPT Work workflows for reporting, variance analysis, forecasts, monthly reviews, and decision-ready finance deliverables.",
+      "date_guess": "2026-05-12",
+      "source": "https://openai.com/academy/how-finance-teams-use-codex",
+      "hash": "90a2a8ca59ab40fa",
+      "fetched_at": "2026-08-21T15:54:17.744479+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
+      "date_guess": "2026-05-12",
+      "source": "https://openai.com/index/what-parameter-golf-taught-us",
+      "hash": "c4fdd6efb864d056",
+      "fetched_at": "2026-08-21T15:54:17.744490+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
+      "date_guess": "2026-05-12",
+      "source": "https://openai.com/index/nvidia",
+      "hash": "ac22014e4a4c718e",
+      "fetched_at": "2026-08-21T15:54:17.744499+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+      "date_guess": "2026-05-12",
+      "source": "https://openai.com/index/autoscout24",
+      "hash": "353b988b261e48dc",
+      "fetched_at": "2026-08-21T15:54:17.744509+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
+      "date_guess": "2026-05-11",
+      "source": "https://openai.com/signals/research/2026q1-update",
+      "hash": "fbece65e530c5897",
+      "fetched_at": "2026-08-21T15:54:17.744519+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How enterprises are scaling AI",
+      "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
+      "date_guess": "2026-05-11",
+      "source": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "hash": "28b6f36517941ec6",
+      "fetched_at": "2026-08-21T15:54:17.744529+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Campus Network: Student club interest form",
+      "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
+      "date_guess": "2026-05-11",
+      "source": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "hash": "8f7c393342b6a782",
+      "fetched_at": "2026-08-21T15:54:17.744549+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+      "date_guess": "2026-05-11",
+      "source": "https://openai.com/index/openai-launches-the-deployment-company",
+      "hash": "788313e10da5b048",
+      "fetched_at": "2026-08-21T15:54:17.744561+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Running Codex safely at OpenAI",
+      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
+      "date_guess": "2026-05-08",
+      "source": "https://openai.com/index/running-codex-safely",
+      "hash": "b104840f26bef158",
+      "fetched_at": "2026-08-21T15:54:17.744571+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
+      "date_guess": "2026-05-07",
+      "source": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
+      "hash": "71e3b0f3b5262788",
+      "fetched_at": "2026-08-21T15:54:17.744582+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Parloa builds service agents customers want to talk to",
+      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+      "date_guess": "2026-05-07",
+      "source": "https://openai.com/index/parloa",
+      "hash": "1c5f0408c1629b63",
+      "fetched_at": "2026-08-21T15:54:17.744595+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Advancing voice intelligence with new models in the API",
+      "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+      "date_guess": "2026-05-07",
+      "source": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+      "hash": "23c2f5f64538b4f9",
+      "fetched_at": "2026-08-21T15:54:17.744606+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing Trusted Contact in ChatGPT",
+      "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+      "date_guess": "2026-05-07",
+      "source": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
+      "hash": "c76040d822465c73",
+      "fetched_at": "2026-08-21T15:54:17.744616+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Simplex rethinks software development with Codex",
+      "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
+      "date_guess": "2026-05-07",
+      "source": "https://openai.com/index/simplex",
+      "hash": "96b908a32cc71145",
+      "fetched_at": "2026-08-21T15:54:17.744626+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How ChatGPT learns about the world while protecting privacy",
+      "summary": "Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.",
+      "date_guess": "2026-05-06",
+      "source": "https://openai.com/index/how-chatgpt-protects-privacy",
+      "hash": "c7db50ff0aea792a",
+      "fetched_at": "2026-08-21T15:54:17.744636+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+      "summary": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
+      "date_guess": "2026-05-06",
+      "source": "https://openai.com/index/singular-bank",
+      "hash": "33a480312dbe437c",
+      "fetched_at": "2026-08-21T15:54:17.744649+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing ChatGPT Futures: Class of 2026",
+      "summary": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
+      "date_guess": "2026-05-06",
+      "source": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
+      "hash": "411d1816e4426554",
+      "fetched_at": "2026-08-21T15:54:17.744666+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How frontier firms are pulling ahead",
+      "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+      "date_guess": "2026-05-06",
+      "source": "https://openai.com/index/introducing-b2b-signals",
+      "hash": "04e9b219f900d2e9",
+      "fetched_at": "2026-08-21T15:54:17.744677+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Uber uses OpenAI to help people earn smarter and book faster",
+      "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
+      "date_guess": "2026-05-06",
+      "source": "https://openai.com/index/uber",
+      "hash": "54f88f53c20bfffc",
+      "fetched_at": "2026-08-21T15:54:17.744687+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.5 Instant System Card",
+      "summary": "",
+      "date_guess": "2026-05-05",
+      "source": "https://openai.com/index/gpt-5-5-instant-system-card",
+      "hash": "19b17054bf54a858",
+      "fetched_at": "2026-08-21T15:54:17.744694+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+      "date_guess": "2026-05-05",
+      "source": "https://openai.com/index/gpt-5-5-instant",
+      "hash": "6da06b8a3dbd501b",
+      "fetched_at": "2026-08-21T15:54:17.744705+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+      "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
+      "date_guess": "2026-05-05",
+      "source": "https://openai.com/index/mrc-supercomputer-networking",
+      "hash": "23e87e0242b0374c",
+      "fetched_at": "2026-08-21T15:54:17.744717+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Advancing youth safety and wellbeing in EMEA",
+      "summary": "Explore OpenAI’s European Youth Safety Blueprint and EMEA Youth & Wellbeing Grants, advancing safe, responsible AI for teens, families, and educators.",
+      "date_guess": "2026-05-05",
+      "source": "https://openai.com/index/advancing-youth-safety-in-emea",
+      "hash": "ed82c77b5cd277ed",
+      "fetched_at": "2026-08-21T15:54:17.744730+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New ways to buy ChatGPT ads",
+      "summary": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
+      "date_guess": "2026-05-05",
+      "source": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
+      "hash": "276c3e3f38ea7441",
+      "fetched_at": "2026-08-21T15:54:17.744741+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+      "date_guess": "2026-05-04",
+      "source": "https://openai.com/index/openai-pwc-finance-collaboration",
+      "hash": "e58b94e879d0faec",
+      "fetched_at": "2026-08-21T15:54:17.744752+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How OpenAI delivers low-latency voice AI at scale",
+      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "date_guess": "2026-05-04",
+      "source": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
+      "hash": "b2ac1888f4d2991e",
+      "fetched_at": "2026-08-21T15:54:17.744763+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing Advanced Account Security",
+      "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
+      "date_guess": "2026-04-30",
+      "source": "https://openai.com/index/advanced-account-security",
+      "hash": "3059f9b4c2bfd4b9",
+      "fetched_at": "2026-08-21T15:54:17.744773+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Where the goblins came from",
+      "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
+      "date_guess": "2026-04-29",
+      "source": "https://openai.com/index/where-the-goblins-came-from",
+      "hash": "ff8e2ec3ce972c00",
+      "fetched_at": "2026-08-21T15:54:17.744782+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Building the compute infrastructure for the Intelligence Age",
+      "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
+      "date_guess": "2026-04-29",
+      "source": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
+      "hash": "f73b199e57a0ab54",
+      "fetched_at": "2026-08-21T15:54:17.744791+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Cybersecurity in the Intelligence Age",
+      "summary": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
+      "date_guess": "2026-04-29",
+      "source": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+      "hash": "684b72116f5cb7a4",
+      "fetched_at": "2026-08-21T15:54:17.744804+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+      "date_guess": "2026-04-28",
+      "source": "https://openai.com/index/openai-on-aws",
+      "hash": "1e5f67d8737ba709",
+      "fetched_at": "2026-08-21T15:54:17.744814+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our commitment to community safety",
+      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
+      "date_guess": "2026-04-28",
+      "source": "https://openai.com/index/our-commitment-to-community-safety",
+      "hash": "bfff4a63ff384d33",
+      "fetched_at": "2026-08-21T15:54:17.744825+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI available at FedRAMP Moderate",
+      "summary": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
+      "date_guess": "2026-04-27",
+      "source": "https://openai.com/index/openai-available-at-fedramp-moderate",
+      "hash": "40c0d184285bc586",
+      "fetched_at": "2026-08-21T15:54:17.744835+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The next phase of the Microsoft OpenAI partnership",
+      "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
+      "date_guess": "2026-04-27",
+      "source": "https://openai.com/index/next-phase-of-microsoft-partnership",
+      "hash": "6947fea11ebda1d0",
+      "fetched_at": "2026-08-21T15:54:17.744871+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "An open-source spec for orchestration: Symphony",
+      "summary": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
+      "date_guess": "2026-04-27",
+      "source": "https://openai.com/index/open-source-codex-orchestration-symphony",
+      "hash": "6c89c05a794f9f09",
+      "fetched_at": "2026-08-21T15:54:17.744883+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Choco automates food distribution with AI agents",
+      "summary": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
+      "date_guess": "2026-04-27",
+      "source": "https://openai.com/index/choco",
+      "hash": "a89ce0f15303fe99",
+      "fetched_at": "2026-08-21T15:54:17.744894+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our principles",
+      "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
+      "date_guess": "2026-04-26",
+      "source": "https://openai.com/index/our-principles",
+      "hash": "4c3e7bdcbebfca3d",
+      "fetched_at": "2026-08-21T15:54:17.744903+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Modeling an AI jobs transition",
+      "summary": "A new framework analyzes 921 occupations and 148 million U.S. jobs to identify which roles face automation risk, reorganization, growth, or minimal AI disruption.",
+      "date_guess": "2026-04-25",
+      "source": "https://openai.com/index/modeling-ai-jobs-transition",
+      "hash": "93b5981ed128ee1c",
+      "fetched_at": "2026-08-21T15:54:17.744915+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.5 System Card",
+      "summary": "",
+      "date_guess": "2026-04-23",
+      "source": "https://openai.com/index/gpt-5-5-system-card",
+      "hash": "c322de5c9231018d",
+      "fetched_at": "2026-08-21T15:54:17.744921+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5.5",
+      "summary": "This post introduced GPT-5.5, a model built for complex tasks like coding, research, and data analysis across tools.",
+      "date_guess": "2026-04-23",
+      "source": "https://openai.com/index/introducing-gpt-5-5",
+      "hash": "d59b0b84f9983734",
+      "fetched_at": "2026-08-21T15:54:17.744930+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Everyday work with ChatGPT Work",
+      "summary": "Learn practical ChatGPT Work workflows for recurring tasks, updates, research, planning, and team operations.",
+      "date_guess": "2026-04-23",
+      "source": "https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks",
+      "hash": "aae08e1e8c61cfac",
+      "fetched_at": "2026-08-21T15:54:17.744940+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Making ChatGPT better for clinicians",
+      "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
+      "date_guess": "2026-04-22",
+      "source": "https://openai.com/index/making-chatgpt-better-for-clinicians",
+      "hash": "72d4871449479437",
+      "fetched_at": "2026-08-21T15:54:17.744951+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Workspace agents",
+      "summary": "Learn how to build and use workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+      "date_guess": "2026-04-22",
+      "source": "https://openai.com/academy/workspace-agents",
+      "hash": "e010c5918b0c1ddf",
+      "fetched_at": "2026-08-21T15:54:17.744960+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
+      "date_guess": "2026-04-22",
+      "source": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+      "hash": "c5cf5da4838f5e22",
+      "fetched_at": "2026-08-21T15:54:17.744970+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing workspace agents in ChatGPT",
+      "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+      "date_guess": "2026-04-22",
+      "source": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+      "hash": "8506bbb850bc2d08",
+      "fetched_at": "2026-08-21T15:54:17.744980+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing OpenAI Privacy Filter",
+      "summary": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
+      "date_guess": "2026-04-22",
+      "source": "https://openai.com/index/introducing-openai-privacy-filter",
+      "hash": "b2f74d6285a4ae5b",
+      "fetched_at": "2026-08-21T15:54:17.744990+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing ChatGPT Images 2.0",
+      "summary": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
+      "date_guess": "2026-04-21",
+      "source": "https://openai.com/index/introducing-chatgpt-images-2-0",
+      "hash": "8eee457079fb7550",
+      "fetched_at": "2026-08-21T15:54:17.745000+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Scaling Codex to enterprises worldwide",
+      "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
+      "date_guess": "2026-04-21",
+      "source": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
+      "hash": "bbed26a7e993a196",
+      "fetched_at": "2026-08-21T15:54:17.745013+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI helps Hyatt advance AI among colleagues",
+      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
+      "date_guess": "2026-04-20",
+      "source": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
+      "hash": "fa3150d853d5b4c6",
+      "fetched_at": "2026-08-21T15:54:17.745023+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex for (almost) everything",
+      "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+      "date_guess": "2026-04-16",
+      "source": "https://openai.com/index/codex-for-almost-everything",
+      "hash": "862ba732ace6d864",
+      "fetched_at": "2026-08-21T15:54:17.745033+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-Rosalind for life sciences research",
+      "summary": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
+      "date_guess": "2026-04-16",
+      "source": "https://openai.com/index/introducing-gpt-rosalind",
+      "hash": "3e8ff812599832c2",
+      "fetched_at": "2026-08-21T15:54:17.745044+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Accelerating the cyber defense ecosystem that protects us all",
+      "summary": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
+      "date_guess": "2026-04-16",
+      "source": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
+      "hash": "1accd68ba2cae91a",
+      "fetched_at": "2026-08-21T15:54:17.745055+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The next evolution of the Agents SDK",
+      "summary": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
+      "date_guess": "2026-04-15",
+      "source": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+      "hash": "6730e01df47f15ce",
+      "fetched_at": "2026-08-21T15:54:17.745064+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Trusted access for the next era of cyber defense",
+      "summary": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
+      "date_guess": "2026-04-14",
+      "source": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
+      "hash": "f6e243a4147b2ae6",
+      "fetched_at": "2026-08-21T15:54:17.745075+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+      "summary": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
+      "date_guess": "2026-04-13",
+      "source": "https://openai.com/index/cloudflare-openai-agent-cloud",
+      "hash": "7159163aca2d472d",
+      "fetched_at": "2026-08-21T15:54:17.745087+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for research",
+      "summary": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/research",
+      "hash": "b7d0b2c741a0451e",
+      "fetched_at": "2026-08-21T15:54:17.745096+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Writing with ChatGPT",
+      "summary": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/writing",
+      "hash": "4adef3e4ad605eea",
+      "fetched_at": "2026-08-21T15:54:17.745106+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Personalizing ChatGPT",
+      "summary": "Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/personalization",
+      "hash": "d13ab7e8d6a890b8",
+      "fetched_at": "2026-08-21T15:54:17.745115+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Using skills",
+      "summary": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/skills",
+      "hash": "6014ff9bb69b3865",
+      "fetched_at": "2026-08-21T15:54:17.745125+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Using projects in ChatGPT",
+      "summary": "Learn how to use projects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/projects",
+      "hash": "718bfea7b05eff36",
+      "fetched_at": "2026-08-21T15:54:17.745134+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for managers",
+      "summary": "Learn how managers use ChatGPT to prepare for conversations, write clear feedback, stay organized, and improve team effectiveness.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/managers",
+      "hash": "167c15b52f68c8ed",
+      "fetched_at": "2026-08-21T15:54:17.745144+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Applications of AI at OpenAI",
+      "summary": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/applications-of-ai",
+      "hash": "ebaa5f4bd8212dea",
+      "fetched_at": "2026-08-21T15:54:17.745154+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Research with ChatGPT",
+      "summary": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/search-and-deep-research",
+      "hash": "2013c66417096265",
+      "fetched_at": "2026-08-21T15:54:17.745164+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Brainstorming with ChatGPT",
+      "summary": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/brainstorming",
+      "hash": "9ff3f368cf472f58",
+      "fetched_at": "2026-08-21T15:54:17.745173+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Responsible and safe use of AI",
+      "summary": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/responsible-and-safe-use",
+      "hash": "2147f75935102a25",
+      "fetched_at": "2026-08-21T15:54:17.745184+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Working with files in ChatGPT",
+      "summary": "Learn practical ways to work with files in ChatGPT, from finding information to organizing, transforming, and using documents in workflows.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/working-with-files",
+      "hash": "a1b7c49e6a95e0b9",
+      "fetched_at": "2026-08-21T15:54:17.745193+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Financial services",
+      "summary": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/financial-services",
+      "hash": "451c4c966b5b3f40",
+      "fetched_at": "2026-08-21T15:54:17.745204+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learn ChatGPT workflows for finance teams",
+      "summary": "Learn practical ChatGPT workflows for financial analysis, reporting, planning, and decision-ready communication.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/finance",
+      "hash": "27d388d486356d15",
+      "fetched_at": "2026-08-21T15:54:17.745215+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Using custom GPTs",
+      "summary": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/custom-gpts",
+      "hash": "8979c86d1b658e85",
+      "fetched_at": "2026-08-21T15:54:17.745224+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learn ChatGPT workflows for marketing teams",
+      "summary": "Learn practical ChatGPT workflows for campaign planning, research, content creation, and performance analysis, with next steps for business teams.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/marketing",
+      "hash": "de35646a7a98284d",
+      "fetched_at": "2026-08-21T15:54:17.745235+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "AI fundamentals",
+      "summary": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/what-is-ai",
+      "hash": "0a1bef404e0eb876",
+      "fetched_at": "2026-08-21T15:54:17.745245+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for operations teams",
+      "summary": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/operations",
+      "hash": "c0c9cb0422d4c916",
+      "fetched_at": "2026-08-21T15:54:17.745255+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Analyzing data with ChatGPT",
+      "summary": "Learn how to explore datasets, generate insights, create visualizations, and turn findings into actionable decisions with ChatGPT.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/data-analysis",
+      "hash": "bf74c3824ea445d2",
+      "fetched_at": "2026-08-21T15:54:17.745264+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for customer success teams",
+      "summary": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/customer-success",
+      "hash": "4161bb54c68dde76",
+      "fetched_at": "2026-08-21T15:54:17.745273+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learn ChatGPT workflows for sales teams",
+      "summary": "Learn practical ChatGPT workflows for account research, meeting prep, outreach, pipeline reviews, and sales execution.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/sales",
+      "hash": "4fa804ba414dc766",
+      "fetched_at": "2026-08-21T15:54:17.745282+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Healthcare",
+      "summary": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/healthcare",
+      "hash": "9b3efb9408c60259",
+      "fetched_at": "2026-08-21T15:54:17.745291+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Creating images with ChatGPT",
+      "summary": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/image-generation",
+      "hash": "bca658f4ea6a083d",
+      "fetched_at": "2026-08-21T15:54:17.745301+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our response to the Axios developer tool compromise",
+      "summary": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/index/axios-developer-tool-compromise",
+      "hash": "c63be18aaefe4f9f",
+      "fetched_at": "2026-08-21T15:54:17.745311+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+      "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
+      "date_guess": "2026-04-09",
+      "source": "https://openai.com/index/cyberagent",
+      "hash": "ca55f6d56441434f",
+      "fetched_at": "2026-08-21T15:54:17.745321+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The next phase of enterprise AI",
+      "summary": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
+      "date_guess": "2026-04-08",
+      "source": "https://openai.com/index/next-phase-of-enterprise-ai",
+      "hash": "8934aef1e3ecf663",
+      "fetched_at": "2026-08-21T15:54:17.745334+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the Child Safety Blueprint",
+      "summary": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
+      "date_guess": "2026-04-08",
+      "source": "https://openai.com/index/introducing-child-safety-blueprint",
+      "hash": "b1f9ef31a27808b1",
+      "fetched_at": "2026-08-21T15:54:17.745348+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Announcing the OpenAI Safety Fellowship",
+      "summary": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
+      "date_guess": "2026-04-06",
+      "source": "https://openai.com/index/introducing-openai-safety-fellowship",
+      "hash": "b0346727f3347ee5",
+      "fetched_at": "2026-08-21T15:54:17.745358+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI acquires TBPN",
+      "summary": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
+      "date_guess": "2026-04-02",
+      "source": "https://openai.com/index/openai-acquires-tbpn",
+      "hash": "5ee20e888052da24",
+      "fetched_at": "2026-08-21T15:54:17.745370+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex now offers more flexible pricing for teams",
+      "summary": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
+      "date_guess": "2026-04-02",
+      "source": "https://openai.com/index/codex-flexible-pricing-for-teams",
+      "hash": "8987381acdf26471",
+      "fetched_at": "2026-08-21T15:54:17.745380+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Gradient Labs gives every bank customer an AI account manager",
+      "summary": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
+      "date_guess": "2026-04-01",
+      "source": "https://openai.com/index/gradient-labs",
+      "hash": "aeda6cd0eaa53328",
+      "fetched_at": "2026-08-21T15:54:17.745390+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Accelerating the next phase of AI",
+      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
+      "date_guess": "2026-03-31",
+      "source": "https://openai.com/index/accelerating-the-next-phase-ai",
+      "hash": "13970b2dd416d97c",
+      "fetched_at": "2026-08-21T15:54:17.745402+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Helping disaster response teams turn AI into action across Asia",
+      "summary": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
+      "date_guess": "2026-03-29",
+      "source": "https://openai.com/index/helping-disaster-response-teams-asia",
+      "hash": "28ad36a5a44a5ea1",
+      "fetched_at": "2026-08-21T15:54:17.745410+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "STADLER reshapes knowledge work at a 230-year-old company",
+      "summary": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
+      "date_guess": "2026-03-27",
+      "source": "https://openai.com/index/stadler",
+      "hash": "444416d2f31ac097",
+      "fetched_at": "2026-08-21T15:54:17.745419+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Inside our approach to the Model Spec",
+      "summary": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
+      "date_guess": "2026-03-25",
+      "source": "https://openai.com/index/our-approach-to-the-model-spec",
+      "hash": "7023686205573301",
+      "fetched_at": "2026-08-21T15:54:17.745431+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the OpenAI Safety Bug Bounty program",
+      "summary": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
+      "date_guess": "2026-03-25",
+      "source": "https://openai.com/index/safety-bug-bounty",
+      "hash": "34e53ed8d3cbdd1d",
+      "fetched_at": "2026-08-21T15:54:17.745442+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Helping developers build safer AI experiences for teens",
+      "summary": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
+      "date_guess": "2026-03-24",
+      "source": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
+      "hash": "5b533f746a481111",
+      "fetched_at": "2026-08-21T15:54:17.745452+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Update on the OpenAI Foundation",
+      "summary": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
+      "date_guess": "2026-03-24",
+      "source": "https://openai.com/index/update-on-the-openai-foundation",
+      "hash": "594ab6a74edb56c1",
+      "fetched_at": "2026-08-21T15:54:17.745462+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Powering product discovery in ChatGPT",
+      "summary": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
+      "date_guess": "2026-03-24",
+      "source": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+      "hash": "a16c792c9f235e2d",
+      "fetched_at": "2026-08-21T15:54:17.745474+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Creating with Sora Safely",
+      "summary": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approach is anchored in concrete protections.",
+      "date_guess": "2026-03-23",
+      "source": "https://openai.com/index/creating-with-sora-safely",
+      "hash": "a4186b3b66cc1396",
+      "fetched_at": "2026-08-21T15:54:17.745488+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How we monitor internal coding agents for misalignment",
+      "summary": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
+      "date_guess": "2026-03-19",
+      "source": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+      "hash": "e55a7523f492ec85",
+      "fetched_at": "2026-08-21T15:54:17.745499+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI to acquire Astral",
+      "summary": "Accelerates Codex growth to power the next generation of Python developer tools",
+      "date_guess": "2026-03-19",
+      "source": "https://openai.com/index/openai-to-acquire-astral",
+      "hash": "a4536e8f2c9ef9d0",
+      "fetched_at": "2026-08-21T15:54:17.745507+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5.4 mini and nano",
+      "summary": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
+      "date_guess": "2026-03-17",
+      "source": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "hash": "27293d0f5c2a0713",
+      "fetched_at": "2026-08-21T15:54:17.745518+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
+      "summary": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
+      "date_guess": "2026-03-17",
+      "source": "https://openai.com/index/japan-teen-safety-blueprint",
+      "hash": "77b6ccb1ece27559",
+      "fetched_at": "2026-08-21T15:54:17.745539+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Equipping workers with insights about compensation",
+      "summary": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
+      "date_guess": "2026-03-17",
+      "source": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
+      "hash": "36a8890f76d47353",
+      "fetched_at": "2026-08-21T15:54:17.745550+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Why Codex Security Doesn’t Include a SAST Report",
+      "summary": "A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives.",
+      "date_guess": "2026-03-16",
+      "source": "https://openai.com/index/why-codex-security-doesnt-include-sast",
+      "hash": "b4b8692fd492d37b",
+      "fetched_at": "2026-08-21T15:54:17.745564+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Designing AI agents to resist prompt injection",
+      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
+      "date_guess": "2026-03-11",
+      "source": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
+      "hash": "9d042bfab6b999c6",
+      "fetched_at": "2026-08-21T15:54:17.745574+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "date_guess": "2026-03-11",
+      "source": "https://openai.com/index/equip-responses-api-computer-environment",
+      "hash": "c50a2aa06ab81796",
+      "fetched_at": "2026-08-21T15:54:17.745585+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "date_guess": "2026-03-11",
+      "source": "https://openai.com/index/wayfair",
+      "hash": "cab3f458921e0561",
+      "fetched_at": "2026-08-21T15:54:17.745596+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Rakuten fixes issues twice as fast with Codex",
+      "summary": "",
+      "date_guess": "2026-03-11",
+      "source": "https://openai.com/index/rakuten",
+      "hash": "eac330d94016c35f",
+      "fetched_at": "2026-08-21T15:54:17.745602+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Improving instruction hierarchy in frontier LLMs",
+      "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
+      "date_guess": "2026-03-10",
+      "source": "https://openai.com/index/instruction-hierarchy-challenge",
+      "hash": "2f5d6cf9438b6e3b",
+      "fetched_at": "2026-08-21T15:54:17.745613+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New ways to learn math and science in ChatGPT",
+      "summary": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.",
+      "date_guess": "2026-03-10",
+      "source": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
+      "hash": "3a245059293eb58e",
+      "fetched_at": "2026-08-21T15:54:17.745623+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI to acquire Promptfoo",
+      "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
+      "date_guess": "2026-03-09",
+      "source": "https://openai.com/index/openai-to-acquire-promptfoo",
+      "hash": "a904d80d04b89952",
+      "fetched_at": "2026-08-21T15:54:17.745634+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex Security: now in research preview",
+      "summary": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
+      "date_guess": "2026-03-06",
+      "source": "https://openai.com/index/codex-security-now-in-research-preview",
+      "hash": "d3506d2958e7acf2",
+      "fetched_at": "2026-08-21T15:54:17.745647+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Balyasny Asset Management built an AI research engine",
+      "summary": "By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research.",
+      "date_guess": "2026-03-06",
+      "source": "https://openai.com/index/balyasny-asset-management",
+      "hash": "8588e60750fac0bc",
+      "fetched_at": "2026-08-21T15:54:17.745658+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Descript engineers multilingual video dubbing at scale",
+      "summary": "Using OpenAI reasoning models, Descript unlocked automatic localization of large content libraries without losing timing or meaning.",
+      "date_guess": "2026-03-06",
+      "source": "https://openai.com/index/descript",
+      "hash": "ec79765887d42089",
+      "fetched_at": "2026-08-21T15:54:17.745669+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5.4",
+      "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+      "date_guess": "2026-03-05",
+      "source": "https://openai.com/index/introducing-gpt-5-4",
+      "hash": "862d972af0e0bdbe",
+      "fetched_at": "2026-08-21T15:54:17.745681+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.4 Thinking System Card",
+      "summary": "",
+      "date_guess": "2026-03-05",
+      "source": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "hash": "f4edc65150506871",
+      "fetched_at": "2026-08-21T15:54:17.745687+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
+      "date_guess": "2026-03-05",
+      "source": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "hash": "f314a97b2a4e8ff6",
+      "fetched_at": "2026-08-21T15:54:17.745701+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Ensuring AI use in education leads to opportunity",
+      "summary": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
+      "date_guess": "2026-03-05",
+      "source": "https://openai.com/index/ai-education-opportunity",
+      "hash": "ab5a8a75855ea905",
+      "fetched_at": "2026-08-21T15:54:17.745711+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
+      "summary": "By focusing on people, not pilots, the Bundesliga club is scaling efficiency, creativity, and knowledge—without losing its football identity.",
+      "date_guess": "2026-03-05",
+      "source": "https://openai.com/index/vfl-wolfsburg",
+      "hash": "140f3d9b8a6cd19a",
+      "fetched_at": "2026-08-21T15:54:17.745722+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the Adoption news channel",
+      "summary": "Practical insights and frameworks to turn AI progress into business advantage",
+      "date_guess": "2026-03-05",
+      "source": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "hash": "d1569f557f1fccb0",
+      "fetched_at": "2026-08-21T15:54:17.745731+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "summary": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
+      "date_guess": "2026-03-05",
+      "source": "https://openai.com/index/chatgpt-for-excel",
+      "hash": "5f119c8b453a17fe",
+      "fetched_at": "2026-08-21T15:54:17.745743+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The five AI value models driving business reinvention",
+      "summary": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
+      "date_guess": "2026-03-05",
+      "source": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "hash": "e7a91effe550eaad",
+      "fetched_at": "2026-08-21T15:54:17.745753+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Extending single-minus amplitudes to gravitons",
+      "summary": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
+      "date_guess": "2026-03-04",
+      "source": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
+      "hash": "ba3e9bb8393af678",
+      "fetched_at": "2026-08-21T15:54:17.745764+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Axios uses AI to help deliver high-impact local journalism",
+      "summary": "Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale.",
+      "date_guess": "2026-03-04",
+      "source": "https://openai.com/index/axios-allison-murphy",
+      "hash": "3fb91adc34edbb49",
+      "fetched_at": "2026-08-21T15:54:17.745775+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Understanding AI and learning outcomes",
+      "summary": "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time.",
+      "date_guess": "2026-03-04",
+      "source": "https://openai.com/index/understanding-ai-and-learning-outcomes",
+      "hash": "ec07df68d83fbc7c",
+      "fetched_at": "2026-08-21T15:54:17.745787+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "summary": "",
+      "date_guess": "2026-03-03",
+      "source": "https://openai.com/index/gpt-5-3-instant",
+      "hash": "d71a12afab452dd6",
+      "fetched_at": "2026-08-21T15:54:17.745792+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.3 Instant System Card",
+      "summary": "",
+      "date_guess": "2026-03-03",
+      "source": "https://openai.com/index/gpt-5-3-instant-system-card",
+      "hash": "b20f373fa7cccceb",
+      "fetched_at": "2026-08-21T15:54:17.745798+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our agreement with the Department of War",
+      "summary": "Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.",
+      "date_guess": "2026-02-28",
+      "source": "https://openai.com/index/our-agreement-with-the-department-of-war",
+      "hash": "818089a849e42731",
+      "fetched_at": "2026-08-21T15:54:17.745810+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
+      "summary": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
+      "date_guess": "2026-02-27",
+      "source": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
+      "hash": "4c177b1d88bf4675",
+      "fetched_at": "2026-08-21T15:54:17.745821+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Scaling AI for everyone",
+      "summary": "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
+      "date_guess": "2026-02-27",
+      "source": "https://openai.com/index/scaling-ai-for-everyone",
+      "hash": "bf31624ad13c161f",
+      "fetched_at": "2026-08-21T15:54:17.745832+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Joint Statement from OpenAI and Microsoft",
+      "summary": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
+      "date_guess": "2026-02-27",
+      "source": "https://openai.com/index/continuing-microsoft-partnership",
+      "hash": "0fa8bfd4c2413bc2",
+      "fetched_at": "2026-08-21T15:54:17.745845+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI and Amazon announce strategic partnership",
+      "summary": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
+      "date_guess": "2026-02-27",
+      "source": "https://openai.com/index/amazon-partnership",
+      "hash": "4c5c83d8b6577885",
+      "fetched_at": "2026-08-21T15:54:17.745856+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "An update on our mental health-related work",
+      "summary": "OpenAI shares updates on its mental health safety work, including parental controls, trusted contacts, improved distress detection, and recent litigation developments.",
+      "date_guess": "2026-02-27",
+      "source": "https://openai.com/index/update-on-mental-health-related-work",
+      "hash": "5a9745c671fe5952",
+      "fetched_at": "2026-08-21T15:54:17.745867+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
+      "summary": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting time by up to 15% and modernize infrastructure reviews.",
+      "date_guess": "2026-02-26",
+      "source": "https://openai.com/index/pacific-northwest-national-laboratory",
+      "hash": "f5b64b2b85906a69",
+      "fetched_at": "2026-08-21T15:54:17.745882+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+      "summary": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.",
+      "date_guess": "2026-02-26",
+      "source": "https://openai.com/index/figma-partnership",
+      "hash": "2945745165736184",
+      "fetched_at": "2026-08-21T15:54:17.745893+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Disrupting malicious uses of AI | February 2026",
+      "summary": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.",
+      "date_guess": "2026-02-25",
+      "source": "https://openai.com/index/disrupting-malicious-ai-uses",
+      "hash": "8db2724d62fcab13",
+      "fetched_at": "2026-08-21T15:54:17.745906+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Arvind KC appointed Chief People Officer",
+      "summary": "OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.",
+      "date_guess": "2026-02-24",
+      "source": "https://openai.com/index/arvind-kc-chief-people-officer",
+      "hash": "ec4b273a7e0196bf",
+      "fetched_at": "2026-08-21T15:54:17.745918+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Build production agents with computer use, the Skills API, and the Files API",
+      "summary": "Computer use, the Skills API, and the Files API are generally available on the Claude Platform today. Computer use also adds a new browser use tool for agents that work in web applications. Together they let you build agents that operate software, apply your team's expertise, and return finished files. Building agents on the Claude Platform Computer use lets you build agents that operate software they can see. Given a screenshot, the agent clicks, types, and scrolls the way someone at the keyboa",
+      "date_guess": "2026-08-20",
+      "source": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "hash": "7be1489b3a08abc7",
+      "fetched_at": "2026-08-21T15:54:17.866129+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "The Claude Code guide for startups",
+      "summary": "Prefer a PDF? This guide is also available for download — the same five rules, founder insights, and checklist, laid out for reading offline or sharing with your team. Download the PDF ↓ AI natives working at the frontier If you want to take a peek at the future of work, ask startups how they are operating today. So we did. We spoke with more than a dozen fast-growing startups about how they use agentic coding tools to build products and scale their companies. These startups are changing the rul",
+      "date_guess": "2026-08-20",
+      "source": "https://claude.com/blog/claude-code-guide-for-startups",
+      "hash": "cff9e5d7aae82b4b",
+      "fetched_at": "2026-08-21T15:54:17.867234+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+      "summary": "More than 250,000 companies, from small and midsize businesses to Fortune 500 organizations, use monday.com to manage their work. When the company launched more than a decade ago, its core product was a visual interface that helped teams automate workflows and manage projects. Today, it has rearchitected its product from the ground up around a human-agent collaboration model where AI is woven into work at every level. With Claude at the core, monday’s new platform handles the technical complexit",
+      "date_guess": "2026-08-20",
+      "source": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate",
+      "hash": "b59d5dcc1a9fa96a",
+      "fetched_at": "2026-08-21T15:54:17.867609+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Anthropic’s approach to teaching and learning AI",
+      "summary": "Millions of people visit Anthropic.com every month to learn about how to use AI. At Anthropic, we consider this a tremendous responsibility—and we have a team of educators dedicated to creating educational materials about how to use AI safely, effectively, and with intention. AI instruction should increase agency and empower learners to expand their capabilities. Today, we’re sharing our approach to designing and scaling AI instruction to millions of learners worldwide via Claude Academy. Why is",
+      "date_guess": "2026-08-20",
+      "source": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+      "hash": "1637bc7dc859e789",
+      "fetched_at": "2026-08-21T15:54:17.867905+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Turning conversation into knowledge: how Slack builds human-agent teams",
+      "summary": "This is the second post in our series on building human-agent teams. The first shared what we've learned building teams with multiplayer AI at Anthropic. In this article, we share best practices from a company that was thinking about human-agent teams long before AI arrived. Jaime Delanghe joined Slack in 2017 to work on search and machine learning, with a mission to turn workplace conversation into institutional knowledge. Now the company’s Chief Product Officer, she has believed from the start",
+      "date_guess": "2026-08-19",
+      "source": "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams",
+      "hash": "c07fb208b211f213",
+      "fetched_at": "2026-08-21T15:54:17.868223+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "The Claude Science product guide",
+      "summary": "Life sciences organizations are at a turning point in their AI adoption journeys. Deloitte's 2026 Life Sciences Outlook found that 78% of biopharma and medtech leaders expect AI to play a central role in driving major change this year, yet only 14% report full implementation of AI tools into their organization’s daily workflows. Anthropic's own internal research, drawn from interviews with researchers across chemistry, physics, biology, and computational fields, found that 91% of scientists want",
+      "date_guess": "2026-08-18",
+      "source": "https://claude.com/blog/the-claude-science-product-guide",
+      "hash": "77f42fda75f68dc2",
+      "fetched_at": "2026-08-21T15:54:17.868315+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+      "summary": "Set up your own Claude on-call with our setup kit . A few weeks ago, I was on-call and my colleague Slacked me a message at 10pm: roughly 44 tests on a new service weren’t firing. In the past, I would have stopped what I was doing, sat down with my laptop, sighed wearily, and began an hour-long investigate-and-fix process. But now, my workflow is entirely different: I pull in @Claude, and ask what it sees. In this case, Claude found the tests disappeared when a feature flag got turned on that mo",
+      "date_guess": "2026-08-18",
+      "source": "https://claude.com/blog/ai-ci-cd-on-call",
+      "hash": "4d748adf0c840080",
+      "fetched_at": "2026-08-21T15:54:17.868736+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
+      "summary": "When Brandon Fuller, CTO of ABC Legal, a U.S.-based legal document delivery company, rolled out Claude Enterprise to the company's 1,100 employees earlier this year, something clicked immediately. Teams across the company (service of process, eFiling, and appearance counsel operations, plus marketing, compliance, finance, and more) started building automations on their own, without being asked. \"Our users really flocked to it,\" Fuller recalls. \"They saw the ease of use of connectors and tools, a",
+      "date_guess": "2026-08-17",
+      "source": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
+      "hash": "3a7b6be0fb0b370a",
+      "fetched_at": "2026-08-21T15:54:17.869257+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "summary": "TL;DR Run /clear between tasks. This prevents prior irrelevant context from being sent back to the model, which can reduce token usage. Set your model and effort level before you start. Changing either one mid-conversation can bust your prompt cache, which can increase token cost. @-mention files instead of naming them. The file gets attached to your message directly, which saves a Read call, or a search if Claude has to go find it. Add quiet flags to noisy commands, or run them in a subagent. C",
+      "date_guess": "2026-08-14",
+      "source": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "hash": "55e488417f664042",
+      "fetched_at": "2026-08-21T15:54:17.869380+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+      "summary": "JetBrains builds the tools developers use worldwide, from IntelliJ IDEA and PyCharm to the Kotlin programming language, serving more than 12.5 million active users and 88 of the Fortune Global 100. Vladislav Tankov, CTO at JetBrains, spoke with Anthropic about how his team evaluates new models, decides when to use Claude Fable 5, and thinks about data retention and safeguards when working with frontier models. How has frontier AI changed for JetBrains in 2026? I've been with JetBrains for 10 yea",
+      "date_guess": "2026-08-13",
+      "source": "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5",
+      "hash": "791ea132b68390d3",
+      "fetched_at": "2026-08-21T15:54:17.869595+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Claude Tag now reads even more of the room",
+      "summary": "Claude Tag lets you add Claude to a Slack channel, where it works alongside your team. Claude responds when you @-mention it, or proactively when it thinks it can be helpful. Before, Claude only saw one message at a time , so it made decisions to act proactively based on what was in front of it, but not the wider context of what was around it. Now, Claude uses context from across the channel , as well as its memory and the standing instructions you have given it, to determine when to contribute ",
+      "date_guess": "2026-08-13",
+      "source": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room",
+      "hash": "109c7b03e7e31555",
+      "fetched_at": "2026-08-21T15:54:17.869770+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+      "summary": "In our previous post , we described how we enabled Claude to answer data analytics questions with ~95% accuracy through three primary artifacts: A governed semantic layer; A set of skill files that encode our analytical conventions; and An evaluation suite to measure performance. That post focused on Claude Code (the primary development surface for our data scientists and data engineers), and best practices for improving agentic accuracy. This post discusses how the data team at Anthropic applie",
+      "date_guess": "2026-08-13",
+      "source": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+      "hash": "2bab270618694e70",
+      "fetched_at": "2026-08-21T15:54:17.869831+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "The Claude in Chrome side panel is now Claude Cowork",
+      "summary": "The Claude in Chrome side panel is now a Claude Cowork session. Conversations are saved to your history, your skills and connectors work in the browser, and a task you start in a tab can be finished on the Claude desktop, web, and mobile apps. It’s available on Max and Team plans today, and is rolling out to Pro users over the coming weeks. Claude in Chrome is a browser extension that lets Claude see the page you're on and take actions in it, including clicking links, typing text, navigating bet",
+      "date_guess": "2026-08-12",
+      "source": "https://claude.com/blog/cowork-chrome-side-panel",
+      "hash": "385b041893b1fe79",
+      "fetched_at": "2026-08-21T15:54:17.869960+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
+      "summary": "Claude's Compliance API now covers Cowork across the desktop app, web, and mobile, as well as Claude Code in the CLI and desktop app. Coverage is in beta for Claude Enterprise customers. Compliance and security teams can pull session content and metadata from both products through the same Compliance API interface they already use for Claude chats. The new endpoints are additive: nothing changes about the data you already pull from the Compliance API today. Security and compliance teams rely on ",
+      "date_guess": "2026-08-11",
+      "source": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+      "hash": "5d816d44f89e6a56",
+      "fetched_at": "2026-08-21T15:54:17.870039+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
+      "summary": "Early in my career in business development, account executives would hand me lists with hundreds of accounts and I’d have to investigate each company, find the right contacts, hunt down emails, and draft outreach. The inbound side had similarly manual and time-consuming workflows. When I joined Anthropic last summer, I took over the responsibility of managing our sales inbox. I would spend around 5 hours per day manually responding to inbound interest from prospects, often answering the same or ",
+      "date_guess": "2026-08-07",
+      "source": "https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale",
+      "hash": "909fc867b1d7b5c8",
+      "fetched_at": "2026-08-21T15:54:17.870362+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Running auto mode in production",
+      "summary": "Auto mode is now the default setting in Claude Code. Instead of asking you to approve every command an agent wants to run, a classifier evaluates each action and blocks ones that look potentially harmful. Auto mode’s design resolves a common agentic coding tradeoff: speed vs. safety. Reviewing every command keeps a human in the loop, but once sessions stretch to hours or multiply in parallel, that oversight becomes the bottleneck. Skipping permission checks entirely is faster—and it’s also how p",
+      "date_guess": "2026-08-07",
+      "source": "https://claude.com/blog/auto-mode-in-production",
+      "hash": "7f06d237513b93ee",
+      "fetched_at": "2026-08-21T15:54:17.870675+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "summary": "We're making auto mode the default in Claude Code. Starting on August 14, new sessions on Pro, Max, and Team plans will run in auto mode. If you've already set a different default yourself, you may get a one-time prompt asking whether you want to switch to auto mode. If you have a pinned default, nothing changes for you. The auto mode classifier uses a small number of extra tokens per tool call, and we're no longer charging Claude Code users on Pro, Max, and Team plans for that classifier overhe",
+      "date_guess": "2026-08-07",
+      "source": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "hash": "16f2f1be85dbd35a",
+      "fetched_at": "2026-08-21T15:54:17.871200+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Run Claude Code sessions on your own compute",
+      "summary": "Now in public beta, self-hosted environments let you run Claude Code sessions on your own infrastructure. Start a session from the web, mobile, desktop, or a routine, and it runs inside your network, next to your internal services, toolchains, and security controls, rather than on Anthropic-hosted infrastructure. For most enterprises, we strongly recommend our hosted offering for operational simplicity with no infrastructure to run or maintain. Self-hosted environments are for teams whose networ",
+      "date_guess": "2026-08-06",
+      "source": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
+      "hash": "7865716d35b0b76a",
+      "fetched_at": "2026-08-21T15:54:17.871245+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+      "summary": "Anthropic is working with Millennium, one of the world's largest alternative investment management firms, to co-develop a digital risk analyst: an AI teammate to work alongside and under the supervision of the firm's risk managers to surface new risk insights and form opinions on risk exposure across asset classes. Claude and Claude Code are already used broadly across Millennium today - from trading desks and engineering to core business functions. Millennium’s digital risk analyst extends thei",
+      "date_guess": "2026-08-06",
+      "source": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
+      "hash": "435abbec40a849b9",
+      "fetched_at": "2026-08-21T15:54:17.871358+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
+      "summary": "Inference hooks lets your compliance team inspect and enforce policy on every prompt and tool call response before they reach Claude — across Claude Enterprise surfaces including chat, Claude Code, Claude Cowork, and more. Your DLP server makes the call to block or allow, and Claude enforces that decision in real time, blocking unapproved content before it reaches Claude. Security teams require every channel where employees can move sensitive data to pass through an inspection point their team c",
+      "date_guess": "2026-08-05",
+      "source": "https://claude.com/blog/claude-enterprise-inference-hooks",
+      "hash": "1e95c10906d46c85",
+      "fetched_at": "2026-08-21T15:54:17.871452+00:00"
+    }
+  ],
+  "last_checked": "2026-08-21T15:54:17.873795+00:00",
+  "fetch_warnings": []
 }
