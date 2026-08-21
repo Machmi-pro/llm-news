@@ -1,0 +1,36 @@
+{
+  "last_checked": "2026-08-21T00:00:00+00:00",
+  "note": "Dane startowe zebrane ręcznie 21.08.2026 -- workflow changelog-daily.yml będzie dopisywał kolejne wpisy.",
+  "entries": [
+    {
+      "vendor": "Anthropic",
+      "title": "Claude Opus 5: pełna drabinka effort (low/medium/high/xhigh/max)",
+      "summary": "Effort to główny sposób sterowania Claude Opus 5, z poziomem max do zadań krytycznych pod względem możliwości modelu.",
+      "date_guess": "2026-07-24",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "seed0000000000001",
+      "fetched_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Dostęp do Claude Fable 5 i Claude Mythos 5 przywrócony",
+      "summary": "Po zawieszeniu 12.06.2026 z powodu kontroli eksportowych USA (Department of Commerce) i ich zniesieniu 30.06.2026, Anthropic przywrócił dostęp 01.07.2026.",
+      "date_guess": "2026-07-01",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "seed0000000000002",
+      "fetched_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Claude Sonnet 5: najbardziej agentowy Sonnet do tej pory",
+      "summary": "Istotne usprawnienia względem Sonnet 4.6 w rozumowaniu, korzystaniu z narzędzi, kodowaniu i pracy wiedzowej.",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "seed0000000000003",
+      "fetched_at": "2026-08-21T00:00:00+00:00"
+    }
+  ],
+  "fetch_warnings": [
+    "To są dane startowe wpisane ręcznie na podstawie wyszukiwań web, nie wynik działania fetch_changelog.py."
+  ]
+}
