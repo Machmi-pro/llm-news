@@ -55,10 +55,9 @@ function renderModelCard(model) {
     card.appendChild(el("div", "model-notes", price));
   }
 
-  const scores = fmtTopScores(model.top_scores);
-  if (scores) {
-    card.appendChild(el("div", "model-notes", scores));
-  }
+  // top_scores celowo ukryte -- kategorie agregują niepowiązane benchmarki
+  // bez wspólnej skali (np. "math: 17" obok "math: 0.7"), więc pokazywanie
+  // ich sugerowałoby porównywalność, której nie ma.
 
   if (model.notes) {
     card.appendChild(el("div", "model-notes", model.notes));
