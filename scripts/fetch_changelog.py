@@ -96,6 +96,22 @@ def entry_hash(vendor: str, title: str, date: str | None) -> str:
     return hashlib.sha256(key.encode("utf-8")).hexdigest()[:16]
 
 
+def parse_date_for_sort(entry: dict) -> str:
+    """
+    Zwraca porównywalny string (najlepiej YYYY-MM-DD) używany WYŁĄCZNIE do
+    sortowania wpisów malejąco po dacie przed przycięciem listy. Woli
+    date_guess (dla wpisów z RSS to zawsze czyste ISO, patrz fetch_rss_feed),
+    z fallbackiem na fetched_at, żeby wpis bez rozpoznanej daty nie trafił
+    przypadkowo na sam szczyt.
+    """
+    date_guess = entry.get("date_guess")
+    if date_guess:
+        match = re.match(r"^\d{4}-\d{2}-\d{2}", date_guess)
+        if match:
+            return match.group(0)
+    return (entry.get("fetched_at") or "")[:10]
+
+
 def fetch_rss_feed(vendor: str, url: str) -> list[dict]:
     """Pobiera i parsuje kanał RSS/Atom, zwraca listę wpisów w naszym formacie."""
     try:
@@ -234,7 +250,15 @@ def main() -> None:
         by_vendor.setdefault(e["vendor"], []).append(e)
     trimmed: list[dict] = []
     for vendor, items in by_vendor.items():
-        trimmed.extend(items[-MAX_ENTRIES_PER_VENDOR:])
+        # Sortujemy jawnie po realnej dacie przed przycięciem -- NIE ufamy
+        # kolejności w liście. Bug znaleziony 21.08.2026: niektóre kanały RSS
+        # (np. pełna historia bloga OpenAI, 2015-2026) mają znacznie więcej
+        # niż MAX_ENTRIES_PER_VENDOR wpisów, a `items[-N:]` przy liście
+        # posortowanej "najnowsze pierwsze" zostawiało N NAJSTARSZYCH wpisów
+        # zamiast najnowszych. Jawne sortowanie po dacie eliminuje tę klasę
+        # błędu niezależnie od tego, w jakiej kolejności dany feed zwraca dane.
+        items_sorted = sorted(items, key=parse_date_for_sort, reverse=True)
+        trimmed.extend(items_sorted[:MAX_ENTRIES_PER_VENDOR])
 
     result = {
         "entries": trimmed,
