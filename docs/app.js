@@ -67,24 +67,59 @@ function renderModelCard(model) {
   return card;
 }
 
+function parseReleaseDate(str) {
+  if (!str) return null;
+  const d = new Date(str);
+  return isNaN(d.getTime()) ? null : d;
+}
+
+function renderModelColumn(containerEl, models) {
+  const currentYear = new Date().getFullYear();
+
+  const withDates = models.map(m => ({ ...m, _date: parseReleaseDate(m.release_date_guess) }));
+  // sortowanie malejąco (najnowsze pierwsze); modele bez rozpoznanej daty lądują na końcu
+  withDates.sort((a, b) => {
+    const at = a._date ? a._date.getTime() : -Infinity;
+    const bt = b._date ? b._date.getTime() : -Infinity;
+    return bt - at;
+  });
+
+  const recent = withDates.filter(m => m._date && m._date.getFullYear() === currentYear);
+  const older = withDates.filter(m => !(m._date && m._date.getFullYear() === currentYear));
+
+  if (recent.length === 0 && older.length === 0) {
+    containerEl.appendChild(el("p", "empty-note", "Brak danych — pierwsze uruchomienie workflow jeszcze się nie odbyło."));
+    return;
+  }
+
+  if (recent.length === 0) {
+    containerEl.appendChild(el("p", "empty-note", `Brak modeli z ${currentYear} roku — wszystkie poniżej.`));
+  }
+
+  recent.forEach(m => containerEl.appendChild(renderModelCard(m)));
+
+  if (older.length > 0) {
+    const olderWrap = el("div", "model-list model-older-wrap");
+    olderWrap.style.display = "none";
+    older.forEach(m => olderWrap.appendChild(renderModelCard(m)));
+    containerEl.appendChild(olderWrap);
+
+    const toggleBtn = el("button", "show-more-btn", `Pokaż więcej (${older.length}) ↓`);
+    toggleBtn.addEventListener("click", () => {
+      const isHidden = olderWrap.style.display === "none";
+      olderWrap.style.display = isHidden ? "flex" : "none";
+      toggleBtn.textContent = isHidden ? "Pokaż mniej ↑" : `Pokaż więcej (${older.length}) ↓`;
+    });
+    containerEl.appendChild(toggleBtn);
+  }
+}
+
 function renderModels(data) {
   const claudeWrap = document.getElementById("claude-models");
   const codexWrap = document.getElementById("codex-models");
 
-  const claude = data.claude || [];
-  const codex = data.codex || [];
-
-  if (claude.length === 0) {
-    claudeWrap.appendChild(el("p", "empty-note", "Brak danych — pierwsze uruchomienie workflow jeszcze się nie odbyło."));
-  } else {
-    claude.forEach(m => claudeWrap.appendChild(renderModelCard(m)));
-  }
-
-  if (codex.length === 0) {
-    codexWrap.appendChild(el("p", "empty-note", "Brak danych — pierwsze uruchomienie workflow jeszcze się nie odbyło."));
-  } else {
-    codex.forEach(m => codexWrap.appendChild(renderModelCard(m)));
-  }
+  renderModelColumn(claudeWrap, data.claude || []);
+  renderModelColumn(codexWrap, data.codex || []);
 
   document.getElementById("meta-models").textContent =
     `modele: aktualizacja ${fmtDateTime(data.last_updated)}`;
