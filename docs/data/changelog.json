@@ -1,7 +1,2886 @@
 {
-  "entries": [],
-  "last_checked": null,
-  "fetch_warnings": [
-    "Plik wyczyszczony recznie 21.08.2026, zeby usunac wpisy z poprzednich wersji scrapera (HTML) sprzed przejscia na RSS. Nastepne uruchomienie changelog-daily.yml wypelni go swiezymi danymi z openai.com/news/rss.xml i tim-hilde.github.io/anthropic-rss/rss.xml."
-  ]
+  "entries": [
+    {
+      "vendor": "OpenAI",
+      "title": "Video generation models as world simulators",
+      "summary": "We explore large-scale training of generative models on video data. Specifically, we train text-conditional diffusion models jointly on videos and images of variable durations, resolutions and aspect ratios. We leverage a transformer architecture that operates on spacetime patches of video and image latent codes. Our largest model, Sora, is capable of generating a minute of high fidelity video. Our results suggest that scaling video generation models is a promising path towards building general ",
+      "date_guess": "2024-02-15",
+      "source": "https://openai.com/index/video-generation-models-as-world-simulators",
+      "hash": "a72befcdd16b9256",
+      "fetched_at": "2026-08-21T15:27:55.251248+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Disrupting malicious uses of AI by state-affiliated threat actors",
+      "summary": "",
+      "date_guess": "2024-02-14",
+      "source": "https://openai.com/index/disrupting-malicious-uses-of-ai-by-state-affiliated-threat-actors",
+      "hash": "a758c7c917cc8b22",
+      "fetched_at": "2026-08-21T15:27:55.251256+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Memory and new controls for ChatGPT",
+      "summary": "We’re testing the ability for ChatGPT to remember things you discuss to make future chats more helpful. You’re in control of ChatGPT’s memory.",
+      "date_guess": "2024-02-13",
+      "source": "https://openai.com/index/memory-and-new-controls-for-chatgpt",
+      "hash": "084fafda45cfa43e",
+      "fetched_at": "2026-08-21T15:27:55.251272+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Building an early warning system for LLM-aided biological threat creation",
+      "summary": "We’re developing a blueprint for evaluating the risk that a large language model (LLM) could aid someone in creating a biological threat. In an evaluation involving both biology experts and students, we found that GPT-4 provides at most a mild uplift in biological threat creation accuracy. While this uplift is not large enough to be conclusive, our finding is a starting point for continued research and community deliberation.",
+      "date_guess": "2024-01-31",
+      "source": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation",
+      "hash": "b7c4894791990e31",
+      "fetched_at": "2026-08-21T15:27:55.251300+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New embedding models and API updates",
+      "summary": "",
+      "date_guess": "2024-01-25",
+      "source": "https://openai.com/index/new-embedding-models-and-api-updates",
+      "hash": "5b5bd2074ef29689",
+      "fetched_at": "2026-08-21T15:27:55.251328+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Democratic inputs to AI grant program: lessons learned and implementation plans",
+      "summary": "We funded 10 teams from around the world to design ideas and tools to collectively govern AI. We summarize the innovations, outline our learnings, and call for researchers and engineers to join us as we continue this work.",
+      "date_guess": "2024-01-16",
+      "source": "https://openai.com/index/democratic-inputs-to-ai-grant-program-update",
+      "hash": "7f0eec4ce48a04ea",
+      "fetched_at": "2026-08-21T15:27:55.251348+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How OpenAI is approaching 2024 worldwide elections",
+      "summary": "We’re working to prevent abuse, provide transparency on AI-generated content, and improve access to accurate voting information.",
+      "date_guess": "2024-01-15",
+      "source": "https://openai.com/index/how-openai-is-approaching-2024-worldwide-elections",
+      "hash": "9ef00afeb31dbc2b",
+      "fetched_at": "2026-08-21T15:27:55.251363+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Building agricultural database for farmers",
+      "summary": "Digital Green uses OpenAI to increase farmer income.",
+      "date_guess": "2024-01-12",
+      "source": "https://openai.com/index/digital-green",
+      "hash": "492721f502c9a695",
+      "fetched_at": "2026-08-21T15:27:55.251377+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the GPT Store",
+      "summary": "",
+      "date_guess": "2024-01-10",
+      "source": "https://openai.com/index/introducing-the-gpt-store",
+      "hash": "cfc63588dd93dbb0",
+      "fetched_at": "2026-08-21T15:27:55.251386+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing ChatGPT Team",
+      "summary": "We’re launching a new ChatGPT plan for teams of all sizes, which provides a secure, collaborative workspace to get the most out of ChatGPT at work.",
+      "date_guess": "2024-01-10",
+      "source": "https://openai.com/index/introducing-chatgpt-team",
+      "hash": "f00ae7d7e82736e1",
+      "fetched_at": "2026-08-21T15:27:55.251403+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI and journalism",
+      "summary": "We support journalism, partner with news organizations, and believe The New York Times lawsuit is without merit.",
+      "date_guess": "2024-01-08",
+      "source": "https://openai.com/index/openai-and-journalism",
+      "hash": "6fb0b2dc874e2ab6",
+      "fetched_at": "2026-08-21T15:27:55.251416+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Delivering LLM-powered health solutions",
+      "summary": "WHOOP delivers personalized fitness and health coaching with GPT-4.",
+      "date_guess": "2024-01-04",
+      "source": "https://openai.com/index/whoop",
+      "hash": "8ec437f4093e33f9",
+      "fetched_at": "2026-08-21T15:27:55.251428+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Increasing accuracy of pediatric visit notes",
+      "summary": "Summer Health reimagines pediatric doctor’s visits with OpenAI.",
+      "date_guess": "2023-12-14",
+      "source": "https://openai.com/index/summer-health",
+      "hash": "4a99ab6cc51f71b2",
+      "fetched_at": "2026-08-21T15:27:55.251440+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Practices for Governing Agentic AI Systems",
+      "summary": "",
+      "date_guess": "2023-12-14",
+      "source": "https://openai.com/index/practices-for-governing-agentic-ai-systems",
+      "hash": "78392d49a16805cf",
+      "fetched_at": "2026-08-21T15:27:55.251449+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Superalignment Fast Grants",
+      "summary": "We’re launching $10M in grants to support technical research towards the alignment and safety of superhuman AI systems, including weak-to-strong generalization, interpretability, scalable oversight, and more.",
+      "date_guess": "2023-12-14",
+      "source": "https://openai.com/index/superalignment-fast-grants",
+      "hash": "a6e24b6a6d0b8055",
+      "fetched_at": "2026-08-21T15:27:55.251469+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Weak-to-strong generalization",
+      "summary": "We present a new research direction for superalignment, together with promising initial results: can we leverage the generalization properties of deep learning to control strong models with weak supervisors?",
+      "date_guess": "2023-12-14",
+      "source": "https://openai.com/index/weak-to-strong-generalization",
+      "hash": "1493f1a660bb69a5",
+      "fetched_at": "2026-08-21T15:27:55.251485+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Partnership with Axel Springer to deepen beneficial use of AI in journalism",
+      "summary": "Axel Springer is the first publishing house globally to partner with us on a deeper integration of journalism in AI technologies.",
+      "date_guess": "2023-12-13",
+      "source": "https://openai.com/index/axel-springer-partnership",
+      "hash": "6ccfb8652a864436",
+      "fetched_at": "2026-08-21T15:27:55.251502+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Sam Altman returns as CEO, OpenAI has a new initial board",
+      "summary": "Mira Murati as CTO, Greg Brockman returns as President. Read messages from CEO Sam Altman and board chair Bret Taylor.",
+      "date_guess": "2023-11-29",
+      "source": "https://openai.com/index/sam-altman-returns-as-ceo-openai-has-a-new-initial-board",
+      "hash": "160cd783ed4e727c",
+      "fetched_at": "2026-08-21T15:27:55.251516+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI announces leadership transition",
+      "summary": "",
+      "date_guess": "2023-11-17",
+      "source": "https://openai.com/index/openai-announces-leadership-transition",
+      "hash": "b8a105983a31664e",
+      "fetched_at": "2026-08-21T15:27:55.251524+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Data Partnerships",
+      "summary": "Working together to create open-source and private datasets for AI training.",
+      "date_guess": "2023-11-09",
+      "source": "https://openai.com/index/data-partnerships",
+      "hash": "f9ac27ff6e66c342",
+      "fetched_at": "2026-08-21T15:27:55.251538+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPTs",
+      "summary": "You can now create custom versions of ChatGPT that combine instructions, extra knowledge, and any combination of skills.",
+      "date_guess": "2023-11-06",
+      "source": "https://openai.com/index/introducing-gpts",
+      "hash": "6847a8535b3773c6",
+      "fetched_at": "2026-08-21T15:27:55.251552+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New models and developer products announced at DevDay",
+      "summary": "GPT-4 Turbo with 128K context and lower prices, the new Assistants API, GPT-4 Turbo with Vision, DALL·E 3 API, and more.",
+      "date_guess": "2023-11-06",
+      "source": "https://openai.com/index/new-models-and-developer-products-announced-at-devday",
+      "hash": "857c427b80df5ebc",
+      "fetched_at": "2026-08-21T15:27:55.251567+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Frontier risk and preparedness",
+      "summary": "To support the safety of highly-capable AI systems, we are developing our approach to catastrophic risk preparedness, including building a Preparedness team and launching a challenge.",
+      "date_guess": "2023-10-26",
+      "source": "https://openai.com/index/frontier-risk-and-preparedness",
+      "hash": "38bb170f9e48df0c",
+      "fetched_at": "2026-08-21T15:27:55.251585+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Frontier Model Forum updates",
+      "summary": "Together with Anthropic, Google, and Microsoft, we’re announcing the new Executive Director of the Frontier Model Forum and a new $10 million AI Safety Fund.",
+      "date_guess": "2023-10-25",
+      "source": "https://openai.com/index/frontier-model-forum-updates",
+      "hash": "07a51474b705b1fd",
+      "fetched_at": "2026-08-21T15:27:55.251602+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "DALL·E 3 is now available in ChatGPT Plus and Enterprise",
+      "summary": "We developed a safety mitigation stack to ready DALL·E 3 for wider release and are sharing updates on our provenance research.",
+      "date_guess": "2023-10-19",
+      "source": "https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise",
+      "hash": "b7f1912501e66a6e",
+      "fetched_at": "2026-08-21T15:27:55.251617+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Simplifying contract reviews with AI",
+      "summary": "Ironclad uses GPT-4 to simplify the contract review process.",
+      "date_guess": "2023-10-11",
+      "source": "https://openai.com/index/ironclad",
+      "hash": "71f114dd65e7b6c7",
+      "fetched_at": "2026-08-21T15:27:55.251629+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Building AI-powered apps for business",
+      "summary": "Retool uses GPT-4 to give businesses a fast, secure way to build AI-powered apps.",
+      "date_guess": "2023-10-11",
+      "source": "https://openai.com/index/retool",
+      "hash": "7aaa64a468b3a421",
+      "fetched_at": "2026-08-21T15:27:55.251641+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Evolving online forms into dynamic data",
+      "summary": "Typeform evolves online forms into dynamic and conversational data collection experiences with GPT-3.5 and GPT-4.",
+      "date_guess": "2023-10-11",
+      "source": "https://openai.com/index/typeform",
+      "hash": "2d968e9f579162c0",
+      "fetched_at": "2026-08-21T15:27:55.251654+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "DALL·E 3 system card",
+      "summary": "",
+      "date_guess": "2023-10-03",
+      "source": "https://openai.com/index/dall-e-3-system-card",
+      "hash": "00063845c008ac92",
+      "fetched_at": "2026-08-21T15:27:55.251663+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT can now see, hear, and speak",
+      "summary": "",
+      "date_guess": "2023-09-25",
+      "source": "https://openai.com/index/chatgpt-can-now-see-hear-and-speak",
+      "hash": "c05c53107455c032",
+      "fetched_at": "2026-08-21T15:27:55.251670+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-4V(ision) system card",
+      "summary": "",
+      "date_guess": "2023-09-25",
+      "source": "https://openai.com/index/gpt-4v-system-card",
+      "hash": "98bd75373c5d9d4c",
+      "fetched_at": "2026-08-21T15:27:55.251679+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Red Teaming Network",
+      "summary": "We’re announcing an open call for the OpenAI Red Teaming Network and invite domain experts interested in improving the safety of OpenAI’s models to join our efforts.",
+      "date_guess": "2023-09-19",
+      "source": "https://openai.com/index/red-teaming-network",
+      "hash": "97b8db0714c1556b",
+      "fetched_at": "2026-08-21T15:27:55.251698+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing OpenAI Dublin",
+      "summary": "We’re growing our presence in Europe with an office in Dublin, Ireland.",
+      "date_guess": "2023-09-13",
+      "source": "https://openai.com/index/introducing-openai-dublin",
+      "hash": "a6fbe4bf661a0ca1",
+      "fetched_at": "2026-08-21T15:27:55.251711+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Join us for OpenAI’s first developer conference on November 6 in San Francisco",
+      "summary": "Developer registration for in-person attendance will open in the coming weeks and developers everywhere will be able to livestream the keynote.",
+      "date_guess": "2023-09-06",
+      "source": "https://openai.com/index/announcing-openai-devday",
+      "hash": "2a3b3d2f2ff6d4bf",
+      "fetched_at": "2026-08-21T15:27:55.251726+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Teaching with AI",
+      "summary": "We’re releasing a guide for teachers using ChatGPT in their classroom—including suggested prompts, an explanation of how ChatGPT works and its limitations, the efficacy of AI detectors, and bias.",
+      "date_guess": "2023-08-31",
+      "source": "https://openai.com/index/teaching-with-ai",
+      "hash": "ce38e0a83b11dce1",
+      "fetched_at": "2026-08-21T15:27:55.251747+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing ChatGPT Enterprise",
+      "summary": "Get enterprise-grade security & privacy and the most powerful version of ChatGPT yet.",
+      "date_guess": "2023-08-28",
+      "source": "https://openai.com/index/introducing-chatgpt-enterprise",
+      "hash": "38c2d2d3f2734873",
+      "fetched_at": "2026-08-21T15:27:55.251763+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI partners with Scale to provide support for enterprises fine-tuning models",
+      "summary": "OpenAI’s customers can leverage Scale’s AI expertise to customize our most advanced models.",
+      "date_guess": "2023-08-24",
+      "source": "https://openai.com/index/openai-partners-with-scale-to-provide-support-for-enterprises-fine-tuning-models",
+      "hash": "93851bbae54cdea2",
+      "fetched_at": "2026-08-21T15:27:55.251777+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-3.5 Turbo fine-tuning and API updates",
+      "summary": "Developers can now bring their own data to customize GPT-3.5 Turbo for their use cases.",
+      "date_guess": "2023-08-22",
+      "source": "https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates",
+      "hash": "e18634305963c123",
+      "fetched_at": "2026-08-21T15:27:55.251790+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI acquires Global Illumination",
+      "summary": "The entire team has joined OpenAI.",
+      "date_guess": "2023-08-16",
+      "source": "https://openai.com/index/openai-acquires-global-illumination",
+      "hash": "1e50bdc012c09637",
+      "fetched_at": "2026-08-21T15:27:55.251800+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Using GPT-4 for content moderation",
+      "summary": "We use GPT-4 for content policy development and content moderation decisions, enabling more consistent labeling, a faster feedback loop for policy refinement, and less involvement from human moderators.",
+      "date_guess": "2023-08-15",
+      "source": "https://openai.com/index/using-gpt-4-for-content-moderation",
+      "hash": "343f7ad0a77d82d0",
+      "fetched_at": "2026-08-21T15:27:55.251818+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Confidence-Building Measures for Artificial Intelligence: Workshop proceedings",
+      "summary": "",
+      "date_guess": "2023-08-01",
+      "source": "https://openai.com/index/confidence-building-measures-for-artificial-intelligence",
+      "hash": "322118a80c003082",
+      "fetched_at": "2026-08-21T15:27:55.251827+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Frontier Model Forum",
+      "summary": "We’re forming a new industry body to promote the safe and responsible development of frontier AI systems: advancing AI safety research, identifying best practices and standards, and facilitating information sharing among policymakers and industry.",
+      "date_guess": "2023-07-26",
+      "source": "https://openai.com/index/frontier-model-forum",
+      "hash": "f0b6b1c58d741456",
+      "fetched_at": "2026-08-21T15:27:55.251847+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Moving AI governance forward",
+      "summary": "OpenAI and other leading labs reinforce AI safety, security and trustworthiness through voluntary commitments.",
+      "date_guess": "2023-07-21",
+      "source": "https://openai.com/index/moving-ai-governance-forward",
+      "hash": "ef7b6e3bb31f94e6",
+      "fetched_at": "2026-08-21T15:27:55.251860+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Custom instructions for ChatGPT",
+      "summary": "We’re rolling out custom instructions to give you more control over how ChatGPT responds. Set your preferences, and ChatGPT will keep them in mind for all future conversations.",
+      "date_guess": "2023-07-20",
+      "source": "https://openai.com/index/custom-instructions-for-chatgpt",
+      "hash": "e64d897790ed5370",
+      "fetched_at": "2026-08-21T15:27:55.251877+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Partnership with American Journalism Project to support local news",
+      "summary": "A new $5+ million partnership aims to explore ways the development of artificial intelligence (AI) can support a thriving, innovative local news field, and ensure local news organizations shape the future of this emerging technology.",
+      "date_guess": "2023-07-18",
+      "source": "https://openai.com/index/partnership-with-american-journalism-project-to-support-local-news",
+      "hash": "7f799c8caa831c96",
+      "fetched_at": "2026-08-21T15:27:55.251895+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Accurately analyzing large scale qualitative data",
+      "summary": "Viable uses GPT-4 to analyze qualitative data at a revolutionary scale with unparalleled accuracy.",
+      "date_guess": "2023-07-07",
+      "source": "https://openai.com/index/viable",
+      "hash": "0e043ddc95ce67ae",
+      "fetched_at": "2026-08-21T15:27:55.251908+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Frontier AI regulation: Managing emerging risks to public safety",
+      "summary": "",
+      "date_guess": "2023-07-06",
+      "source": "https://openai.com/index/frontier-ai-regulation",
+      "hash": "2b06d9f868bb645b",
+      "fetched_at": "2026-08-21T15:27:55.251915+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Insights from global conversations",
+      "summary": "We are sharing what we learned from our conversations across 22 countries, and how we will be incorporating those insights moving forward.",
+      "date_guess": "2023-06-29",
+      "source": "https://openai.com/index/insights-from-global-conversations",
+      "hash": "c844bfed736c4e50",
+      "fetched_at": "2026-08-21T15:27:55.251929+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing OpenAI London",
+      "summary": "We are excited to announce OpenAI’s first international expansion with a new office in London, United Kingdom.",
+      "date_guess": "2023-06-28",
+      "source": "https://openai.com/index/introducing-openai-london",
+      "hash": "1219f833143e65f1",
+      "fetched_at": "2026-08-21T15:27:55.251946+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Function calling and other API updates",
+      "summary": "We’re announcing updates including more steerable API models, function calling capabilities, longer context, and lower prices.",
+      "date_guess": "2023-06-13",
+      "source": "https://openai.com/index/function-calling-and-other-api-updates",
+      "hash": "efc69b1c0b27ccd3",
+      "fetched_at": "2026-08-21T15:27:55.251961+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Cybersecurity Grant Program",
+      "summary": "Our goal is to facilitate the development of AI-powered cybersecurity capabilities for defenders through grants and other support.",
+      "date_guess": "2023-06-01",
+      "source": "https://openai.com/index/openai-cybersecurity-grant-program",
+      "hash": "9a068fd976e92e2e",
+      "fetched_at": "2026-08-21T15:27:55.251974+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Improving mathematical reasoning with process supervision",
+      "summary": "We’ve trained a model to achieve a new state-of-the-art in mathematical problem solving by rewarding each correct step of reasoning (“process supervision”) instead of simply rewarding the correct final answer (“outcome supervision”). In addition to boosting performance relative to outcome supervision, process supervision also has an important alignment benefit: it directly trains the model to produce a chain-of-thought that is endorsed by humans.",
+      "date_guess": "2023-05-31",
+      "source": "https://openai.com/index/improving-mathematical-reasoning-with-process-supervision",
+      "hash": "3ae371154a1c3cb1",
+      "fetched_at": "2026-08-21T15:27:55.252002+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Democratic inputs to AI",
+      "summary": "Our nonprofit organization, OpenAI, Inc., is launching a program to award ten $100,000 grants to fund experiments in setting up a democratic process for deciding what rules AI systems should follow, within the bounds defined by the law.",
+      "date_guess": "2023-05-25",
+      "source": "https://openai.com/index/democratic-inputs-to-ai",
+      "hash": "048b2276737910ce",
+      "fetched_at": "2026-08-21T15:27:55.252021+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Governance of superintelligence",
+      "summary": "Now is a good time to start thinking about the governance of superintelligence—future AI systems dramatically more capable than even AGI.",
+      "date_guess": "2023-05-22",
+      "source": "https://openai.com/index/governance-of-superintelligence",
+      "hash": "97486c365526c76c",
+      "fetched_at": "2026-08-21T15:27:55.252036+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the ChatGPT app for iOS",
+      "summary": "The ChatGPT app syncs your conversations, supports voice input, and brings our latest model improvements to your fingertips.",
+      "date_guess": "2023-05-18",
+      "source": "https://openai.com/index/introducing-the-chatgpt-app-for-ios",
+      "hash": "04078009981812c4",
+      "fetched_at": "2026-08-21T15:27:55.252052+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Language models can explain neurons in language models",
+      "summary": "We use GPT-4 to automatically write explanations for the behavior of neurons in large language models and to score those explanations. We release a dataset of these (imperfect) explanations and scores for every neuron in GPT-2.",
+      "date_guess": "2023-05-09",
+      "source": "https://openai.com/index/language-models-can-explain-neurons-in-language-models",
+      "hash": "807b5cb562883dc7",
+      "fetched_at": "2026-08-21T15:27:55.252070+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New ways to manage your data in ChatGPT",
+      "summary": "ChatGPT users can now turn off chat history, allowing you to choose which conversations can be used to train our models.",
+      "date_guess": "2023-04-25",
+      "source": "https://openai.com/index/new-ways-to-manage-your-data-in-chatgpt",
+      "hash": "c25f9bb622d994d5",
+      "fetched_at": "2026-08-21T15:27:55.252084+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Announcing OpenAI’s Bug Bounty Program",
+      "summary": "This initiative is essential to our commitment to develop safe and advanced AI. As we create technology and services that are secure, reliable, and trustworthy, we need your help.",
+      "date_guess": "2023-04-11",
+      "source": "https://openai.com/index/bug-bounty-program",
+      "hash": "79a04d6ca553e30f",
+      "fetched_at": "2026-08-21T15:27:55.252103+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our approach to AI safety",
+      "summary": "Ensuring that AI systems are built, deployed, and used safely is critical to our mission.",
+      "date_guess": "2023-04-05",
+      "source": "https://openai.com/index/our-approach-to-ai-safety",
+      "hash": "5532c3db71aa31ba",
+      "fetched_at": "2026-08-21T15:27:55.252116+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "March 20 ChatGPT outage: Here’s what happened",
+      "summary": "An update on our findings, the actions we’ve taken, and technical details of the bug.",
+      "date_guess": "2023-03-24",
+      "source": "https://openai.com/index/march-20-chatgpt-outage",
+      "hash": "d9b408beb99ccde1",
+      "fetched_at": "2026-08-21T15:27:55.252131+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT plugins",
+      "summary": "We’ve implemented initial support for plugins in ChatGPT. Plugins are tools designed specifically for language models with safety as a core principle, and help ChatGPT access up-to-date information, run computations, or use third-party services.",
+      "date_guess": "2023-03-23",
+      "source": "https://openai.com/index/chatgpt-plugins",
+      "hash": "02fbf7da61e02477",
+      "fetched_at": "2026-08-21T15:27:55.252153+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPTs are GPTs: An early look at the labor market impact potential of large language models",
+      "summary": "",
+      "date_guess": "2023-03-17",
+      "source": "https://openai.com/index/gpts-are-gpts",
+      "hash": "a3852ecb483bd5d5",
+      "fetched_at": "2026-08-21T15:27:55.252162+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Powering virtual education for the classroom",
+      "summary": "Khan Academy explores the potential for GPT-4 in a limited pilot program.",
+      "date_guess": "2023-03-14",
+      "source": "https://openai.com/index/khan-academy",
+      "hash": "6cf08d7fc37aff2f",
+      "fetched_at": "2026-08-21T15:27:55.252174+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Filling crucial language learning gaps",
+      "summary": "GPT-4 deepens the conversation on Duolingo.",
+      "date_guess": "2023-03-14",
+      "source": "https://openai.com/index/duolingo",
+      "hash": "863338b1024de8fc",
+      "fetched_at": "2026-08-21T15:27:55.252184+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Stripe",
+      "summary": "Stripe leverages GPT-4 to streamline user experience and combat fraud.",
+      "date_guess": "2023-03-14",
+      "source": "https://openai.com/index/stripe",
+      "hash": "723f9fd24af08a87",
+      "fetched_at": "2026-08-21T15:27:55.252196+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Transforming visual accessibility",
+      "summary": "Be My Eyes uses GPT-4 to transform visual accessibility.",
+      "date_guess": "2023-03-14",
+      "source": "https://openai.com/index/be-my-eyes",
+      "hash": "f8b55249ff6495f8",
+      "fetched_at": "2026-08-21T15:27:55.252207+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Preserving languages for the future",
+      "summary": "How Iceland is using GPT-4 to preserve its language.",
+      "date_guess": "2023-03-14",
+      "source": "https://openai.com/index/government-of-iceland",
+      "hash": "a87690a6522d571b",
+      "fetched_at": "2026-08-21T15:27:55.252217+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-4",
+      "summary": "We’ve created GPT-4, the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that, while less capable than humans in many real-world scenarios, exhibits human-level performance on various professional and academic benchmarks.",
+      "date_guess": "2023-03-14",
+      "source": "https://openai.com/index/gpt-4-research",
+      "hash": "482121ecd5717dd8",
+      "fetched_at": "2026-08-21T15:27:55.252241+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Planning for AGI and beyond",
+      "summary": "Our mission is to ensure that artificial general intelligence—AI systems that are generally smarter than humans—benefits all of humanity.",
+      "date_guess": "2023-02-24",
+      "source": "https://openai.com/index/planning-for-agi-and-beyond",
+      "hash": "266ad4992be81276",
+      "fetched_at": "2026-08-21T15:27:55.252257+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How should AI systems behave, and who should decide?",
+      "summary": "We’re clarifying how ChatGPT’s behavior is shaped and our plans for improving that behavior, allowing more user customization, and getting more public input into our decision-making in these areas.",
+      "date_guess": "2023-02-16",
+      "source": "https://openai.com/index/how-should-ai-systems-behave",
+      "hash": "a86d5db399b931a0",
+      "fetched_at": "2026-08-21T15:27:55.252275+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing ChatGPT Plus",
+      "summary": "We’re launching a pilot subscription plan for ChatGPT, a conversational AI that can chat with you, answer follow-up questions, and challenge incorrect assumptions.",
+      "date_guess": "2023-02-01",
+      "source": "https://openai.com/index/chatgpt-plus",
+      "hash": "c4c5d128248617ac",
+      "fetched_at": "2026-08-21T15:27:55.252294+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New AI classifier for indicating AI-written text",
+      "summary": "We’re launching a classifier trained to distinguish between AI-written and human-written text.",
+      "date_guess": "2023-01-31",
+      "source": "https://openai.com/index/new-ai-classifier-for-indicating-ai-written-text",
+      "hash": "b931af57ed757947",
+      "fetched_at": "2026-08-21T15:27:55.252331+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI and Microsoft extend partnership",
+      "summary": "We’re happy to announce that OpenAI and Microsoft are extending our partnership.",
+      "date_guess": "2023-01-23",
+      "source": "https://openai.com/index/openai-and-microsoft-extend-partnership",
+      "hash": "fad88b00899e655b",
+      "fetched_at": "2026-08-21T15:27:55.252346+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Forecasting potential misuses of language models for disinformation campaigns and how to reduce risk",
+      "summary": "OpenAI researchers collaborated with Georgetown University’s Center for Security and Emerging Technology and the Stanford Internet Observatory to investigate how large language models might be misused for disinformation purposes. The collaboration included an October 2021 workshop bringing together 30 disinformation researchers, machine learning experts, and policy analysts, and culminated in a co-authored report building on more than a year of research. This report outlines the threats that lan",
+      "date_guess": "2023-01-11",
+      "source": "https://openai.com/index/forecasting-misuse",
+      "hash": "1766b5521f9732bc",
+      "fetched_at": "2026-08-21T15:27:55.252387+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Delivering nuanced insights from customer feedback",
+      "summary": "Using GPT-3 to deliver fast, nuanced insights from customer feedback.",
+      "date_guess": "2023-01-04",
+      "source": "https://openai.com/index/yabble",
+      "hash": "eff6b9802e1925a8",
+      "fetched_at": "2026-08-21T15:27:55.252401+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Fine-tuning GPT-3 to scale video creation",
+      "summary": "Fine-tuning GPT-3 to power and scale done-for-you video creation.",
+      "date_guess": "2023-01-03",
+      "source": "https://openai.com/index/waymark",
+      "hash": "1bc4e5f667171c08",
+      "fetched_at": "2026-08-21T15:27:55.252413+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Creating next-gen characters",
+      "summary": "Using GPT-3 to create the next generation of AI-powered characters.",
+      "date_guess": "2023-01-01",
+      "source": "https://openai.com/index/inworld-ai-DO-NOT-PUBLISH",
+      "hash": "a45689e052576010",
+      "fetched_at": "2026-08-21T15:27:55.252425+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The power of continuous learning",
+      "summary": "Lilian Weng works on Applied AI Research at OpenAI.",
+      "date_guess": "2022-12-23",
+      "source": "https://openai.com/index/the-power-of-continuous-learning",
+      "hash": "00d136221a8068dd",
+      "fetched_at": "2026-08-21T15:27:55.252435+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Point-E: A system for generating 3D point clouds from complex prompts",
+      "summary": "",
+      "date_guess": "2022-12-16",
+      "source": "https://openai.com/index/point-e",
+      "hash": "06450b59dbc70a43",
+      "fetched_at": "2026-08-21T15:27:55.252444+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New and improved embedding model",
+      "summary": "We are excited to announce a new embedding model which is significantly more capable, cost effective, and simpler to use.",
+      "date_guess": "2022-12-15",
+      "source": "https://openai.com/index/new-and-improved-embedding-model",
+      "hash": "4e210cd178ef6d34",
+      "fetched_at": "2026-08-21T15:27:55.252458+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Discovering the minutiae of backend systems",
+      "summary": "Christian Gibson is an engineer on the Supercomputing team at OpenAI.",
+      "date_guess": "2022-12-08",
+      "source": "https://openai.com/index/discovering-the-minutiae-of-backend-systems",
+      "hash": "a0087d9e31116d7e",
+      "fetched_at": "2026-08-21T15:27:55.252470+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing ChatGPT",
+      "summary": "We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.",
+      "date_guess": "2022-11-30",
+      "source": "https://openai.com/index/chatgpt",
+      "hash": "746cdcde751f66c9",
+      "fetched_at": "2026-08-21T15:27:55.252490+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "DALL·E API now available in public beta",
+      "summary": "Starting today, developers can begin building apps with the DALL·E API.",
+      "date_guess": "2022-11-03",
+      "source": "https://openai.com/index/dall-e-api-now-available-in-public-beta",
+      "hash": "3cc033c8f7b92589",
+      "fetched_at": "2026-08-21T15:27:55.252504+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Scaling laws for reward model overoptimization",
+      "summary": "",
+      "date_guess": "2022-10-19",
+      "source": "https://openai.com/index/scaling-laws-for-reward-model-overoptimization",
+      "hash": "0fe9c82dba952b14",
+      "fetched_at": "2026-08-21T15:27:55.252512+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "DALL·E now available without waitlist",
+      "summary": "New users can start creating straight away. Lessons learned from deployment and improvements to our safety systems make wider availability possible.",
+      "date_guess": "2022-09-28",
+      "source": "https://openai.com/index/dall-e-now-available-without-waitlist",
+      "hash": "2cf44070d2e26824",
+      "fetched_at": "2026-08-21T15:27:55.252527+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing Whisper",
+      "summary": "We’ve trained and are open-sourcing a neural net called Whisper that approaches human level robustness and accuracy on English speech recognition.",
+      "date_guess": "2022-09-21",
+      "source": "https://openai.com/index/whisper",
+      "hash": "d2a573087a92463a",
+      "fetched_at": "2026-08-21T15:27:55.252543+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "DALL·E: Introducing outpainting",
+      "summary": "Extend creativity and tell a bigger story with DALL·E images of any size.",
+      "date_guess": "2022-08-31",
+      "source": "https://openai.com/index/dall-e-introducing-outpainting",
+      "hash": "1c5f21710d22a157",
+      "fetched_at": "2026-08-21T15:27:55.252555+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our approach to alignment research",
+      "summary": "We are improving our AI systems’ ability to learn from human feedback and to assist humans at evaluating AI. Our goal is to build a sufficiently aligned AI system that can help us solve all other alignment problems.",
+      "date_guess": "2022-08-24",
+      "source": "https://openai.com/index/our-approach-to-alignment-research",
+      "hash": "17bb354d1d7ba8ec",
+      "fetched_at": "2026-08-21T15:27:55.252578+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New and improved content moderation tooling",
+      "summary": "We are introducing a new and improved content moderation tool. The Moderation endpoint improves upon our previous content filter, and is available for free today to OpenAI API developers.",
+      "date_guess": "2022-08-10",
+      "source": "https://openai.com/index/new-and-improved-content-moderation-tooling",
+      "hash": "9a21ab17d0abf00b",
+      "fetched_at": "2026-08-21T15:27:55.252594+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Efficient training of language models to fill in the middle",
+      "summary": "",
+      "date_guess": "2022-07-28",
+      "source": "https://openai.com/index/efficient-training-of-language-models-to-fill-in-the-middle",
+      "hash": "b59732ea0cef8711",
+      "fetched_at": "2026-08-21T15:27:55.252603+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "A hazard analysis framework for code synthesis large language models",
+      "summary": "",
+      "date_guess": "2022-07-25",
+      "source": "https://openai.com/index/a-hazard-analysis-framework-for-code-synthesis-large-language-models",
+      "hash": "382d7efcc932948b",
+      "fetched_at": "2026-08-21T15:27:55.252611+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "DALL·E now available in beta",
+      "summary": "We’ll invite 1 million people from our waitlist over the coming weeks. Users can create with DALL·E using free credits that refill every month, and buy additional credits in 115-generation increments for $15.",
+      "date_guess": "2022-07-20",
+      "source": "https://openai.com/index/dall-e-now-available-in-beta",
+      "hash": "b3fe6a1a32376d14",
+      "fetched_at": "2026-08-21T15:27:55.252631+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Reducing bias and improving safety in DALL·E 2",
+      "summary": "Today, we are implementing a new technique so that DALL·E generates images of people that more accurately reflect the diversity of the world’s population.",
+      "date_guess": "2022-07-18",
+      "source": "https://openai.com/index/reducing-bias-and-improving-safety-in-dall-e-2",
+      "hash": "5de5a0a10d21c26f",
+      "fetched_at": "2026-08-21T15:27:55.252651+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "DALL·E 2: Extending creativity",
+      "summary": "As part of our DALL·E 2 research preview, more than 3,000 artists from more than 118 countries have incorporated DALL·E into their creative workflows. The artists in our early access group have helped us discover new uses for DALL·E and have served as key voices as we’ve made decisions about DALL·E’s features.",
+      "date_guess": "2022-07-14",
+      "source": "https://openai.com/index/dall-e-2-extending-creativity",
+      "hash": "a7d638dffcb3faf2",
+      "fetched_at": "2026-08-21T15:27:55.252677+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "DALL·E 2 pre-training mitigations",
+      "summary": "In order to share the magic of DALL·E 2 with a broad audience, we needed to reduce the risks associated with powerful image generation models. To this end, we put various guardrails in place to prevent generated images from violating our content policy.",
+      "date_guess": "2022-06-28",
+      "source": "https://openai.com/index/dall-e-2-pre-training-mitigations",
+      "hash": "ffb5a8557b6aba0f",
+      "fetched_at": "2026-08-21T15:27:55.252699+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning to play Minecraft with Video PreTraining",
+      "summary": "We trained a neural network to play Minecraft by Video PreTraining (VPT) on a massive unlabeled video dataset of human Minecraft play, while using only a small amount of labeled contractor data. With fine-tuning, our model can learn to craft diamond tools, a task that usually takes proficient humans over 20 minutes (24,000 actions). Our model uses the native human interface of keypresses and mouse movements, making it quite general, and represents a step towards general computer-using agents.",
+      "date_guess": "2022-06-23",
+      "source": "https://openai.com/index/vpt",
+      "hash": "75e7dab844429fdf",
+      "fetched_at": "2026-08-21T15:27:55.252727+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Evolution through large models",
+      "summary": "",
+      "date_guess": "2022-06-17",
+      "source": "https://openai.com/index/evolution-through-large-models",
+      "hash": "315a0b2ad04810a8",
+      "fetched_at": "2026-08-21T15:27:55.252735+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "AI-written critiques help humans notice flaws",
+      "summary": "We trained “critique-writing” models to describe flaws in summaries. Human evaluators find flaws in summaries much more often when shown our model’s critiques. Larger models are better at self-critiquing, with scale improving critique-writing more than summary-writing. This shows promise for using AI systems to assist human supervision of AI systems on difficult tasks.",
+      "date_guess": "2022-06-13",
+      "source": "https://openai.com/index/critiques",
+      "hash": "b186d47ff736c6c6",
+      "fetched_at": "2026-08-21T15:27:55.252760+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Techniques for training large neural networks",
+      "summary": "Large neural networks are at the core of many recent advances in AI, but training them is a difficult engineering and research challenge which requires orchestrating a cluster of GPUs to perform a single synchronized calculation.",
+      "date_guess": "2022-06-09",
+      "source": "https://openai.com/index/techniques-for-training-large-neural-networks",
+      "hash": "d3cd116efcb6bec1",
+      "fetched_at": "2026-08-21T15:27:55.252778+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Best practices for deploying language models",
+      "summary": "Cohere, OpenAI, and AI21 Labs have developed a preliminary set of best practices applicable to any organization developing or deploying large language models.",
+      "date_guess": "2022-06-02",
+      "source": "https://openai.com/index/best-practices-for-deploying-language-models",
+      "hash": "1e03fa939a114d44",
+      "fetched_at": "2026-08-21T15:27:55.252793+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Teaching models to express their uncertainty in words",
+      "summary": "",
+      "date_guess": "2022-05-28",
+      "source": "https://openai.com/index/teaching-models-to-express-their-uncertainty-in-words",
+      "hash": "fb3159310fadfa50",
+      "fetched_at": "2026-08-21T15:27:55.252801+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Powering next generation applications with OpenAI Codex",
+      "summary": "Codex is now powering 70 different applications across a variety of use cases through the OpenAI API.",
+      "date_guess": "2022-05-24",
+      "source": "https://openai.com/index/codex-apps",
+      "hash": "73a40b1ef5a5138c",
+      "fetched_at": "2026-08-21T15:27:55.252815+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "DALL·E 2 research preview update",
+      "summary": "Early users have created over 3 million images to date and helped us improve our safety processes. We’re excited to begin adding up to 1,000 new users from our waitlist each week.",
+      "date_guess": "2022-05-18",
+      "source": "https://openai.com/index/dall-e-2-update",
+      "hash": "fb80c0c7aa57caa4",
+      "fetched_at": "2026-08-21T15:27:55.252833+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI leadership team update",
+      "summary": "We’re happy to announce several executive role changes that reflect our recent progress and will ensure continued momentum toward our next major milestones.",
+      "date_guess": "2022-05-05",
+      "source": "https://openai.com/index/leadership-team-update",
+      "hash": "b742f6d17124b131",
+      "fetched_at": "2026-08-21T15:27:55.252854+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Hierarchical text-conditional image generation with CLIP latents",
+      "summary": "",
+      "date_guess": "2022-04-13",
+      "source": "https://openai.com/index/hierarchical-text-conditional-image-generation-with-clip-latents",
+      "hash": "3580949fc424815e",
+      "fetched_at": "2026-08-21T15:27:55.252863+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Measuring Goodhart’s law",
+      "summary": "Goodhart’s law famously says: “When a measure becomes a target, it ceases to be a good measure.” Although originally from economics, it’s something we have to grapple with at OpenAI when figuring out how to optimize objectives that are difficult or costly to measure.",
+      "date_guess": "2022-04-13",
+      "source": "https://openai.com/index/measuring-goodharts-law",
+      "hash": "7d757a061f587917",
+      "fetched_at": "2026-08-21T15:27:55.252886+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New GPT-3 capabilities: Edit & insert",
+      "summary": "We’ve released new versions of GPT-3 and Codex which can edit or insert content into existing text, rather than just completing existing text.",
+      "date_guess": "2022-03-15",
+      "source": "https://openai.com/index/gpt-3-edit-insert",
+      "hash": "5335f18c59efe5c0",
+      "fetched_at": "2026-08-21T15:27:55.252902+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "A research agenda for assessing the economic impacts of code generation models",
+      "summary": "",
+      "date_guess": "2022-03-03",
+      "source": "https://openai.com/index/economic-impacts-research",
+      "hash": "0f1dc701aa060866",
+      "fetched_at": "2026-08-21T15:27:55.252910+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Lessons learned on language model safety and misuse",
+      "summary": "We describe our latest thinking in the hope of helping other AI developers address safety and misuse of deployed models.",
+      "date_guess": "2022-03-03",
+      "source": "https://openai.com/index/language-model-safety-and-misuse",
+      "hash": "c0099be00aec05d5",
+      "fetched_at": "2026-08-21T15:27:55.252925+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Economic impacts research at OpenAI",
+      "summary": "Call for expressions of interest to study the economic impacts of large language models.",
+      "date_guess": "2022-03-03",
+      "source": "https://openai.com/index/economic-impacts",
+      "hash": "a653d059545c531b",
+      "fetched_at": "2026-08-21T15:27:55.252940+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Solving (some) formal math olympiad problems",
+      "summary": "We built a neural theorem prover for Lean that learned to solve a variety of challenging high-school olympiad problems, including problems from the AMC12 and AIME competitions, as well as two problems adapted from the IMO.",
+      "date_guess": "2022-02-02",
+      "source": "https://openai.com/index/formal-math",
+      "hash": "7ee4ca09f0769b88",
+      "fetched_at": "2026-08-21T15:27:55.252959+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Aligning language models to follow instructions",
+      "summary": "We’ve trained language models that are much better at following user intentions than GPT-3 while also making them more truthful and less toxic, using techniques developed through our alignment research. These InstructGPT models, which are trained with humans in the loop, are now deployed as the default language models on our API.",
+      "date_guess": "2022-01-27",
+      "source": "https://openai.com/index/instruction-following",
+      "hash": "0db8a5a9760b75c1",
+      "fetched_at": "2026-08-21T15:27:55.252983+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing text and code embeddings",
+      "summary": "We are introducing embeddings, a new endpoint in the OpenAI API that makes it easy to perform natural language and code tasks like semantic search, clustering, topic modeling, and classification.",
+      "date_guess": "2022-01-25",
+      "source": "https://openai.com/index/introducing-text-and-code-embeddings",
+      "hash": "abc9dd4357a601de",
+      "fetched_at": "2026-08-21T15:27:55.253002+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Text and code embeddings by contrastive pre-training",
+      "summary": "",
+      "date_guess": "2022-01-24",
+      "source": "https://openai.com/index/text-and-code-embeddings-by-contrastive-pre-training",
+      "hash": "3590dad9264fa3ed",
+      "fetched_at": "2026-08-21T15:27:55.253011+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "WebGPT: Improving the factual accuracy of language models through web browsing",
+      "summary": "We’ve fine-tuned GPT-3 to more accurately answer open-ended questions using a text-based web browser.",
+      "date_guess": "2021-12-16",
+      "source": "https://openai.com/index/webgpt",
+      "hash": "72a75a986c3222c3",
+      "fetched_at": "2026-08-21T15:27:55.253024+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Customizing GPT-3 for your application",
+      "summary": "Fine-tune with a single command.",
+      "date_guess": "2021-12-14",
+      "source": "https://openai.com/index/customizing-gpt-3",
+      "hash": "9e202a705a982ce6",
+      "fetched_at": "2026-08-21T15:27:55.253035+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Residency",
+      "summary": "As part of our effort to support and develop AI talent, we’re excited to announce the OpenAI Residency.",
+      "date_guess": "2021-11-30",
+      "source": "https://openai.com/index/openai-residency",
+      "hash": "f59e124c04d6fcaa",
+      "fetched_at": "2026-08-21T15:27:55.253048+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI’s API now available with no waitlist",
+      "summary": "Wider availability made possible by safety progress.",
+      "date_guess": "2021-11-18",
+      "source": "https://openai.com/index/api-no-waitlist",
+      "hash": "c989c2317ce2fefe",
+      "fetched_at": "2026-08-21T15:27:55.253060+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Solving math word problems",
+      "summary": "We’ve trained a system that solves grade school math problems with nearly twice the accuracy of a fine-tuned GPT-3 model. It solves about 90% as many problems as real kids: a small sample of 9-12 year olds scored 60% on a test from our dataset, while our system scored 55% on those same problems.",
+      "date_guess": "2021-10-29",
+      "source": "https://openai.com/index/solving-math-word-problems",
+      "hash": "1e3502bc8328c1d0",
+      "fetched_at": "2026-08-21T15:27:55.253084+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Summarizing books with human feedback",
+      "summary": "Scaling human oversight of AI systems for tasks that are difficult to evaluate.",
+      "date_guess": "2021-09-23",
+      "source": "https://openai.com/index/summarizing-books",
+      "hash": "9f106dec59c3f905",
+      "fetched_at": "2026-08-21T15:27:55.253096+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "TruthfulQA: Measuring how models mimic human falsehoods",
+      "summary": "",
+      "date_guess": "2021-09-08",
+      "source": "https://openai.com/index/truthfulqa",
+      "hash": "1a415b10102ae271",
+      "fetched_at": "2026-08-21T15:27:55.253104+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Helen Toner joins OpenAI’s board of directors",
+      "summary": "Today, we’re excited to announce the appointment of Helen Toner to our board of directors.",
+      "date_guess": "2021-09-08",
+      "source": "https://openai.com/index/helen-toner-joins",
+      "hash": "0113482218323d05",
+      "fetched_at": "2026-08-21T15:27:55.253118+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Codex",
+      "summary": "We’ve created an improved version of OpenAI Codex, our AI system that translates natural language to code, and we are releasing it through our API in private beta starting today.",
+      "date_guess": "2021-08-10",
+      "source": "https://openai.com/index/openai-codex",
+      "hash": "4f86ecb45d365e19",
+      "fetched_at": "2026-08-21T15:27:55.253135+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing Triton: Open-source GPU programming for neural networks",
+      "summary": "We’re releasing Triton 1.0, an open-source Python-like programming language which enables researchers with no CUDA experience to write highly efficient GPU code—most of the time on par with what an expert would be able to produce.",
+      "date_guess": "2021-07-28",
+      "source": "https://openai.com/index/triton",
+      "hash": "abcec3144262f8d8",
+      "fetched_at": "2026-08-21T15:27:55.253162+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Evaluating large language models trained on code",
+      "summary": "",
+      "date_guess": "2021-07-07",
+      "source": "https://openai.com/index/evaluating-large-language-models-trained-on-code",
+      "hash": "c4182e63ebc744e0",
+      "fetched_at": "2026-08-21T15:27:55.253173+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Improving language model behavior by training on a curated dataset",
+      "summary": "Our latest research finds we can improve language model behavior with respect to specific behavioral values by fine-tuning on a small, curated dataset.",
+      "date_guess": "2021-06-10",
+      "source": "https://openai.com/index/improving-language-model-behavior",
+      "hash": "c9b3d07c42ba946d",
+      "fetched_at": "2026-08-21T15:27:55.253189+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Scholars 2021: Final projects",
+      "summary": "We’re proud to announce that the 2021 class of OpenAI Scholars has completed our six-month mentorship program and have produced an open-source research project with stipends and support from OpenAI.",
+      "date_guess": "2021-05-10",
+      "source": "https://openai.com/index/openai-scholars-2021-final-projects",
+      "hash": "a7d081db88bb3542",
+      "fetched_at": "2026-08-21T15:27:55.253207+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Will Hurd joins OpenAI’s board of directors",
+      "summary": "OpenAI is committed to developing general-purpose artificial intelligence that benefits all humanity, and we believe that achieving our goal requires expertise in public policy as well as technology. So, we’re delighted to announce that Congressman Will Hurd has joined our board of directors.",
+      "date_guess": "2021-05-03",
+      "source": "https://openai.com/index/will-hurd-joins",
+      "hash": "62548459e70d319e",
+      "fetched_at": "2026-08-21T15:27:55.253230+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-3 powers the next generation of apps",
+      "summary": "Over 300 applications are delivering GPT-3–powered search, conversation, text completion, and other advanced AI features through our API.",
+      "date_guess": "2021-03-25",
+      "source": "https://openai.com/index/gpt-3-apps",
+      "hash": "5cf2f1138c40b255",
+      "fetched_at": "2026-08-21T15:27:55.253245+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Multimodal neurons in artificial neural networks",
+      "summary": "We’ve discovered neurons in CLIP that respond to the same concept whether presented literally, symbolically, or conceptually. This may explain CLIP’s accuracy in classifying surprising visual renditions of concepts, and is also an important step toward understanding the associations and biases that CLIP and similar models learn.",
+      "date_guess": "2021-03-04",
+      "source": "https://openai.com/index/multimodal-neurons",
+      "hash": "b447c345d49d7850",
+      "fetched_at": "2026-08-21T15:27:55.253268+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Understanding the capabilities, limitations, and societal impact of large language models",
+      "summary": "",
+      "date_guess": "2021-02-04",
+      "source": "https://openai.com/index/understanding-the-capabilities-limitations-and-societal-impact-of-large-language-models",
+      "hash": "a10d11d5fa8eab85",
+      "fetched_at": "2026-08-21T15:27:55.253276+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Scaling Kubernetes to 7,500 nodes",
+      "summary": "We’ve scaled Kubernetes clusters to 7,500 nodes, producing a scalable infrastructure for large models like GPT-3, CLIP, and DALL·E, but also for rapid small-scale iterative research such as Scaling Laws for Neural Language Models.",
+      "date_guess": "2021-01-25",
+      "source": "https://openai.com/index/scaling-kubernetes-to-7500-nodes",
+      "hash": "bdc20c14e67918a0",
+      "fetched_at": "2026-08-21T15:27:55.253299+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "CLIP: Connecting text and images",
+      "summary": "We’re introducing a neural network called CLIP which efficiently learns visual concepts from natural language supervision. CLIP can be applied to any visual classification benchmark by simply providing the names of the visual categories to be recognized, similar to the “zero-shot” capabilities of GPT-2 and GPT-3.",
+      "date_guess": "2021-01-05",
+      "source": "https://openai.com/index/clip",
+      "hash": "9a6b2fc4877548cd",
+      "fetched_at": "2026-08-21T15:27:55.253361+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "DALL·E: Creating images from text",
+      "summary": "We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language.",
+      "date_guess": "2021-01-05",
+      "source": "https://openai.com/index/dall-e",
+      "hash": "aa8a7341e8487fdf",
+      "fetched_at": "2026-08-21T15:27:55.253399+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Organizational update from OpenAI",
+      "summary": "It’s been a year of dramatic change and growth at OpenAI.",
+      "date_guess": "2020-12-29",
+      "source": "https://openai.com/index/organizational-update",
+      "hash": "84d70bc294ba7649",
+      "fetched_at": "2026-08-21T15:27:55.253422+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI licenses GPT-3 technology to Microsoft",
+      "summary": "OpenAI has agreed to license GPT-3 to Microsoft for their own products and services.",
+      "date_guess": "2020-09-22",
+      "source": "https://openai.com/index/openai-licenses-gpt-3-technology-to-microsoft",
+      "hash": "3c7f24a6cfcb7b90",
+      "fetched_at": "2026-08-21T15:27:55.253444+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Generative language modeling for automated theorem proving",
+      "summary": "",
+      "date_guess": "2020-09-07",
+      "source": "https://openai.com/index/generative-language-modeling-for-automated-theorem-proving",
+      "hash": "55eb4e12bfcfcb1e",
+      "fetched_at": "2026-08-21T15:27:55.253461+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning to summarize with human feedback",
+      "summary": "We’ve applied reinforcement learning from human feedback to train language models that are better at summarization.",
+      "date_guess": "2020-09-04",
+      "source": "https://openai.com/index/learning-to-summarize-with-human-feedback",
+      "hash": "9b3664acdec1e768",
+      "fetched_at": "2026-08-21T15:27:55.253486+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Scholars 2020: Final projects",
+      "summary": "Our third class of OpenAI Scholars presented their final projects at virtual Demo Day, showcasing their research results from over the past five months.",
+      "date_guess": "2020-07-09",
+      "source": "https://openai.com/index/openai-scholars-2020-final-projects",
+      "hash": "dd6b4e1105637a7a",
+      "fetched_at": "2026-08-21T15:27:55.253518+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Procgen and MineRL Competitions",
+      "summary": "We’re excited to announce that OpenAI is co-organizing two NeurIPS 2020 competitions with AIcrowd, Carnegie Mellon University, and DeepMind, using Procgen Benchmark and MineRL.",
+      "date_guess": "2020-06-20",
+      "source": "https://openai.com/index/procgen-minerl-competitions",
+      "hash": "b4b73182d4e4f452",
+      "fetched_at": "2026-08-21T15:27:55.253549+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Image GPT",
+      "summary": "We find that, just as a large transformer model trained on language can generate coherent text, the same exact model trained on pixel sequences can generate coherent image completions and samples. By establishing a correlation between sample quality and image classification accuracy, we show that our best generative model also contains features competitive with top convolutional nets in the unsupervised setting.",
+      "date_guess": "2020-06-17",
+      "source": "https://openai.com/index/image-gpt",
+      "hash": "a2b4aba51d731444",
+      "fetched_at": "2026-08-21T15:27:55.253598+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI API",
+      "summary": "We’re releasing an API for accessing new AI models developed by OpenAI.",
+      "date_guess": "2020-06-11",
+      "source": "https://openai.com/index/openai-api",
+      "hash": "73bec3664c7558ac",
+      "fetched_at": "2026-08-21T15:27:55.253621+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Language models are few-shot learners",
+      "summary": "",
+      "date_guess": "2020-05-28",
+      "source": "https://openai.com/index/language-models-are-few-shot-learners",
+      "hash": "401999cec8a6341f",
+      "fetched_at": "2026-08-21T15:27:55.253637+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "AI and efficiency",
+      "summary": "We’re releasing an analysis showing that since 2012 the amount of compute needed to train a neural net to the same performance on ImageNet classification has been decreasing by a factor of 2 every 16 months. Compared to 2012, it now takes 44 times less compute to train a neural network to the level of AlexNet (by contrast, Moore’s Law would yield an 11x cost improvement over this period). Our results suggest that for AI tasks with high levels of recent investment, algorithmic progress has yielde",
+      "date_guess": "2020-05-05",
+      "source": "https://openai.com/index/ai-and-efficiency",
+      "hash": "5c813144094ec140",
+      "fetched_at": "2026-08-21T15:27:55.253694+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Jukebox",
+      "summary": "We’re introducing Jukebox, a neural net that generates music, including rudimentary singing, as raw audio in a variety of genres and artist styles. We’re releasing the model weights and code, along with a tool to explore the generated samples.",
+      "date_guess": "2020-04-30",
+      "source": "https://openai.com/index/jukebox",
+      "hash": "60ae9ff45e8aed3e",
+      "fetched_at": "2026-08-21T15:27:55.253736+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Improving verifiability in AI development",
+      "summary": "We’ve contributed to a multi-stakeholder report by 58 co-authors at 30 organizations, including the Centre for the Future of Intelligence, Mila, Schwartz Reisman Institute for Technology and Society, Center for Advanced Study in the Behavioral Sciences, and Center for Security and Emerging Technologies. This report describes 10 mechanisms to improve the verifiability of claims made about AI systems. Developers can use these tools to provide evidence that AI systems are safe, secure, fair, or pri",
+      "date_guess": "2020-04-16",
+      "source": "https://openai.com/index/improving-verifiability",
+      "hash": "2b6290f1d8d5b5d6",
+      "fetched_at": "2026-08-21T15:27:55.253797+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Microscope",
+      "summary": "We’re introducing OpenAI Microscope, a collection of visualizations of every significant layer and neuron of eight vision “model organisms” which are often studied in interpretability. Microscope makes it easier to analyze the features that form inside these neural networks, and we hope it will help the research community as we move towards understanding these complicated systems.",
+      "date_guess": "2020-04-14",
+      "source": "https://openai.com/index/microscope",
+      "hash": "a9d5efe0732e0cdb",
+      "fetched_at": "2026-08-21T15:27:55.253849+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI standardizes on PyTorch",
+      "summary": "We are standardizing OpenAI’s deep learning framework on PyTorch.",
+      "date_guess": "2020-01-30",
+      "source": "https://openai.com/index/openai-pytorch",
+      "hash": "ee343ad1bae0c9ff",
+      "fetched_at": "2026-08-21T15:27:55.253874+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Scaling laws for neural language models",
+      "summary": "",
+      "date_guess": "2020-01-23",
+      "source": "https://openai.com/index/scaling-laws-for-neural-language-models",
+      "hash": "8314a7c9f1fa8379",
+      "fetched_at": "2026-08-21T15:27:55.253890+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Dota 2 with large scale deep reinforcement learning",
+      "summary": "",
+      "date_guess": "2019-12-13",
+      "source": "https://openai.com/index/dota-2-with-large-scale-deep-reinforcement-learning",
+      "hash": "515415eada93433c",
+      "fetched_at": "2026-08-21T15:27:55.253912+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Deep double descent",
+      "summary": "We show that the double descent phenomenon occurs in CNNs, ResNets, and transformers: performance first improves, then gets worse, and then improves again with increasing model size, data size, or training time. This effect is often avoided through careful regularization. While this behavior appears to be fairly universal, we don’t yet fully understand why it happens, and view further study of this phenomenon as an important research direction.",
+      "date_guess": "2019-12-05",
+      "source": "https://openai.com/index/deep-double-descent",
+      "hash": "a0b3adabeaf2dbc4",
+      "fetched_at": "2026-08-21T15:27:55.253961+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Procgen Benchmark",
+      "summary": "We’re releasing Procgen Benchmark, 16 simple-to-use procedurally-generated environments which provide a direct measure of how quickly a reinforcement learning agent learns generalizable skills.",
+      "date_guess": "2019-12-03",
+      "source": "https://openai.com/index/procgen-benchmark",
+      "hash": "d3f397412037a806",
+      "fetched_at": "2026-08-21T15:27:55.253997+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Benchmarking safe exploration in deep reinforcement learning",
+      "summary": "",
+      "date_guess": "2019-11-21",
+      "source": "https://openai.com/index/benchmarking-safe-exploration-in-deep-reinforcement-learning",
+      "hash": "0666b9eee04e0305",
+      "fetched_at": "2026-08-21T15:27:55.254015+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Safety Gym",
+      "summary": "We’re releasing Safety Gym, a suite of environments and tools for measuring progress towards reinforcement learning agents that respect safety constraints while training.",
+      "date_guess": "2019-11-21",
+      "source": "https://openai.com/index/safety-gym",
+      "hash": "fd8ecc2932c5dcf1",
+      "fetched_at": "2026-08-21T15:27:55.254049+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-2: 1.5B release",
+      "summary": "As the final model release of GPT-2’s staged release, we’re releasing the largest version (1.5B parameters) of GPT-2 along with code and model weights to facilitate detection of outputs of GPT-2 models. While there have been larger language models released since August, we’ve continued with our original staged release plan in order to provide the community with a test case of a full staged release process. We hope that this test case will be useful to developers of future powerful models, and we",
+      "date_guess": "2019-11-05",
+      "source": "https://openai.com/index/gpt-2-1-5b-release",
+      "hash": "0fe6f57ed12758e3",
+      "fetched_at": "2026-08-21T15:27:55.254096+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Solving Rubik’s Cube with a robot hand",
+      "summary": "We’ve trained a pair of neural networks to solve the Rubik’s Cube with a human-like robot hand. The neural networks are trained entirely in simulation, using the same reinforcement learning code as OpenAI Five paired with a new technique called Automatic Domain Randomization (ADR). The system can handle situations it never saw during training, such as being prodded by a stuffed giraffe. This shows that reinforcement learning isn’t just a tool for virtual tasks, but can solve physical-world probl",
+      "date_guess": "2019-10-15",
+      "source": "https://openai.com/index/solving-rubiks-cube",
+      "hash": "1d5638870a110e99",
+      "fetched_at": "2026-08-21T15:27:55.254131+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Scholars 2020: Applications open",
+      "summary": "We are now accepting applications for our third class of OpenAI Scholars.",
+      "date_guess": "2019-10-11",
+      "source": "https://openai.com/index/openai-scholars-2020",
+      "hash": "69582c88320e5a39",
+      "fetched_at": "2026-08-21T15:27:55.254158+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Fine-tuning GPT-2 from human preferences",
+      "summary": "We’ve fine-tuned the 774M parameter GPT-2 language model using human feedback for various tasks, successfully matching the preferences of the external human labelers, though those preferences did not always match our own. Specifically, for summarization tasks the labelers preferred sentences copied wholesale from the input (we’d only asked them to ensure accuracy), so our models learned to copy. Summarization required 60k human labels; simpler tasks which continue text in various styles required",
+      "date_guess": "2019-09-19",
+      "source": "https://openai.com/index/fine-tuning-gpt-2",
+      "hash": "404db135e5492be7",
+      "fetched_at": "2026-08-21T15:27:55.254214+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Emergent tool use from multi-agent interaction",
+      "summary": "We’ve observed agents discovering progressively more complex tool use while playing a simple game of hide-and-seek. Through training in our new simulated hide-and-seek environment, agents build a series of six distinct strategies and counterstrategies, some of which we did not know our environment supported. The self-supervised emergent complexity in this simple environment further suggests that multi-agent co-adaptation may one day produce extremely complex and intelligent behavior.",
+      "date_guess": "2019-09-17",
+      "source": "https://openai.com/index/emergent-tool-use",
+      "hash": "92e4eab016943de6",
+      "fetched_at": "2026-08-21T15:27:55.254244+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Testing robustness against unforeseen adversaries",
+      "summary": "We’ve developed a method to assess whether a neural network classifier can reliably defend against adversarial attacks not seen during training. Our method yields a new metric, UAR (Unforeseen Attack Robustness), which evaluates the robustness of a single model against an unanticipated attack, and highlights the need to measure performance across a more diverse range of unforeseen attacks.",
+      "date_guess": "2019-08-22",
+      "source": "https://openai.com/index/testing-robustness",
+      "hash": "9e303d30ad5e5246",
+      "fetched_at": "2026-08-21T15:27:55.254280+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-2: 6-month follow-up",
+      "summary": "We’re releasing the 774 million parameter GPT-2 language model after the release of our small 124M model in February, staged release of our medium 355M model in May, and subsequent research with partners and the AI community into the model’s potential for misuse and societal benefit. We’re also releasing an open-source legal agreement to make it easier for organizations to initiate model-sharing partnerships with each other, and are publishing a technical report about our experience in coordinat",
+      "date_guess": "2019-08-20",
+      "source": "https://openai.com/index/gpt-2-6-month-follow-up",
+      "hash": "f2e9688ce3498074",
+      "fetched_at": "2026-08-21T15:27:55.254343+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning Day",
+      "summary": "At OpenAI, each Thursday is Learning Day: a day where employees have the option to self-study technical skills that will make them better at their job but which aren’t being learned from daily work.",
+      "date_guess": "2019-08-01",
+      "source": "https://openai.com/index/learning-day",
+      "hash": "f4ff9a755bdd9703",
+      "fetched_at": "2026-08-21T15:27:55.254366+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Microsoft invests in and partners with OpenAI to support us building beneficial AGI",
+      "summary": "Microsoft is investing $1 billion in OpenAI to support us building artificial general intelligence (AGI) with widely distributed economic benefits. We’re partnering to develop a hardware and software platform within Microsoft Azure which will scale to AGI. We’ll jointly develop new Azure AI supercomputing technologies, and Microsoft will become our exclusive cloud provider—so we’ll be working hard together to further extend Microsoft Azure’s capabilities in large-scale AI systems.",
+      "date_guess": "2019-07-22",
+      "source": "https://openai.com/index/microsoft-invests-in-and-partners-with-openai",
+      "hash": "26fc23a0a8c8acbf",
+      "fetched_at": "2026-08-21T15:27:55.254415+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Why responsible AI development needs cooperation on safety",
+      "summary": "We’ve written a policy research paper identifying four strategies that can be used today to improve the likelihood of long-term industry cooperation on safety norms in AI: communicating risks and benefits, technical collaboration, increased transparency, and incentivizing standards. Our analysis shows that industry cooperation on safety will be instrumental in ensuring that AI systems are safe and beneficial, but competitive pressures could lead to a collective action problem, potentially causin",
+      "date_guess": "2019-07-10",
+      "source": "https://openai.com/index/cooperation-on-safety",
+      "hash": "64431abbb1fd6e41",
+      "fetched_at": "2026-08-21T15:27:55.254480+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Robotics Symposium 2019",
+      "summary": "We hosted the first OpenAI Robotics Symposium on April 27, 2019.",
+      "date_guess": "2019-06-05",
+      "source": "https://openai.com/index/symposium-2019",
+      "hash": "dab619c4f2bf98da",
+      "fetched_at": "2026-08-21T15:27:55.254501+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Scholars 2019: Final projects",
+      "summary": "Our second class of OpenAI Scholars has concluded, with all eight scholars producing an exciting final project showcased at Scholars Demo Day at OpenAI.",
+      "date_guess": "2019-05-23",
+      "source": "https://openai.com/index/openai-scholars-2019-final-projects",
+      "hash": "25444303fda110f6",
+      "fetched_at": "2026-08-21T15:27:55.254525+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Fellows Fall 2018: Final projects",
+      "summary": "Our second class of OpenAI Fellows has wrapped up, with each Fellow going from a machine learning beginner to core OpenAI contributor in the course of a 6-month apprenticeship. We are currently reviewing applications on a rolling basis for our next round of OpenAI Fellows Summer 2019.",
+      "date_guess": "2019-05-17",
+      "source": "https://openai.com/index/openai-fellows-fall-2018",
+      "hash": "c7868dccf5bca986",
+      "fetched_at": "2026-08-21T15:27:55.254560+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Transfer of adversarial robustness between perturbation types",
+      "summary": "",
+      "date_guess": "2019-05-03",
+      "source": "https://openai.com/index/transfer-of-adversarial-robustness-between-perturbation-types",
+      "hash": "a0bec0b359dde532",
+      "fetched_at": "2026-08-21T15:27:55.254577+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "MuseNet",
+      "summary": "We’ve created MuseNet, a deep neural network that can generate 4-minute musical compositions with 10 different instruments, and can combine styles from country to Mozart to the Beatles. MuseNet was not explicitly programmed with our understanding of music, but instead discovered patterns of harmony, rhythm, and style by learning to predict the next token in hundreds of thousands of MIDI files. MuseNet uses the same general-purpose unsupervised technology as GPT-2, a large-scale transformer model",
+      "date_guess": "2019-04-25",
+      "source": "https://openai.com/index/musenet",
+      "hash": "16c6475c61a5eb91",
+      "fetched_at": "2026-08-21T15:27:55.254612+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Generative modeling with sparse transformers",
+      "summary": "We’ve developed the Sparse Transformer, a deep neural network which sets new records at predicting what comes next in a sequence—whether text, images, or sound. It uses an algorithmic improvement of the attention mechanism to extract patterns from sequences 30x longer than possible previously.",
+      "date_guess": "2019-04-23",
+      "source": "https://openai.com/index/sparse-transformer",
+      "hash": "c430266c501ae6ee",
+      "fetched_at": "2026-08-21T15:27:55.254635+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Five defeats Dota 2 world champions",
+      "summary": "OpenAI Five is the first AI to beat the world champions in an esports game, having won two back-to-back games versus the world champion Dota 2 team, OG, at Finals this weekend. Both OpenAI Five and DeepMind’s AlphaStar had previously beaten good pros privately but lost their live pro matches, making this also the first time an AI has beaten esports pros on livestream.",
+      "date_guess": "2019-04-15",
+      "source": "https://openai.com/index/openai-five-defeats-dota-2-world-champions",
+      "hash": "3ab5ee3fd5824712",
+      "fetched_at": "2026-08-21T15:27:55.254680+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Five Finals",
+      "summary": "We’ll be holding our final live event for OpenAI Five at 11:30am PT on April 13.",
+      "date_guess": "2019-03-26",
+      "source": "https://openai.com/index/openai-five-finals",
+      "hash": "7efc5863e89b05ea",
+      "fetched_at": "2026-08-21T15:27:55.254698+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Implicit generation and generalization methods for energy-based models",
+      "summary": "We’ve made progress towards stable and scalable training of energy-based models (EBMs) resulting in better sample quality and generalization ability than existing models. Generation in EBMs spends more compute to continually refine its answers and doing so can generate samples competitive with GANs at low temperatures, while also having mode coverage guarantees of likelihood-based models. We hope these findings stimulate further research into this promising class of models.",
+      "date_guess": "2019-03-21",
+      "source": "https://openai.com/index/energy-based-models",
+      "hash": "4730c33103a2f410",
+      "fetched_at": "2026-08-21T15:27:55.254729+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Scholars 2019: Meet our Scholars",
+      "summary": "Our class of eight scholars (out of 550 applicants) brings together collective expertise in literature, philosophy, cell biology, statistics, economics, quantum physics, and business innovation.",
+      "date_guess": "2019-03-13",
+      "source": "https://openai.com/index/openai-scholars-2019-meet-our-scholars",
+      "hash": "78293d038b006950",
+      "fetched_at": "2026-08-21T15:27:55.254747+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI LP",
+      "summary": "We’ve created OpenAI LP, a new “capped-profit” company that allows us to rapidly increase our investments in compute and talent while including checks and balances to actualize our mission.",
+      "date_guess": "2019-03-11",
+      "source": "https://openai.com/index/openai-lp",
+      "hash": "44229db05fdb65dd",
+      "fetched_at": "2026-08-21T15:27:55.254765+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing Activation Atlases",
+      "summary": "We’ve created activation atlases (in collaboration with Google researchers), a new technique for visualizing what interactions between neurons can represent. As AI systems are deployed in increasingly sensitive contexts, having a better understanding of their internal decision-making processes will let us identify weaknesses and investigate failures.",
+      "date_guess": "2019-03-06",
+      "source": "https://openai.com/index/introducing-activation-atlases",
+      "hash": "ba3693d643b139ba",
+      "fetched_at": "2026-08-21T15:27:55.254805+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Neural MMO: A massively multiagent game environment",
+      "summary": "We’re releasing a Neural MMO, a massively multiagent game environment for reinforcement learning agents. Our platform supports a large, variable number of agents within a persistent and open-ended task. The inclusion of many agents and species leads to better exploration, divergent niche formation, and greater overall competence.",
+      "date_guess": "2019-03-04",
+      "source": "https://openai.com/index/neural-mmo",
+      "hash": "596211fcf0bc8bc8",
+      "fetched_at": "2026-08-21T15:27:55.254831+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Spinning Up in Deep RL: Workshop review",
+      "summary": "On February 2, we held our first Spinning Up Workshop as part of our new education initiative at OpenAI.",
+      "date_guess": "2019-02-26",
+      "source": "https://openai.com/index/spinning-up-in-deep-rl-workshop-review",
+      "hash": "5e24e2ff5350e102",
+      "fetched_at": "2026-08-21T15:27:55.254846+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "AI safety needs social scientists",
+      "summary": "We’ve written a paper arguing that long-term AI safety research needs social scientists to ensure AI alignment algorithms succeed when actual humans are involved. Properly aligning advanced AI systems with human values requires resolving many uncertainties related to the psychology of human rationality, emotion, and biases. The aim of this paper is to spark further collaboration between machine learning and social science researchers, and we plan to hire social scientists to work on this full ti",
+      "date_guess": "2019-02-19",
+      "source": "https://openai.com/index/ai-safety-needs-social-scientists",
+      "hash": "f70e4dbcfb7e21b0",
+      "fetched_at": "2026-08-21T15:27:55.254876+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Better language models and their implications",
+      "summary": "We’ve trained a large-scale unsupervised language model which generates coherent paragraphs of text, achieves state-of-the-art performance on many language modeling benchmarks, and performs rudimentary reading comprehension, machine translation, question answering, and summarization—all without task-specific training.",
+      "date_guess": "2019-02-14",
+      "source": "https://openai.com/index/better-language-models",
+      "hash": "29f556325984d344",
+      "fetched_at": "2026-08-21T15:27:55.254907+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Computational limitations in robust classification and win-win results",
+      "summary": "",
+      "date_guess": "2019-02-04",
+      "source": "https://openai.com/index/computational-limitations-in-robust-classification-and-win-win-results",
+      "hash": "559acd38f9c98d3f",
+      "fetched_at": "2026-08-21T15:27:55.254923+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Fellows Summer 2018: Final projects",
+      "summary": "Our first cohort of OpenAI Fellows has concluded, with each Fellow going from a machine learning beginner to core OpenAI contributor in the course of a 6-month apprenticeship.",
+      "date_guess": "2018-12-19",
+      "source": "https://openai.com/index/openai-summer-fellows-2018",
+      "hash": "8e4775eda585ed30",
+      "fetched_at": "2026-08-21T15:27:55.254940+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How AI training scales",
+      "summary": "We’ve discovered that the gradient noise scale, a simple statistical metric, predicts the parallelizability of neural network training on a wide range of tasks. Since complex tasks tend to have noisier gradients, increasingly large batch sizes are likely to become useful in the future, removing one potential limit to further growth of AI systems. More broadly, these results show that neural network training need not be considered a mysterious art, but can be rigorized and systematized.",
+      "date_guess": "2018-12-14",
+      "source": "https://openai.com/index/how-ai-training-scales",
+      "hash": "2d5f2c59a6e0ebfa",
+      "fetched_at": "2026-08-21T15:27:55.254973+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Quantifying generalization in reinforcement learning",
+      "summary": "We’re releasing CoinRun, a training environment which provides a metric for an agent’s ability to transfer its experience to novel situations and has already helped clarify a longstanding puzzle in reinforcement learning. CoinRun strikes a desirable balance in complexity: the environment is simpler than traditional platformer games like Sonic the Hedgehog but still poses a worthy generalization challenge for state of the art algorithms.",
+      "date_guess": "2018-12-06",
+      "source": "https://openai.com/index/quantifying-generalization-in-reinforcement-learning",
+      "hash": "b18e5f12b2c2730b",
+      "fetched_at": "2026-08-21T15:27:55.255000+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Spinning Up in Deep RL",
+      "summary": "We’re releasing Spinning Up in Deep RL, an educational resource designed to let anyone learn to become a skilled practitioner in deep reinforcement learning. Spinning Up consists of crystal-clear examples of RL code, educational exercises, documentation, and tutorials.",
+      "date_guess": "2018-11-08",
+      "source": "https://openai.com/index/spinning-up-in-deep-rl",
+      "hash": "1d8f918c365cfcaf",
+      "fetched_at": "2026-08-21T15:27:55.255035+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning concepts with energy functions",
+      "summary": "We’ve developed an energy-based model that can quickly learn to identify and generate instances of concepts, such as near, above, between, closest, and furthest, expressed as sets of 2d points. Our model learns these concepts after only five demonstrations. We also show cross-domain transfer: we use concepts learned in a 2d particle environment to solve tasks on a 3-dimensional physics-based robot.",
+      "date_guess": "2018-11-07",
+      "source": "https://openai.com/index/learning-concepts-with-energy-functions",
+      "hash": "01b32b540a7bdc15",
+      "fetched_at": "2026-08-21T15:27:55.255065+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Plan online, learn offline: Efficient learning and exploration via model-based control",
+      "summary": "",
+      "date_guess": "2018-11-05",
+      "source": "https://openai.com/index/plan-online-learn-offline",
+      "hash": "351c272656a4e897",
+      "fetched_at": "2026-08-21T15:27:55.255075+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Reinforcement learning with prediction-based rewards",
+      "summary": "We’ve developed Random Network Distillation (RND), a prediction-based method for encouraging reinforcement learning agents to explore their environments through curiosity, which for the first time exceeds average human performance on Montezuma’s Revenge.",
+      "date_guess": "2018-10-31",
+      "source": "https://openai.com/index/reinforcement-learning-with-prediction-based-rewards",
+      "hash": "408e11bd5aef3d57",
+      "fetched_at": "2026-08-21T15:27:55.255099+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning complex goals with iterated amplification",
+      "summary": "We’re proposing an AI safety technique called iterated amplification that lets us specify complicated behaviors and goals that are beyond human scale, by demonstrating how to decompose a task into simpler sub-tasks, rather than by providing labeled data or a reward function. Although this idea is in its very early stages and we have only completed experiments on simple toy algorithmic domains, we’ve decided to present it in its preliminary state because we think it could prove to be a scalable a",
+      "date_guess": "2018-10-22",
+      "source": "https://openai.com/index/learning-complex-goals-with-iterated-amplification",
+      "hash": "fdfcccb4a7be860f",
+      "fetched_at": "2026-08-21T15:27:55.255133+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Scholars 2019: Applications open",
+      "summary": "We are now accepting applications for our second cohort of OpenAI Scholars, a program where we provide 6–10 stipends and mentorship to individuals from underrepresented groups to study deep learning full-time for 3 months and open-source a project.",
+      "date_guess": "2018-10-11",
+      "source": "https://openai.com/index/openai-scholars-2019",
+      "hash": "27d480d6b2a74918",
+      "fetched_at": "2026-08-21T15:27:55.255168+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Fellows Winter 2019 & Interns Summer 2019",
+      "summary": "We are now accepting applications for OpenAI Fellows and Interns for 2019.",
+      "date_guess": "2018-10-09",
+      "source": "https://openai.com/index/openai-fellows-interns-2019",
+      "hash": "6cdd0ad8dec85ff2",
+      "fetched_at": "2026-08-21T15:27:55.255183+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "FFJORD: Free-form continuous dynamics for scalable reversible generative models",
+      "summary": "",
+      "date_guess": "2018-10-02",
+      "source": "https://openai.com/index/ffjord",
+      "hash": "be540aa16eaf21b1",
+      "fetched_at": "2026-08-21T15:27:55.255192+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Scholars 2018: Final projects",
+      "summary": "Our first cohort of OpenAI Scholars has now completed the program.",
+      "date_guess": "2018-09-10",
+      "source": "https://openai.com/index/openai-scholars-2018-final-projects",
+      "hash": "63143252585403d5",
+      "fetched_at": "2026-08-21T15:27:55.255204+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The International 2018: Results",
+      "summary": "OpenAI Five lost two games against top Dota 2 players at The International in Vancouver this week, maintaining a good chance of winning for the first 20–35 minutes of both games.",
+      "date_guess": "2018-08-23",
+      "source": "https://openai.com/index/the-international-2018-results",
+      "hash": "0ee3eea1a9021233",
+      "fetched_at": "2026-08-21T15:27:55.255221+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Large-scale study of curiosity-driven learning",
+      "summary": "",
+      "date_guess": "2018-08-13",
+      "source": "https://openai.com/index/large-scale-study-of-curiosity-driven-learning",
+      "hash": "7e0cf614bd86db57",
+      "fetched_at": "2026-08-21T15:27:55.255230+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Five Benchmark: Results",
+      "summary": "Yesterday, OpenAI Five won a best-of-three against a team of 99.95th percentile Dota players: Blitz, Cap, Fogged, Merlini, and MoonMeander—four of whom have played Dota professionally—in front of a live audience and 100,000 concurrent livestream viewers.",
+      "date_guess": "2018-08-06",
+      "source": "https://openai.com/index/openai-five-benchmark-results",
+      "hash": "4c8cf9529e4d2153",
+      "fetched_at": "2026-08-21T15:27:55.255250+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning dexterity",
+      "summary": "We’ve trained a human-like robot hand to manipulate physical objects with unprecedented dexterity.",
+      "date_guess": "2018-07-30",
+      "source": "https://openai.com/index/learning-dexterity",
+      "hash": "befe4a01a81da5e3",
+      "fetched_at": "2026-08-21T15:27:55.255277+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Variational option discovery algorithms",
+      "summary": "",
+      "date_guess": "2018-07-26",
+      "source": "https://openai.com/index/variational-option-discovery-algorithms",
+      "hash": "93de49d908155c37",
+      "fetched_at": "2026-08-21T15:27:55.255288+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Scholars 2018: Meet our Scholars",
+      "summary": "Our first class of OpenAI Scholars is underway, and you can now follow along as this group of experienced software developers becomes machine learning practitioners.",
+      "date_guess": "2018-07-25",
+      "source": "https://openai.com/index/openai-scholars-2018-meet-our-scholars",
+      "hash": "9d66ea8e36040097",
+      "fetched_at": "2026-08-21T15:27:55.255326+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Five Benchmark",
+      "summary": "The OpenAI Five Benchmark match is now over!",
+      "date_guess": "2018-07-18",
+      "source": "https://openai.com/index/openai-five-benchmark",
+      "hash": "7c9e7c9fb7afc651",
+      "fetched_at": "2026-08-21T15:27:55.255339+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Glow: Better reversible generative models",
+      "summary": "We introduce Glow, a reversible generative model which uses invertible 1x1 convolutions. It extends previous work on reversible generative models and simplifies the architecture. Our model can generate realistic high resolution images, supports efficient sampling, and discovers features that can be used to manipulate attributes of data. We’re releasing code for the model and an online visualization tool so people can explore and build on these results.",
+      "date_guess": "2018-07-09",
+      "source": "https://openai.com/index/glow",
+      "hash": "64bd9b45136a88ae",
+      "fetched_at": "2026-08-21T15:27:55.255371+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning Montezuma’s Revenge from a single demonstration",
+      "summary": "We’ve trained an agent to achieve a high score of 74,500 on Montezuma’s Revenge from a single human demonstration, better than any previously published result. Our algorithm is simple: the agent plays a sequence of games starting from carefully chosen states from the demonstration, and learns from them by optimizing the game score using PPO, the same reinforcement learning algorithm that underpins OpenAI Five.",
+      "date_guess": "2018-07-04",
+      "source": "https://openai.com/index/learning-montezumas-revenge-from-a-single-demonstration",
+      "hash": "cec0a94e6dcdb3b4",
+      "fetched_at": "2026-08-21T15:27:55.255419+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Five",
+      "summary": "Our team of five neural networks, OpenAI Five, has started to defeat amateur human teams at Dota 2.",
+      "date_guess": "2018-06-25",
+      "source": "https://openai.com/index/openai-five",
+      "hash": "472dc713fa2d8118",
+      "fetched_at": "2026-08-21T15:27:55.255435+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Retro Contest: Results",
+      "summary": "The first run of our Retro Contest—exploring the development of algorithms that can generalize from previous experience—is now complete.",
+      "date_guess": "2018-06-22",
+      "source": "https://openai.com/index/retro-contest-results",
+      "hash": "6cf3ab0925e58b60",
+      "fetched_at": "2026-08-21T15:27:55.255451+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning policy representations in multiagent systems",
+      "summary": "",
+      "date_guess": "2018-06-17",
+      "source": "https://openai.com/index/learning-policy-representations-in-multiagent-systems",
+      "hash": "bbb3336dfb5dee32",
+      "fetched_at": "2026-08-21T15:27:55.255460+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Improving language understanding with unsupervised learning",
+      "summary": "We’ve obtained state-of-the-art results on a suite of diverse language tasks with a scalable, task-agnostic system, which we’re also releasing. Our approach is a combination of two existing ideas: transformers and unsupervised pre-training. These results provide a convincing example that pairing supervised learning methods with unsupervised pre-training works very well; this is an idea that many have explored in the past, and we hope our result motivates further research into applying this idea ",
+      "date_guess": "2018-06-11",
+      "source": "https://openai.com/index/language-unsupervised",
+      "hash": "b990991b43e96a57",
+      "fetched_at": "2026-08-21T15:27:55.255503+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GamePad: A learning environment for theorem proving",
+      "summary": "",
+      "date_guess": "2018-06-02",
+      "source": "https://openai.com/index/gamepad",
+      "hash": "3ad38e5f44335857",
+      "fetched_at": "2026-08-21T15:27:55.255522+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Fellows Fall 2018",
+      "summary": "We’re now accepting applications for the next cohort of OpenAI Fellows, a program which offers a compensated 6-month apprenticeship in AI research at OpenAI.",
+      "date_guess": "2018-05-30",
+      "source": "https://openai.com/index/openai-fellows",
+      "hash": "f539efedbfc9e5aa",
+      "fetched_at": "2026-08-21T15:27:55.255544+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Gym Retro",
+      "summary": "We’re releasing the full version of Gym Retro, a platform for reinforcement learning research on games. This brings our publicly-released game count from around 70 Atari games and 30 Sega games to over 1,000 games across a variety of backing emulators. We’re also releasing the tool we use to add new games to the platform.",
+      "date_guess": "2018-05-25",
+      "source": "https://openai.com/index/gym-retro",
+      "hash": "3325004f88db6c73",
+      "fetched_at": "2026-08-21T15:27:55.255602+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "AI and compute",
+      "summary": "We’re releasing an analysis showing that since 2012, the amount of compute used in the largest AI training runs has been increasing exponentially with a 3.4-month doubling time (by comparison, Moore’s Law had a 2-year doubling period)[^footnote-correction]. Since 2012, this metric has grown by more than 300,000x (a 2-year doubling period would yield only a 7x increase). Improvements in compute have been a key component of AI progress, so as long as this trend continues, it’s worth preparing for ",
+      "date_guess": "2018-05-16",
+      "source": "https://openai.com/index/ai-and-compute",
+      "hash": "3bccc4dd98c57a34",
+      "fetched_at": "2026-08-21T15:27:55.255656+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "AI safety via debate",
+      "summary": "We’re proposing an AI safety technique which trains agents to debate topics with one another, using a human to judge who wins.",
+      "date_guess": "2018-05-03",
+      "source": "https://openai.com/index/debate",
+      "hash": "d84727e559e5944f",
+      "fetched_at": "2026-08-21T15:27:55.255675+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Evolved Policy Gradients",
+      "summary": "We’re releasing an experimental metalearning approach called Evolved Policy Gradients, a method that evolves the loss function of learning agents, which can enable fast training on novel tasks. Agents trained with EPG can succeed at basic tasks at test time that were outside their training regime, like learning to navigate to an object on a different side of the room from where it was placed during training.",
+      "date_guess": "2018-04-18",
+      "source": "https://openai.com/index/evolved-policy-gradients",
+      "hash": "97d434de36c0b3fc",
+      "fetched_at": "2026-08-21T15:27:55.255702+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Gotta Learn Fast: A new benchmark for generalization in RL",
+      "summary": "",
+      "date_guess": "2018-04-10",
+      "source": "https://openai.com/index/gotta-learn-fast",
+      "hash": "40d2c43e4277441c",
+      "fetched_at": "2026-08-21T15:27:55.255711+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Retro Contest",
+      "summary": "We’re launching a transfer learning contest that measures a reinforcement learning algorithm’s ability to generalize from previous experience.",
+      "date_guess": "2018-04-05",
+      "source": "https://openai.com/index/retro-contest",
+      "hash": "27bac4035c7b2c47",
+      "fetched_at": "2026-08-21T15:27:55.255726+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Variance reduction for policy gradient with action-dependent factorized baselines",
+      "summary": "",
+      "date_guess": "2018-03-20",
+      "source": "https://openai.com/index/variance-reduction-for-policy-gradient-with-action-dependent-factorized-baselines",
+      "hash": "dd3e08e6f653af96",
+      "fetched_at": "2026-08-21T15:27:55.255735+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Improving GANs using optimal transport",
+      "summary": "",
+      "date_guess": "2018-03-15",
+      "source": "https://openai.com/index/improving-gans-using-optimal-transport",
+      "hash": "22e26f0fb7548793",
+      "fetched_at": "2026-08-21T15:27:55.255750+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Report from the OpenAI hackathon",
+      "summary": "On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community.",
+      "date_guess": "2018-03-15",
+      "source": "https://openai.com/index/hackathon-follow-up",
+      "hash": "53ab81d8f0f1a8fc",
+      "fetched_at": "2026-08-21T15:27:55.255779+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "On first-order meta-learning algorithms",
+      "summary": "",
+      "date_guess": "2018-03-08",
+      "source": "https://openai.com/index/on-first-order-meta-learning-algorithms",
+      "hash": "04dae7955c8e30c9",
+      "fetched_at": "2026-08-21T15:27:55.255798+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Reptile: A scalable meta-learning algorithm",
+      "summary": "We’ve developed a simple meta-learning algorithm called Reptile which works by repeatedly sampling a task, performing stochastic gradient descent on it, and updating the initial parameters towards the final parameters learned on that task. Reptile is the application of the Shortest Descent algorithm to the meta-learning setting, and is mathematically similar to first-order MAML (which is a version of the well-known MAML algorithm) that only needs black-box access to an optimizer such as SGD or A",
+      "date_guess": "2018-03-07",
+      "source": "https://openai.com/index/reptile",
+      "hash": "0c31acd2efc1f104",
+      "fetched_at": "2026-08-21T15:27:55.255863+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Scholars",
+      "summary": "We’re providing 6–10 stipends and mentorship to individuals from underrepresented groups to study deep learning full-time for 3 months and open-source a project.",
+      "date_guess": "2018-03-06",
+      "source": "https://openai.com/index/openai-scholars",
+      "hash": "e92e413fdcb00603",
+      "fetched_at": "2026-08-21T15:27:55.255885+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Some considerations on learning to explore via meta-reinforcement learning",
+      "summary": "",
+      "date_guess": "2018-03-03",
+      "source": "https://openai.com/index/some-considerations-on-learning-to-explore-via-meta-reinforcement-learning",
+      "hash": "c3725ae95135c68f",
+      "fetched_at": "2026-08-21T15:27:55.255896+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Ingredients for robotics research",
+      "summary": "We’re releasing eight simulated robotics environments and a Baselines implementation of Hindsight Experience Replay, all developed for our research over the past year. We’ve used these environments to train models which work on physical robots. We’re also releasing a set of requests for robotics research.",
+      "date_guess": "2018-02-26",
+      "source": "https://openai.com/index/ingredients-for-robotics-research",
+      "hash": "cc9755404dfb7bc1",
+      "fetched_at": "2026-08-21T15:27:55.255919+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research",
+      "summary": "",
+      "date_guess": "2018-02-26",
+      "source": "https://openai.com/index/multi-goal-reinforcement-learning",
+      "hash": "41f1df63b53d403b",
+      "fetched_at": "2026-08-21T15:27:55.255928+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI hackathon",
+      "summary": "Come to OpenAI’s office in San Francisco’s Mission District for talks and a hackathon on Saturday, March 3rd.",
+      "date_guess": "2018-02-22",
+      "source": "https://openai.com/index/openai-hackathon",
+      "hash": "115da51316bcd86a",
+      "fetched_at": "2026-08-21T15:27:55.255942+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Preparing for malicious uses of AI",
+      "summary": "We’ve co-authored a paper that forecasts how malicious actors could misuse AI technology, and potential ways we can prevent and mitigate these threats. This paper is the outcome of almost a year of sustained work with our colleagues at the Future of Humanity Institute, the Centre for the Study of Existential Risk, the Center for a New American Security, the Electronic Frontier Foundation, and others.",
+      "date_guess": "2018-02-20",
+      "source": "https://openai.com/index/preparing-for-malicious-uses-of-ai",
+      "hash": "fedb9a115c2d6197",
+      "fetched_at": "2026-08-21T15:27:55.255968+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI supporters",
+      "summary": "We’re excited to welcome new donors to OpenAI.",
+      "date_guess": "2018-02-20",
+      "source": "https://openai.com/index/openai-supporters",
+      "hash": "c36535ccc4e2976b",
+      "fetched_at": "2026-08-21T15:27:55.255985+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Interpretable machine learning through teaching",
+      "summary": "We’ve designed a method that encourages AIs to teach each other with examples that also make sense to humans. Our approach automatically selects the most informative examples to teach a concept—for instance, the best images to describe the concept of dogs—and experimentally we found our approach to be effective at teaching both AIs",
+      "date_guess": "2018-02-15",
+      "source": "https://openai.com/index/interpretable-machine-learning-through-teaching",
+      "hash": "5fd215275ab5dd05",
+      "fetched_at": "2026-08-21T15:27:55.256011+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Discovering types for entity disambiguation",
+      "summary": "We’ve built a system for automatically figuring out which object is meant by a word by having a neural network decide if the word belongs to each of about 100 automatically-discovered “types” (non-exclusive categories).",
+      "date_guess": "2018-02-07",
+      "source": "https://openai.com/index/discovering-types-for-entity-disambiguation",
+      "hash": "7419363ee2449c69",
+      "fetched_at": "2026-08-21T15:27:55.256031+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Requests for Research 2.0",
+      "summary": "We’re releasing a new batch of seven unsolved problems which have come up in the course of our research at OpenAI.",
+      "date_guess": "2018-01-31",
+      "source": "https://openai.com/index/requests-for-research-2",
+      "hash": "b8c05aa52da9f74c",
+      "fetched_at": "2026-08-21T15:27:55.256045+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Scaling Kubernetes to 2,500 nodes",
+      "summary": "",
+      "date_guess": "2018-01-18",
+      "source": "https://openai.com/index/scaling-kubernetes-to-2500-nodes",
+      "hash": "bdf782adde80e3cc",
+      "fetched_at": "2026-08-21T15:27:55.256053+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Block-sparse GPU kernels",
+      "summary": "We’re releasing highly-optimized GPU kernels for an underexplored class of neural network architectures: networks with block-sparse weights. Depending on the chosen sparsity, these kernels can run orders of magnitude faster than cuBLAS or cuSPARSE. We’ve used them to attain state-of-the-art results in text sentiment analysis and generative modeling of text and images.",
+      "date_guess": "2017-12-06",
+      "source": "https://openai.com/index/block-sparse-gpu-kernels",
+      "hash": "e9f107c5f9fccd3c",
+      "fetched_at": "2026-08-21T15:27:55.256078+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning sparse neural networks through L₀ regularization",
+      "summary": "",
+      "date_guess": "2017-12-04",
+      "source": "https://openai.com/index/learning-sparse-neural-networks-through-l0-regularization",
+      "hash": "6c2a3fb4c14560d5",
+      "fetched_at": "2026-08-21T15:27:55.256088+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Interpretable and pedagogical examples",
+      "summary": "",
+      "date_guess": "2017-11-02",
+      "source": "https://openai.com/index/interpretable-and-pedagogical-examples",
+      "hash": "18ef1023de109568",
+      "fetched_at": "2026-08-21T15:27:55.256096+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning a hierarchy",
+      "summary": "We’ve developed a hierarchical reinforcement learning algorithm that learns high-level actions useful for solving a range of tasks, allowing fast solving of tasks requiring thousands of timesteps. Our algorithm, when applied to a set of navigation problems, discovers a set of high-level actions for walking and crawling in different directions, which enables the agent to master new navigation tasks quickly.",
+      "date_guess": "2017-10-26",
+      "source": "https://openai.com/index/learning-a-hierarchy",
+      "hash": "03163362c00e3706",
+      "fetched_at": "2026-08-21T15:27:55.256122+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Generalizing from simulation",
+      "summary": "Our latest robotics techniques allow robot controllers, trained entirely in simulation and deployed on physical robots, to react to unplanned changes in the environment as they solve simple tasks. That is, we’ve used these techniques to build closed-loop systems rather than open-loop ones as before.",
+      "date_guess": "2017-10-19",
+      "source": "https://openai.com/index/generalizing-from-simulation",
+      "hash": "c435a5561b2d9c97",
+      "fetched_at": "2026-08-21T15:27:55.256144+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Asymmetric actor critic for image-based robot learning",
+      "summary": "",
+      "date_guess": "2017-10-18",
+      "source": "https://openai.com/index/asymmetric-actor-critic-for-image-based-robot-learning",
+      "hash": "6f6d6daa00753cd9",
+      "fetched_at": "2026-08-21T15:27:55.256152+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Sim-to-real transfer of robotic control with dynamics randomization",
+      "summary": "",
+      "date_guess": "2017-10-18",
+      "source": "https://openai.com/index/sim-to-real-transfer-of-robotic-control-with-dynamics-randomization",
+      "hash": "47a8872b95c9bb0b",
+      "fetched_at": "2026-08-21T15:27:55.256160+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Domain randomization and generative models for robotic grasping",
+      "summary": "",
+      "date_guess": "2017-10-17",
+      "source": "https://openai.com/index/domain-randomization-and-generative-models-for-robotic-grasping",
+      "hash": "3f0f089c7fa6bef0",
+      "fetched_at": "2026-08-21T15:27:55.256168+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Meta-learning for wrestling",
+      "summary": "We show that for the task of simulated robot wrestling, a meta-learning agent can learn to quickly defeat a stronger non-meta-learning agent, and also show that the meta-learning agent can adapt to physical malfunction.",
+      "date_guess": "2017-10-11",
+      "source": "https://openai.com/index/meta-learning-for-wrestling",
+      "hash": "f0b0d4352375d85e",
+      "fetched_at": "2026-08-21T15:27:55.256185+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Competitive self-play",
+      "summary": "We’ve found that self-play allows simulated AIs to discover physical skills like tackling, ducking, faking, kicking, catching, and diving for the ball, without explicitly designing an environment with these skills in mind. Self-play ensures that the environment is always the right difficulty for an AI to improve. Taken alongside our Dota 2 self-play results, we have increasing confidence that self-play will be a core part of powerful AI systems in the future.",
+      "date_guess": "2017-10-11",
+      "source": "https://openai.com/index/competitive-self-play",
+      "hash": "52ba49d900f8ab2b",
+      "fetched_at": "2026-08-21T15:27:55.256214+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Nonlinear computation in deep linear networks",
+      "summary": "",
+      "date_guess": "2017-09-29",
+      "source": "https://openai.com/index/nonlinear-computation-in-deep-linear-networks",
+      "hash": "4f9f438b4e7558d2",
+      "fetched_at": "2026-08-21T15:27:55.256222+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning to model other minds",
+      "summary": "We’re releasing an algorithm which accounts for the fact that other agents are learning too, and discovers self-interested yet collaborative strategies like tit-for-tat in the iterated prisoner’s dilemma. This algorithm, Learning with Opponent-Learning Awareness (LOLA), is a small step towards agents that model other minds.",
+      "date_guess": "2017-09-14",
+      "source": "https://openai.com/index/learning-to-model-other-minds",
+      "hash": "ef95e02723bf0d35",
+      "fetched_at": "2026-08-21T15:27:55.256244+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning with opponent-learning awareness",
+      "summary": "",
+      "date_guess": "2017-09-13",
+      "source": "https://openai.com/index/learning-with-opponent-learning-awareness",
+      "hash": "f8ef6f5756b7cdd7",
+      "fetched_at": "2026-08-21T15:27:55.256252+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Baselines: ACKTR & A2C",
+      "summary": "We’re releasing two new OpenAI Baselines implementations: ACKTR and A2C. A2C is a synchronous, deterministic variant of Asynchronous Advantage Actor Critic (A3C) which we’ve found gives equal performance. ACKTR is a more sample-efficient reinforcement learning algorithm than TRPO and A2C, and requires only slightly more computation than A2C per update.",
+      "date_guess": "2017-08-18",
+      "source": "https://openai.com/index/openai-baselines-acktr-a2c",
+      "hash": "4169b00a88430ae6",
+      "fetched_at": "2026-08-21T15:27:55.256275+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "More on Dota 2",
+      "summary": "Our Dota 2 result shows that self-play can catapult the performance of machine learning systems from far below human level to superhuman, given sufficient compute. In the span of a month, our system went from barely matching a high-ranked player to beating the top pros and has continued to improve since then. Supervised deep learning systems can only be as good as their training datasets, but in self-play systems, the available data improves automatically as the agent gets better.",
+      "date_guess": "2017-08-16",
+      "source": "https://openai.com/index/more-on-dota-2",
+      "hash": "3309d81b77d9fa97",
+      "fetched_at": "2026-08-21T15:27:55.256330+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Dota 2",
+      "summary": "We’ve created a bot which beats the world’s top professionals at 1v1 matches of Dota 2 under standard tournament rules. The bot learned the game from scratch by self-play, and does not use imitation learning or tree search. This is a step towards building AI systems which accomplish well-defined goals in messy, complicated situations involving real humans.",
+      "date_guess": "2017-08-11",
+      "source": "https://openai.com/index/dota-2",
+      "hash": "a92313478a770a1b",
+      "fetched_at": "2026-08-21T15:27:55.256359+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Gathering human feedback",
+      "summary": "RL-Teacher is an open-source implementation of our interface to train AIs via occasional human feedback rather than hand-crafted reward functions. The underlying technique was developed as a step towards safe AI systems, but also applies to reinforcement learning problems with rewards that are hard to specify.",
+      "date_guess": "2017-08-03",
+      "source": "https://openai.com/index/gathering-human-feedback",
+      "hash": "1c768240b307f8bd",
+      "fetched_at": "2026-08-21T15:27:55.256383+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Better exploration with parameter noise",
+      "summary": "We’ve found that adding adaptive noise to the parameters of reinforcement learning algorithms frequently boosts performance. This exploration method is simple to implement and very rarely decreases performance, so it’s worth trying on any problem.",
+      "date_guess": "2017-07-27",
+      "source": "https://openai.com/index/better-exploration-with-parameter-noise",
+      "hash": "883732590bcdc989",
+      "fetched_at": "2026-08-21T15:27:55.256403+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Proximal Policy Optimization",
+      "summary": "We’re releasing a new class of reinforcement learning algorithms, Proximal Policy Optimization (PPO), which perform comparably or better than state-of-the-art approaches while being much simpler to implement and tune. PPO has become the default reinforcement learning algorithm at OpenAI because of its ease of use and good performance.",
+      "date_guess": "2017-07-20",
+      "source": "https://openai.com/index/openai-baselines-ppo",
+      "hash": "83d1f0d1d5df949f",
+      "fetched_at": "2026-08-21T15:27:55.256426+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Robust adversarial inputs",
+      "summary": "We’ve created images that reliably fool neural network classifiers when viewed from varied scales and perspectives. This challenges a claim from last week that self-driving cars would be hard to trick maliciously since they capture images from multiple scales, angles, perspectives, and the like.",
+      "date_guess": "2017-07-17",
+      "source": "https://openai.com/index/robust-adversarial-inputs",
+      "hash": "56558a74e7b82000",
+      "fetched_at": "2026-08-21T15:27:55.256447+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Hindsight Experience Replay",
+      "summary": "",
+      "date_guess": "2017-07-05",
+      "source": "https://openai.com/index/hindsight-experience-replay",
+      "hash": "856d3a4d88040bd0",
+      "fetched_at": "2026-08-21T15:27:55.256456+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Teacher–student curriculum learning",
+      "summary": "",
+      "date_guess": "2017-07-01",
+      "source": "https://openai.com/index/teacher-student-curriculum-learning",
+      "hash": "a5068bfadc8680cf",
+      "fetched_at": "2026-08-21T15:27:55.256465+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Faster physics in Python",
+      "summary": "We’re open-sourcing a high-performance Python library for robotic simulation using the MuJoCo engine, developed over our past year of robotics research.",
+      "date_guess": "2017-06-28",
+      "source": "https://openai.com/index/faster-physics-in-python",
+      "hash": "fc58befc402fc098",
+      "fetched_at": "2026-08-21T15:27:55.256481+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning from human preferences",
+      "summary": "One step towards building safe AI systems is to remove the need for humans to write goal functions, since using a simple proxy for a complex goal, or getting the complex goal a bit wrong, can lead to undesirable and even dangerous behavior. In collaboration with DeepMind’s safety team, we’ve developed an algorithm which can infer what humans want by being told which of two proposed behaviors is better.",
+      "date_guess": "2017-06-13",
+      "source": "https://openai.com/index/learning-from-human-preferences",
+      "hash": "81fa28599822fc87",
+      "fetched_at": "2026-08-21T15:27:55.256508+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning to cooperate, compete, and communicate",
+      "summary": "Multiagent environments where agents compete for resources are stepping stones on the path to AGI. Multiagent environments have two useful properties: first, there is a natural curriculum—the difficulty of the environment is determined by the skill of your competitors (and if you’re competing against clones of yourself, the environment exactly matches your skill level). Second, a multiagent environment has no stable equilibrium: no matter how smart an agent is, there’s always pressure to get sma",
+      "date_guess": "2017-06-08",
+      "source": "https://openai.com/index/learning-to-cooperate-compete-and-communicate",
+      "hash": "a344540de479520e",
+      "fetched_at": "2026-08-21T15:27:55.256543+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "UCB exploration via Q-ensembles",
+      "summary": "",
+      "date_guess": "2017-06-05",
+      "source": "https://openai.com/index/ucb-exploration-via-q-ensembles",
+      "hash": "13830ff7fef7036f",
+      "fetched_at": "2026-08-21T15:27:55.256551+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Baselines: DQN",
+      "summary": "We’re open-sourcing OpenAI Baselines, our internal effort to reproduce reinforcement learning algorithms with performance on par with published results. We’ll release the algorithms over upcoming months; today’s release includes DQN and three of its variants.",
+      "date_guess": "2017-05-24",
+      "source": "https://openai.com/index/openai-baselines-dqn",
+      "hash": "96de05e29e11457d",
+      "fetched_at": "2026-08-21T15:27:55.256571+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Robots that learn",
+      "summary": "We’ve created a robotics system, trained entirely in simulation and deployed on a physical robot, which can learn a new task after seeing it done once.",
+      "date_guess": "2017-05-16",
+      "source": "https://openai.com/index/robots-that-learn",
+      "hash": "d11453bae204ba59",
+      "fetched_at": "2026-08-21T15:27:55.256587+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Roboschool",
+      "summary": "We are releasing Roboschool: open-source software for robot simulation, integrated with OpenAI Gym.",
+      "date_guess": "2017-05-15",
+      "source": "https://openai.com/index/roboschool",
+      "hash": "a92b3b66cb0403b8",
+      "fetched_at": "2026-08-21T15:27:55.256599+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Equivalence between policy gradients and soft Q-learning",
+      "summary": "",
+      "date_guess": "2017-04-21",
+      "source": "https://openai.com/index/equivalence-between-policy-gradients-and-soft-q-learning",
+      "hash": "6be96b60cc6bc971",
+      "fetched_at": "2026-08-21T15:27:55.256608+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Stochastic Neural Networks for hierarchical reinforcement learning",
+      "summary": "",
+      "date_guess": "2017-04-10",
+      "source": "https://openai.com/index/stochastic-neural-networks-for-hierarchical-reinforcement-learning",
+      "hash": "37d0e2688c15cdc0",
+      "fetched_at": "2026-08-21T15:27:55.256618+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Unsupervised sentiment neuron",
+      "summary": "We’ve developed an unsupervised system which learns an excellent representation of sentiment, despite being trained only to predict the next character in the text of Amazon reviews.",
+      "date_guess": "2017-04-06",
+      "source": "https://openai.com/index/unsupervised-sentiment-neuron",
+      "hash": "84f1b323dbfc4f99",
+      "fetched_at": "2026-08-21T15:27:55.256635+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Spam detection in the physical world",
+      "summary": "We’ve created the world’s first Spam-detecting AI trained entirely in simulation and deployed on a physical robot.",
+      "date_guess": "2017-04-01",
+      "source": "https://openai.com/index/spam-detection-in-the-physical-world",
+      "hash": "094ab0031b290a1a",
+      "fetched_at": "2026-08-21T15:27:55.256650+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Evolution strategies as a scalable alternative to reinforcement learning",
+      "summary": "We’ve discovered that evolution strategies (ES), an optimization technique that’s been known for decades, rivals the performance of standard reinforcement learning (RL) techniques on modern RL benchmarks (e.g. Atari/MuJoCo), while overcoming many of RL’s inconveniences.",
+      "date_guess": "2017-03-24",
+      "source": "https://openai.com/index/evolution-strategies",
+      "hash": "51e7dda6e760e3fb",
+      "fetched_at": "2026-08-21T15:27:55.256670+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "One-shot imitation learning",
+      "summary": "",
+      "date_guess": "2017-03-21",
+      "source": "https://openai.com/index/one-shot-imitation-learning",
+      "hash": "e7140306d3fe95be",
+      "fetched_at": "2026-08-21T15:27:55.256681+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Distill",
+      "summary": "We’re excited to support today’s launch of Distill, a new kind of journal aimed at excellent communication of machine learning results (novel or existing).",
+      "date_guess": "2017-03-20",
+      "source": "https://openai.com/index/distill",
+      "hash": "8ffe4ba6fe46e564",
+      "fetched_at": "2026-08-21T15:27:55.256697+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning to communicate",
+      "summary": "In this post we’ll outline new OpenAI research in which agents develop their own language.",
+      "date_guess": "2017-03-16",
+      "source": "https://openai.com/index/learning-to-communicate",
+      "hash": "b39fd392365829f6",
+      "fetched_at": "2026-08-21T15:27:55.256711+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Emergence of grounded compositional language in multi-agent populations",
+      "summary": "",
+      "date_guess": "2017-03-15",
+      "source": "https://openai.com/index/emergence-of-grounded-compositional-language-in-multi-agent-populations",
+      "hash": "a3314afc3d5edaf5",
+      "fetched_at": "2026-08-21T15:27:55.256719+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Prediction and control with temporal segment models",
+      "summary": "",
+      "date_guess": "2017-03-12",
+      "source": "https://openai.com/index/prediction-and-control-with-temporal-segment-models",
+      "hash": "3443c3cd226ebaff",
+      "fetched_at": "2026-08-21T15:27:55.256727+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Third-person imitation learning",
+      "summary": "",
+      "date_guess": "2017-03-06",
+      "source": "https://openai.com/index/third-person-imitation-learning",
+      "hash": "78d08ac13391d8aa",
+      "fetched_at": "2026-08-21T15:27:55.256734+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Attacking machine learning with adversarial examples",
+      "summary": "Adversarial examples are inputs to machine learning models that an attacker has intentionally designed to cause the model to make a mistake; they’re like optical illusions for machines. In this post we’ll show how adversarial examples work across different mediums, and will discuss why securing systems against them can be difficult.",
+      "date_guess": "2017-02-24",
+      "source": "https://openai.com/index/attacking-machine-learning-with-adversarial-examples",
+      "hash": "07fc535d0608e747",
+      "fetched_at": "2026-08-21T15:27:55.256761+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Adversarial attacks on neural network policies",
+      "summary": "",
+      "date_guess": "2017-02-08",
+      "source": "https://openai.com/index/adversarial-attacks-on-neural-network-policies",
+      "hash": "54e590d494cf0fc5",
+      "fetched_at": "2026-08-21T15:27:55.256769+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Team update",
+      "summary": "The OpenAI team is now 45 people. Together, we’re pushing the frontier of AI capabilities—whether by validating novel ideas, creating new software systems, or deploying machine learning on robots.",
+      "date_guess": "2017-01-30",
+      "source": "https://openai.com/index/team-update-january",
+      "hash": "2bc2b6a86e37791b",
+      "fetched_at": "2026-08-21T15:27:55.256789+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "PixelCNN++: Improving the PixelCNN with discretized logistic mixture likelihood and other modifications",
+      "summary": "",
+      "date_guess": "2017-01-19",
+      "source": "https://openai.com/index/pixelcnn-plus-plus",
+      "hash": "e593c3cb10a29fa4",
+      "fetched_at": "2026-08-21T15:27:55.256798+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Faulty reward functions in the wild",
+      "summary": "Reinforcement learning algorithms can break in surprising, counterintuitive ways. In this post we’ll explore one failure mode, which is where you misspecify your reward function.",
+      "date_guess": "2016-12-21",
+      "source": "https://openai.com/index/faulty-reward-functions",
+      "hash": "032f8e5e7609f13b",
+      "fetched_at": "2026-08-21T15:27:55.256814+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Universe",
+      "summary": "We’re releasing Universe, a software platform for measuring and training an AI’s general intelligence across the world’s supply of games, websites and other applications.",
+      "date_guess": "2016-12-05",
+      "source": "https://openai.com/index/universe",
+      "hash": "35c21df03ef89b0a",
+      "fetched_at": "2026-08-21T15:27:55.256830+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "#Exploration: A study of count-based exploration for deep reinforcement learning",
+      "summary": "",
+      "date_guess": "2016-11-15",
+      "source": "https://openai.com/index/exploration",
+      "hash": "a7578ef00f89d377",
+      "fetched_at": "2026-08-21T15:27:55.256839+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI and Microsoft",
+      "summary": "We’re working with Microsoft to start running most of our large-scale experiments on Azure.",
+      "date_guess": "2016-11-15",
+      "source": "https://openai.com/index/openai-and-microsoft",
+      "hash": "46f6ecb05cd37748",
+      "fetched_at": "2026-08-21T15:27:55.256851+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "On the quantitative analysis of decoder-based generative models",
+      "summary": "",
+      "date_guess": "2016-11-14",
+      "source": "https://openai.com/index/on-the-quantitative-analysis-of-decoder-based-generative-models",
+      "hash": "08641b277c397351",
+      "fetched_at": "2026-08-21T15:27:55.256859+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "A connection between generative adversarial networks, inverse reinforcement learning, and energy-based models",
+      "summary": "",
+      "date_guess": "2016-11-11",
+      "source": "https://openai.com/index/a-connection-between-generative-adversarial-networks-inverse-reinforcement-learning-and-energy-based-models",
+      "hash": "95178caf599cd886",
+      "fetched_at": "2026-08-21T15:27:55.256868+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "RL²: Fast reinforcement learning via slow reinforcement learning",
+      "summary": "",
+      "date_guess": "2016-11-09",
+      "source": "https://openai.com/index/rl2",
+      "hash": "f4ccd9144753936f",
+      "fetched_at": "2026-08-21T15:27:55.256877+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Variational lossy autoencoder",
+      "summary": "",
+      "date_guess": "2016-11-08",
+      "source": "https://openai.com/index/variational-lossy-autoencoder",
+      "hash": "d05137ca24dddc10",
+      "fetched_at": "2026-08-21T15:27:55.256885+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Extensions and limitations of the neural GPU",
+      "summary": "",
+      "date_guess": "2016-11-02",
+      "source": "https://openai.com/index/extensions-and-limitations-of-the-neural-gpu",
+      "hash": "5c8e5908b3bcfe0f",
+      "fetched_at": "2026-08-21T15:27:55.256892+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Semi-supervised knowledge transfer for deep learning from private training data",
+      "summary": "",
+      "date_guess": "2016-10-18",
+      "source": "https://openai.com/index/semi-supervised-knowledge-transfer-for-deep-learning-from-private-training-data",
+      "hash": "0959d4f5ee6115ce",
+      "fetched_at": "2026-08-21T15:27:55.256902+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Report from the self-organizing conference",
+      "summary": "Last week we hosted over a hundred and fifty AI practitioners in our offices for our first self-organizing conference on machine learning.",
+      "date_guess": "2016-10-13",
+      "source": "https://openai.com/index/report-from-the-self-organizing-conference",
+      "hash": "4fd08238eff5911c",
+      "fetched_at": "2026-08-21T15:27:55.256917+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Transfer from simulation to real world through learning deep inverse dynamics model",
+      "summary": "",
+      "date_guess": "2016-10-11",
+      "source": "https://openai.com/index/transfer-from-simulation-to-real-world-through-learning-deep-inverse-dynamics-model",
+      "hash": "3d1ac67e03482842",
+      "fetched_at": "2026-08-21T15:27:55.256925+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Infrastructure for deep learning",
+      "summary": "Deep learning is an empirical science, and the quality of a group’s infrastructure is a multiplier on progress. Fortunately, today’s open-source ecosystem makes it possible for anyone to build great deep learning infrastructure.",
+      "date_guess": "2016-08-29",
+      "source": "https://openai.com/index/infrastructure-for-deep-learning",
+      "hash": "64a6bf0f8668fcdc",
+      "fetched_at": "2026-08-21T15:27:55.256944+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Machine Learning Unconference",
+      "summary": "The latest information about the Unconference is now available at the Unconference wiki, which will be periodically updated with more information for attendees.",
+      "date_guess": "2016-08-18",
+      "source": "https://openai.com/index/machine-learning-unconference",
+      "hash": "b8f1c5a9be927b0d",
+      "fetched_at": "2026-08-21T15:27:55.256959+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Team update",
+      "summary": "We’ve hired more great people to help us achieve our goals. Welcome, everyone!",
+      "date_guess": "2016-08-16",
+      "source": "https://openai.com/index/team-update-august",
+      "hash": "8e64d909c0e32700",
+      "fetched_at": "2026-08-21T15:27:55.256972+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Special projects",
+      "summary": "Impactful scientific work requires working on the right problems—problems which are not just interesting, but whose solutions matter.",
+      "date_guess": "2016-07-28",
+      "source": "https://openai.com/index/special-projects",
+      "hash": "8a58b49a646326cf",
+      "fetched_at": "2026-08-21T15:27:55.256986+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Concrete AI safety problems",
+      "summary": "We (along with researchers from Berkeley and Stanford) are co-authors on today’s paper led by Google Brain researchers, Concrete Problems in AI Safety. The paper explores many research problems around ensuring that modern machine learning systems operate as intended.",
+      "date_guess": "2016-06-21",
+      "source": "https://openai.com/index/concrete-ai-safety-problems",
+      "hash": "607335a23ba0952b",
+      "fetched_at": "2026-08-21T15:27:55.257009+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI technical goals",
+      "summary": "OpenAI’s mission is to build safe AI, and ensure AI’s benefits are as widely and evenly distributed as possible.",
+      "date_guess": "2016-06-20",
+      "source": "https://openai.com/index/openai-technical-goals",
+      "hash": "a27daadd73b757bc",
+      "fetched_at": "2026-08-21T15:27:55.257023+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Generative models",
+      "summary": "This post describes four projects that share a common theme of enhancing or using generative models, a branch of unsupervised learning techniques in machine learning. In addition to describing our work, this post will tell you a bit more about generative models: what they are, why they are important, and where they might be going.",
+      "date_guess": "2016-06-16",
+      "source": "https://openai.com/index/generative-models",
+      "hash": "4d152c97679da184",
+      "fetched_at": "2026-08-21T15:27:55.257044+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Adversarial training methods for semi-supervised text classification",
+      "summary": "",
+      "date_guess": "2016-05-25",
+      "source": "https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification",
+      "hash": "3ab70fd75131b0f3",
+      "fetched_at": "2026-08-21T15:27:55.257053+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Team update",
+      "summary": "We’d like to welcome the latest set of team members to OpenAI (and we’re still hiring!)",
+      "date_guess": "2016-05-25",
+      "source": "https://openai.com/index/team-update",
+      "hash": "735a480924ffcf51",
+      "fetched_at": "2026-08-21T15:27:55.257066+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI Gym Beta",
+      "summary": "We’re releasing the public beta of OpenAI Gym, a toolkit for developing and comparing reinforcement learning (RL) algorithms. It consists of a growing suite of environments (from simulated robots to Atari games), and a site for comparing and reproducing results.",
+      "date_guess": "2016-04-27",
+      "source": "https://openai.com/index/openai-gym-beta",
+      "hash": "726a8a41384ac7ae",
+      "fetched_at": "2026-08-21T15:27:55.257086+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Welcome, Pieter and Shivon!",
+      "summary": "We have two more team updates.",
+      "date_guess": "2016-04-26",
+      "source": "https://openai.com/index/welcome-pieter-and-shivon",
+      "hash": "02a0414bdb56d15e",
+      "fetched_at": "2026-08-21T15:27:55.257096+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Team++",
+      "summary": "We’ve had some fantastic people join over the past few months (and we’re still hiring). Welcome, everyone!",
+      "date_guess": "2016-03-31",
+      "source": "https://openai.com/index/team-plus-plus",
+      "hash": "8dc32be09e15af6a",
+      "fetched_at": "2026-08-21T15:27:55.257110+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Weight normalization: A simple reparameterization to accelerate training of deep neural networks",
+      "summary": "",
+      "date_guess": "2016-02-25",
+      "source": "https://openai.com/index/weight-normalization",
+      "hash": "c9bd57ee037566c4",
+      "fetched_at": "2026-08-21T15:27:55.257118+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing OpenAI",
+      "summary": "OpenAI is a non-profit artificial intelligence research company. Our goal is to advance digital intelligence in the way that is most likely to benefit humanity as a whole, unconstrained by a need to generate financial return. Since our research is free from financial obligations, we can better focus on a positive human impact.",
+      "date_guess": "2015-12-11",
+      "source": "https://openai.com/index/introducing-openai",
+      "hash": "3dbdedb68a671c46",
+      "fetched_at": "2026-08-21T15:27:55.257139+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Build production agents with computer use, the Skills API, and the Files API",
+      "summary": "Computer use, the Skills API, and the Files API are generally available on the Claude Platform today. Computer use also adds a new browser use tool for agents that work in web applications. Together they let you build agents that operate software, apply your team's expertise, and return finished files. Building agents on the Claude Platform Computer use lets you build agents that operate software they can see. Given a screenshot, the agent clicks, types, and scrolls the way someone at the keyboa",
+      "date_guess": "2026-08-20",
+      "source": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "hash": "7be1489b3a08abc7",
+      "fetched_at": "2026-08-21T15:27:55.520602+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "The Claude Code guide for startups",
+      "summary": "Prefer a PDF? This guide is also available for download — the same five rules, founder insights, and checklist, laid out for reading offline or sharing with your team. Download the PDF ↓ AI natives working at the frontier If you want to take a peek at the future of work, ask startups how they are operating today. So we did. We spoke with more than a dozen fast-growing startups about how they use agentic coding tools to build products and scale their companies. These startups are changing the rul",
+      "date_guess": "2026-08-20",
+      "source": "https://claude.com/blog/claude-code-guide-for-startups",
+      "hash": "cff9e5d7aae82b4b",
+      "fetched_at": "2026-08-21T15:27:55.522031+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "How monday.com transformed its platform into an agent-first product where humans and agents collaborate",
+      "summary": "More than 250,000 companies, from small and midsize businesses to Fortune 500 organizations, use monday.com to manage their work. When the company launched more than a decade ago, its core product was a visual interface that helped teams automate workflows and manage projects. Today, it has rearchitected its product from the ground up around a human-agent collaboration model where AI is woven into work at every level. With Claude at the core, monday’s new platform handles the technical complexit",
+      "date_guess": "2026-08-20",
+      "source": "https://claude.com/blog/how-monday-com-transformed-its-platform-into-an-agent-first-product-where-humans-and-agents-collaborate",
+      "hash": "b59d5dcc1a9fa96a",
+      "fetched_at": "2026-08-21T15:27:55.522523+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Anthropic’s approach to teaching and learning AI",
+      "summary": "Millions of people visit Anthropic.com every month to learn about how to use AI. At Anthropic, we consider this a tremendous responsibility—and we have a team of educators dedicated to creating educational materials about how to use AI safely, effectively, and with intention. AI instruction should increase agency and empower learners to expand their capabilities. Today, we’re sharing our approach to designing and scaling AI instruction to millions of learners worldwide via Claude Academy. Why is",
+      "date_guess": "2026-08-20",
+      "source": "https://claude.com/blog/anthropics-approach-to-teaching-and-learning-ai",
+      "hash": "1637bc7dc859e789",
+      "fetched_at": "2026-08-21T15:27:55.522905+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Turning conversation into knowledge: how Slack builds human-agent teams",
+      "summary": "This is the second post in our series on building human-agent teams. The first shared what we've learned building teams with multiplayer AI at Anthropic. In this article, we share best practices from a company that was thinking about human-agent teams long before AI arrived. Jaime Delanghe joined Slack in 2017 to work on search and machine learning, with a mission to turn workplace conversation into institutional knowledge. Now the company’s Chief Product Officer, she has believed from the start",
+      "date_guess": "2026-08-19",
+      "source": "https://claude.com/blog/turning-conversation-into-knowledge-how-slack-builds-human-agent-teams",
+      "hash": "c07fb208b211f213",
+      "fetched_at": "2026-08-21T15:27:55.523354+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "The Claude Science product guide",
+      "summary": "Life sciences organizations are at a turning point in their AI adoption journeys. Deloitte's 2026 Life Sciences Outlook found that 78% of biopharma and medtech leaders expect AI to play a central role in driving major change this year, yet only 14% report full implementation of AI tools into their organization’s daily workflows. Anthropic's own internal research, drawn from interviews with researchers across chemistry, physics, biology, and computational fields, found that 91% of scientists want",
+      "date_guess": "2026-08-18",
+      "source": "https://claude.com/blog/the-claude-science-product-guide",
+      "hash": "77f42fda75f68dc2",
+      "fetched_at": "2026-08-21T15:27:55.523477+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Claude on call: How Claude Tag serves as Anthropic’s first responder for CI/CD failures",
+      "summary": "Set up your own Claude on-call with our setup kit . A few weeks ago, I was on-call and my colleague Slacked me a message at 10pm: roughly 44 tests on a new service weren’t firing. In the past, I would have stopped what I was doing, sat down with my laptop, sighed wearily, and began an hour-long investigate-and-fix process. But now, my workflow is entirely different: I pull in @Claude, and ask what it sees. In this case, Claude found the tests disappeared when a feature flag got turned on that mo",
+      "date_guess": "2026-08-18",
+      "source": "https://claude.com/blog/ai-ci-cd-on-call",
+      "hash": "4d748adf0c840080",
+      "fetched_at": "2026-08-21T15:27:55.524044+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "How ABC Legal turned every employee into a builder with Claude Managed Agents",
+      "summary": "When Brandon Fuller, CTO of ABC Legal, a U.S.-based legal document delivery company, rolled out Claude Enterprise to the company's 1,100 employees earlier this year, something clicked immediately. Teams across the company (service of process, eFiling, and appearance counsel operations, plus marketing, compliance, finance, and more) started building automations on their own, without being asked. \"Our users really flocked to it,\" Fuller recalls. \"They saw the ease of use of connectors and tools, a",
+      "date_guess": "2026-08-17",
+      "source": "https://claude.com/blog/how-abc-legal-turned-every-employee-into-a-builder-with-claude-managed-agents",
+      "hash": "3a7b6be0fb0b370a",
+      "fetched_at": "2026-08-21T15:27:55.524743+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "summary": "TL;DR Run /clear between tasks. This prevents prior irrelevant context from being sent back to the model, which can reduce token usage. Set your model and effort level before you start. Changing either one mid-conversation can bust your prompt cache, which can increase token cost. @-mention files instead of naming them. The file gets attached to your message directly, which saves a Read call, or a search if Claude has to go find it. Add quiet flags to noisy commands, or run them in a subagent. C",
+      "date_guess": "2026-08-14",
+      "source": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "hash": "55e488417f664042",
+      "fetched_at": "2026-08-21T15:27:55.524891+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Securing the frontier: How JetBrains evaluates and deploys Claude Fable 5",
+      "summary": "JetBrains builds the tools developers use worldwide, from IntelliJ IDEA and PyCharm to the Kotlin programming language, serving more than 12.5 million active users and 88 of the Fortune Global 100. Vladislav Tankov, CTO at JetBrains, spoke with Anthropic about how his team evaluates new models, decides when to use Claude Fable 5, and thinks about data retention and safeguards when working with frontier models. How has frontier AI changed for JetBrains in 2026? I've been with JetBrains for 10 yea",
+      "date_guess": "2026-08-13",
+      "source": "https://claude.com/blog/how-jetbrains-evaluates-and-deploys-claude-fable-5",
+      "hash": "791ea132b68390d3",
+      "fetched_at": "2026-08-21T15:27:55.525161+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Claude Tag now reads even more of the room",
+      "summary": "Claude Tag lets you add Claude to a Slack channel, where it works alongside your team. Claude responds when you @-mention it, or proactively when it thinks it can be helpful. Before, Claude only saw one message at a time , so it made decisions to act proactively based on what was in front of it, but not the wider context of what was around it. Now, Claude uses context from across the channel , as well as its memory and the standing instructions you have given it, to determine when to contribute ",
+      "date_guess": "2026-08-13",
+      "source": "https://claude.com/blog/claude-tag-now-reads-even-more-of-the-room",
+      "hash": "109c7b03e7e31555",
+      "fetched_at": "2026-08-21T15:27:55.525403+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Self-service data analytics in Slack: how Anthropic deploys Claude Tag for ad-hoc questions",
+      "summary": "In our previous post , we described how we enabled Claude to answer data analytics questions with ~95% accuracy through three primary artifacts: A governed semantic layer; A set of skill files that encode our analytical conventions; and An evaluation suite to measure performance. That post focused on Claude Code (the primary development surface for our data scientists and data engineers), and best practices for improving agentic accuracy. This post discusses how the data team at Anthropic applie",
+      "date_guess": "2026-08-13",
+      "source": "https://claude.com/blog/self-service-data-analytics-in-slack-how-anthropic-deploys-claude-tag-for-ad-hoc-questions",
+      "hash": "2bab270618694e70",
+      "fetched_at": "2026-08-21T15:27:55.525486+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "The Claude in Chrome side panel is now Claude Cowork",
+      "summary": "The Claude in Chrome side panel is now a Claude Cowork session. Conversations are saved to your history, your skills and connectors work in the browser, and a task you start in a tab can be finished on the Claude desktop, web, and mobile apps. It’s available on Max and Team plans today, and is rolling out to Pro users over the coming weeks. Claude in Chrome is a browser extension that lets Claude see the page you're on and take actions in it, including clicking links, typing text, navigating bet",
+      "date_guess": "2026-08-12",
+      "source": "https://claude.com/blog/cowork-chrome-side-panel",
+      "hash": "385b041893b1fe79",
+      "fetched_at": "2026-08-21T15:27:55.525658+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Compliance API coverage extends to Claude Cowork and Claude Code",
+      "summary": "Claude's Compliance API now covers Cowork across the desktop app, web, and mobile, as well as Claude Code in the CLI and desktop app. Coverage is in beta for Claude Enterprise customers. Compliance and security teams can pull session content and metadata from both products through the same Compliance API interface they already use for Claude chats. The new endpoints are additive: nothing changes about the data you already pull from the Compliance API today. Security and compliance teams rely on ",
+      "date_guess": "2026-08-11",
+      "source": "https://claude.com/blog/compliance-api-cowork-and-claude-code",
+      "hash": "5d816d44f89e6a56",
+      "fetched_at": "2026-08-21T15:27:55.525762+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "How Anthropic's business development team uses Claude to run inbound and outbound at scale",
+      "summary": "Early in my career in business development, account executives would hand me lists with hundreds of accounts and I’d have to investigate each company, find the right contacts, hunt down emails, and draft outreach. The inbound side had similarly manual and time-consuming workflows. When I joined Anthropic last summer, I took over the responsibility of managing our sales inbox. I would spend around 5 hours per day manually responding to inbound interest from prospects, often answering the same or ",
+      "date_guess": "2026-08-07",
+      "source": "https://claude.com/blog/how-anthropics-business-development-team-uses-claude-to-run-inbound-and-outbound-at-scale",
+      "hash": "909fc867b1d7b5c8",
+      "fetched_at": "2026-08-21T15:27:55.526202+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Running auto mode in production",
+      "summary": "Auto mode is now the default setting in Claude Code. Instead of asking you to approve every command an agent wants to run, a classifier evaluates each action and blocks ones that look potentially harmful. Auto mode’s design resolves a common agentic coding tradeoff: speed vs. safety. Reviewing every command keeps a human in the loop, but once sessions stretch to hours or multiply in parallel, that oversight becomes the bottleneck. Skipping permission checks entirely is faster—and it’s also how p",
+      "date_guess": "2026-08-07",
+      "source": "https://claude.com/blog/auto-mode-in-production",
+      "hash": "7f06d237513b93ee",
+      "fetched_at": "2026-08-21T15:27:55.526618+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "summary": "We're making auto mode the default in Claude Code. Starting on August 14, new sessions on Pro, Max, and Team plans will run in auto mode. If you've already set a different default yourself, you may get a one-time prompt asking whether you want to switch to auto mode. If you have a pinned default, nothing changes for you. The auto mode classifier uses a small number of extra tokens per tool call, and we're no longer charging Claude Code users on Pro, Max, and Team plans for that classifier overhe",
+      "date_guess": "2026-08-07",
+      "source": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "hash": "16f2f1be85dbd35a",
+      "fetched_at": "2026-08-21T15:27:55.527341+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Run Claude Code sessions on your own compute",
+      "summary": "Now in public beta, self-hosted environments let you run Claude Code sessions on your own infrastructure. Start a session from the web, mobile, desktop, or a routine, and it runs inside your network, next to your internal services, toolchains, and security controls, rather than on Anthropic-hosted infrastructure. For most enterprises, we strongly recommend our hosted offering for operational simplicity with no infrastructure to run or maintain. Self-hosted environments are for teams whose networ",
+      "date_guess": "2026-08-06",
+      "source": "https://claude.com/blog/run-claude-code-sessions-on-your-own-compute",
+      "hash": "7865716d35b0b76a",
+      "fetched_at": "2026-08-21T15:27:55.527399+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Millennium and Anthropic are building a digital risk analyst with Claude",
+      "summary": "Anthropic is working with Millennium, one of the world's largest alternative investment management firms, to co-develop a digital risk analyst: an AI teammate to work alongside and under the supervision of the firm's risk managers to surface new risk insights and form opinions on risk exposure across asset classes. Claude and Claude Code are already used broadly across Millennium today - from trading desks and engineering to core business functions. Millennium’s digital risk analyst extends thei",
+      "date_guess": "2026-08-06",
+      "source": "https://claude.com/blog/millennium-and-anthropic-are-building-a-digital-risk-analyst-with-claude",
+      "hash": "435abbec40a849b9",
+      "fetched_at": "2026-08-21T15:27:55.527554+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Inference hooks: inline data loss prevention for Claude Enterprise",
+      "summary": "Inference hooks lets your compliance team inspect and enforce policy on every prompt and tool call response before they reach Claude — across Claude Enterprise surfaces including chat, Claude Code, Claude Cowork, and more. Your DLP server makes the call to block or allow, and Claude enforces that decision in real time, blocking unapproved content before it reaches Claude. Security teams require every channel where employees can move sensitive data to pass through an inspection point their team c",
+      "date_guess": "2026-08-05",
+      "source": "https://claude.com/blog/claude-enterprise-inference-hooks",
+      "hash": "1e95c10906d46c85",
+      "fetched_at": "2026-08-21T15:27:55.527686+00:00"
+    }
+  ],
+  "last_checked": "2026-08-21T15:27:55.529122+00:00",
+  "fetch_warnings": []
 }
