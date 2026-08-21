@@ -21,6 +21,23 @@ function el(tag, className, html) {
   return node;
 }
 
+function fmtPrice(pricing) {
+  if (!pricing || (pricing.input_price_per_m == null && pricing.output_price_per_m == null)) {
+    return null;
+  }
+  const inp = pricing.input_price_per_m != null ? `$${pricing.input_price_per_m}` : "?";
+  const out = pricing.output_price_per_m != null ? `$${pricing.output_price_per_m}` : "?";
+  return `${inp} / ${out} za MTok (in/out)`;
+}
+
+function fmtTopScores(topScores) {
+  if (!topScores || Object.keys(topScores).length === 0) return null;
+  return Object.entries(topScores)
+    .slice(0, 4)
+    .map(([k, v]) => `${k} ${v}`)
+    .join(" · ");
+}
+
 function renderModelCard(model) {
   const card = el("div", "model-card");
   card.appendChild(el("div", "model-id", model.id || model.name || "?"));
@@ -31,6 +48,16 @@ function renderModelCard(model) {
   if (model.tier) metaBits.push(model.tier);
   if (metaBits.length) {
     card.appendChild(el("div", "model-meta", metaBits.join(" · ")));
+  }
+
+  const price = fmtPrice(model.pricing);
+  if (price) {
+    card.appendChild(el("div", "model-notes", price));
+  }
+
+  const scores = fmtTopScores(model.top_scores);
+  if (scores) {
+    card.appendChild(el("div", "model-notes", scores));
   }
 
   if (model.notes) {
