@@ -1,6 +1,4 @@
 {
-  "last_checked": "2026-08-21T00:00:00+00:00",
-  "note": "Dane startowe zebrane ręcznie 21.08.2026 -- workflow changelog-daily.yml będzie dopisywał kolejne wpisy.",
   "entries": [
     {
       "vendor": "Anthropic",
@@ -28,9 +26,2843 @@
       "source": "https://support.claude.com/en/articles/12138966-release-notes",
       "hash": "seed0000000000003",
       "fetched_at": "2026-08-21T00:00:00+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Solutions",
+      "summary": "AI agents Code modernization Coding Customer support Financial services Government Higher education K-12 teachers Life sciences",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "afc7c2a65e067d92",
+      "fetched_at": "2026-08-21T11:33:50.877509+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Partners",
+      "summary": "Claude on AWS Claude on Google Cloud",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "b3ae80b8cf6836ed",
+      "fetched_at": "2026-08-21T11:33:50.877552+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Learn",
+      "summary": "Blog Courses Use cases Connectors Customer stories Engineering at Anthropic Events Powered by Claude Service partners Startups program",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "8fc4052da64f2fa8",
+      "fetched_at": "2026-08-21T11:33:50.877575+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Company",
+      "summary": "Anthropic Careers Economic Futures Research News Responsible Scaling Policy Security and compliance Transparency",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "4cc9fc92b596b6b8",
+      "fetched_at": "2026-08-21T11:33:50.877596+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Help and security",
+      "summary": "Availability Status Support Discord",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "542e0777e9a28222",
+      "fetched_at": "2026-08-21T11:33:50.877630+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Terms and policies",
+      "summary": "Privacy policy Responsible disclosure policy Terms of service: Commercial Terms of service: Consumer Usage policy",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "8d361e3700621a89",
+      "fetched_at": "2026-08-21T11:33:50.877646+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 19, 2026",
+      "summary": "The computer use tool is now generally available on the Claude API as the computer_toolset_20260801 toolset: no beta header, batch actions (several actions in one turn), zoom enabled by default, and per-member configuration through configs . Earlier beta versions remain available. Upgrading an existing integration changes the request shape and tool handling; see Migrate from computer_20251124 . We've launched the browser use tool ( browser_toolset_20260801 ), a client toolset for driving a brows",
+      "date_guess": "August 19, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "e2c6c6b94d69b443",
+      "fetched_at": "2026-08-21T11:33:50.877783+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 18, 2026",
+      "summary": "Workbench is now Playground in the Claude Console. Playground supports every Messages API parameter and includes templates that demonstrate API features such as code execution and web search. It shows the full SDK request and the API response for each run, to help you understand the API and build with it. For more, see the Claude Help Center or try it at platform.claude.com/playground .",
+      "date_guess": "August 18, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "a69613e0779d0cae",
+      "fetched_at": "2026-08-21T11:33:50.877846+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 11, 2026",
+      "summary": "The Compliance API now returns transcripts of Cowork and Claude Code sessions that run on your users' machines, in beta for Claude Enterprise organizations. GET /v1/compliance/apps/sessions/local lists sessions across your organization, GET /v1/compliance/apps/sessions/local/{session_id} retrieves one session's metadata, and GET /v1/compliance/apps/sessions/local/{session_id}/messages returns its transcript, all with your existing Compliance Access Key and the read:compliance_user_data scope. Se",
+      "date_guess": "August 11, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "5dcb047be405d3de",
+      "fetched_at": "2026-08-21T11:33:50.877910+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 10, 2026",
+      "summary": "The introductory pricing for Claude Sonnet 5 ($2 / $10 per MTok) is now the standard price: the previously scheduled increase to $3 / $15 per MTok on September 1, 2026 will not occur. See Pricing .",
+      "date_guess": "August 10, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ef24929b1615bff0",
+      "fetched_at": "2026-08-21T11:33:50.877967+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 7, 2026",
+      "summary": "You can now set a budget on a Claude Managed Agents session: a hard cap on the session's spend, priced at public list rates. A session that reaches its budget pauses with the budget_reached stop reason instead of starting new model requests; changing or removing the budget resumes it. Deployments accept the same budget and apply it to each session they start. See Session budgets . You can now give a Claude Managed Agents session an advisor: a model at least as capable as the agent's own that the",
+      "date_guess": "August 7, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "e1cec20d99962581",
+      "fetched_at": "2026-08-21T11:33:50.878034+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 5, 2026",
+      "summary": "Inference hooks are now in beta for Claude Enterprise organizations. Point Claude at your organization's AI security server, and each governed prompt across claude.ai, Cowork, and Claude Code is held for the server's allow or deny verdict before inference proceeds. Requests are signed, failure handling is configurable, and every denial is recorded in the compliance Activity Feed . See Inference hooks . We've retired the Claude Opus 4.1 model ( claude-opus-4-1-20250805 ). All requests to this mod",
+      "date_guess": "August 5, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "3510ce23069339f9",
+      "fetched_at": "2026-08-21T11:33:50.878093+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 3, 2026",
+      "summary": "The Compliance API now returns transcripts of Cowork sessions started on claude.ai web or mobile, in beta for Claude Enterprise organizations. GET /v1/compliance/apps/sessions/remote lists sessions and GET /v1/compliance/apps/sessions/remote/{session_id}/messages returns one session's transcript, using your existing Compliance Access Key with the read:compliance_user_data scope. See Sessions in the cloud .",
+      "date_guess": "August 3, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "0ff9cd948569a717",
+      "fetched_at": "2026-08-21T11:33:50.878154+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 1, 2026",
+      "summary": "Dreams (research preview) now supports Claude Opus 5. See Supported models .",
+      "date_guess": "August 1, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "7faaa55ade44438b",
+      "fetched_at": "2026-08-21T11:33:50.878207+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 24, 2026",
+      "summary": "We've launched Claude Opus 5 ( claude-opus-5 ), a step-change improvement over Claude Opus 4.8. Claude Opus 5 supports a 1M token context window (both the default and the maximum), 128k max output tokens, and thinking on by default, at $5 / $25 USD per MTok, the same pricing as Claude Opus 4.8. It's available on the Claude API, Claude in Amazon Bedrock , Claude on Google Cloud , and Claude in Microsoft Foundry . See What's new in Claude Opus 5 for new features, behavior changes, and migration gu",
+      "date_guess": "July 24, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ea8e4dd67848e302",
+      "fetched_at": "2026-08-21T11:33:50.878286+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 22, 2026",
+      "summary": "You can now set an effort level on a Claude Managed Agents agent's model configuration. Pass effort inside the model object when you create the agent . See Effort levels for what each level does. Webhooks for Claude Managed Agents now cover the environment and memory store lifecycle: four environment.* event types and three memory_store.* event types. You can react to environment and memory store lifecycle changes without polling. See the Environment events and Memory store events tabs in Subscr",
+      "date_guess": "July 22, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "d1f177fa385820b4",
+      "fetched_at": "2026-08-21T11:33:50.878371+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 17, 2026",
+      "summary": "The legacy Workbench ( platform.claude.com/workbench ) in the Claude Console is being sunset with access ending on August 17, 2026. Saved prompts, variables, and evals are not supported in the updated Workbench . You can export any data you want to keep from the banner and under your Organizational Settings . For more, see How do I use the Workbench? in the Claude Help Center. The experimental prompt tools APIs for generating, improving, and templatizing prompts ( /v1/experimental/generate_promp",
+      "date_guess": "July 17, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "6149ff4e0c5c2f42",
+      "fetched_at": "2026-08-21T11:33:50.878433+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 15, 2026",
+      "summary": "Mid-conversation system messages are available on Claude Fable 5, Claude Mythos 5, and Claude Opus 4.8, on the Claude API, Claude in Amazon Bedrock , and Google Cloud . No beta header is required. This corrects earlier availability notes.",
+      "date_guess": "July 15, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "255f352fb03f9891",
+      "fetched_at": "2026-08-21T11:33:50.878487+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 14, 2026",
+      "summary": "You can now manage the people in your Claude Enterprise (claude.ai) organization with the Admin API , in beta for all Claude Enterprise organizations: list members and look them up by email address, change a member's role, remove members, send and withdraw invites, manage groups and their membership, and read custom roles. Group and custom-role requests require the anthropic-beta: ce-user-management-2026-07-13 beta header; member and invite requests take no beta header. An Admin API key with the",
+      "date_guess": "July 14, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "6ee3c058aabd6976",
+      "fetched_at": "2026-08-21T11:33:50.878543+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 10, 2026",
+      "summary": "Dreams (research preview) now supports Claude Fable 5 and Claude Sonnet 5. See Supported models . We've expanded the Access Transparency documentation of cmek_preserve events with a filter example, an example event payload, and two preservation reason codes ( policy_violation_investigation , csae_report ). The documentation now also clarifies that a preservation event is written whether the preservation was initiated by a human reviewer or an automated safety pipeline. See CMEK content preservat",
+      "date_guess": "July 10, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "cfc103f5084e7ed4",
+      "fetched_at": "2026-08-21T11:33:50.878602+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 8, 2026",
+      "summary": "You can now set an expiration when you create an API key or an Admin API key in the Claude Console . Choose a preset, a custom duration, or Never . For keys with a lifetime of at least 7 days, Anthropic emails the creator before expiration. Existing keys are unaffected. The Admin API reports each key's expiration in the expires_at field. See Authentication .",
+      "date_guess": "July 8, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "e691b5453b1bea47",
+      "fetched_at": "2026-08-21T11:33:50.878655+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 2, 2026",
+      "summary": "We've added the agent-memory-2026-07-22 beta header, which changes how listing memories ( GET /v1/memory_stores/{memory_store_id}/memories ) behaves: results are returned in a stable, server-defined order and the order_by and order parameters are ignored; depth accepts only 0 , 1 , or being omitted (other values return a 400 error); and path_prefix must end with / and matches whole path segments instead of a substring. Page cursors issued without the header aren't valid with it, so restart from ",
+      "date_guess": "July 2, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "d79f57d730c3a62b",
+      "fetched_at": "2026-08-21T11:33:50.878720+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 1, 2026",
+      "summary": "We've restored access to Claude Fable 5 and Claude Mythos 5. See our statement for more information.",
+      "date_guess": "July 1, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "25d6fc5df0a2c3b3",
+      "fetched_at": "2026-08-21T11:33:50.878771+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 30, 2026",
+      "summary": "We've launched Claude Sonnet 5 ( claude-sonnet-5 ), the next generation of our Sonnet model family, at introductory pricing of $2 / $10 per MTok (made the standard price on August 10, 2026). Claude Sonnet 5 supports a 1M token context window , 128k max output tokens, and the same set of tools and platform features as Claude Sonnet 4.6, except Priority Tier , which is not available on Claude Sonnet 5. Three behavior changes apply when migrating: adaptive thinking is now on by default; manual exte",
+      "date_guess": "June 30, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "72a8cf8998137596",
+      "fetched_at": "2026-08-21T11:33:50.878845+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 29, 2026",
+      "summary": "We've removed fast mode for Claude Opus 4.6. Requests to claude-opus-4-6 with speed: \"fast\" no longer run at fast speed or premium pricing: they run at standard speed, are billed at standard rates, and do not return an error. The response's usage.speed field reports the speed used. To continue using fast mode, migrate to Claude Opus 4.8 . Read more in Fast mode .",
+      "date_guess": "June 29, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "479810da6a2b067a",
+      "fetched_at": "2026-08-21T11:33:50.878900+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 26, 2026",
+      "summary": "We've raised rate limits across the Claude API. Claude Sonnet and Claude Haiku rate limits now match Claude Opus at every usage tier, and usage tiers have been consolidated into three: Start, Build, and Scale. Most organizations move to a higher tier, no organization receives lower limits than before, and no action is required. You can view your tier and current limits in the Claude Console .",
+      "date_guess": "June 26, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "8dc4c872629dffee",
+      "fetched_at": "2026-08-21T11:33:50.878951+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 25, 2026",
+      "summary": "We've deprecated fast mode for Claude Opus 4.7, with removal on July 24, 2026. After removal, requests to claude-opus-4-7 with speed: \"fast\" will return an error. Migrate to fast mode for Claude Opus 4.8. Read more in Fast mode .",
+      "date_guess": "June 25, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "50e9d700a5844c0b",
+      "fetched_at": "2026-08-21T11:33:50.879002+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 22, 2026",
+      "summary": "MCP tunnels (research preview): the management API moved from /v1/organizations/tunnels on the Admin API to /v1/tunnels on the Claude API. The new surface uses the anthropic-beta: mcp-tunnels-2026-06-22 header and the workspace:manage_tunnels WIF scope. The previous surface remains available during a migration window. See the Tunnels API reference .",
+      "date_guess": "June 22, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ddc4fbc7a9f5748b",
+      "fetched_at": "2026-08-21T11:33:50.879055+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 18, 2026",
+      "summary": "The Python, TypeScript, Go, Java, Ruby, PHP, and C# SDKs now include support for code_execution_20260120 , the code execution tool version that adds REPL state persistence and is the minimum version for programmatic tool calling . To adopt it, set the tool's type to code_execution_20260120 ; no beta header is required. It's available on Claude Fable 5, Claude Mythos 5, Claude Opus 4.5 and newer, and Claude Sonnet 4.5 and newer; see the model compatibility table .",
+      "date_guess": "June 18, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "b04d6cf63f2bac1d",
+      "fetched_at": "2026-08-21T11:33:50.879105+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 15, 2026",
+      "summary": "We've retired the Claude Sonnet 4 model ( claude-sonnet-4-20250514 ) and the Claude Opus 4 model ( claude-opus-4-20250514 ). All requests to these models on the Claude API will now return an error. We recommend upgrading to Claude Sonnet 4.6 and Claude Opus 4.8 respectively. Researchers can request ongoing access through the External Researcher Access Program .",
+      "date_guess": "June 15, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "953fe68aa867c4d8",
+      "fetched_at": "2026-08-21T11:33:50.879164+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 11, 2026",
+      "summary": "The code execution tool now supports code_execution_20260521 , which discloses the 90-second per-cell execution time limit in the tool description so Claude can budget long-running cells. No beta header is required. The web search tool and web fetch tool now support web_search_20260318 and web_fetch_20260318 , adding a response_inclusion parameter to drop consumed result blocks from the API response for agentic workflows. No beta header is required.",
+      "date_guess": "June 11, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "a5a36d599b9fddd8",
+      "fetched_at": "2026-08-21T11:33:50.879219+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 10, 2026",
+      "summary": "The GET /v1/environments/{id}/work endpoint, which lists pending work for a self-hosted sandbox , is now available on Claude Platform on AWS . See IAM actions for Claude Platform on AWS for the GetEnvironment action that authorizes it.",
+      "date_guess": "June 10, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "e0072863bc6e297f",
+      "fetched_at": "2026-08-21T11:33:50.879270+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 9, 2026",
+      "summary": "We've launched Claude Fable 5 ( claude-fable-5 ), our most capable widely released model, alongside Claude Mythos 5 ( claude-mythos-5 ) for Project Glasswing participants. Both models support a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking . See Introducing Claude Fable 5 and Claude Mythos 5 for capabilities, API changes, and availability. Claude Fable 5 and Claude Mythos 5 use the tokenizer introduced with Claude Opus 4.7. Compared to models before ",
+      "date_guess": "June 9, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "9b1f77a99fd3151f",
+      "fetched_at": "2026-08-21T11:33:50.879373+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 5, 2026",
+      "summary": "We announced the deprecation of the Claude Opus 4.1 model ( claude-opus-4-1-20250805 ), with retirement on the Claude API scheduled for August 5, 2026. We recommend migrating to Claude Opus 4.8 . Read more in Model deprecations .",
+      "date_guess": "June 5, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "5cd5abb1b4fb3d61",
+      "fetched_at": "2026-08-21T11:33:50.879427+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 2, 2026",
+      "summary": "The advisor tool now supports a max_tokens parameter to cap the advisor model's output per call, reducing latency and output token cost for workloads that don't need full-length advisor responses. Set tools[].max_tokens on the advisor tool definition; see Capping advisor output . On the Claude API, you are no longer billed for a request when it returns stop_reason: \"refusal\" without Claude having generated any output. See Streaming refusals for detecting and handling refusals.",
+      "date_guess": "June 2, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "c2c3fc809e643692",
+      "fetched_at": "2026-08-21T11:33:50.879478+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 29, 2026",
+      "summary": "Claude Managed Agents webhooks , multiagent orchestration , and self-hosted sandboxes are now available on Claude Platform on AWS . See IAM actions for Claude Platform on AWS for the new IAM actions and the AnthropicSelfHostedEnvironmentAccess managed policy.",
+      "date_guess": "May 29, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "4a3c8ef285dab6c2",
+      "fetched_at": "2026-08-21T11:33:50.879527+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 28, 2026",
+      "summary": "We've launched Claude Opus 4.8 ( claude-opus-4-8 ), our most capable generally available model. Claude Opus 4.8 supports a 1M token context window by default on the Claude API, Amazon Bedrock, Google Cloud, and Microsoft Foundry, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See the migration guide for baseline settings, features, and migration guidance. We've launched mid-conversation system messages . On Claude Opus 4.8, you can send role: \"system\"",
+      "date_guess": "May 28, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ea39aff542fbcffa",
+      "fetched_at": "2026-08-21T11:33:50.879609+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 27, 2026",
+      "summary": "The Messages API response now includes usage.output_tokens_details.thinking_tokens , reporting how many of the billed output tokens were extended thinking. When streaming, the breakdown appears only on the final message_delta event. No beta header is required.",
+      "date_guess": "May 27, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "eee8a9c64978b422",
+      "fetched_at": "2026-08-21T11:33:50.879656+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 19, 2026",
+      "summary": "MCP tunnels is now available as a research preview, so you can connect to MCP servers in your private network. Self-hosted sandboxes are now available for Claude Managed Agents, as an alternative to running tool execution in Anthropic's infrastructure. See Self-hosted sandboxes . With Claude Managed Agents, you can now update the agent's MCP server and tool configurations associated with an active session. With Claude Managed Agents, large outputs from agent_toolset and MCP tools exceeding 100K ",
+      "date_guess": "May 19, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "f458b2f286159575",
+      "fetched_at": "2026-08-21T11:33:50.879705+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 18, 2026",
+      "summary": "The web search tool now returns richer SEC filing data, making it easier to ground financial research agents, earnings analysis, and due-diligence workflows in primary sources with citations.",
+      "date_guess": "May 18, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ae81711fa5fab818",
+      "fetched_at": "2026-08-21T11:33:50.879749+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 13, 2026",
+      "summary": "We've launched cache diagnostics in public beta. Pass diagnostics.previous_message_id on a Messages request and the API reports a cache_miss_reason explaining where the prompt cache prefix diverged from the previous turn. Include the cache-diagnosis-2026-04-07 beta header in your requests.",
+      "date_guess": "May 13, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ea73315672a826f0",
+      "fetched_at": "2026-08-21T11:33:50.879794+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 12, 2026",
+      "summary": "Fast mode (research preview) now supports Claude Opus 4.7. Set speed: \"fast\" with model: \"claude-opus-4-7\" and the fast-mode-2026-02-01 beta header for significantly faster output token generation at premium pricing. Pricing, rate limits, and access are the same as for Opus 4.6 fast mode; interested customers should join the waitlist .",
+      "date_guess": "May 12, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "6d50976940369b07",
+      "fetched_at": "2026-08-21T11:33:50.879840+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 11, 2026",
+      "summary": "We've launched Claude Platform on AWS , bringing the Claude API to Anthropic-managed infrastructure accessible through AWS, with AWS billing and IAM authentication. Access the full Messages API, Files API, Message Batches API, Claude Managed Agents, Agent Skills, code execution, and tool use through native AWS endpoints. Learn more in Claude Platform on AWS .",
+      "date_guess": "May 11, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "252434ae2c557b03",
+      "fetched_at": "2026-08-21T11:33:50.879884+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 6, 2026",
+      "summary": "Multiagent orchestration and Outcomes are now in public beta under the standard managed-agents-2026-04-01 beta header. Claude Managed Agents vault credential background refresh is now supported for mcp_oauth credentials. See Authenticate with vaults . Webhooks for Claude Managed Agents are now supported. Webhook event types include session and vault lifecycle events. See Subscribe to webhooks . Additional filtering and sorting options are now supported for Claude Managed Agents. Sessions can be ",
+      "date_guess": "May 6, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "23868813efa3f5f0",
+      "fetched_at": "2026-08-21T11:33:50.879936+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 4, 2026",
+      "summary": "Workload Identity Federation is now generally available. Authenticate workloads to the Claude API with short-lived OIDC tokens from your own identity provider (AWS IAM, Google Cloud, GitHub Actions, Kubernetes, Microsoft Entra ID, Okta, SPIFFE, and more) instead of long-lived static API keys. Configure issuers and federation rules in the Claude Console, and the SDK handles token exchange and refresh automatically. See Authentication .",
+      "date_guess": "May 4, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "20725b1c7f3038e8",
+      "fetched_at": "2026-08-21T11:33:50.879979+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " April 30, 2026",
+      "summary": "We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Claude Sonnet 4.5 and Claude Sonnet 4. The beta header now has no effect on these models, and requests exceeding the standard 200k-token context window return an error. To use the 1M context window, migrate to Claude Sonnet 4.6 or Claude Opus 4.6 , where it's generally available at standard pricing with no beta header required.",
+      "date_guess": "April 30, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ecedef4dd5dff8c5",
+      "fetched_at": "2026-08-21T11:33:50.880024+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " April 29, 2026",
+      "summary": "We've released the Claude API skill , an open-source Agent Skill that gives Claude up-to-date reference material for building on the Messages API and Claude Managed Agents across 8 languages. The skill is bundled with Claude Code and available in the Anthropic skills repository .",
+      "date_guess": "April 29, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "b2a836c1d34d4632",
+      "fetched_at": "2026-08-21T11:33:50.880070+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " April 24, 2026",
+      "summary": "We've released the Rate Limits API , allowing administrators to programmatically query the rate limits configured for their organization and workspaces.",
+      "date_guess": "April 24, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "41a1c96e37af1ba0",
+      "fetched_at": "2026-08-21T11:33:50.880112+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " April 23, 2026",
+      "summary": "Memory for Claude Managed Agents is now in public beta under the standard managed-agents-2026-04-01 header. See Using agent memory for the full integration guide.",
+      "date_guess": "April 23, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "a91701e298f591ec",
+      "fetched_at": "2026-08-21T11:33:50.880156+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " April 20, 2026",
+      "summary": "We've retired the Claude Haiku 3 model ( claude-3-haiku-20240307 ). All requests to this model will now return an error. We recommend upgrading to Claude Haiku 4.5 .",
+      "date_guess": "April 20, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "90a33c086dc7ba87",
+      "fetched_at": "2026-08-21T11:33:50.880202+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " April 16, 2026",
+      "summary": "We've launched Claude Opus 4.7 , our most capable generally available model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See What's new in Claude Opus 4.7 for capability improvements, new features, and the updated tokenizer. Opus 4.7 includes API breaking changes versus Opus 4.6; see the migration guide before upgrading. Claude in Amazon Bedrock is now open to all Amazon Bedrock customers. Claude Opus 4.7 and Claude Haiku 4.5 are available self-ser",
+      "date_guess": "April 16, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "d7176a4f81dbadab",
+      "fetched_at": "2026-08-21T11:33:50.880258+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " April 14, 2026",
+      "summary": "We announced the deprecation of the Claude Sonnet 4 model ( claude-sonnet-4-20250514 ) and the Claude Opus 4 model ( claude-opus-4-20250514 ), with retirement on the Claude API scheduled for June 15, 2026. We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.8 respectively. Read more in Model deprecations .",
+      "date_guess": "April 14, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "a15ac0698645f72f",
+      "fetched_at": "2026-08-21T11:33:50.880301+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " April 9, 2026",
+      "summary": "We've launched the advisor tool in public beta. Pair a faster executor model with a higher-intelligence advisor model that provides strategic guidance mid-generation, so long-horizon agentic workloads get close to advisor-solo quality while the bulk of token generation happens at executor-model rates. Include the beta header advisor-tool-2026-03-01 in your requests.",
+      "date_guess": "April 9, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "bef1cf91f2a95805",
+      "fetched_at": "2026-08-21T11:33:50.880351+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " April 8, 2026",
+      "summary": "We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require the managed-agents-2026-04-01 beta header. Learn more in Claude Managed Agents overview . We've launched the ant CLI , a command-line client for the Claude API that enables faster interaction with the Claude A",
+      "date_guess": "April 8, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "39587ce124ea1160",
+      "fetched_at": "2026-08-21T11:33:50.880396+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " April 7, 2026",
+      "summary": "We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing . Access is invitation-only. The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1 ; contact your Anthropic account executive ",
+      "date_guess": "April 7, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "7f20cf01451c906d",
+      "fetched_at": "2026-08-21T11:33:50.880441+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " March 30, 2026",
+      "summary": "We've raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks. We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on April 30, 2026 . After that date, the context-1m-2025-08-07 beta header will have no effect on these models, and requests that exceed the standar",
+      "date_guess": "March 30, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "d91980bfb548f41e",
+      "fetched_at": "2026-08-21T11:33:50.880484+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " March 18, 2026",
+      "summary": "We've added model capability fields to the Models API . GET /v1/models and GET /v1/models/{model_id} now return max_input_tokens , max_tokens , and a capabilities object. Query the API to discover what each model supports.",
+      "date_guess": "March 18, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "fb24303ea9149d41",
+      "fetched_at": "2026-08-21T11:33:50.880528+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " March 16, 2026",
+      "summary": "We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: \"omitted\" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is unchanged. Learn more in Controlling thinking display .",
+      "date_guess": "March 16, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "11151572b49e42be",
+      "fetched_at": "2026-08-21T11:33:50.880570+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " March 13, 2026",
+      "summary": "The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4. We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length. We've raised the media limit from 100 to 600 images or PDF pages per request whe",
+      "date_guess": "March 13, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ae7951f1592a93c4",
+      "fetched_at": "2026-08-21T11:33:50.880614+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " February 19, 2026",
+      "summary": "We've launched automatic caching for the Messages API. Add a single cache_control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Microsoft Foundry (preview). Learn more in Prompt caching . We've retired the Claude Sonnet 3.7 model ( claude-3-7-sonn",
+      "date_guess": "February 19, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "6eb1d867869e8b59",
+      "fetched_at": "2026-08-21T11:33:50.880664+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " February 17, 2026",
+      "summary": "We've launched Claude Sonnet 4.6 , our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models & Pricing for details. API code execution is now free when used with web search or web fetch . Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage.",
+      "date_guess": "February 17, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "07116e6fc0fa999c",
+      "fetched_at": "2026-08-21T11:33:50.880712+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " February 7, 2026",
+      "summary": "We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generation through the speed parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the waitlist .",
+      "date_guess": "February 7, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "1840db68331aef83",
+      "fetched_at": "2026-08-21T11:33:50.880752+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " February 5, 2026",
+      "summary": "We've launched Claude Opus 4.6 , our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommends adaptive thinking ( thinking: {type: \"adaptive\"} ); manual thinking ( type: \"enabled\" with budget_tokens ) is deprecated. Opus 4.6 does not support prefilling assistant messages. Learn more in What's new in Claude 4.6 . The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6. Effort replaces budget_tokens for controlling t",
+      "date_guess": "February 5, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ef04c03fee935132",
+      "fetched_at": "2026-08-21T11:33:50.880800+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " January 29, 2026",
+      "summary": "Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The output_format parameter has moved to output_config.format . Existing beta users can continue using the beta header during the transition period. Structured outputs remain in public beta on Amazon Bedrock and Microsoft Foundry.",
+      "date_guess": "January 29, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "c2ea5bc5d982e4cf",
+      "fetched_at": "2026-08-21T11:33:50.880839+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " January 12, 2026",
+      "summary": "console.anthropic.com now redirects to platform.claude.com . The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working through an automatic redirect. For more details, see the September 16, 2025 announcement .",
+      "date_guess": "January 12, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "50e56cbde8b79d6c",
+      "fetched_at": "2026-08-21T11:33:50.880882+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " January 5, 2026",
+      "summary": "We've retired the Claude Opus 3 model ( claude-3-opus-20240229 ). All requests to this model will now return an error. We recommend upgrading to Claude Opus 4.5 , which offers significantly improved intelligence at a third of the cost. Researchers can request ongoing access to Claude Opus 3 on the API through the External Researcher Access Program .",
+      "date_guess": "January 5, 2026",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "e65d344d128a3db0",
+      "fetched_at": "2026-08-21T11:33:50.880921+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " December 19, 2025",
+      "summary": "We announced the deprecation of the Claude Haiku 3.5 model. Read more in Model deprecations .",
+      "date_guess": "December 19, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "e0cc1d813fe73a01",
+      "fetched_at": "2026-08-21T11:33:50.880957+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " December 4, 2025",
+      "summary": "Structured outputs now supports Claude Haiku 4.5.",
+      "date_guess": "December 4, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "03bbfe65ebb5c2a4",
+      "fetched_at": "2026-08-21T11:33:50.880994+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " November 24, 2025",
+      "summary": "We've launched Claude Opus 4.5 , our most intelligent model combining maximum capability with practical performance. Ideal for complex specialized tasks, professional software engineering, and advanced agents. Features step-change improvements in vision, coding, and computer use at a more accessible price point than previous Opus models. Learn more in Models overview . We've launched programmatic tool calling in public beta, allowing Claude to call tools from within code execution to reduce late",
+      "date_guess": "November 24, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "dd1c2ae0dd416602",
+      "fetched_at": "2026-08-21T11:33:50.881039+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " November 21, 2025",
+      "summary": "Search result content blocks are now generally available on Amazon Bedrock. Learn more in Search results .",
+      "date_guess": "November 21, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "04bc11af4355a481",
+      "fetched_at": "2026-08-21T11:33:50.881075+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " November 19, 2025",
+      "summary": "We've launched a new documentation platform at platform.claude.com/docs . Our documentation now lives side by side with the Claude Console, providing a unified developer experience. The previous docs site at docs.claude.com will redirect to the new location.",
+      "date_guess": "November 19, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "36fd5eff9b8425ad",
+      "fetched_at": "2026-08-21T11:33:50.881110+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " November 18, 2025",
+      "summary": "We've launched Claude in Microsoft Foundry , bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, Files API, Agent Skills, and tool use. Learn more in Claude in Microsoft Foundry .",
+      "date_guess": "November 18, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "c672a00809354994",
+      "fetched_at": "2026-08-21T11:33:50.881145+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " November 14, 2025",
+      "summary": "We've launched structured outputs in public beta, providing guaranteed schema conformance for Claude's responses. Use JSON outputs for structured data responses or strict tool use for validated tool inputs. Available for Claude Sonnet 4.5 and Claude Opus 4.1. To enable, use the beta header structured-outputs-2025-11-13 .",
+      "date_guess": "November 14, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "7200d21a20ce1855",
+      "fetched_at": "2026-08-21T11:33:50.881180+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " October 28, 2025",
+      "summary": "We announced the deprecation of the Claude Sonnet 3.7 model. Read more in Model deprecations . We've retired the Claude Sonnet 3.5 models. All requests to these models will now return an error. We've expanded context editing with thinking block clearing ( clear_thinking_20251015 ), enabling automatic management of thinking blocks. Learn more in Context editing .",
+      "date_guess": "October 28, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "1c53d4d7e59da956",
+      "fetched_at": "2026-08-21T11:33:50.881215+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " October 16, 2025",
+      "summary": "We've launched Agent Skills ( skills-2025-10-02 beta), a new way to extend Claude's capabilities. Skills are organized folders of instructions, scripts, and resources that Claude loads dynamically to perform specialized tasks. The initial release includes: Anthropic-managed Skills : Pre-built Skills for working with PowerPoint (.pptx), Excel (.xlsx), Word (.docx), and PDF files Custom Skills : Upload your own Skills through the Skills API ( /v1/skills endpoints) to package domain expertise and o",
+      "date_guess": "October 16, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "32ffbb5132612a85",
+      "fetched_at": "2026-08-21T11:33:50.881257+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " October 15, 2025",
+      "summary": "We've launched Claude Haiku 4.5 , our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Learn more in Models overview .",
+      "date_guess": "October 15, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "edae24ecda17d022",
+      "fetched_at": "2026-08-21T11:33:50.881290+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " September 29, 2025",
+      "summary": "We've launched Claude Sonnet 4.5 , our best model for complex agents and coding, with the highest intelligence across most tasks. Learn more in the models overview . We've introduced global endpoint pricing for Amazon Bedrock and Vertex AI. The Claude API (1P) pricing is unaffected. We've introduced a new stop reason model_context_window_exceeded that allows you to request the maximum possible tokens without calculating input size. Learn more in Handling stop reasons . We've launched the memory ",
+      "date_guess": "September 29, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "51057f9e0643e7aa",
+      "fetched_at": "2026-08-21T11:33:50.881331+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " September 17, 2025",
+      "summary": "We've launched tool helpers in beta for the Python and TypeScript SDKs, simplifying tool creation and execution with type-safe input validation and a tool runner for automated tool handling in conversations. For details, see the documentation for the Python SDK and the TypeScript SDK .",
+      "date_guess": "September 17, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "105246f3c7349d1a",
+      "fetched_at": "2026-08-21T11:33:50.881373+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " September 16, 2025",
+      "summary": "We've unified our developer offerings under the Claude brand. You should see updated naming and URLs across our platform and documentation, but our developer interfaces will remain the same . Here are some notable changes: Claude Console ( console.anthropic.com ) → Claude Console ( platform.claude.com ). The console will be available at both URLs until January 12, 2026. After that date, console.anthropic.com will automatically redirect to platform.claude.com . Anthropic Docs ( docs.anthropic.com",
+      "date_guess": "September 16, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "f13647ad1bd447cd",
+      "fetched_at": "2026-08-21T11:33:50.881415+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " September 10, 2025",
+      "summary": "We've launched the web fetch tool in beta, allowing Claude to retrieve full content from specified web pages and PDF documents. Learn more in Web fetch tool . We've launched the Claude Code Analytics API , enabling organizations to programmatically access daily aggregated usage metrics for Claude Code, including productivity metrics, tool usage statistics, and cost data.",
+      "date_guess": "September 10, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "888ae07864b9e801",
+      "fetched_at": "2026-08-21T11:33:50.881448+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " September 8, 2025",
+      "summary": "We launched a beta version of the C# SDK .",
+      "date_guess": "September 8, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "fdcaf338c702d683",
+      "fetched_at": "2026-08-21T11:33:50.881478+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " September 5, 2025",
+      "summary": "We've launched rate limit charts in the Console Usage page, allowing you to monitor your API rate limit usage and caching rates over time.",
+      "date_guess": "September 5, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "98aae2211f019a9d",
+      "fetched_at": "2026-08-21T11:33:50.881510+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " September 3, 2025",
+      "summary": "We've launched support for citable documents in client-side tool results. Learn more in Handle tool calls .",
+      "date_guess": "September 3, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "21b08f78e3c75043",
+      "fetched_at": "2026-08-21T11:33:50.881541+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " September 2, 2025",
+      "summary": "We've launched v2 of the Code Execution Tool in public beta, replacing the original Python-only tool with Bash command execution and direct file manipulation capabilities, including writing code in other languages.",
+      "date_guess": "September 2, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "76022c75b096d022",
+      "fetched_at": "2026-08-21T11:33:50.881571+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 27, 2025",
+      "summary": "We launched a beta version of the PHP SDK .",
+      "date_guess": "August 27, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "b7aae88f9da547f1",
+      "fetched_at": "2026-08-21T11:33:50.881601+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 26, 2025",
+      "summary": "We've increased rate limits on the 1M token context window for Claude Sonnet 4 on the Claude API. The 1M token context window is now available on Vertex AI. For more information, see Claude on Vertex AI .",
+      "date_guess": "August 26, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "d1b202992e489f4c",
+      "fetched_at": "2026-08-21T11:33:50.881632+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 19, 2025",
+      "summary": "Request IDs are now included directly in error response bodies alongside the existing request-id header. Learn more in Errors .",
+      "date_guess": "August 19, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "c56ceb680b628581",
+      "fetched_at": "2026-08-21T11:33:50.881665+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 18, 2025",
+      "summary": "We've released the Usage & Cost API , allowing administrators to programmatically monitor their organization's usage and cost data. We've added a new endpoint to the Admin API for retrieving organization information. For details, see the Organization Info Admin API reference .",
+      "date_guess": "August 18, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "f3addb046ed904ba",
+      "fetched_at": "2026-08-21T11:33:50.881697+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 13, 2025",
+      "summary": "We announced the deprecation of the Claude Sonnet 3.5 models ( claude-3-5-sonnet-20240620 and claude-3-5-sonnet-20241022 ). These models will be retired on October 28, 2025. We recommend migrating to Claude Sonnet 4.5 ( claude-sonnet-4-5-20250929 ) for improved performance and capabilities. Read more in Model deprecations . The 1-hour cache duration for prompt caching is now generally available. You can now use the extended cache TTL without a beta header. Learn more in Prompt caching .",
+      "date_guess": "August 13, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "d5eae27d59c3a9d1",
+      "fetched_at": "2026-08-21T11:33:50.881728+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 12, 2025",
+      "summary": "We've launched beta support for a 1M token context window in Claude Sonnet 4 on the Claude API and Amazon Bedrock.",
+      "date_guess": "August 12, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "cc696b7b9f797760",
+      "fetched_at": "2026-08-21T11:33:50.881756+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 11, 2025",
+      "summary": "Some customers might encounter 429 ( rate_limit_error ) errors following a sharp increase in API usage due to acceleration limits on the API. Previously, 529 ( overloaded_error ) errors would occur in similar scenarios.",
+      "date_guess": "August 11, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "027362bae400201a",
+      "fetched_at": "2026-08-21T11:33:50.881785+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 8, 2025",
+      "summary": "Search result content blocks are now generally available on the Claude API and Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. The beta header search-results-2025-06-09 is no longer required. Learn more in Search results .",
+      "date_guess": "August 8, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "51fd5a0e14ecbd27",
+      "fetched_at": "2026-08-21T11:33:50.881814+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 5, 2025",
+      "summary": "We've launched Claude Opus 4.1 , an incremental update to Claude Opus 4 with enhanced capabilities and performance improvements. * Learn more in Models overview . *Opus 4.1 does not allow both temperature and top_p parameters to be specified. Please use only one.",
+      "date_guess": "August 5, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "c5f8f10ea74defa1",
+      "fetched_at": "2026-08-21T11:33:50.881845+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 28, 2025",
+      "summary": "We've released text_editor_20250728 , an updated text editor tool that fixes some issues from the previous versions and adds an optional max_characters parameter that allows you to control the truncation length when viewing large files.",
+      "date_guess": "July 28, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "6cf141731a771759",
+      "fetched_at": "2026-08-21T11:33:50.881872+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 24, 2025",
+      "summary": "We've increased rate limits for Claude Opus 4 on the Claude API to give you more capacity to build and scale with Claude. For customers with usage tier 1-4 rate limits , these changes apply immediately to your account - no action needed.",
+      "date_guess": "July 24, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "c656817fa649fd3e",
+      "fetched_at": "2026-08-21T11:33:50.881899+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 21, 2025",
+      "summary": "We've retired the Claude 2.0, Claude 2.1, and Claude Sonnet 3 models. All requests to these models will now return an error. Read more in Model deprecations .",
+      "date_guess": "July 21, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "a34763d929f42cc3",
+      "fetched_at": "2026-08-21T11:33:50.881924+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 17, 2025",
+      "summary": "We've increased rate limits for Claude Sonnet 4 on the Claude API to give you more capacity to build and scale with Claude. For customers with usage tier 1-4 rate limits , these changes apply immediately to your account - no action needed.",
+      "date_guess": "July 17, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "daefc4d79aeec202",
+      "fetched_at": "2026-08-21T11:33:50.881949+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 3, 2025",
+      "summary": "We've launched search result content blocks in beta, enabling natural citations for RAG applications. Tools can now return search results with proper source attribution, and Claude will automatically cite these sources in its responses - matching the citation quality of web search. This eliminates the need for document workarounds in custom knowledge base applications. Learn more in Search results . To enable this feature, use the beta header search-results-2025-06-09 .",
+      "date_guess": "July 3, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "4fc3d2078e89bbab",
+      "fetched_at": "2026-08-21T11:33:50.881976+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 30, 2025",
+      "summary": "We announced the deprecation of the Claude Opus 3 model. Read more in Model deprecations .",
+      "date_guess": "June 30, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "d26e15da06aa0f05",
+      "fetched_at": "2026-08-21T11:33:50.882000+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 23, 2025",
+      "summary": "Console users with the Developer role can now access the Cost page. Previously, the Developer role allowed access to the Usage page, but not the Cost page.",
+      "date_guess": "June 23, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "832443845799769b",
+      "fetched_at": "2026-08-21T11:33:50.882030+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 11, 2025",
+      "summary": "We've launched fine-grained tool streaming in public beta, a feature that enables Claude to stream tool use parameters without buffering / JSON validation. To enable fine-grained tool streaming, use the beta header fine-grained-tool-streaming-2025-05-14 .",
+      "date_guess": "June 11, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "d668e6ba4c9a46b0",
+      "fetched_at": "2026-08-21T11:33:50.882055+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 22, 2025",
+      "summary": "We've launched Claude Opus 4 and Claude Sonnet 4 , our latest models with extended thinking capabilities. Learn more in Models overview . The default behavior of extended thinking in Claude 4 models returns a summary of Claude's full thinking process, with the full thinking encrypted and returned in the signature field of thinking block output. We've launched interleaved thinking in public beta, a feature that enables Claude to think in between tool calls. To enable interleaved thinking, use the",
+      "date_guess": "May 22, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "25363a149f2ac6c9",
+      "fetched_at": "2026-08-21T11:33:50.882096+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 21, 2025",
+      "summary": "We've moved our Ruby SDK from beta to GA.",
+      "date_guess": "May 21, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "15853b4e341eddcf",
+      "fetched_at": "2026-08-21T11:33:50.882121+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 7, 2025",
+      "summary": "We've launched a web search tool in the API, allowing Claude to access up-to-date information from the web. Learn more in Web search tool .",
+      "date_guess": "May 7, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "f6533cdc302d1210",
+      "fetched_at": "2026-08-21T11:33:50.882146+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 1, 2025",
+      "summary": "Cache control must now be specified directly in the parent content block of tool_result and document.source . For backwards compatibility, if cache control is detected on the last block in tool_result.content or document.source.content , it will be automatically applied to the parent block instead. Cache control on any other blocks within tool_result.content and document.source.content will result in a validation error.",
+      "date_guess": "May 1, 2025",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "0d474206d669e5d4",
+      "fetched_at": "2026-08-21T11:33:50.882175+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " April 9th, 2025",
+      "summary": "We launched a beta version of the Ruby SDK .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ee1be687f1ac6cc1",
+      "fetched_at": "2026-08-21T11:33:50.882199+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " March 31st, 2025",
+      "summary": "We've moved our Java SDK from beta to GA. We've moved our Go SDK from alpha to beta.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "25ef852f053bbedf",
+      "fetched_at": "2026-08-21T11:33:50.882228+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " February 27th, 2025",
+      "summary": "We've added URL source blocks for images and PDFs in the Messages API. You can now reference images and PDFs directly through a URL instead of having to base64-encode them. Learn more in Vision and PDF support . We've added support for a none option to the tool_choice parameter in the Messages API that prevents Claude from calling any tools. Additionally, you're no longer required to provide any tools when including tool_use and tool_result blocks. We've launched an OpenAI-compatible API endpoin",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "8d325882efc80d66",
+      "fetched_at": "2026-08-21T11:33:50.882271+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " February 24th, 2025",
+      "summary": "We've launched Claude Sonnet 3.7 , our most intelligent model yet. Claude Sonnet 3.7 can produce near-instant responses or show its extended thinking step-by-step. One model, two ways to think. Learn more about all Claude models in Models overview . We've added vision support to Claude Haiku 3.5, enabling the model to analyze and understand images. We've released a token-efficient tool use implementation, improving overall performance when using tools with Claude. Learn more in Tool use with Cla",
+      "date_guess": "2025-01-24",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ab8eb3c2ad5e1e1f",
+      "fetched_at": "2026-08-21T11:33:50.882332+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " February 10th, 2025",
+      "summary": "We've added the anthropic-organization-id response header to all API responses. This header provides the organization ID associated with the API key used in the request.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "a406786c4c059d67",
+      "fetched_at": "2026-08-21T11:33:50.882366+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " January 31st, 2025",
+      "summary": "We've moved our Java SDK from alpha to beta.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "51ee25b9bfe072cf",
+      "fetched_at": "2026-08-21T11:33:50.882391+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " January 23rd, 2025",
+      "summary": "We've launched citations capability in the API, allowing Claude to provide source attribution for information. Learn more in Citations . We've added support for plain text documents and custom content documents in the Messages API.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "1ec7b2cf748e3777",
+      "fetched_at": "2026-08-21T11:33:50.882416+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " January 21st, 2025",
+      "summary": "We announced the deprecation of the Claude 2, Claude 2.1, and Claude Sonnet 3 models. Read more in Model deprecations .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "cf0e564e821a9936",
+      "fetched_at": "2026-08-21T11:33:50.882441+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " January 15th, 2025",
+      "summary": "We've updated prompt caching to be easier to use. Now, when you set a cache breakpoint, we'll automatically read from your longest previously cached prefix. You can now put words in Claude's mouth when using tools.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "f800f2f00f372ca6",
+      "fetched_at": "2026-08-21T11:33:50.882466+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " January 10th, 2025",
+      "summary": "We've optimized support for prompt caching in the Message Batches API to improve cache hit rate.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "3e2fad1b59cda5da",
+      "fetched_at": "2026-08-21T11:33:50.882489+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " December 19th, 2024",
+      "summary": "We've added support for a delete endpoint in the Message Batches API.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "27adf5e0cdcdbfa5",
+      "fetched_at": "2026-08-21T11:33:50.882509+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " December 17th, 2024",
+      "summary": "The following features are now generally available in the Claude API: Models API : Query available models, validate model IDs, and resolve model aliases to their canonical model IDs. Message Batches API : Process large batches of messages asynchronously at 50% of the standard API cost. Token counting API : Calculate token counts for Messages before sending them to Claude. Prompt Caching : Reduce costs by up to 90% and latency by up to 80% by caching and reusing prompt content. PDF support : Proc",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "15f979f4ee4d4832",
+      "fetched_at": "2026-08-21T11:33:50.882553+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " December 4th, 2024",
+      "summary": "We've added the ability to group by API key on the Usage and Cost pages of the Developer Console . We've added two new Last used at and Cost columns and the ability to sort by any column on the API keys page of the Developer Console .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "ca20b1d472fe6d82",
+      "fetched_at": "2026-08-21T11:33:50.882582+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " November 21st, 2024",
+      "summary": "We've released the Admin API , allowing users to programmatically manage their organization's resources.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "346b661c43fa20cd",
+      "fetched_at": "2026-08-21T11:33:50.882603+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " November 20th, 2024",
+      "summary": "We've updated our rate limits for the Messages API. We've replaced the tokens per minute rate limit with new input and output tokens per minute rate limits. Read more in Rate limits . We've added support for tool use in the Workbench .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "cdbb608042cc3fbf",
+      "fetched_at": "2026-08-21T11:33:50.882628+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " November 13th, 2024",
+      "summary": "We've added PDF support for all Claude Sonnet 3.5 models. Read more in PDF support .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "5a56d5155167a65a",
+      "fetched_at": "2026-08-21T11:33:50.882648+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " November 6th, 2024",
+      "summary": "We've retired the Claude 1 and Instant models. Read more in Model deprecations .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "e7bde6789c9736bd",
+      "fetched_at": "2026-08-21T11:33:50.882668+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " November 4th, 2024",
+      "summary": "Claude Haiku 3.5 is now available on the Claude API as a text-only model.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "57864296156ece6b",
+      "fetched_at": "2026-08-21T11:33:50.882688+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " November 1st, 2024",
+      "summary": "We've added PDF support for use with the new Claude Sonnet 3.5. Read more in PDF support . We've also added token counting, which allows you to determine the total number of tokens in a Message prior to sending it to Claude. Read more in Token counting .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "aaee417c053338e2",
+      "fetched_at": "2026-08-21T11:33:50.882711+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " October 22nd, 2024",
+      "summary": "We've added Anthropic-defined computer use tools to our API for use with the new Claude Sonnet 3.5. Read more in Computer use tool . Claude Sonnet 3.5, our most intelligent model yet, just got an upgrade and is now available on the Claude API. Read more in the Claude Sonnet documentation .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "5824638f9e6b51d9",
+      "fetched_at": "2026-08-21T11:33:50.882735+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " October 8th, 2024",
+      "summary": "The Message Batches API is now available in beta. Process large batches of queries asynchronously in the Claude API for 50% less cost. Read more in Batch processing . We've loosened restrictions on the ordering of user / assistant turns in our Messages API. Consecutive user / assistant messages will be combined into a single message instead of erroring, and we no longer require the first input message to be a user message. We've deprecated the Build and Scale plans in favor of a standard feature",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "0ffd67ac333f84c9",
+      "fetched_at": "2026-08-21T11:33:50.882771+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " October 3rd, 2024",
+      "summary": "We've added the ability to disable parallel tool use in the API. Set disable_parallel_tool_use: true in the tool_choice field to ensure that Claude uses at most one tool. Read more in Parallel tool use .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "8160f6de9013e0b0",
+      "fetched_at": "2026-08-21T11:33:50.882793+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " September 10th, 2024",
+      "summary": "We've added Workspaces to the Developer Console . Workspaces allow you to set custom spend or rate limits, group API keys, track usage by project, and control access with user roles. Read more in our blog post .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "9c6faec20e15abb7",
+      "fetched_at": "2026-08-21T11:33:50.882815+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " September 4th, 2024",
+      "summary": "We announced the deprecation of the Claude 1 models. Read more in Model deprecations .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "d8917f0fc1df950f",
+      "fetched_at": "2026-08-21T11:33:50.882832+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 22nd, 2024",
+      "summary": "We've added support for usage of the SDK in browsers by returning CORS headers in the API responses. Set dangerouslyAllowBrowser: true in the SDK instantiation to enable this feature.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "1d9491fe20af68cf",
+      "fetched_at": "2026-08-21T11:33:50.882851+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 19th, 2024",
+      "summary": "We've moved 8,192 token outputs from beta to general availability for Claude Sonnet 3.5.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "d97544b0c4e56985",
+      "fetched_at": "2026-08-21T11:33:50.882867+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " August 14th, 2024",
+      "summary": "Prompt caching is now available as a beta feature in the Claude API. Cache and re-use prompts to reduce latency by up to 80% and costs by up to 90%.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "30a3f581836d53b3",
+      "fetched_at": "2026-08-21T11:33:50.882885+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 15th, 2024",
+      "summary": "Generate outputs up to 8,192 tokens in length from Claude Sonnet 3.5 with the new anthropic-beta: max-tokens-3-5-sonnet-2024-07-15 header.",
+      "date_guess": "2024-07-15",
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "91a5b929c570d42d",
+      "fetched_at": "2026-08-21T11:33:50.882903+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " July 9th, 2024",
+      "summary": "Automatically generate test cases for your prompts using Claude in the Developer Console . Compare the outputs from different prompts side by side in the new output comparison mode in the Developer Console .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "9ca6a368ff929fed",
+      "fetched_at": "2026-08-21T11:33:50.882923+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 27th, 2024",
+      "summary": "View API usage and billing broken down by dollar amount, token count, and API keys in the new Usage and Cost tabs in the Developer Console . View your current API rate limits in the new Rate Limits tab in the Developer Console .",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "6374e9502c546aa6",
+      "fetched_at": "2026-08-21T11:33:50.882945+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " June 20th, 2024",
+      "summary": "Claude Sonnet 3.5 , our most intelligent model yet, is now generally available across the Claude API, Amazon Bedrock, and Vertex AI.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "3462d41ff5e19377",
+      "fetched_at": "2026-08-21T11:33:50.882963+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 30th, 2024",
+      "summary": "Tool use is now generally available across the Claude API, Amazon Bedrock, and Vertex AI.",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "58e957cf5caea522",
+      "fetched_at": "2026-08-21T11:33:50.882977+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": " May 10th, 2024",
+      "summary": "Our prompt generator tool is now available in the Developer Console . Prompt Generator makes it easy to guide Claude to generate a high-quality prompts tailored to your specific tasks. Read more in our blog post . Was this page helpful?  ",
+      "date_guess": null,
+      "source": "https://platform.claude.com/docs/en/release-notes/overview",
+      "hash": "6f1b297d64b931e5",
+      "fetched_at": "2026-08-21T11:33:50.883002+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "565f2a57fc35bb46",
+      "fetched_at": "2026-08-21T11:33:51.226274+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 6, 2026",
+      "summary": "",
+      "date_guess": "August 6, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "0d9947e70556a868",
+      "fetched_at": "2026-08-21T11:33:51.226302+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "July 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "7158e09b5a4dc3c3",
+      "fetched_at": "2026-08-21T11:33:51.226313+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "July 24, 2026",
+      "summary": "",
+      "date_guess": "July 24, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "eefe0de086c0a5a2",
+      "fetched_at": "2026-08-21T11:33:51.226323+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "July 14, 2026",
+      "summary": "",
+      "date_guess": "July 14, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "d6cbdb0d4ad80094",
+      "fetched_at": "2026-08-21T11:33:51.226331+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "July 10, 2026",
+      "summary": "",
+      "date_guess": "July 10, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "0710d3fc9835fb65",
+      "fetched_at": "2026-08-21T11:33:51.226340+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "July 9, 2026",
+      "summary": "",
+      "date_guess": "July 9, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "9fc2c6687b21e7da",
+      "fetched_at": "2026-08-21T11:33:51.226358+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "July 7, 2026",
+      "summary": "",
+      "date_guess": "July 7, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "401dce471bcaa034",
+      "fetched_at": "2026-08-21T11:33:51.226366+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "July 1, 2026",
+      "summary": "",
+      "date_guess": "July 1, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "757b1cffe99447c6",
+      "fetched_at": "2026-08-21T11:33:51.226374+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "June 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "3a1419e964870019",
+      "fetched_at": "2026-08-21T11:33:51.226382+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "June 30, 2026",
+      "summary": "",
+      "date_guess": "June 30, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "898d57e978be45e1",
+      "fetched_at": "2026-08-21T11:33:51.226392+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "June 25, 2026",
+      "summary": "",
+      "date_guess": "June 25, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "40a57a753e00168b",
+      "fetched_at": "2026-08-21T11:33:51.226400+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "June 23, 2026",
+      "summary": "",
+      "date_guess": "June 23, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "ebe27e50c34261b5",
+      "fetched_at": "2026-08-21T11:33:51.226410+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "June 12, 2026",
+      "summary": "",
+      "date_guess": "June 12, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "8d13141bcbe6b627",
+      "fetched_at": "2026-08-21T11:33:51.226418+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "June 9, 2026",
+      "summary": "",
+      "date_guess": "June 9, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "5a169411e9450da6",
+      "fetched_at": "2026-08-21T11:33:51.226425+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "June 2, 2026",
+      "summary": "",
+      "date_guess": "June 2, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "0f2fb22b33024ebf",
+      "fetched_at": "2026-08-21T11:33:51.226433+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "May 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "e37fc42d2da2a84d",
+      "fetched_at": "2026-08-21T11:33:51.226440+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "May 28, 2026",
+      "summary": "",
+      "date_guess": "May 28, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "b368b65749448b00",
+      "fetched_at": "2026-08-21T11:33:51.226448+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "May 21, 2026",
+      "summary": "",
+      "date_guess": "May 21, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "6ab1a4dd708fa57a",
+      "fetched_at": "2026-08-21T11:33:51.226458+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "April 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "de406b8cdeee832a",
+      "fetched_at": "2026-08-21T11:33:51.226467+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "April 17, 2026",
+      "summary": "",
+      "date_guess": "April 17, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "42271826ffe84a9c",
+      "fetched_at": "2026-08-21T11:33:51.226474+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "April 16, 2026",
+      "summary": "",
+      "date_guess": "April 16, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "f5cc386c74f7e939",
+      "fetched_at": "2026-08-21T11:33:51.226482+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "April 9, 2026",
+      "summary": "",
+      "date_guess": "April 9, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "dbeb4d46b631341b",
+      "fetched_at": "2026-08-21T11:33:51.226490+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "March 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "9512d8760d5137fe",
+      "fetched_at": "2026-08-21T11:33:51.226499+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "March 25, 2026",
+      "summary": "",
+      "date_guess": "March 25, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "ab47bb535fec9c2d",
+      "fetched_at": "2026-08-21T11:33:51.226507+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "March 23, 2026",
+      "summary": "",
+      "date_guess": "March 23, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "1cf73727172990b5",
+      "fetched_at": "2026-08-21T11:33:51.226516+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "March 17, 2026",
+      "summary": "",
+      "date_guess": "March 17, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "be83eb4af61fe5ba",
+      "fetched_at": "2026-08-21T11:33:51.226524+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "March 12, 2026",
+      "summary": "",
+      "date_guess": "March 12, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "fc283207885bfd18",
+      "fetched_at": "2026-08-21T11:33:51.226531+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "March 11, 2026",
+      "summary": "",
+      "date_guess": "March 11, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "10c616fca86da32f",
+      "fetched_at": "2026-08-21T11:33:51.226539+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "March 2, 2026",
+      "summary": "",
+      "date_guess": "March 2, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "01246d99ab6c7338",
+      "fetched_at": "2026-08-21T11:33:51.226549+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "February 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "359a631fb1e383cd",
+      "fetched_at": "2026-08-21T11:33:51.226558+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "February 25, 2026",
+      "summary": "",
+      "date_guess": "February 25, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "9174802d58acd194",
+      "fetched_at": "2026-08-21T11:33:51.226566+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "February 24, 2026",
+      "summary": "",
+      "date_guess": "February 24, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "43022bf4f0ac76a4",
+      "fetched_at": "2026-08-21T11:33:51.226574+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "February 17, 2026",
+      "summary": "",
+      "date_guess": "February 17, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "591cb8bbae4faae3",
+      "fetched_at": "2026-08-21T11:33:51.226581+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "February 13, 2026",
+      "summary": "",
+      "date_guess": "February 13, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "a5a58d5548bdd16b",
+      "fetched_at": "2026-08-21T11:33:51.226589+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "February 12, 2026",
+      "summary": "",
+      "date_guess": "February 12, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "17edc7b7927c1bf7",
+      "fetched_at": "2026-08-21T11:33:51.226599+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "February 5, 2026",
+      "summary": "",
+      "date_guess": "February 5, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "7ad2768d077dfce3",
+      "fetched_at": "2026-08-21T11:33:51.226607+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "January 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "f71a8a4e7b283db6",
+      "fetched_at": "2026-08-21T11:33:51.226614+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "January 16, 2026",
+      "summary": "",
+      "date_guess": "January 16, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "d1d4711e13ea84ed",
+      "fetched_at": "2026-08-21T11:33:51.226622+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "January 12, 2026",
+      "summary": "",
+      "date_guess": "January 12, 2026",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "73111a81ff2fa028",
+      "fetched_at": "2026-08-21T11:33:51.226630+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "December 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "78013f1560fb4361",
+      "fetched_at": "2026-08-21T11:33:51.226638+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "December 18, 2025",
+      "summary": "",
+      "date_guess": "December 18, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "78116241565ada9a",
+      "fetched_at": "2026-08-21T11:33:51.226646+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "November 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "d8d2e7175990e42a",
+      "fetched_at": "2026-08-21T11:33:51.226654+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "November 24, 2025",
+      "summary": "",
+      "date_guess": "November 24, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "e79015c921fdc448",
+      "fetched_at": "2026-08-21T11:33:51.226661+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "October 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "d0c63149b5f88d43",
+      "fetched_at": "2026-08-21T11:33:51.226669+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "October 23, 2025",
+      "summary": "",
+      "date_guess": "October 23, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "3fa7522c257e5093",
+      "fetched_at": "2026-08-21T11:33:51.226677+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "October 15, 2025",
+      "summary": "",
+      "date_guess": "October 15, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "d0f23069b9f28a70",
+      "fetched_at": "2026-08-21T11:33:51.226684+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "September 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "114a06b8365e23a5",
+      "fetched_at": "2026-08-21T11:33:51.226693+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "September 29, 2025",
+      "summary": "",
+      "date_guess": "September 29, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "8631d2103fca4533",
+      "fetched_at": "2026-08-21T11:33:51.226701+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "September 18, 2025",
+      "summary": "",
+      "date_guess": "September 18, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "b827bc8193139c6a",
+      "fetched_at": "2026-08-21T11:33:51.226711+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "September 16, 2025",
+      "summary": "",
+      "date_guess": "September 16, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "4374c8bcaba634da",
+      "fetched_at": "2026-08-21T11:33:51.226719+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "September 11, 2025",
+      "summary": "",
+      "date_guess": "September 11, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "2186db95f243250f",
+      "fetched_at": "2026-08-21T11:33:51.226731+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "September 9, 2025",
+      "summary": "",
+      "date_guess": "September 9, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "9701a668f18f13ab",
+      "fetched_at": "2026-08-21T11:33:51.226739+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "September 3, 2025",
+      "summary": "",
+      "date_guess": "September 3, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "6e91519f1be4a62e",
+      "fetched_at": "2026-08-21T11:33:51.226749+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "b27981174e9dc69b",
+      "fetched_at": "2026-08-21T11:33:51.226757+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 27, 2025",
+      "summary": "",
+      "date_guess": "August 27, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "843d46502a79f3de",
+      "fetched_at": "2026-08-21T11:33:51.226765+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 26, 2025",
+      "summary": "",
+      "date_guess": "August 26, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "6ff613effeac52b9",
+      "fetched_at": "2026-08-21T11:33:51.226773+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 21, 2025",
+      "summary": "",
+      "date_guess": "August 21, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "b08cc69d02f7786c",
+      "fetched_at": "2026-08-21T11:33:51.226780+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 20, 2025",
+      "summary": "",
+      "date_guess": "August 20, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "d2751595963d6d9c",
+      "fetched_at": "2026-08-21T11:33:51.226788+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 15, 2025",
+      "summary": "",
+      "date_guess": "August 15, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "bc883d6562a60229",
+      "fetched_at": "2026-08-21T11:33:51.226796+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 12, 2025",
+      "summary": "",
+      "date_guess": "August 12, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "8d458a02f058bd87",
+      "fetched_at": "2026-08-21T11:33:51.226803+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 11, 2025",
+      "summary": "",
+      "date_guess": "August 11, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "e77b1883241e6d5a",
+      "fetched_at": "2026-08-21T11:33:51.226812+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 6, 2025",
+      "summary": "",
+      "date_guess": "August 6, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "c0978c76e78e3469",
+      "fetched_at": "2026-08-21T11:33:51.226820+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 5, 2025",
+      "summary": "",
+      "date_guess": "August 5, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "24003d3474a77a48",
+      "fetched_at": "2026-08-21T11:33:51.226829+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "August 1, 2025",
+      "summary": "",
+      "date_guess": "August 1, 2025",
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "db36654e6668b0f9",
+      "fetched_at": "2026-08-21T11:33:51.226837+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Related Articles",
+      "summary": "How up-to-date is Claude's training data? How large is the context window on paid Claude plans? Claude Code model configuration Use Claude in Microsoft Foundry Enable US-only inference for your organization",
+      "date_guess": null,
+      "source": "https://support.claude.com/en/articles/12138966-release-notes",
+      "hash": "d1952e04b4912549",
+      "fetched_at": "2026-08-21T11:33:51.226858+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Search the API docs",
+      "summary": "Search docs Suggested responses create reasoning_effort realtime prompt caching",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "727b0f39cadab355",
+      "fetched_at": "2026-08-21T11:33:51.783890+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Suggested",
+      "summary": "responses create reasoning_effort realtime prompt caching",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "471a1fe40e238f8d",
+      "fetched_at": "2026-08-21T11:33:51.783922+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Get started",
+      "summary": "Quickstart Using GPT-5.6 Key concepts",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "08e8e585e59bafef",
+      "fetched_at": "2026-08-21T11:33:51.783952+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Core concepts",
+      "summary": "Responses API Conversation state Background mode Streaming WebSocket mode Multi-agent Webhooks File inputs Compaction Counting tokens",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "b38131d84509f48b",
+      "fetched_at": "2026-08-21T11:33:51.783974+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "SDKs and CLI",
+      "summary": "OpenAI SDK OpenAI CLI",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "8258e4096d79f5d7",
+      "fetched_at": "2026-08-21T11:33:51.783987+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Resources",
+      "summary": "Changelog Deprecations Supported countries OpenAI Crawlers Terms and policies",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "45b60a8b7cb7558b",
+      "fetched_at": "2026-08-21T11:33:51.784003+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Legacy APIs",
+      "summary": "Agent Builder Overview Migration guide Node reference Safety in building agents Evals Getting started Working with evals Prompt optimizer External models Best practices Graders Fine-tuning Optimization cycle Supervised fine-tuning Vision fine-tuning Direct preference optimization Reinforcement fine-tuning RFT use cases Best practices Assistants API Migration guide Deep dive Tools",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "43a9d1d487edd51b",
+      "fetched_at": "2026-08-21T11:33:51.784051+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Choose a model",
+      "summary": "Pricing Model selection",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "41d0f5e061297795",
+      "fetched_at": "2026-08-21T11:33:51.784062+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Text and code",
+      "summary": "Text generation Code generation Structured output",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "4efa08ec1fcaccfe",
+      "fetched_at": "2026-08-21T11:33:51.784075+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Prompting",
+      "summary": "Overview Prompt engineering Citation formatting Migration guide Prompt generation Frontend prompting",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "8c3b1110d6283124",
+      "fetched_at": "2026-08-21T11:33:51.784092+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Reasoning",
+      "summary": "Reasoning models Reasoning best practices",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "6dd7b2f8fab9ef15",
+      "fetched_at": "2026-08-21T11:33:51.784104+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Images and video",
+      "summary": "Images and vision Image generation Video generation",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "0b4a55bc4f60b960",
+      "fetched_at": "2026-08-21T11:33:51.784118+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Realtime and audio",
+      "summary": "Audio and speech Overview Voice agents",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "9ec2d038988c927f",
+      "fetched_at": "2026-08-21T11:33:51.784131+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Specialized models",
+      "summary": "Deep research Embeddings Moderation",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "5a3c6c6acf87bb9e",
+      "fetched_at": "2026-08-21T11:33:51.784144+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Agents SDK",
+      "summary": "Quickstart Agent definitions Models and providers Running agents Sandbox agents Orchestration Guardrails Results and state Integrations and observability Evaluate agent workflows",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "6d28f5543d25da6d",
+      "fetched_at": "2026-08-21T11:33:51.784165+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatKit",
+      "summary": "Overview Customize Widgets Actions Advanced integrations",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "077c2f190117f3c2",
+      "fetched_at": "2026-08-21T11:33:51.784180+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Search and retrieval",
+      "summary": "Web search File search Retrieval",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "1d546c8931463d45",
+      "fetched_at": "2026-08-21T11:33:51.784194+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Connect tools and data",
+      "summary": "MCP and Connectors Secure MCP Tunnel",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "714810922ffee157",
+      "fetched_at": "2026-08-21T11:33:51.784205+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Build tool workflows",
+      "summary": "Skills Tool search Programmatic tool calling",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "514e7d496ac9c8d1",
+      "fetched_at": "2026-08-21T11:33:51.784218+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Computer and code",
+      "summary": "Shell Computer use Apply Patch Local shell Code interpreter",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "3c405f65f3ef7331",
+      "fetched_at": "2026-08-21T11:33:51.784234+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Media",
+      "summary": "Image generation",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "d9b0705816031e25",
+      "fetched_at": "2026-08-21T11:33:51.784245+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Audio",
+      "summary": "Audio and speech Transcription File transcription Realtime transcription Speech generation",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "458bf555319bca4a",
+      "fetched_at": "2026-08-21T11:33:51.784273+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Connection methods",
+      "summary": "WebRTC WebSocket SIP",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "c57d8b0a6d00ca5b",
+      "fetched_at": "2026-08-21T11:33:51.784286+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Sessions and operations",
+      "summary": "Managing conversations Voice activity detection Realtime with tools Webhooks and server-side controls Managing costs",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "d097a6a2c59d1372",
+      "fetched_at": "2026-08-21T11:33:51.784302+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Go live",
+      "summary": "Production best practices Deployment checklist",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "85c7ed516516493f",
+      "fetched_at": "2026-08-21T11:33:51.784314+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Performance and quality",
+      "summary": "Latency optimization Predicted Outputs Fast mode Accuracy optimization",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "2e7d6164b72590c1",
+      "fetched_at": "2026-08-21T11:33:51.784329+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Cost and throughput",
+      "summary": "Cost optimization Prompt caching Batch Flex processing",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "7bbeda9fbc53b3ea",
+      "fetched_at": "2026-08-21T11:33:51.784352+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Safety and governance",
+      "summary": "Safety best practices Red teaming Safety checks Cybersecurity checks Under 18 API Guidance CSAM guidance Content provenance Your data Permissions",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "7e56568a37058387",
+      "fetched_at": "2026-08-21T11:33:51.784376+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Infrastructure and access",
+      "summary": "Terraform provider Overview Projects and access Service accounts Rate limits and spend Model, tool, and data controls Import and reconciliation Private Link IP allowlist Workload identity federation Codex setup Federation rules Admin API X.509 certificates (beta) Kubernetes AWS Microsoft Azure Google Cloud Oracle Cloud Infrastructure GitHub Actions SPIFFE IP egress ranges Amazon Bedrock",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "b49df32e35b0cca6",
+      "fetched_at": "2026-08-21T11:33:51.784418+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Operations",
+      "summary": "Rate limits Spend limits Admin APIs Error codes",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "9a539e5ec87f8757",
+      "fetched_at": "2026-08-21T11:33:51.784433+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Plan",
+      "summary": "Brainstorm use cases Define tools",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "f4edb2a4bc41da43",
+      "fetched_at": "2026-08-21T11:33:51.784458+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Build",
+      "summary": "Build an MCP server Add UI to your MCP server (optional) Authenticate users Build skills Package your plugin Examples",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "203c10d626027391",
+      "fetched_at": "2026-08-21T11:33:51.784475+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Test and publish",
+      "summary": "Connect and test your plugin Submit and publish Submission error reference",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "593a3a0810961ac3",
+      "fetched_at": "2026-08-21T11:33:51.784489+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Conversion specs",
+      "summary": "Restaurant reservation spec Get Quote spec Product checkout spec",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "50fbf25ce52524de",
+      "fetched_at": "2026-08-21T11:33:51.784502+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Guides",
+      "summary": "UI guidelines Optimize Metadata Submit a Claude Code plugin Security & Privacy Troubleshooting",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "5897802b084a1b33",
+      "fetched_at": "2026-08-21T11:33:51.784518+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "File Upload",
+      "summary": "Overview Products",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "2696cb6369e93fc4",
+      "fetched_at": "2026-08-21T11:33:51.784570+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "API",
+      "summary": "Overview Feeds Products Promotions",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "4b3cb1f0211e30c7",
+      "fetched_at": "2026-08-21T11:33:51.784584+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Measurement",
+      "summary": "Measurement Pixel Multiple Pixels (Advanced) Image Tag Conversions API Supported Events",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "1b7addf784381940",
+      "fetched_at": "2026-08-21T11:33:51.784600+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Advertiser API",
+      "summary": "Overview API Partner Setup Quickstart Bulk API Product Feeds Delta Feeds API Campaign Targeting Conversion-Optimized Campaigns",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "fe2bf17518106cfc",
+      "fetched_at": "2026-08-21T11:33:51.784619+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "API Reference",
+      "summary": "Authentication Ad Account Campaigns Ad Groups Ads Insights Files Conversion Setup",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "cc9055d2d0d3a322",
+      "fetched_at": "2026-08-21T11:33:51.784636+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Foundations",
+      "summary": "Prompting Personalize ChatGPT Skills & Plugins Permissions",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "0278a2113ceaa874",
+      "fetched_at": "2026-08-21T11:33:51.784665+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Explore",
+      "summary": "What's new Models Pricing Glossary",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "dcd02a0770542fe3",
+      "fetched_at": "2026-08-21T11:33:51.784679+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Available on",
+      "summary": "ChatGPT desktop app Remote ChatGPT on the web Codex CLI Codex IDE extension Codex cloud",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "5ba0f204d99640a9",
+      "fetched_at": "2026-08-21T11:33:51.784695+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Releases",
+      "summary": "Changelog Feature Maturity Open Source",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "a897dc801bb50047",
+      "fetched_at": "2026-08-21T11:33:51.784707+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Workflows",
+      "summary": "Projects and chats Sites Visualizations Scheduled tasks Long-running work Notifications Pets Codex Micro",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "33e59c2f6d4fbec7",
+      "fetched_at": "2026-08-21T11:33:51.784725+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Capabilities",
+      "summary": "Browser Computer use Voice Plugins Web search Image generation Image inputs Appshots Chrome extension Work with files",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "2f766c7b5b04eac4",
+      "fetched_at": "2026-08-21T11:33:51.784746+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Reference",
+      "summary": "Commands Slash commands Settings Troubleshooting",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "4c836472dbf19514",
+      "fetched_at": "2026-08-21T11:33:51.784760+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Customization",
+      "summary": "Overview Memories Computer History",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "fb90b09409ab5933",
+      "fetched_at": "2026-08-21T11:33:51.784772+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Config file",
+      "summary": "Config Basics Advanced Config Config Reference Environment Variables Sample Config",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "a0e686c6a901de96",
+      "fetched_at": "2026-08-21T11:33:51.784787+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Agent configuration",
+      "summary": "AGENTS.md Subagents Speed Rules",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "9dce5f8543158808",
+      "fetched_at": "2026-08-21T11:33:51.784800+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Extend ChatGPT and Codex",
+      "summary": "Record & Replay MCP",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "8f8530819c216d35",
+      "fetched_at": "2026-08-21T11:33:51.784812+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Linux",
+      "summary": "Desktop app",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "b4fc305a3b6a2a57",
+      "fetched_at": "2026-08-21T11:33:51.784823+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Windows",
+      "summary": "Desktop app Windows sandbox WSL",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "ceeba82142387fdf",
+      "fetched_at": "2026-08-21T11:33:51.784836+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Development workflows",
+      "summary": "Code review Integrated terminal",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "00fe8438fcff3b65",
+      "fetched_at": "2026-08-21T11:33:51.784848+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Extend and automate",
+      "summary": "Build skills Build plugins Hooks",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "6edf88b6c55af6d7",
+      "fetched_at": "2026-08-21T11:33:51.784860+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Environments",
+      "summary": "Modes Local environments Cloud environment Git worktrees",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "f69c57d2e98df30a",
+      "fetched_at": "2026-08-21T11:33:51.784874+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Build with Codex",
+      "summary": "Codex SDK App Server MCP Server GitHub Action Non-interactive mode",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "d38ed8e8f6e3e444",
+      "fetched_at": "2026-08-21T11:33:51.784890+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Third-party integrations",
+      "summary": "GitHub GitLab (Beta) Slack Linear",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "ed942949fda405b5",
+      "fetched_at": "2026-08-21T11:33:51.784904+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Permissions",
+      "summary": "Profiles Sandboxing Auto-review Agent approvals & security Internet access",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "5f6e6cfdaf67c3a9",
+      "fetched_at": "2026-08-21T11:33:51.784932+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex Security",
+      "summary": "Overview Codex Security plugin Quickstart Run a security scan Run a deep scan Review code changes Use the Security workbench Triage a backlog Fix findings Propose security hardening Write vulnerability reports Export and track findings Changelog Codex Security CLI Quickstart Run bulk scans Run scans in CI Reference FAQ TypeScript SDK Codex Security cloud Setup Security Review Improving the threat model FAQ",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "35d75bd0d9147990",
+      "fetched_at": "2026-08-21T11:33:51.784978+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Cyber safety",
+      "summary": "Models & Trusted Access Recommended configuration",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "6ae9ea1911c277e0",
+      "fetched_at": "2026-08-21T11:33:51.784990+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Getting started",
+      "summary": "Admin rollout guide ChatGPT Work Overview ChatGPT Work admin FAQ",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "85d9bef675d4b094",
+      "fetched_at": "2026-08-21T11:33:51.785003+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Identity and authentication",
+      "summary": "Authentication overview Workload identity Personal Access Tokens Service accounts",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "0c24c3eca1f8ecae",
+      "fetched_at": "2026-08-21T11:33:51.785018+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Workspace access, policy, and models",
+      "summary": "Groups and provisioning Roles and workspace permissions GPTs and Sharing Managed configuration Prisma AIRS HIPAA configuration Workspace model availability",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "3a356a5e3adfd39f",
+      "fetched_at": "2026-08-21T11:33:51.785036+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Plugin and connector controls",
+      "summary": "Plugin controls Skill controls",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "9e2a5fca8c5cd780",
+      "fetched_at": "2026-08-21T11:33:51.785048+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Usage, governance, and compliance",
+      "summary": "Governance Workspace analytics Analytics API Compliance API and audit events",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "b1327568d3df2ca4",
+      "fetched_at": "2026-08-21T11:33:51.785062+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Deployment and model providers",
+      "summary": "Manage app updates Windows app deployment Remote connections Amazon Bedrock",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "7f27d5f02bb044b4",
+      "fetched_at": "2026-08-21T11:33:51.785077+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Community",
+      "summary": "Codex Ambassadors Codex for Students Codex for Open Source Meetups",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "8133d82a276cac44",
+      "fetched_at": "2026-08-21T11:33:51.785092+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Blog",
+      "summary": "Company blog Developer blog",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "67743fa81ee9434c",
+      "fetched_at": "2026-08-21T11:33:51.785105+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Recent",
+      "summary": "Codex as a platform: build on the open agent harness Custom Code Review rules for Codex Mastering remote engineering work from your phone Making private MCP servers reachable without making them public How Perplexity Brought Voice Search to Millions Using the Realtime API",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "ec5ffd9b8a2f58e7",
+      "fetched_at": "2026-08-21T11:33:51.785154+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Topics",
+      "summary": "General API Apps SDK Audio Codex",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "6b30d616eb5604b3",
+      "fetched_at": "2026-08-21T11:33:51.785168+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Contribute",
+      "summary": "Cookbook on GitHub",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "24783e95e345a9b7",
+      "fetched_at": "2026-08-21T11:33:51.785198+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Categories",
+      "summary": "Demo apps Videos",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "c29747d8b7b34617",
+      "fetched_at": "2026-08-21T11:33:51.785210+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Programs",
+      "summary": "Codex Ambassadors Codex for Students Codex for Open Source OpenAI for Startups",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "bec4bbbd85fe5f6d",
+      "fetched_at": "2026-08-21T11:33:51.785246+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Events",
+      "summary": "Meetups",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "f7604484aadc0905",
+      "fetched_at": "2026-08-21T11:33:51.785256+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Spaces",
+      "summary": "Developer Forum Discord Reddit X",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "64bae20906360f20",
+      "fetched_at": "2026-08-21T11:33:51.785271+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "August, 2026",
+      "summary": "Aug 20 Feature Released the Prompt Caching dashboard on the OpenAI API platform. Track your cache hit rate over time, cache reads per write, and the breakdown of cache-read, cache-write, and uncached tokens to understand your caching efficiency and identify opportunities to improve. Filter metrics by model and service tier. Aug 20 Update gpt-image-2 gpt-image-2-2026-04-21 v1/images/generations v1/images/edits v1/responses Transparent backgrounds are now available in preview for gpt-image-2 and g",
+      "date_guess": "2026-04-21",
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "11f49d755ab2d596",
+      "fetched_at": "2026-08-21T11:33:51.785470+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "July, 2026",
+      "summary": "Jul 30 Update gpt-5.6-sol gpt-5.6-terra gpt-5.6-luna v1/responses v1/chat/completions Starting July 30, GPT-5.6 Luna costs 80% less, while GPT-5.6 Terra costs 20% less. See pricing details . We're also introducing Fast mode in the API, which replaces our Priority Processing offering. For GPT-5.6 Sol, Fast mode now delivers up to 2.5× faster speeds than standard processing at twice the price. This change is backward compatible: requests tagged priority will automatically use Fast mode. Jul 29 Fea",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "b7491e97d2f920b2",
+      "fetched_at": "2026-08-21T11:33:51.785564+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "June, 2026",
+      "summary": "Jun 24 Update chat-latest Updated the chat-latest snapshot, which points to the latest Instant model currently used in ChatGPT. We recommend leveraging GPT-5.5 for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more here . Jun 23 Feature Released the Safety Usage Dashboard on the OpenAI API platform. The Safety dashboard shows blocked Responses requests based on safety_identif",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "174ea49b4911e46e",
+      "fetched_at": "2026-08-21T11:33:51.785622+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "May, 2026",
+      "summary": "May 29 Update v1/responses v1/chat/completions v1/batch For organizations without ZDR enabled, prompt_cache_retention now defaults to 24h instead of in_memory , enabling extended prompt caching by default. Learn more . May 28 Update chat-latest Released chat-latest snapshot which points to the latest Instant model currently used in ChatGPT. We recommend leveraging GPT-5.5 for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying ",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "af7979fd232a8255",
+      "fetched_at": "2026-08-21T11:33:51.785679+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "April, 2026",
+      "summary": "Apr 24 Feature gpt-5.5 gpt-5.5-pro v1/responses v1/chat/completions v1/batch Released GPT-5.5 , a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 Pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web se",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "d9c8a6dc3e3b194e",
+      "fetched_at": "2026-08-21T11:33:51.785739+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "March, 2026",
+      "summary": "Mar 17 Feature gpt-5.4-mini gpt-5.4-nano v1/responses v1/chat/completions Released GPT-5.4 mini and GPT-5.4 nano to the Chat Completions and Responses API. GPT-5.4 mini brings GPT-5.4-class capabilities to a faster, more efficient model for high-volume workloads, while GPT-5.4 nano is optimized for simple high-volume tasks where speed and cost matter most. GPT-5.4 mini supports tool search , built-in computer use , and compaction . GPT-5.4 nano supports compaction, but does not support tool sear",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "58cd6f0aa7d647b1",
+      "fetched_at": "2026-08-21T11:33:51.785812+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "February, 2026",
+      "summary": "Feb 24 Feature v1/responses v1/chat/completions Expanded input_file support to accept more document, presentation, spreadsheet, code, and text file types. Learn more here . Feb 24 Feature v1/responses Released phase to the Responses API. It labels an assistant message as intermediate commentary ( commentary ) or the final answer ( final_answer ). Read more here . Feb 24 Feature gpt-5.3-codex v1/responses Released gpt-5.3-codex to the Responses API. Read more here . Feb 23 Feature v1/responses La",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "bdb113c92304a7a7",
+      "fetched_at": "2026-08-21T11:33:51.785863+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "January, 2026",
+      "summary": "Jan 15 Announcement Announced Open Responses : an open-source spec for building multi-provider, interoperable LLM interfaces built on top of the original OpenAI Responses API. Jan 14 Feature gpt-5.2-codex v1/responses Released gpt-5.2-codex to the Responses API. GPT-5.2-Codex is a version of GPT-5.2 optimized for agentic coding tasks in Codex or similar environments. Read more here . Jan 13 Feature v1/realtime Added dedicated SIP IP ranges for Realtime API. sip.api.openai.com does GeoIP routing,",
+      "date_guess": "2025-12-15",
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "a485490e9431da77",
+      "fetched_at": "2026-08-21T11:33:51.785910+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "December, 2025",
+      "summary": "Dec 19 Update gpt-image-1.5 chatgpt-image-latest Added gpt-image-1.5 and chatgpt-image-latest to the Responses API image generation tool. Dec 16 Feature gpt-image-1.5 chatgpt-image-latest Released gpt-image-1.5 and chatgpt-image-latest , our latest and most advanced models for image generation. Read more here . Dec 15 Feature gpt-realtime-mini gpt-audio-mini gpt-4o-mini-transcribe gpt-4o-mini-tts Released four new dated audio snapshots. These updates deliver reliability, quality, and voice fidel",
+      "date_guess": "2025-12-15",
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "c30f59d561a31df5",
+      "fetched_at": "2026-08-21T11:33:51.785974+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "November, 2025",
+      "summary": "Nov 20 Feature v1/realtime Added support for DTMF key presses in the Realtime API. You can now receive DTMF events while using a Realtime sideband connection. See docs here for more information. Nov 13 Feature gpt-5.1 gpt-5.1-codex gpt-5.1-chat-latest gpt-5.1-codex-mini v1/responses v1/chat/completions Released GPT-5.1 , the newest flagship model in the GPT-5 model family. GPT-5.1 is trained to be especially proficient in: Steerability and faster responses when less thinking's required Code gene",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "345babb1511bfc8f",
+      "fetched_at": "2026-08-21T11:33:51.786049+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "October, 2025",
+      "summary": "Oct 29 Feature gpt-oss-safeguard-120b gpt-oss-safeguard-20b gpt-oss-safeguard-120b and gpt-oss-safeguard-20b are safety reasoning models built-upon gpt-oss. Read more here . Oct 24 Feature Released Enterprise Key Management (EKM) . Enterprise Key Management (EKM) allows you to encrypt your customer content at OpenAI using keys managed by your own external Key Management System (KMS). Oct 24 Feature Released UK data residency . Oct 6 Feature gpt-5-pro gpt-realtime-mini gpt-audio-mini gpt-image-1-",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "467a9fa4f5eae6b7",
+      "fetched_at": "2026-08-21T11:33:51.786125+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "September, 2025",
+      "summary": "Sep 26 Feature v1/responses Added support for image and file as a tool call output in Responses API. Sep 23 Feature gpt-5-codex v1/responses Launched special-purpose model gpt-5-codex , built and optimized for use with the Codex CLI .",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "ef3025abbff48db3",
+      "fetched_at": "2026-08-21T11:33:51.786148+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "August, 2025",
+      "summary": "Aug 28 Feature v1/realtime The OpenAI Realtime API is now generally available. Learn more in our Realtime API guide . Aug 21 Feature v1/responses Added support for connectors to the Responses API. Connectors are OpenAI-maintained MCP wrappers for popular services like Google apps, Dropbox, and more that can be used to give model read access to data stored in those services. Aug 20 Feature v1/conversations v1/responses v1/assistants Released the Conversations API, which allows you to create and m",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "b80c778d14a80036",
+      "fetched_at": "2026-08-21T11:33:51.786201+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "June, 2025",
+      "summary": "Jun 27 Feature Launched support for Priority processing . Priority processing delivers significantly lower and more consistent latency compared to Standard processing while keeping pay-as-you-go flexibility. Jun 24 Feature o3-deep-research o3-deep-research-2025-06-26 o4-mini-deep-research o4-mini-deep-research-2025-06-26 v1/responses Released o3-deep-research and o4-mini-deep-research , deep research variants of our o-series reasoning models optimized for deep analysis and research tasks. Learn ",
+      "date_guess": "2025-06-26",
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "6f3f640a2357a90f",
+      "fetched_at": "2026-08-21T11:33:51.786252+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "May, 2025",
+      "summary": "May 20 Feature v1/responses Added support for new built-in tools in the Responses API, including remote MCP servers and code interpreter . Learn more about tools . May 20 Feature v1/responses v1/chat/completions Added support for using strict mode for tool schemas when using parallel tool calling with non-fine-tuned models.\nAdded new schema features , including string validation for email and other patterns and specifying ranges for numbers and arrays. May 15 Feature codex-mini-latest v1/respons",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "077eacae699c65d4",
+      "fetched_at": "2026-08-21T11:33:51.786298+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "April, 2025",
+      "summary": "Apr 30 Feature Launched support for Enhanced API Budget Alerts & Auto-recharge Limits . Apr 23 Feature v1/images/generations v1/images/edits Added a new image generation model, gpt-image-1 . This model sets a new standard for image generation, with improved quality and instruction following. Updated the Image Generation and Edit endpoints to support new parameters specific to the gpt-image-1 model. Apr 16 Feature v1/chat/completions v1/responses Added two new o-series reasoning models, o3 and o4",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "9918959c9b802659",
+      "fetched_at": "2026-08-21T11:33:51.786360+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "March, 2025",
+      "summary": "Mar 20 Update v1/audio Added gpt-4o-mini-tts , gpt-4o-transcribe , gpt-4o-mini-transcribe , and whisper-1 models to the Audio API. Mar 19 Feature o1-pro v1/responses v1/batch Released o1-pro , a version of the o1 reasoning model that uses more compute to answer hard problems with better reasoning and consistency. Mar 11 Feature gpt-4o-search-preview gpt-4o-mini-search-preview computer-use-preview v1/chat/completions v1/assistants v1/responses Released several new models and tools and a new API f",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "a691552cadcb41f6",
+      "fetched_at": "2026-08-21T11:33:51.786424+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "February, 2025",
+      "summary": "Feb 27 Feature GPT-4.5 v1/chat/completions v1/assistants v1/batch Released a research preview of GPT-4.5 —our largest and most capable chat model yet. GPT-4.5's high \"EQ\" and understanding of user intent make it better at creative tasks and agentic planning. Feb 25 Feature Launched the API Usage Dashboard Update . This update addresses requests for additional data filters, such as project selection, date picker, and fine-grained intervals. There’s also better support for viewing usage across dif",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "81e99ac9053b3049",
+      "fetched_at": "2026-08-21T11:33:51.786461+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "January, 2025",
+      "summary": "Jan 31 Feature o3-mini o3-mini-2025-01-31 v1/chat/completions Launched o3-mini , a new small reasoning model that is optimized for science, math, and coding tasks. Jan 21 Feature o1 Expanded access to o1 model . The o1 series of models are trained with reinforcement learning to perform complex reasoning.",
+      "date_guess": "2025-01-31",
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "bf7a39e910031ed0",
+      "fetched_at": "2026-08-21T11:33:51.786480+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "December, 2024",
+      "summary": "Dec 18 Feature Launched Admin API Key Rotations , enabling customers to programmatically rotate their admin api keys. Updated Admin API Invites , enabling customers to programmatically invite users to projects at the same time they are invited to organizations. Dec 17 Feature o1 gpt-4o gpt-4o-mini v1/fine_tuning v1/chat/completions v1/realtime Added new models for o1 , gpt-4o-realtime , gpt-4o-audio and more . Added WebRTC connection method for the Realtime API . Added reasoning_effort parameter",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "ec0da92166bce18a",
+      "fetched_at": "2026-08-21T11:33:51.786532+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "November, 2024",
+      "summary": "Nov 20 Update v1/chat/completions Released gpt-4o-2024-11-20 , our newest model in the gpt-4o series. Nov 4 Feature v1/chat/completions Released Predicted Outputs , which greatly reduces latency for model responses where much of the response is known ahead of time. This is most common when regenerating the content of documents and code files with only minor changes.",
+      "date_guess": "2024-11-20",
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "10e00aa85b6e672b",
+      "fetched_at": "2026-08-21T11:33:51.786551+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "October, 2024",
+      "summary": "Oct 30 Feature gpt-4o-realtime-preview gpt-4o-audio-preview v1/chat/completions Added five new voice types in the Realtime API and Chat Completions API . Oct 17 Feature gpt-4o-audio-preview v1/chat/completions Released new gpt-4o-audio-preview model for chat completions, which supports both audio inputs and outputs. Uses the same underlying model as the Realtime API . Oct 1 Feature v1/realtime v1/chat/completions v1/fine_tuning Released several new features at OpenAI DevDay in San Francisco : Re",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "902b48b7bad5689c",
+      "fetched_at": "2026-08-21T11:33:51.786603+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "September, 2024",
+      "summary": "Sep 26 Feature omni-moderation-latest v1/moderations Released new omni-moderation-latest moderation model , which supports both images and text (for some categories), supports two new text-only harm categories, and has more accurate scores. Sep 12 Feature o1-preview o1-mini v1/chat/completions Released o1-preview and o1-mini , new large language models trained with reinforcement learning to perform complex reasoning tasks.",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "6b5474e36b05ff1c",
+      "fetched_at": "2026-08-21T11:33:51.786630+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "August, 2024",
+      "summary": "Aug 29 Feature v1/assistants Assistants API now supports including file search results used by the file search tool, and customizing ranking behavior . Aug 20 Feature gpt-4o v1/fine_tuning GA release for gpt-4o-2024-08-06 fine-tuning —all API users can now fine-tune the latest GPT-4o model. Aug 15 Update gpt-4o v1/chat/completions Released dynamic model for chatgpt-4o-latest —this model will point to the latest GPT-4o model used by ChatGPT. Aug 6 Update Launched Structured Outputs —model outputs",
+      "date_guess": "2024-08-06",
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "6c7a36cb0514bcd2",
+      "fetched_at": "2026-08-21T11:33:51.786667+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "July, 2024",
+      "summary": "Jul 24 Update Launched self-serve SSO configuration , allowing Enterprise customers on custom and unlimited billing to set up authentication against their desired IDP. Jul 23 Update Launched fine-tuning for GPT-4o mini , enabling even higher performance for specific use cases. Jul 18 Update Released GPT-4o mini , our affordable an intelligent small model for fast, lightweight tasks. Jul 17 Update Released Uploads to upload large files in multiple parts.",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "f66beae33e34a9ac",
+      "fetched_at": "2026-08-21T11:33:51.786698+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "June, 2024",
+      "summary": "Jun 6 Update Parallel function calling can be disabled in Chat Completions and the Assistants API by passing parallel_tool_calls=false . .NET SDK launched in Beta. Jun 3 Update Added support for file search customizations .",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "e835d0b1cf4ad3bc",
+      "fetched_at": "2026-08-21T11:33:51.786720+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "May, 2024",
+      "summary": "May 15 Update Added support for archiving projects . Only organization owners can access this functionality. Added support for setting cost limits on a per-project basis for pay as you go customers. May 13 Update Released GPT-4o in the API. GPT-4o is our fastest and most affordable flagship model. May 9 Update Added support for image inputs to the Assistants API. May 7 Update Added support for fine-tuned models to the Batch API . May 6 Update Added stream_options: {\"include_usage\": true} paramet",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "443fa4cf7f271e65",
+      "fetched_at": "2026-08-21T11:33:51.786760+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "April, 2024",
+      "summary": "Apr 29 Update Added a new function calling option tool_choice: \"required\" to the Chat Completions and Assistants APIs. Added a guide for the Batch API and Batch API support for embeddings models Apr 17 Update Introduced a series of updates to the Assistants API , including a new file search tool allowing up to 10,000 files per assistant, new token controls, and support for tool choice. Apr 16 Update Introduced project based hierarchy for organizing work by projects, including the ability to crea",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "51c8acaef6ef0992",
+      "fetched_at": "2026-08-21T11:33:51.786808+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "March, 2024",
+      "summary": "Mar 29 Update Added support for temperature and assistant message creation in the Assistants API Mar 14 Update Added support for streaming in the Assistants API",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "ceca7dcf27dd7118",
+      "fetched_at": "2026-08-21T11:33:51.786827+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "February, 2024",
+      "summary": "Feb 9 Update Added timestamp_granularities parameter to the Audio API Feb 1 Update Released gpt-3.5-turbo-0125, an updated GPT-3.5 Turbo model",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "41b83eb639f55aa5",
+      "fetched_at": "2026-08-21T11:33:51.786845+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "January, 2024",
+      "summary": "Jan 25 Update Released embedding V3 models and an updated GPT-4 Turbo preview Added dimensions parameter to the Embeddings API",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "3115ed52c9c2c7ce",
+      "fetched_at": "2026-08-21T11:33:51.786860+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "December, 2023",
+      "summary": "Dec 20 Update Added additional_instructions parameter to run creation in the Assistants API Dec 15 Update Added logprobs and top_logprobs parameters to the Chat Completions API Dec 14 Update Changed function parameters argument on a tool call to be optional",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "b076fba638dd40f3",
+      "fetched_at": "2026-08-21T11:33:51.786885+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "November, 2023",
+      "summary": "Nov 30 Update Released OpenAI Deno SDK Nov 6 Update Released GPT-4 Turbo Preview , updated GPT-3.5 Turbo , GPT-4 Turbo with Vision , Assistants API , DALL·E 3 in the API , and text-to-speech API Deprecated the Chat Completions functions parameter in favor of tools Released OpenAI Python SDK V1.0",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "d6d4552c7e3a7307",
+      "fetched_at": "2026-08-21T11:33:51.786912+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "October, 2023",
+      "summary": "Oct 16 Update Added encoding_format parameter to the Embeddings API Added max_tokens to the Moderation models Oct 6 Update Added function calling support to the Fine-tuning API",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "d2f16993cf63eeeb",
+      "fetched_at": "2026-08-21T11:33:51.786933+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Docs agent",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://platform.openai.com/docs/changelog",
+      "hash": "f2def3b23c499662",
+      "fetched_at": "2026-08-21T11:33:51.786943+00:00"
     }
   ],
-  "fetch_warnings": [
-    "To są dane startowe wpisane ręcznie na podstawie wyszukiwań web, nie wynik działania fetch_changelog.py."
-  ]
+  "last_checked": "2026-08-21T11:33:51.787021+00:00",
+  "fetch_warnings": []
 }
