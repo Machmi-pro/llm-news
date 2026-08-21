@@ -44,11 +44,19 @@ SOURCES = {
         "vendor": "Anthropic",
         "url": "https://support.claude.com/en/articles/12138966-release-notes",
     },
-    "openai_changelog": {
+    "openai_api_changelog": {
         "vendor": "OpenAI",
-        # TODO: zweryfikuj przy pierwszym uruchomieniu -- jeśli 404,
-        # sprawdź aktualny adres na platform.openai.com/docs i popraw tu.
-        "url": "https://platform.openai.com/docs/changelog",
+        # Zweryfikowane 21.08.2026 -- OpenAI przeniosło changelog API na domenę
+        # developers.openai.com; stary adres platform.openai.com/docs/changelog
+        # zwracał nieaktualną/obciętą treść (kończącą się na listopadzie 2025).
+        "url": "https://developers.openai.com/api/docs/changelog",
+    },
+    "openai_codex_changelog": {
+        "vendor": "OpenAI",
+        # Osobny changelog specyficzny dla Codex (CLI/rozszerzenia) --
+        # zmiany modeli domyślnych w Codex bywają tu ogłaszane wcześniej
+        # niż w ogólnym changelogu API.
+        "url": "https://developers.openai.com/codex/changelog",
     },
 }
 
