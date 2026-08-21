@@ -163,9 +163,9 @@ def main() -> None:
                 existing_hashes.add(entry["hash"])
                 new_count += 1
 
-    # Przytnij per-vendor do MAX_ENTRIES_PER_VENDOR, zachowując najnowsze
-    # (kolejność dopisywania = kolejność napotkania, nie sortujemy po dacie
-    # bo date_guess bywa None -- to tylko pomocnicze pole do wyświetlenia).
+    # Przytnij per-vendor do MAX_ENTRIES_PER_VENDOR. Kolejność w pliku nie ma
+    # znaczenia dla wyświetlania -- strona (app.js) sortuje wpisy po realnej
+    # dacie przy renderowaniu, niezależnie od kolejności zapisu tutaj.
     by_vendor: dict[str, list[dict]] = {}
     for e in all_entries:
         by_vendor.setdefault(e["vendor"], []).append(e)
