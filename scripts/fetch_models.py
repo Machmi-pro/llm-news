@@ -1,170 +1,141 @@
 #!/usr/bin/env python3
 """
-Pobiera listę aktualnie dostępnych modeli Claude (Anthropic) i Codex/GPT (OpenAI)
-bezpośrednio ze stron producentów i zapisuje do docs/data/models.json.
+Pobiera listę modeli Claude (Anthropic) i Codex/GPT (OpenAI) z API llm-stats.com
+zamiast scrapować strony dokumentacji producentów.
 
-UWAGA: strony producentów nie mają publicznego API dla listy modeli.
-Ten skrypt parsuje HTML heurystycznie. Jeśli producent zmieni strukturę strony,
-regex/selektory poniżej trzeba będzie skorygować -- skrypt loguje wyraźnie,
-gdy nic nie udało się wyciągnąć, zamiast cicho nadpisywać dane pustką.
+Dlaczego zmiana: strona /docs/en/about-claude/models/overview Anthropic okazała
+się być referencyjną tabelą identyfikatorów (Claude API ID / AWS Bedrock ID /
+GCP Vertex ID), nie spisem dat premier -- scrapowanie jej nigdy nie dostarczy
+sensownej daty wydania, bo tej informacji tam po prostu nie ma w ustrukturyzowanej
+formie. llm-stats.com daje to samo (lista modeli) jako czyste JSON, plus cenę
+i wyniki benchmarkowe (top_scores) w jednym zapytaniu.
 
-Nie nadpisujemy istniejącego pliku danymi pustymi: jeśli fetch się nie powiedzie
-dla danego producenta, zachowujemy poprzedni zapis dla tej sekcji i tylko
-dopisujemy ostrzeżenie w polu "fetch_warnings".
+WAŻNE -- niepewność schematu: nie miałam możliwości przetestować tego na żywo
+(brak dostępu do sieci w środowisku, w którym pisałam ten skrypt, i endpoint
+wymaga klucza, którego nie mam). Nie wiem na 100% pod jaką nazwą pola API
+zwraca datę wydania modelu -- normalize() sprawdza kilka prawdopodobnych nazw
+(release_date, created_at, created, first_seen, added_at) i bierze pierwszą,
+która istnieje. Przy pierwszym realnym uruchomieniu sprawdź log w GitHub
+Actions -- wypisuje pełną listę kluczy pierwszego zwróconego modelu, co
+pozwoli doprecyzować normalize(), jeśli żadne z powyższych pól nie pasuje.
+
+Wymaga zmiennej środowiskowej LLM_STATS_API_KEY (GitHub Secret -> przekazywana
+przez workflow jako zmienna env, patrz .github/workflows/models-weekly.yml).
 """
 
 import json
-import re
+import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = ROOT / "docs" / "data" / "models.json"
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; claude-codex-tracker/1.0; +https://github.com/)"
-}
+API_BASE = "https://api.llm-stats.com/stats/v1"
 
-SOURCES = {
-    "claude": "https://platform.claude.com/docs/en/about-claude/models/overview",
-    "codex": "https://platform.openai.com/docs/models",
-}
+# Klucze, pod jakimi API może zwracać datę wydania -- sprawdzane po kolei.
+# Jeśli po pierwszym uruchomieniu w logu zobaczysz inną nazwę pola z datą,
+# dopisz ją na początek tej listy.
+DATE_FIELD_CANDIDATES = ["release_date", "created_at", "created", "first_seen", "added_at"]
 
-# Wzorce ID modeli -- służą jako siatka bezpieczeństwa, gdy parsowanie po
-# strukturze HTML (nagłówki/tabele) zawiedzie i trzeba spaść na regex po
-# surowym tekście strony.
-MODEL_ID_PATTERNS = {
-    "claude": re.compile(r"\bclaude-[a-z0-9][a-z0-9\-\.]*\b", re.IGNORECASE),
-    "codex": re.compile(r"\b(?:gpt-[0-9][a-z0-9\-\.]*|codex-[a-z0-9\-\.]+|o[0-9]-[a-z0-9\-]*)\b", re.IGNORECASE),
+ORGANIZATIONS = {
+    "claude": "anthropic",
+    "codex": "openai",
 }
-
-DATE_PATTERN = re.compile(
-    r"\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|"
-    r"Aug(?:ust)?|Sep(?:t|tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+\d{1,2},?\s+20\d{2}"
-    r"|\b20\d{2}[-/](0[1-9]|1[0-2])[-/](0[1-9]|[12]\d|3[01])\b"
-)
 
 
 def log(msg: str) -> None:
     print(f"[fetch_models] {msg}", file=sys.stderr)
 
 
-def fetch_html(url: str) -> str | None:
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        return resp.text
-    except requests.RequestException as exc:
-        log(f"Błąd pobierania {url}: {exc}")
-        return None
+def get_api_key() -> str | None:
+    key = os.environ.get("LLM_STATS_API_KEY")
+    if not key:
+        log("Brak zmiennej środowiskowej LLM_STATS_API_KEY -- sprawdź, czy sekret jest "
+            "ustawiony w repo (Settings -> Secrets and variables -> Actions) i czy "
+            "workflow go przekazuje w sekcji env.")
+    return key
 
 
-def parse_models_generic(html: str, vendor: str, source_url: str) -> list[dict]:
-    """
-    W przeciwieństwie do wcześniejszej wersji: NIE zatrzymuje się na pierwszej
-    metodzie, która coś znalazła -- łączy wyniki z tabel, nagłówków i fallbacku
-    tekstowego, bo różne strony różnie strukturyzują dane i poleganie tylko na
-    jednej metodzie gubiło modele (np. gdy jeden wiersz tabeli zawierał kilka
-    ID naraz, a parsowano tylko pierwsze trafienie w wierszu).
+def fetch_all_models(organization: str, api_key: str) -> list[dict]:
+    """Pobiera wszystkie modele danej organizacji, obsługując paginację (next_cursor)."""
+    headers = {
+        "User-Agent": "claude-codex-tracker/1.0",
+        "Authorization": f"Bearer {api_key}",
+    }
+    models: list[dict] = []
+    cursor = None
+    page = 1
 
-    Deduplikacja po ID z małymi literami (bo realne stringi API są lowercase,
-    a nagłówki/opisy na stronie bywają zapisane "GPT-5.6" zamiast "gpt-5.6" --
-    to ten sam model, nie dwa różne).
-    """
-    soup = BeautifulSoup(html, "lxml")
-    pattern = MODEL_ID_PATTERNS[vendor]
-    models: dict[str, dict] = {}  # klucz: model_id.lower()
+    while True:
+        params = {"organization": organization, "limit": 100}
+        if cursor:
+            params["cursor"] = cursor
+        try:
+            resp = requests.get(f"{API_BASE}/models", headers=headers, params=params, timeout=30)
+            resp.raise_for_status()
+        except requests.RequestException as exc:
+            log(f"{organization}: błąd zapytania do API (strona {page}): {exc}")
+            if hasattr(exc, "response") and exc.response is not None:
+                log(f"{organization}: treść odpowiedzi błędu: {exc.response.text[:500]}")
+            break
 
-    def register(model_id: str, raw_row: list[str], date_str: str | None, notes: str | None) -> None:
-        key = model_id.lower()
-        if key not in models:
-            models[key] = {
-                "id": model_id,
-                "raw_row": raw_row,
-                "release_date_guess": date_str,
-                "notes": notes or "",
-                "source": source_url,
-            }
-            return
-        existing = models[key]
-        # preferuj formę zapisaną małymi literami jako wyświetlane ID
-        # (bliższe realnym stringom API niż nagłówki typu "GPT-5.6")
-        if model_id.islower() and not existing["id"].islower():
-            existing["id"] = model_id
-        if date_str and not existing["release_date_guess"]:
-            existing["release_date_guess"] = date_str
-        if raw_row and not existing["raw_row"]:
-            existing["raw_row"] = raw_row
-        if notes and not existing["notes"]:
-            existing["notes"] = notes
+        data = resp.json()
+        batch = data.get("models", [])
+        models.extend(batch)
+        log(f"{organization}: strona {page} -- {len(batch)} modeli "
+            f"(łącznie {len(models)}/{data.get('total', '?')}).")
 
-    def build_row_notes(cells: list[str], found_ids: set[str]) -> str:
-        """
-        Notatka dla wpisu z tabeli: cały wiersz minus komórki, które SĄ tylko
-        samym ID modelu (żeby nie dublować w opisie tego, co już jest w tytule).
-        """
-        leftover = [c for c in cells if c.strip().lower() not in found_ids and c.strip()]
-        return " · ".join(leftover)[:300]
+        if page == 1 and batch:
+            log(f"{organization}: klucze pierwszego modelu w odpowiedzi API: "
+                f"{sorted(batch[0].keys())} -- sprawdź, czy DATE_FIELD_CANDIDATES "
+                f"w tym skrypcie pasuje do realnego pola z datą.")
 
-    # 1) Tabele -- zbieramy WSZYSTKIE ID znalezione w każdym wierszu, nie tylko pierwsze
-    table_hits = 0
-    for table in soup.find_all("table"):
-        for row in table.find_all("tr"):
-            cells = [c.get_text(" ", strip=True) for c in row.find_all(["td", "th"])]
-            row_text = " | ".join(cells)
-            found_ids = {m.group(0) for m in pattern.finditer(row_text)}
-            if not found_ids:
-                continue
-            date_match = DATE_PATTERN.search(row_text)
-            date_str = date_match.group(0) if date_match else None
-            found_ids_lower = {i.lower() for i in found_ids}
-            notes = build_row_notes(cells, found_ids_lower)
-            for model_id in found_ids:
-                register(model_id, cells, date_str, notes)
-                table_hits += 1
-    log(f"{vendor}: tabele dały {table_hits} trafień ID ({len(models)} unikalnych modeli).")
+        cursor = data.get("next_cursor")
+        if not cursor or not batch:
+            break
+        page += 1
+        if page > 20:
+            log(f"{organization}: przerwano po 20 stronach (zabezpieczenie przed pętlą) "
+                f"-- jeśli to za mało, zwiększ limit w kodzie.")
+            break
 
-    # 2) Nagłówki + kontekst -- dosypuje to, czego nie było w tabelach, nie nadpisuje istniejących
-    heading_hits = 0
-    for heading in soup.find_all(["h2", "h3", "h4"]):
-        text = heading.get_text(" ", strip=True)
-        found_ids = {m.group(0) for m in pattern.finditer(text)}
-        if not found_ids:
-            continue
-        context_parts = []
-        for sibling in heading.find_next_siblings():
-            if sibling.name in ("h2", "h3", "h4"):
-                break
-            context_parts.append(sibling.get_text(" ", strip=True))
-            if len(context_parts) >= 3:
-                break
-        context = " ".join(context_parts)
-        date_match = DATE_PATTERN.search(text) or DATE_PATTERN.search(context)
-        date_str = date_match.group(0) if date_match else None
-        for model_id in found_ids:
-            register(model_id, [text, context[:300]], date_str, context[:300])
-            heading_hits += 1
-    log(f"{vendor}: nagłówki dosypały {heading_hits} trafień ({len(models)} unikalnych modeli łącznie).")
+    return models
 
-    # 3) Fallback: regex po całym tekście strony -- dosypuje TYLKO ID, których
-    # nie znaleziono wyżej (bez dat/notatek -- do ręcznej weryfikacji jeśli się pojawią)
-    full_text = soup.get_text(" ", strip=True)
-    fallback_hits = 0
-    for match in pattern.finditer(full_text):
-        model_id = match.group(0)
-        if model_id.lower() not in models:
-            register(model_id, [], None, None)
-            fallback_hits += 1
-    if fallback_hits:
-        log(f"{vendor}: fallback regex dosypał {fallback_hits} ID nieznalezionych wcześniej "
-            f"(bez dat -- do ręcznej weryfikacji).")
 
-    log(f"{vendor}: {len(models)} unikalnych modeli łącznie z {source_url}.")
-    return list(models.values())
+def extract_date(model: dict) -> str | None:
+    for field in DATE_FIELD_CANDIDATES:
+        value = model.get(field)
+        if value:
+            return str(value)
+    return None
+
+
+def normalize(model: dict) -> dict:
+    """Spłaszcza pola API do kształtu, którego oczekuje docs/app.js."""
+    pricing = None
+    providers = model.get("providers") or []
+    if providers:
+        first = providers[0]
+        pricing = {
+            "provider_name": first.get("provider_name"),
+            "input_price_per_m": first.get("input_price_per_m"),
+            "output_price_per_m": first.get("output_price_per_m"),
+        }
+
+    return {
+        "id": model.get("id"),
+        "name": model.get("name") or model.get("id"),
+        "release_date_guess": extract_date(model),
+        "tier": (model.get("organization") or {}).get("name"),
+        "top_scores": model.get("top_scores") or {},
+        "pricing": pricing,
+        "notes": "",
+        "source": "https://llm-stats.com (API v1/models)",
+    }
 
 
 def load_existing() -> dict:
@@ -185,31 +156,30 @@ def main() -> None:
         "fetch_warnings": [],
     }
 
-    for vendor, url in SOURCES.items():
-        html = fetch_html(url)
-        if html is None:
-            warning = f"{vendor}: nie udało się pobrać {url} -- zachowano poprzednie dane."
-            log(warning)
-            result["fetch_warnings"].append(warning)
-            continue
+    api_key = get_api_key()
+    if not api_key:
+        result["fetch_warnings"].append(
+            "Brak LLM_STATS_API_KEY -- pominięto pobieranie, zachowano poprzednie dane."
+        )
+        DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+        DATA_PATH.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+        sys.exit(1)
 
-        parsed = parse_models_generic(html, vendor, url)
-        if not parsed:
+    for local_key, org in ORGANIZATIONS.items():
+        raw_models = fetch_all_models(org, api_key)
+        if not raw_models:
             warning = (
-                f"{vendor}: parsowanie {url} nie znalazło żadnych modeli -- "
-                f"prawdopodobnie zmieniła się struktura strony, selektory wymagają korekty. "
-                f"Zachowano poprzednie dane."
+                f"{org}: API nie zwróciło żadnych modeli -- zachowano poprzednie dane "
+                f"dla '{local_key}'. Sprawdź log powyżej pod kątem błędu zapytania "
+                f"(np. zły klucz, zła nazwa parametru 'organization')."
             )
             log(warning)
             result["fetch_warnings"].append(warning)
             continue
-
-        result[vendor] = parsed
+        result[local_key] = [normalize(m) for m in raw_models]
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
-    DATA_PATH.write_text(
-        json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    DATA_PATH.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     log(f"Zapisano {DATA_PATH} ({len(result['claude'])} Claude, {len(result['codex'])} Codex).")
 
 
