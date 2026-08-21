@@ -1,0 +1,40 @@
+name: Aktualizacja listy modeli (tygodniowo)
+
+on:
+  schedule:
+    # co poniedziałek 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-models:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ustaw Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Zainstaluj zależności
+        run: pip install -r scripts/requirements.txt
+
+      - name: Pobierz listę modeli
+        run: python scripts/fetch_models.py
+
+      - name: Commituj zmiany, jeśli są
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/models.json
+          if git diff --cached --quiet; then
+            echo "Brak zmian w models.json"
+          else
+            git commit -m "chore: aktualizacja listy modeli ($(date -u +%Y-%m-%d))"
+            git push
+          fi
