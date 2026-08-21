@@ -43,7 +43,9 @@ MODEL_ID_PATTERNS = {
 }
 
 DATE_PATTERN = re.compile(
-    r"\b(20\d{2})[-/](0[1-9]|1[0-2])[-/](0[1-9]|[12]\d|3[01])\b"
+    r"\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|"
+    r"Aug(?:ust)?|Sep(?:t|tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+\d{1,2},?\s+20\d{2}"
+    r"|\b20\d{2}[-/](0[1-9]|1[0-2])[-/](0[1-9]|[12]\d|3[01])\b"
 )
 
 
@@ -77,13 +79,14 @@ def parse_models_generic(html: str, vendor: str, source_url: str) -> list[dict]:
     pattern = MODEL_ID_PATTERNS[vendor]
     models: dict[str, dict] = {}  # klucz: model_id.lower()
 
-    def register(model_id: str, raw_row: list[str], date_str: str | None) -> None:
+    def register(model_id: str, raw_row: list[str], date_str: str | None, notes: str | None) -> None:
         key = model_id.lower()
         if key not in models:
             models[key] = {
                 "id": model_id,
                 "raw_row": raw_row,
                 "release_date_guess": date_str,
+                "notes": notes or "",
                 "source": source_url,
             }
             return
@@ -96,6 +99,16 @@ def parse_models_generic(html: str, vendor: str, source_url: str) -> list[dict]:
             existing["release_date_guess"] = date_str
         if raw_row and not existing["raw_row"]:
             existing["raw_row"] = raw_row
+        if notes and not existing["notes"]:
+            existing["notes"] = notes
+
+    def build_row_notes(cells: list[str], found_ids: set[str]) -> str:
+        """
+        Notatka dla wpisu z tabeli: cały wiersz minus komórki, które SĄ tylko
+        samym ID modelu (żeby nie dublować w opisie tego, co już jest w tytule).
+        """
+        leftover = [c for c in cells if c.strip().lower() not in found_ids and c.strip()]
+        return " · ".join(leftover)[:300]
 
     # 1) Tabele -- zbieramy WSZYSTKIE ID znalezione w każdym wierszu, nie tylko pierwsze
     table_hits = 0
@@ -108,8 +121,10 @@ def parse_models_generic(html: str, vendor: str, source_url: str) -> list[dict]:
                 continue
             date_match = DATE_PATTERN.search(row_text)
             date_str = date_match.group(0) if date_match else None
+            found_ids_lower = {i.lower() for i in found_ids}
+            notes = build_row_notes(cells, found_ids_lower)
             for model_id in found_ids:
-                register(model_id, cells, date_str)
+                register(model_id, cells, date_str, notes)
                 table_hits += 1
     log(f"{vendor}: tabele dały {table_hits} trafień ID ({len(models)} unikalnych modeli).")
 
@@ -131,18 +146,18 @@ def parse_models_generic(html: str, vendor: str, source_url: str) -> list[dict]:
         date_match = DATE_PATTERN.search(text) or DATE_PATTERN.search(context)
         date_str = date_match.group(0) if date_match else None
         for model_id in found_ids:
-            register(model_id, [text, context[:300]], date_str)
+            register(model_id, [text, context[:300]], date_str, context[:300])
             heading_hits += 1
     log(f"{vendor}: nagłówki dosypały {heading_hits} trafień ({len(models)} unikalnych modeli łącznie).")
 
     # 3) Fallback: regex po całym tekście strony -- dosypuje TYLKO ID, których
-    # nie znaleziono wyżej (bez dat -- do ręcznej weryfikacji jeśli się pojawią)
+    # nie znaleziono wyżej (bez dat/notatek -- do ręcznej weryfikacji jeśli się pojawią)
     full_text = soup.get_text(" ", strip=True)
     fallback_hits = 0
     for match in pattern.finditer(full_text):
         model_id = match.group(0)
         if model_id.lower() not in models:
-            register(model_id, [], None)
+            register(model_id, [], None, None)
             fallback_hits += 1
     if fallback_hits:
         log(f"{vendor}: fallback regex dosypał {fallback_hits} ID nieznalezionych wcześniej "
