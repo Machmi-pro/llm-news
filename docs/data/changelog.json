@@ -2861,8 +2861,1358 @@
       "source": "https://platform.openai.com/docs/changelog",
       "hash": "f2def3b23c499662",
       "fetched_at": "2026-08-21T11:33:51.786943+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Search the docs",
+      "summary": "Search docs Suggested responses create reasoning_effort realtime prompt caching",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "357bee8dac945aff",
+      "fetched_at": "2026-08-21T12:04:20.878376+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "August 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "25fe4e45cd50850e",
+      "fetched_at": "2026-08-21T12:04:20.880850+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex and ChatGPT updates",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "2586f571b65eb80b",
+      "fetched_at": "2026-08-21T12:04:20.880867+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New features",
+      "summary": "Apple Messages: Use the Apple Messages plugin to read and search Messages chats on your Mac and prepare or send messages. It’s available on all plans in the ChatGPT desktop app for macOS. You can use the plugin in ChatGPT Work and Codex. By default, ChatGPT sends messages only after you approve the message and its recipients. See the plugin guide for persistent-approval risks, revocation steps, and the known issue with tasks that disable approval prompts. Site co-editing: Where Site collaboratio",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "99b144a345eebcd9",
+      "fetched_at": "2026-08-21T12:04:20.880983+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.149.0",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "de345fd2e5590994",
+      "fetched_at": "2026-08-21T12:04:20.881001+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Bug Fixes",
+      "summary": "Queued messages now wake idle sessions reliably, resolve duplicate session names more usefully, and preserve pasted or deferred command semantics. ( #39034 , #39385 , #39604 ) Resumed and forked threads now restore their active permission profile instead of silently falling back to current defaults. ( #39153 ) Fixed duplicate sub-agent activity and tightened TUI routing for sub-agent notifications and approvals. ( #39049 , #39088 ) Realtime WebRTC sideband connections now reconnect after unexpec",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "06b815eb98d023ce",
+      "fetched_at": "2026-08-21T12:04:20.881139+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Documentation",
+      "summary": "Clarified that external contributions should go through issues and design discussion rather than pull requests. ( #39089 ) Documented DNS exfiltration risks and trust limitations for secure devcontainers. ( #39283 )",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "e5a94161c3d471b3",
+      "fetched_at": "2026-08-21T12:04:20.881163+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Changelog",
+      "summary": "Full Changelog: rust-v0.148.0...rust-v0.149.0 #38817 Add raw config overrides to the TypeScript SDK @copyberry #38819 Support metadata staging for reserved thread IDs @copyberry #38822 Avoid cloning TUI history span content @copyberry #38823 Avoid allocating per character when decorating hyperlinks @copyberry #38827 Add endpoint protection checks to codex doctor @copyberry #38830 Isolate external editor buffers from sandbox-writable paths @copyberry #38837 Share editor keymaps across TUI compose",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "4b2548880fb36d5d",
+      "fetched_at": "2026-08-21T12:04:20.882195+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GitLab support in Codex cloud (Beta)",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "bb2be19e286c1904",
+      "fetched_at": "2026-08-21T12:04:20.882222+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.223",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "71f565b236d38a0a",
+      "fetched_at": "2026-08-21T12:04:20.882244+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Improvements and bug fixes",
+      "summary": "Improved the New Thread project picker to reflect the selected host’s current projects. Voice now works directly from existing task composers, connects more reliably, and continues task actions in the background. Improved diff review stability and performance, especially in large workspaces. Added a Retry action when task messages fail to load. Fixed large task responses failing to load. Fixed tasks disappearing or remaining unavailable after being idle, reconnecting, or returning to the task li",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "caf6418b9845715d",
+      "fetched_at": "2026-08-21T12:04:20.882316+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.148.0",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "e0cc66e600885957",
+      "fetched_at": "2026-08-21T12:04:20.882333+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Public plugin catalog CSV export",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "26805fe7aa028974",
+      "fetched_at": "2026-08-21T12:04:20.884079+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Computer History",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "6a3d204c2de93823",
+      "fetched_at": "2026-08-21T12:04:20.884095+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Linux desktop preview and agent imports",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "ae5d1dec991afec3",
+      "fetched_at": "2026-08-21T12:04:20.884113+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Install the ChatGPT desktop app on Linux",
+      "summary": "The ChatGPT desktop app for Linux is available in\npreview for supported Ubuntu, Debian, and Fedora desktop distributions on x64\nand ARM64 processors. Download the .deb or .rpm package for your\ndistribution, then sign in to work with projects, local files, and Codex.",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "faf3f6165ea7e63d",
+      "fetched_at": "2026-08-21T12:04:20.884141+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Import setup and recent work from other agents",
+      "summary": "The desktop app supports Claude Code , Claude Cowork , and Cursor . Import instructions, settings, skills, plugins, projects, and\nrecent work , then turn on automatic updates in Settings > Import to keep imported work in sync. Codex CLI can also import supported setup and recent chats from Claude Code\nand Cursor with /import .",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "000e67f26ef0f692",
+      "fetched_at": "2026-08-21T12:04:20.884172+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing Daybreak Blue and Daybreak Red",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "f5e4ba3df4a27f4c",
+      "fetched_at": "2026-08-21T12:04:20.884189+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.209",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "58cf8f1074e6c617",
+      "fetched_at": "2026-08-21T12:04:20.884208+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.147.0",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "9259770777309dcc",
+      "fetched_at": "2026-08-21T12:04:20.884266+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "New Features",
+      "summary": "Install portable Agent Plugins and search across local, personal, workspace, and remote plugin catalogs. ( #36544 , #36409 , #36919 , #36796 ) Organize conversations into persistent, manually ordered sections and browse long transcripts incrementally. ( #35722 , #36007 , #36380 , #36948 , #36950 ) Enable automatically reviewed approvals with the new --approve-for-me CLI flag. ( #36373 ) Import Cursor-managed skills and synchronize changes to imported Claude and Cursor conversations without creat",
+      "date_guess": "2026-07-28",
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "51b31614d35fd988",
+      "fetched_at": "2026-08-21T12:04:20.884337+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Chores",
+      "summary": "Upgrade the MCP SDK to 3.0.0, Ratatui to 0.30.2, and V8 to 150.4.0. ( #36001 , #35959 , #35831 ) Secure macOS release notarization using Azure Key Vault instead of exporting private signing keys. ( #37154 ) Remove the deprecated codex exec --full-auto flag; use --sandbox workspace-write instead. ( #36054 ) Stop publishing redundant Linux bundle archives; use the standard codex-package-<target> release archives. ( #36342 )",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "163965d654d31307",
+      "fetched_at": "2026-08-21T12:04:20.884460+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Changelog",
+      "summary": "Full Changelog: rust-v0.146.0...rust-v0.147.0 #35590 Expose cached MCP tools before server startup @copyberry #35594 Recommend longer waits in the v2 wait_agent schema @copyberry #35595 Allow alpha hotfix versions in R2 releases @copyberry #35597 Add metrics for extension-rendered skill catalogs @copyberry #35607 Record metrics for empty skill catalogs @copyberry #35608 Support model-owned token budget defaults @copyberry #35621 Skip restored token usage replay for exec resumes @copyberry #35623",
+      "date_guess": "2026-07-28",
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "364e0224b668975d",
+      "fetched_at": "2026-08-21T12:04:20.885389+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.146.1",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "44a66352e978cff4",
+      "fetched_at": "2026-08-21T12:04:20.885413+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "July 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "63fa1a788f9bd3b5",
+      "fetched_at": "2026-08-21T12:04:20.885472+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.4 and GPT-5.4 mini retire from Codex on August 31",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "0c2a9f168cdad9e1",
+      "fetched_at": "2026-08-21T12:04:20.885491+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Record & Replay expands to the EU, UK, and Switzerland",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "a3db1975ffc2dac9",
+      "fetched_at": "2026-08-21T12:04:20.885509+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Browser upgrades, multi-repository review, and image editing 26.727",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "26dff80261f680d1",
+      "fetched_at": "2026-08-21T12:04:20.885528+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Browse and find context faster",
+      "summary": "Type in the built-in browser’s address bar to revisit pages from your\nbrowsing history or search Google when there’s no match. Manage your browsing history in Settings, and let ChatGPT search that\nhistory when a task needs to find a page you visited before. Use the Chrome extension to mention open tabs or bring highlighted page\ntext into your side chat. Ask questions about any YouTube video in the Chrome extension and get\nanswers in seconds. Right-click a webpage and select Ask ChatGPT . Learn m",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "bb297b7f40b66d85",
+      "fetched_at": "2026-08-21T12:04:20.885579+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Review changes across repositories",
+      "summary": "See all repositories in a multi-folder project and the lines changed in each one. Select Review to inspect diffs across\nthose repositories without switching between separate review views.",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "723fa703bb79d10a",
+      "fetched_at": "2026-08-21T12:04:20.885602+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Refine generated images",
+      "summary": "Open generated images in an expanded viewer, and switch between Focused view and Canvas view . Add comments across images, choose the ones you want, and\nsend targeted edits without leaving your conversation. Learn more about image generation .",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "c5aa324a6b351ff4",
+      "fetched_at": "2026-08-21T12:04:20.885625+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Other improvements and bug fixes",
+      "summary": "Added a new “Activity view” in the sidebar to view which chats you engaged with recently and require attention. Click the bell or use Cmd / Ctrl + Opt + U to change to the new view. Updated browser settings to show only supported browsers. Improved Windows installation reliability when package file paths are long. Other performance and bug fixes.",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "beac4c2b975b7519",
+      "fetched_at": "2026-08-21T12:04:20.885656+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Sign in with ChatGPT (beta)",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "b91ceb2f1022da8d",
+      "fetched_at": "2026-08-21T12:04:20.885672+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.146.0",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "60ff3d64965dcbbc",
+      "fetched_at": "2026-08-21T12:04:20.885690+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.202",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "87058f2793a556e3",
+      "fetched_at": "2026-08-21T12:04:20.886631+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT Voice and multi-folder projects 26.715",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "c9b62b08ea73a731",
+      "fetched_at": "2026-08-21T12:04:20.886690+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.145.0",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "7fba5066cac04924",
+      "fetched_at": "2026-08-21T12:04:20.886707+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.195",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "639bd319ccc02da1",
+      "fetched_at": "2026-08-21T12:04:20.888285+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.144.6",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "d5e192f29dec495d",
+      "fetched_at": "2026-08-21T12:04:20.888363+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.144.5",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "f2ba54d9057bc1d8",
+      "fetched_at": "2026-08-21T12:04:20.888435+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.144.4",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "75735a69681d1398",
+      "fetched_at": "2026-08-21T12:04:20.888503+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.188",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "ad967fb484bc43dc",
+      "fetched_at": "2026-08-21T12:04:20.888554+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.144.3",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "64d9eb3a22dfa3f4",
+      "fetched_at": "2026-08-21T12:04:20.888620+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.144.2",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "355bc31bf81cbf14",
+      "fetched_at": "2026-08-21T12:04:20.888677+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex joins the ChatGPT desktop app 26.707",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "2cf961a1a7f0acd7",
+      "fetched_at": "2026-08-21T12:04:20.888826+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Performance improvements and bug fixes",
+      "summary": "Made Computer Use faster with GPT-5.6. Made task and subagent activity easier to follow while Codex works. Simplified plugin management by moving it into Settings. Improved permission handling when resuming tasks or sending follow-ups. Added clearer Full access warnings and a dialog when combining Full access with Ultra. Improved macOS and Windows setup, including macOS installation, Git-backed\nworkflows, and Computer Use on Windows. Fixed task resumption for local projects and onboarding retry ",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "a661d5bf41ee2397",
+      "fetched_at": "2026-08-21T12:04:20.888895+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.144.1",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "9cf3142eba577722",
+      "fetched_at": "2026-08-21T12:04:20.888923+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex CLI 0.144.0",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "c409aa0587bbde02",
+      "fetched_at": "2026-08-21T12:04:20.888995+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.181",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "7816431b137ca382",
+      "fetched_at": "2026-08-21T12:04:20.889507+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "June 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "6d4b4837f3623cbd",
+      "fetched_at": "2026-08-21T12:04:20.889597+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex Remote reaches general availability",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "aa2aabbfaf688292",
+      "fetched_at": "2026-08-21T12:04:20.889613+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.167",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "d7cd7850e61d72ef",
+      "fetched_at": "2026-08-21T12:04:20.889631+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Record & Replay and remote task handoff 26.616",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "e738b54362a8d3fa",
+      "fetched_at": "2026-08-21T12:04:20.889700+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "More Codex features in the EEA, UK, and Switzerland",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "acf2e1d1f5cd1314",
+      "fetched_at": "2026-08-21T12:04:20.889773+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.160",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "df4a9421a2494f41",
+      "fetched_at": "2026-08-21T12:04:20.889792+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Usage resets and Browser Developer mode 26.609",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "c2e49f7688248b4b",
+      "fetched_at": "2026-08-21T12:04:20.889876+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.608",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "519fca8ecabcab61",
+      "fetched_at": "2026-08-21T12:04:20.890019+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.153",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "1267a13a25203686",
+      "fetched_at": "2026-08-21T12:04:20.890093+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app updates 26.602",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "cab2085d17a8314b",
+      "fetched_at": "2026-08-21T12:04:20.890166+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Build and deploy websites with Sites",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "4cf982e32dbb1d5c",
+      "fetched_at": "2026-08-21T12:04:20.890235+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.146",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "d5e6c08da497c434",
+      "fetched_at": "2026-08-21T12:04:20.890253+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Use Codex with Amazon Bedrock",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "9e956f94f901cdfe",
+      "fetched_at": "2026-08-21T12:04:20.890317+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Terminal placement controls 26.601",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "c17cca944edc054e",
+      "fetched_at": "2026-08-21T12:04:20.890334+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "May 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "e39f9021aaea7a88",
+      "fetched_at": "2026-08-21T12:04:20.890387+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Computer use and mobile access on Windows 26.527",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "9702509dab5c108d",
+      "fetched_at": "2026-08-21T12:04:20.890405+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.3-Codex and GPT-5.2 deprecated",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "182728d2eeafd279",
+      "fetched_at": "2026-08-21T12:04:20.890488+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.139",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "ef634a9d5ae1f6ba",
+      "fetched_at": "2026-08-21T12:04:20.890507+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Appshots, goal mode, and more 26.519",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "d37c4e885dc7781d",
+      "fetched_at": "2026-08-21T12:04:20.890571+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT for iOS 1.2026.132",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "1a1ceb0513cda3e3",
+      "fetched_at": "2026-08-21T12:04:20.890589+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Work with Codex from anywhere",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "557f92cb000b5fb4",
+      "fetched_at": "2026-08-21T12:04:20.890644+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Expanded Auto-review documentation",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "ebef0d15af049158",
+      "fetched_at": "2026-08-21T12:04:20.890662+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.506",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "eb147b31f070d690",
+      "fetched_at": "2026-08-21T12:04:20.890680+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex for Chrome",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "8375ccd325383ed1",
+      "fetched_at": "2026-08-21T12:04:20.890750+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex analytics governance docs update",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "74da837ab7a75497",
+      "fetched_at": "2026-08-21T12:04:20.890766+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Create Codex access tokens",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "8828d86f4fb3d85a",
+      "fetched_at": "2026-08-21T12:04:20.890782+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.429",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "13b6315a8e4ad558",
+      "fetched_at": "2026-08-21T12:04:20.890800+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "April 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "b82671bfa73a5acc",
+      "fetched_at": "2026-08-21T12:04:20.890860+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.423",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "9c924da9bc4beb2e",
+      "fetched_at": "2026-08-21T12:04:20.890877+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.5 and Codex app updates",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "d5bee120ab4ac366",
+      "fetched_at": "2026-08-21T12:04:20.890951+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.417",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "86c23b8c178da67c",
+      "fetched_at": "2026-08-21T12:04:20.890968+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex can now help with more of your work 26.415",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "ca5e03069c2656e8",
+      "fetched_at": "2026-08-21T12:04:20.891032+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.410",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "84e8f9207b328ad1",
+      "fetched_at": "2026-08-21T12:04:20.891050+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.409",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "960331c93ecea6b8",
+      "fetched_at": "2026-08-21T12:04:20.891117+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.406",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "db3ea6427c74069a",
+      "fetched_at": "2026-08-21T12:04:20.891180+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex model availability update",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "fb6a5e4b11b338f1",
+      "fetched_at": "2026-08-21T12:04:20.891240+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.325, 26.331, 26.401",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "c3518dcd5cde361e",
+      "fetched_at": "2026-08-21T12:04:20.891258+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "March 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "5352091744d063ac",
+      "fetched_at": "2026-08-21T12:04:20.891343+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Build and install plugins in Codex",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "1033fbefc17892ea",
+      "fetched_at": "2026-08-21T12:04:20.891359+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.324",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "4b7574c85d1349b5",
+      "fetched_at": "2026-08-21T12:04:20.891376+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.323",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "63403526d0e1084e",
+      "fetched_at": "2026-08-21T12:04:20.891441+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.320",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "849025000a4020f8",
+      "fetched_at": "2026-08-21T12:04:20.891502+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.318, 26.319",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "0d566308dffbe293",
+      "fetched_at": "2026-08-21T12:04:20.891564+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.317",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "291435dc3c9f56c8",
+      "fetched_at": "2026-08-21T12:04:20.891634+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5.4 mini in Codex",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "b3a50c38895d77bd",
+      "fetched_at": "2026-08-21T12:04:20.891698+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.313",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "87eeb02bcafadb0e",
+      "fetched_at": "2026-08-21T12:04:20.891714+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.312",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "c2c667b54c993596",
+      "fetched_at": "2026-08-21T12:04:20.891778+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Themes",
+      "summary": "Change the Codex app appearance in Settings by choosing a base theme,\nadjusting accent, background, and foreground colors, and changing the UI and\ncode fonts. You can also share your custom theme with friends. (() => {\n    const openOverlay = (overlay) => {\n      if (!overlay) return;\n      overlay.classList.remove(\"hidden\");\n      overlay.classList.add(\"flex\");\n\n      const scrollbarWidth =\n        window.innerWidth - document.documentElement.clientWidth;\n      const previousPaddingRight = docu",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "654304c28c8167da",
+      "fetched_at": "2026-08-21T12:04:20.891901+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Revamped Automations",
+      "summary": "You can now choose whether automations run locally or on a worktree, define\ncustom reasoning levels and models, and use templates to find inspiration for\nnew automations. (() => {\n    const openOverlay = (overlay) => {\n      if (!overlay) return;\n      overlay.classList.remove(\"hidden\");\n      overlay.classList.add(\"flex\");\n\n      const scrollbarWidth =\n        window.innerWidth - document.documentElement.clientWidth;\n      const previousPaddingRight = document.body.style.paddingRight;\n      doc",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "2669813cb4f59c51",
+      "fetched_at": "2026-08-21T12:04:20.892017+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.311",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "67f1753b0734ba44",
+      "fetched_at": "2026-08-21T12:04:20.892049+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5.4 in Codex",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "c6c027f967a160ba",
+      "fetched_at": "2026-08-21T12:04:20.892104+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.305",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "1a200ce5d3c0481c",
+      "fetched_at": "2026-08-21T12:04:20.892122+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.304",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "0d400530934d6d5e",
+      "fetched_at": "2026-08-21T12:04:20.892171+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.303",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "1d994e70e16e2913",
+      "fetched_at": "2026-08-21T12:04:20.892189+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "February 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "e7c39ea25616d92b",
+      "fetched_at": "2026-08-21T12:04:20.892251+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.228",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "c68606a42038a150",
+      "fetched_at": "2026-08-21T12:04:20.892268+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.227",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "7ed409b5b3771677",
+      "fetched_at": "2026-08-21T12:04:20.892307+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.226",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "486cfdfb77364606",
+      "fetched_at": "2026-08-21T12:04:20.892369+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.217",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "df2874faaad7e079",
+      "fetched_at": "2026-08-21T12:04:20.892431+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5.3-Codex-Spark",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "387ef694ee3882d7",
+      "fetched_at": "2026-08-21T12:04:20.892490+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.212",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "bc003cc129178e8b",
+      "fetched_at": "2026-08-21T12:04:20.892507+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.210",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "de74ed399f16efa0",
+      "fetched_at": "2026-08-21T12:04:20.892569+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.3-Codex in Cursor and VS Code",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "f25c5438af147dce",
+      "fetched_at": "2026-08-21T12:04:20.892627+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.208",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "42b4cbec44650075",
+      "fetched_at": "2026-08-21T12:04:20.892645+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.206",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "40930818b46b50c4",
+      "fetched_at": "2026-08-21T12:04:20.892698+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5.3-Codex",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "96d1c22e847eef56",
+      "fetched_at": "2026-08-21T12:04:20.892753+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.205",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "41336f1819365a2d",
+      "fetched_at": "2026-08-21T12:04:20.892770+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.204",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "f1da42881df8e9cb",
+      "fetched_at": "2026-08-21T12:04:20.892830+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex app 26.203",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "dd52d7a4c2f2a994",
+      "fetched_at": "2026-08-21T12:04:20.892884+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the Codex app",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "3e7cb28a116288e1",
+      "fetched_at": "2026-08-21T12:04:20.892948+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "January 2026",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "b770be980c61185b",
+      "fetched_at": "2026-08-21T12:04:20.892963+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Web search is now enabled by default",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "22d73d267c2caa64",
+      "fetched_at": "2026-08-21T12:04:20.892980+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Team Config for shared configuration",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "8f45c5f11686d149",
+      "fetched_at": "2026-08-21T12:04:20.892997+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Custom prompts deprecated",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "b76284944ca8f7e9",
+      "fetched_at": "2026-08-21T12:04:20.893014+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5.2-Codex API availability",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "6e01b6c9be895e95",
+      "fetched_at": "2026-08-21T12:04:20.893030+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "December 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "29dec0a8ee6f86da",
+      "fetched_at": "2026-08-21T12:04:20.893042+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Agent skills in Codex",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "096ae33fc09cfaae",
+      "fetched_at": "2026-08-21T12:04:20.893058+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5.2-Codex",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "f461a1497eb45786",
+      "fetched_at": "2026-08-21T12:04:20.893075+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing Codex for Linear",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "2771414a7a7ddeec",
+      "fetched_at": "2026-08-21T12:04:20.893092+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "November 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "f73b98f0d0abeca9",
+      "fetched_at": "2026-08-21T12:04:20.893103+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Usage and credits fixes",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "c82af2c0bb44792d",
+      "fetched_at": "2026-08-21T12:04:20.893120+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5.1-Codex-Max",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "280a30b69428cffe",
+      "fetched_at": "2026-08-21T12:04:20.893139+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5.1-Codex and GPT-5.1-Codex-Mini",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "264fb2ad6b3b4fbe",
+      "fetched_at": "2026-08-21T12:04:20.893157+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5-Codex-Mini",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "92abf06246917e1e",
+      "fetched_at": "2026-08-21T12:04:20.893174+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5-Codex model update",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "9ee8e7c73b0c1833",
+      "fetched_at": "2026-08-21T12:04:20.893191+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "October 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "52c170393b4a1da5",
+      "fetched_at": "2026-08-21T12:04:20.893202+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Credits on ChatGPT Pro and Plus",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "c9e4f59a9c77c26c",
+      "fetched_at": "2026-08-21T12:04:20.893218+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Tag @Codex on GitHub Issues and PRs",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "61cdeb7c9ec8bfea",
+      "fetched_at": "2026-08-21T12:04:20.893235+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex is now GA",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "4fbaba66cbf77437",
+      "fetched_at": "2026-08-21T12:04:20.893252+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "September 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "1f7326b58545d491",
+      "fetched_at": "2026-08-21T12:04:20.893264+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-5-Codex in the API",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "7fd887035475e1e4",
+      "fetched_at": "2026-08-21T12:04:20.893281+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-5-Codex",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "6bfa4d32473b845f",
+      "fetched_at": "2026-08-21T12:04:20.893301+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "August 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "528cbc9b74a0af4a",
+      "fetched_at": "2026-08-21T12:04:20.893312+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Late August update",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "686001307ac777ca",
+      "fetched_at": "2026-08-21T12:04:20.893329+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Mid August update",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "da471612a090a5ac",
+      "fetched_at": "2026-08-21T12:04:20.893347+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "June 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "7f8f2e426a2def36",
+      "fetched_at": "2026-08-21T12:04:20.893358+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Best of N",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "5b93a2dfb6a964af",
+      "fetched_at": "2026-08-21T12:04:20.893374+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "June update",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "e9a2636d8d3ddac4",
+      "fetched_at": "2026-08-21T12:04:20.893389+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "May 2025",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "64a270ba38e13ae8",
+      "fetched_at": "2026-08-21T12:04:20.893400+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Reworked environment page",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "25c7fb28da983001",
+      "fetched_at": "2026-08-21T12:04:20.893414+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Codex in the ChatGPT iOS app",
+      "summary": "",
+      "date_guess": null,
+      "source": "https://developers.openai.com/codex/changelog",
+      "hash": "19d0ea8e6b839f60",
+      "fetched_at": "2026-08-21T12:04:20.893428+00:00"
     }
   ],
-  "last_checked": "2026-08-21T11:43:46.029320+00:00",
+  "last_checked": "2026-08-21T12:04:20.893712+00:00",
   "fetch_warnings": []
 }
