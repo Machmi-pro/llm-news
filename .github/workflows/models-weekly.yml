@@ -26,6 +26,8 @@ jobs:
 
       - name: Pobierz listę modeli
         run: python scripts/fetch_models.py
+        env:
+          LLM_STATS_API_KEY: ${{ secrets.LLM_STATS_API_KEY }}
 
       - name: Commituj zmiany, jeśli są
         run: |
