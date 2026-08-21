@@ -1,21 +1,56 @@
 {
-  "last_updated": "2026-08-21T00:00:00+00:00",
-  "note": "Dane startowe zebrane ręcznie 21.08.2026 -- zostaną nadpisane przez pierwsze uruchomienie workflow models-weekly.yml.",
   "claude": [
-    { "id": "claude-opus-5", "name": "Claude Opus 5", "release_date_guess": "2026-07-24", "tier": "Opus", "notes": "Najnowszy model warstwy Opus." },
-    { "id": "claude-opus-4-8", "name": "Claude Opus 4.8", "release_date_guess": "2026-05-28", "tier": "Opus", "notes": "" },
-    { "id": "claude-sonnet-5", "name": "Claude Sonnet 5", "release_date_guess": "2026-06-30", "tier": "Sonnet", "notes": "Domyślny model na planach Free i Pro. Cena startowa $2/MTok input, $10/MTok output do 31.08.2026, potem $3/$15." },
-    { "id": "claude-haiku-4-5-20251001", "name": "Claude Haiku 4.5", "release_date_guess": "2025-10-01", "tier": "Haiku", "notes": "" },
-    { "id": "claude-fable-5", "name": "Claude Fable 5", "release_date_guess": "2026-06-09", "tier": "Mythos", "notes": "Wersja z dodatkowymi zabezpieczeniami (biologia, cyberbezpieczeństwo, LLM R&D). Dostęp zawieszony 12-30.06.2026 z powodu kontroli eksportowych USA, przywrócony 01.07.2026." },
-    { "id": "claude-mythos-5", "name": "Claude Mythos 5", "release_date_guess": "2026-06-09", "tier": "Mythos", "notes": "To samo bazowe wydanie co Fable 5, bez dodatkowych warstw bezpieczeństwa." },
-    { "id": "claude-mythos-preview", "name": "Claude Mythos Preview", "release_date_guess": null, "tier": "Mythos", "notes": "Niedostępny publicznie -- używany w ramach Project Glasswing przez wybrane organizacje." }
+    {
+      "id": "claude-fable-5",
+      "raw_row": [
+        "Google Cloud ID",
+        "claude-fable-5",
+        "claude-opus-5",
+        "claude-sonnet-5",
+        "claude-haiku-4-5@20251001"
+      ],
+      "release_date_guess": null,
+      "source": "https://platform.claude.com/docs/en/about-claude/models/overview"
+    }
   ],
   "codex": [
-    { "id": "gpt-5.6-sol", "name": "GPT-5.6 Sol", "release_date_guess": "2026-07-09", "tier": "GPT-5.6", "notes": "Domyślny model w Codex CLI. Ograniczony preview od 26.06.2026 (wymóg rządu USA), pełna dostępność 09.07.2026." },
-    { "id": "gpt-5.6-terra", "name": "GPT-5.6 Terra", "release_date_guess": "2026-07-09", "tier": "GPT-5.6", "notes": "Wariant 'codzienny roboczy'. Cena obniżona o 20% 30.07.2026." },
-    { "id": "gpt-5.6-luna", "name": "GPT-5.6 Luna", "release_date_guess": "2026-07-09", "tier": "GPT-5.6", "notes": "Najtańszy wariant GPT-5.6. Cena obniżona o 80% 30.07.2026." },
-    { "id": "gpt-5.5", "name": "GPT-5.5", "release_date_guess": "2026-04-23", "tier": "GPT-5.5", "notes": "Lider Terminal-Bench 2.0/2.1 wg niezależnych testów. Wariant Instant zastąpił GPT-5.3 Instant jako domyślny 05.05.2026." },
-    { "id": "gpt-5.3-codex", "name": "GPT-5.3 Codex", "release_date_guess": "2026-02-01", "tier": "GPT-5.3", "notes": "" }
-  ]
- 
+    {
+      "id": "GPT-5.6",
+      "raw_row": [],
+      "release_date_guess": null,
+      "source": "https://platform.openai.com/docs/models"
+    },
+    {
+      "id": "gpt-5.6-sol",
+      "raw_row": [],
+      "release_date_guess": null,
+      "source": "https://platform.openai.com/docs/models"
+    },
+    {
+      "id": "gpt-5.6",
+      "raw_row": [],
+      "release_date_guess": null,
+      "source": "https://platform.openai.com/docs/models"
+    },
+    {
+      "id": "gpt-5.6-terra",
+      "raw_row": [],
+      "release_date_guess": null,
+      "source": "https://platform.openai.com/docs/models"
+    },
+    {
+      "id": "gpt-5.6-luna",
+      "raw_row": [],
+      "release_date_guess": null,
+      "source": "https://platform.openai.com/docs/models"
+    },
+    {
+      "id": "GPT-4o",
+      "raw_row": [],
+      "release_date_guess": null,
+      "source": "https://platform.openai.com/docs/models"
+    }
+  ],
+  "last_updated": "2026-08-21T11:36:11.718069+00:00",
+  "fetch_warnings": []
 }
