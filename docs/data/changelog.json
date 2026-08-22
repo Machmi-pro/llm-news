@@ -2702,6 +2702,24 @@
     },
     {
       "vendor": "Anthropic",
+      "title": "The AI-Native SDLC playbook",
+      "summary": "Code is no longer the bottleneck Organizations have started using AI to write code at a speed unthinkable one year ago, yet the processes around the code haven't changed at the same pace. Many engineering teams still have the same approval gates, reviews, handoffs, and policies, stalling productivity gains made by using agentic coding solutions like Claude Code . The software development lifecycle (SDLC) is the process that takes software from idea to production. Most organizations run some vers",
+      "date_guess": "2026-08-21",
+      "source": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+      "hash": "3a2ae317a0cb6630",
+      "fetched_at": "2026-08-22T07:09:54.307870+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+      "summary": "We're sharing an update on our efforts to help more teams use frontier capabilities for cyber defense. Claude Mythos 5 is now available in Claude Security , and coming soon to partners' cyber defense tools. We're also launching a $35M fund to help secure open-source software and sharing plans to expand our Cyber Verification Program . In April, we launched Project Glasswing to put our most capable frontier model, Claude Mythos Preview (and its successor, Claude Mythos 5), in the hands of a small",
+      "date_guess": "2026-08-21",
+      "source": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "hash": "37811653e8383407",
+      "fetched_at": "2026-08-22T07:09:54.308441+00:00"
+    },
+    {
+      "vendor": "Anthropic",
       "title": "Build production agents with computer use, the Skills API, and the Files API",
       "summary": "Computer use, the Skills API, and the Files API are generally available on the Claude Platform today. Computer use also adds a new browser use tool for agents that work in web applications. Together they let you build agents that operate software, apply your team's expertise, and return finished files. Building agents on the Claude Platform Computer use lets you build agents that operate software they can see. Given a screenshot, the agent clicks, types, and scrolls the way someone at the keyboa",
       "date_guess": "2026-08-20",
@@ -2881,6 +2899,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-08-21T15:54:17.873795+00:00",
+  "last_checked": "2026-08-22T07:09:54.321089+00:00",
   "fetch_warnings": []
 }
