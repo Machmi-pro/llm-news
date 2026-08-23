@@ -820,7 +820,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -858,7 +858,7 @@
         "writing": 0.6
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -1888,6 +1888,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-08-21T13:23:03.191846+00:00",
+  "last_updated": "2026-08-23T15:51:41.118848+00:00",
   "fetch_warnings": []
 }
