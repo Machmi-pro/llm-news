@@ -207,6 +207,15 @@ main {
   color: var(--text);
 }
 
+.ledger-controls {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.ledger-controls .show-more-btn {
+  margin-top: 0.6rem;
+}
+
 /* --- Sekcja changelog: "ledger" z osią czasu --- */
 
 .filter-row {
