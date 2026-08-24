@@ -22,9 +22,19 @@
 </header>
 
 <main>
-
+<section class="panel" id="changelog-section">
+    <h2><span class="idx">01</span> Co nowego</h2>
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all">wszystko</button>
+      <button class="filter-btn" data-filter="Anthropic">Anthropic</button>
+      <button class="filter-btn" data-filter="OpenAI">OpenAI</button>
+    </div>
+    <div class="ledger" id="changelog-ledger"></div>
+    <p class="warnings" id="changelog-warnings"></p>
+  </section>
+  
   <section class="panel" id="models-section">
-    <h2><span class="idx">01</span> Dostępne modele</h2>
+    <h2><span class="idx">02</span> Dostępne modele</h2>
     <div class="model-columns">
       <div class="model-col" data-vendor="claude">
         <h3>Claude <span class="vendor-tag claude">Anthropic</span></h3>
@@ -38,16 +48,7 @@
     <p class="warnings" id="models-warnings"></p>
   </section>
 
-  <section class="panel" id="changelog-section">
-    <h2><span class="idx">02</span> Co nowego</h2>
-    <div class="filter-row">
-      <button class="filter-btn active" data-filter="all">wszystko</button>
-      <button class="filter-btn" data-filter="Anthropic">Anthropic</button>
-      <button class="filter-btn" data-filter="OpenAI">OpenAI</button>
-    </div>
-    <div class="ledger" id="changelog-ledger"></div>
-    <p class="warnings" id="changelog-warnings"></p>
-  </section>
+  
 
 </main>
 
