@@ -130,6 +130,8 @@ function renderModels(data) {
 }
 
 let allEntries = [];
+let visibleCount = 10;
+const PAGE_SIZE = 10;
 
 /**
  * Próbuje sparsować date_guess (dowolny format tekstowy znaleziony na stronie
@@ -164,7 +166,9 @@ function renderLedger(filter) {
     return;
   }
 
-  entries.forEach(entry => {
+  const shown = entries.slice(0, visibleCount);
+
+  shown.forEach(entry => {
     const item = el("div", "entry");
     item.dataset.vendor = entry.vendor || "";
     item.appendChild(el("div", "entry-date", `${entry.vendor || "?"} · ${entry.date_guess || "data nieznana"}`));
@@ -183,6 +187,37 @@ function renderLedger(filter) {
     }
     ledger.appendChild(item);
   });
+
+  const remaining = entries.length - shown.length;
+  if (remaining > 0 || visibleCount > PAGE_SIZE) {
+    const controls = el("div", "ledger-controls");
+
+    if (remaining > 0) {
+      const moreBtn = el("button", "show-more-btn", `Rozwiń więcej (${Math.min(PAGE_SIZE, remaining)}) ↓`);
+      moreBtn.addEventListener("click", () => {
+        visibleCount += PAGE_SIZE;
+        renderLedger(getActiveFilter());
+      });
+      controls.appendChild(moreBtn);
+    }
+
+    if (visibleCount > PAGE_SIZE) {
+      const collapseBtn = el("button", "show-more-btn", "Zwiń ↑");
+      collapseBtn.addEventListener("click", () => {
+        visibleCount = PAGE_SIZE;
+        renderLedger(getActiveFilter());
+        ledger.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+      controls.appendChild(collapseBtn);
+    }
+
+    ledger.appendChild(controls);
+  }
+}
+
+function getActiveFilter() {
+  const active = document.querySelector(".filter-btn.active");
+  return active ? active.dataset.filter : "all";
 }
 
 function renderChangelog(data) {
@@ -198,6 +233,7 @@ function renderChangelog(data) {
     btn.addEventListener("click", () => {
       document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
+      visibleCount = PAGE_SIZE;
       renderLedger(btn.dataset.filter);
     });
   });
