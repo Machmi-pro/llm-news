@@ -2,6 +2,15 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+      "date_guess": "2026-08-24",
+      "source": "https://openai.com/index/gpt-5-6-in-kiro",
+      "hash": "1e974303f50d7178",
+      "fetched_at": "2026-08-25T07:25:27.054087+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Introducing AI Futures",
       "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
       "date_guess": "2026-08-20",
@@ -2692,13 +2701,13 @@
       "fetched_at": "2026-08-21T15:54:17.745906+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Arvind KC appointed Chief People Officer",
-      "summary": "OpenAI appoints Arvind KC as Chief People Officer to help scale the company, strengthen its culture, and lead how work evolves in the age of AI.",
-      "date_guess": "2026-02-24",
-      "source": "https://openai.com/index/arvind-kc-chief-people-officer",
-      "hash": "ec4b273a7e0196bf",
-      "fetched_at": "2026-08-21T15:54:17.745918+00:00"
+      "vendor": "Anthropic",
+      "title": "How an Anthropic field marketer uses Claude Code to send weekly personalized updates to every sales rep",
+      "summary": "One of the biggest challenges I’ve faced as a marketer is keeping the sales team up to date with everything that’s going on in the field. Most marketers know the hallway conversation where a sales rep says, “Oh, I never heard about that event” (or that new whitepaper, that webinar) and you realize you’ve missed a chance to share the latest work with sales reps, and in turn, your customers. My initial solution was one many marketers will recognize: the 15-minute Monday morning stand-up with the s",
+      "date_guess": "2026-08-24",
+      "source": "https://claude.com/blog/how-an-anthropic-field-marketer-uses-claude-code-to-send-weekly-personalized-updates-to-every-sales-rep",
+      "hash": "14d7bff0c0f6a6fc",
+      "fetched_at": "2026-08-25T07:25:27.311425+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -2899,6 +2908,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-08-24T07:37:35.559438+00:00",
+  "last_checked": "2026-08-25T07:25:27.325034+00:00",
   "fetch_warnings": []
 }
