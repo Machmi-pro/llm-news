@@ -2,6 +2,42 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "The full stack behind abundant intelligence",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "date_guess": "2026-08-25",
+      "source": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "hash": "4e15198e837d601c",
+      "fetched_at": "2026-08-26T07:25:47.725195+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "date_guess": "2026-08-25",
+      "source": "https://openai.com/index/jalapeno-first-results",
+      "hash": "51cabc31aa4862dd",
+      "fetched_at": "2026-08-26T07:25:47.725228+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "date_guess": "2026-08-25",
+      "source": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "hash": "0c530df49d0d6091",
+      "fetched_at": "2026-08-26T07:25:47.725244+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "date_guess": "2026-08-25",
+      "source": "https://openai.com/index/introducing-admin-plugin",
+      "hash": "66dff4bae6df64fa",
+      "fetched_at": "2026-08-26T07:25:47.725255+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
       "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
       "date_guess": "2026-08-24",
@@ -2665,40 +2701,22 @@
       "fetched_at": "2026-08-21T15:54:17.745856+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "An update on our mental health-related work",
-      "summary": "OpenAI shares updates on its mental health safety work, including parental controls, trusted contacts, improved distress detection, and recent litigation developments.",
-      "date_guess": "2026-02-27",
-      "source": "https://openai.com/index/update-on-mental-health-related-work",
-      "hash": "5a9745c671fe5952",
-      "fetched_at": "2026-08-21T15:54:17.745867+00:00"
+      "vendor": "Anthropic",
+      "title": "Claude's memory works everywhere, and you decide what's in it",
+      "summary": "Starting today, the memory you use in chat is the same as in Claude Cowork. Now, wherever you work with Claude, it starts from what it already knows about you. You can see everything Claude remembers, topic by topic, and edit or delete any of it. Claude does not store subjects considered sensitive, like health or beliefs, to memory by default, but if those are the topics you're tired of re-explaining, you can turn them on in Memory settings. One memory across Claude Cowork and chat Cowork now ha",
+      "date_guess": "2026-08-25",
+      "source": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "hash": "5256cee8061d5ee2",
+      "fetched_at": "2026-08-26T07:25:47.947196+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Pacific Northwest National Laboratory and OpenAI partner to accelerate federal permitting",
-      "summary": "OpenAI and Pacific Northwest National Laboratory introduce DraftNEPABench, a new benchmark evaluating how AI coding agents can accelerate federal permitting—showing potential to reduce NEPA drafting time by up to 15% and modernize infrastructure reviews.",
-      "date_guess": "2026-02-26",
-      "source": "https://openai.com/index/pacific-northwest-national-laboratory",
-      "hash": "f5b64b2b85906a69",
-      "fetched_at": "2026-08-21T15:54:17.745882+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
-      "summary": "OpenAI and Figma launch a new Codex integration that connects code and design, enabling teams to move between implementation and the Figma canvas to iterate and ship faster.",
-      "date_guess": "2026-02-26",
-      "source": "https://openai.com/index/figma-partnership",
-      "hash": "2945745165736184",
-      "fetched_at": "2026-08-21T15:54:17.745893+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Disrupting malicious uses of AI | February 2026",
-      "summary": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.",
-      "date_guess": "2026-02-25",
-      "source": "https://openai.com/index/disrupting-malicious-ai-uses",
-      "hash": "8db2724d62fcab13",
-      "fetched_at": "2026-08-21T15:54:17.745906+00:00"
+      "vendor": "Anthropic",
+      "title": "Bain & Company joins the Claude Partner Network as a Global Premier partner",
+      "summary": "Bain & Company and Anthropic today announced a global partnership to help enterprises move from AI experiments to deployments that produce measurable business results. Bain joins the Claude Partner Network as a Global Premier partner, and the two firms will work together on client engagements spanning AI strategy, technology modernization, and AI-enabled operations. The partnership builds on Bain's own deployment of Claude across the firm, which now serves as a reference point for how Bain advis",
+      "date_guess": "2026-08-25",
+      "source": "https://claude.com/blog/bain-company-joins-the-claude-partner-network-as-a-global-premier-partner",
+      "hash": "2a078d8e8e69c658",
+      "fetched_at": "2026-08-26T07:25:47.947301+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -2908,6 +2926,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-08-25T07:25:27.325034+00:00",
+  "last_checked": "2026-08-26T07:25:47.955062+00:00",
   "fetch_warnings": []
 }
