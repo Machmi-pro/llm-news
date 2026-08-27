@@ -2,6 +2,60 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "date_guess": "2026-08-27",
+      "source": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "hash": "f3a04b9b6d4afba8",
+      "fetched_at": "2026-08-27T17:50:32.295893+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "date_guess": "2026-08-27",
+      "source": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "hash": "49d020114182e1b9",
+      "fetched_at": "2026-08-27T17:50:32.295937+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "date_guess": "2026-08-26",
+      "source": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "hash": "ba449cc16f889912",
+      "fetched_at": "2026-08-27T17:50:32.295956+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Learning never stops: How AI makes learning continuous",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "date_guess": "2026-08-26",
+      "source": "https://openai.com/index/learning-never-stops",
+      "hash": "e5527982ae293fcc",
+      "fetched_at": "2026-08-27T17:50:32.295978+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The Hugging Face incident and the road ahead",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "date_guess": "2026-08-26",
+      "source": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "hash": "c46bd98cf61003ed",
+      "fetched_at": "2026-08-27T17:50:32.295995+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "date_guess": "2026-08-26",
+      "source": "https://openai.com/index/loveholidays",
+      "hash": "21b188b8fe36e80a",
+      "fetched_at": "2026-08-27T17:50:32.296010+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "The full stack behind abundant intelligence",
       "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
       "date_guess": "2026-08-25",
@@ -62,6 +116,15 @@
       "source": "https://openai.com/index/stampli",
       "hash": "b2b357dba3fbbd86",
       "fetched_at": "2026-08-21T15:54:17.742616+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing Intelligence Age",
+      "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "date_guess": "2026-08-20",
+      "source": "https://openai.com/index/introducing-ai-futures",
+      "hash": "37f6bbbf234e1934",
+      "fetched_at": "2026-08-27T17:50:32.296104+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -2638,67 +2701,31 @@
       "fetched_at": "2026-08-21T15:54:17.745787+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
-      "summary": "",
-      "date_guess": "2026-03-03",
-      "source": "https://openai.com/index/gpt-5-3-instant",
-      "hash": "d71a12afab452dd6",
-      "fetched_at": "2026-08-21T15:54:17.745792+00:00"
+      "vendor": "Anthropic",
+      "title": "Claude gets its own browser in Cowork",
+      "summary": "Claude now has a browser built into Claude Cowork on the desktop app. When a task needs to use a website, a browser opens in the side panel and Claude navigates webpages, reads them, clicks, and types. You can now hand off the web part of the task and stay where you are: Claude can fill in a form, pull numbers from a dashboard, or work through a portal that has no connector. No extension, no setup, and nothing shared from your own browser unless you choose to. Until now, giving Claude the abilit",
+      "date_guess": "2026-08-26",
+      "source": "https://claude.com/blog/cowork-built-in-browser",
+      "hash": "54140be2a680be4f",
+      "fetched_at": "2026-08-27T17:50:32.613194+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "GPT-5.3 Instant System Card",
-      "summary": "",
-      "date_guess": "2026-03-03",
-      "source": "https://openai.com/index/gpt-5-3-instant-system-card",
-      "hash": "b20f373fa7cccceb",
-      "fetched_at": "2026-08-21T15:54:17.745798+00:00"
+      "vendor": "Anthropic",
+      "title": "Claude in Chrome is generally available",
+      "summary": "Claude in Chrome is now generally available on every paid Claude plan. Claude can now also take actions autonomously in the browser, instead of needing approval for every one. A safety classifier validates each action before it’s performed to ensure it’s safe and matches your request. Many of the tools you use every day connect to Claude . But many others don’t, such as internal dashboards, legacy systems, and vendor portals. Claude in Chrome lets Claude access those. It can view the page you’re",
+      "date_guess": "2026-08-26",
+      "source": "https://claude.com/blog/claude-in-chrome-generally-available",
+      "hash": "b1130c5ae4e4e878",
+      "fetched_at": "2026-08-27T17:50:32.613579+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Our agreement with the Department of War",
-      "summary": "Details on OpenAI’s contract with the Department of War, outlining safety red lines, legal protections, and how AI systems will be deployed in classified environments.",
-      "date_guess": "2026-02-28",
-      "source": "https://openai.com/index/our-agreement-with-the-department-of-war",
-      "hash": "818089a849e42731",
-      "fetched_at": "2026-08-21T15:54:17.745810+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
-      "summary": "Stateful Runtime for Agents in Amazon Bedrock brings persistent orchestration, memory, and secure execution to multi-step AI workflows powered by OpenAI.",
-      "date_guess": "2026-02-27",
-      "source": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
-      "hash": "4c177b1d88bf4675",
-      "fetched_at": "2026-08-21T15:54:17.745821+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Scaling AI for everyone",
-      "summary": "Today we’re announcing $110B in new investment at a $730B pre money valuation. This includes $30B from SoftBank, $30B from NVIDIA, and $50B from Amazon.",
-      "date_guess": "2026-02-27",
-      "source": "https://openai.com/index/scaling-ai-for-everyone",
-      "hash": "bf31624ad13c161f",
-      "fetched_at": "2026-08-21T15:54:17.745832+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Joint Statement from OpenAI and Microsoft",
-      "summary": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
-      "date_guess": "2026-02-27",
-      "source": "https://openai.com/index/continuing-microsoft-partnership",
-      "hash": "0fa8bfd4c2413bc2",
-      "fetched_at": "2026-08-21T15:54:17.745845+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "OpenAI and Amazon announce strategic partnership",
-      "summary": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
-      "date_guess": "2026-02-27",
-      "source": "https://openai.com/index/amazon-partnership",
-      "hash": "4c5c83d8b6577885",
-      "fetched_at": "2026-08-21T15:54:17.745856+00:00"
+      "vendor": "Anthropic",
+      "title": "How Warp builds self-improving agents on Claude",
+      "summary": "In our series, , we highlight how startups are transforming their industries with AI. In this article, we share how Warp turned stateless user feedback into a self-improvement loop for its agents. The quick pitch Name Warp Founded 2020 Founders Zach Lloyd (CEO) Stack Rust, Golang, GitHub Actions, internal agent orchestration platform (Oz), Claude Platform Growth $73M raised. 800K monthly developers build on Warp. 56% of the Fortune 500 uses Warp. 10M Claude Code sessions run inside Warp to date,",
+      "date_guess": "2026-08-26",
+      "source": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "hash": "7d531f2d7f813a10",
+      "fetched_at": "2026-08-27T17:50:32.614097+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -2926,6 +2953,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-08-26T07:25:47.955062+00:00",
+  "last_checked": "2026-08-27T17:50:32.626069+00:00",
   "fetch_warnings": []
 }
