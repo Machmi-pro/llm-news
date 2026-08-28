@@ -2,6 +2,15 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "date_guess": "2026-08-28",
+      "source": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "hash": "f45d644d87c84864",
+      "fetched_at": "2026-08-28T18:55:24.468727+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
       "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
       "date_guess": "2026-08-27",
@@ -2692,13 +2701,13 @@
       "fetched_at": "2026-08-21T15:54:17.745775+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Understanding AI and learning outcomes",
-      "summary": "OpenAI introduces the Learning Outcomes Measurement Suite to assess AI’s impact on student learning across diverse educational environments over time.",
-      "date_guess": "2026-03-04",
-      "source": "https://openai.com/index/understanding-ai-and-learning-outcomes",
-      "hash": "ec07df68d83fbc7c",
-      "fetched_at": "2026-08-21T15:54:17.745787+00:00"
+      "vendor": "Anthropic",
+      "title": "Claude for Teachers, now available for schools and districts",
+      "summary": "In July, we introduced Claude for Teachers , which brought free access to premium Claude capabilities to verified U.S. K-12 educators, including teaching skills grounded in learning science and a direct connection to academic standards in all 50 states, with high-quality curricula mapped to them. Starting today, Claude for Teachers is available to schools and districts as a free Enterprise offering. School and district leaders can now bring educators and staff into one centrally managed organiza",
+      "date_guess": "2026-08-28",
+      "source": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
+      "hash": "b304a8a4df45e59c",
+      "fetched_at": "2026-08-28T18:55:24.784697+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -2953,6 +2962,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-08-27T17:50:32.626069+00:00",
+  "last_checked": "2026-08-28T18:55:24.798279+00:00",
   "fetch_warnings": []
 }
