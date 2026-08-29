@@ -11,6 +11,15 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "date_guess": "2026-08-28",
+      "source": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "hash": "da23ddf629f3f7f6",
+      "fetched_at": "2026-08-29T12:47:08.158677+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
       "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
       "date_guess": "2026-08-27",
@@ -2692,15 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.745764+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "How Axios uses AI to help deliver high-impact local journalism",
-      "summary": "Axios COO Allison Murphy explains how the company uses AI to support local reporters, streamline newsroom workflows, and deliver high-impact local journalism at scale.",
-      "date_guess": "2026-03-04",
-      "source": "https://openai.com/index/axios-allison-murphy",
-      "hash": "3fb91adc34edbb49",
-      "fetched_at": "2026-08-21T15:54:17.745775+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "Claude for Teachers, now available for schools and districts",
       "summary": "In July, we introduced Claude for Teachers , which brought free access to premium Claude capabilities to verified U.S. K-12 educators, including teaching skills grounded in learning science and a direct connection to academic standards in all 50 states, with high-quality curricula mapped to them. Starting today, Claude for Teachers is available to schools and districts as a free Enterprise offering. School and district leaders can now bring educators and staff into one centrally managed organiza",
@@ -2708,6 +2708,15 @@
       "source": "https://claude.com/blog/claude-for-teachers-now-available-for-schools-and-districts",
       "hash": "b304a8a4df45e59c",
       "fetched_at": "2026-08-28T18:55:24.784697+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "How Anthropic employees use Claude Tag",
+      "summary": "Claude Tag brings Claude into chat tools like Slack, where you can tag @Claude in a thread the way you would a colleague and it picks up the context of the conversation, completes the task, and posts the answer or results back in the thread. It can also follow conversations and draw on available context, its memory, and standing instructions it’s been given to decide when to participate in the chat. Over the past several months, teams at Anthropic have been using Claude Tag to self-serve data an",
+      "date_guess": "2026-08-28",
+      "source": "https://claude.com/blog/how-anthropic-employees-use-claude-tag",
+      "hash": "a90950fb012f254b",
+      "fetched_at": "2026-08-29T12:47:08.511294+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -2962,6 +2971,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-08-28T18:55:24.798279+00:00",
+  "last_checked": "2026-08-29T12:47:08.524210+00:00",
   "fetch_warnings": []
 }
