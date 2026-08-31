@@ -6,6 +6,7 @@
       "release_date_guess": "2024-10-22",
       "tier": "Anthropic",
       "top_scores": {
+        "chat": 0.5,
         "language": 0.7,
         "legal": 0.7,
         "math": 0.8,
@@ -53,6 +54,7 @@
       "release_date_guess": "2024-10-22",
       "tier": "Anthropic",
       "top_scores": {
+        "chat": 0.7,
         "image_to_text": 1.0,
         "language": 0.9,
         "legal": 0.8,
@@ -81,6 +83,7 @@
       "release_date_guess": "2025-02-24",
       "tier": "Anthropic",
       "top_scores": {
+        "chat": 0.9,
         "instruction_following": 0.9,
         "language": 0.9,
         "math": 0.8,
@@ -205,6 +208,7 @@
       "release_date_guess": "2025-10-15",
       "tier": "Anthropic",
       "top_scores": {
+        "chat": 0.6,
         "language": 0.8,
         "long_context": 0.3,
         "math": 0.8,
@@ -267,6 +271,7 @@
       "release_date_guess": "2025-05-22",
       "tier": "Anthropic",
       "top_scores": {
+        "chat": 0.8,
         "language": 0.9,
         "math": 0.8,
         "multimodal": 0.8,
@@ -294,6 +299,7 @@
       "release_date_guess": "2025-08-05",
       "tier": "Anthropic",
       "top_scores": {
+        "chat": 0.8,
         "language": 0.9,
         "math": 0.8,
         "multimodal": 0.8,
@@ -479,6 +485,7 @@
       "release_date_guess": "2025-05-22",
       "tier": "Anthropic",
       "top_scores": {
+        "chat": 0.8,
         "language": 0.9,
         "math": 0.8,
         "multimodal": 0.7,
@@ -505,6 +512,7 @@
       "release_date_guess": "2025-09-29",
       "tier": "Anthropic",
       "top_scores": {
+        "chat": 0.9,
         "language": 0.9,
         "long_context": 0.5,
         "math": 0.9,
@@ -571,12 +579,12 @@
       "tier": "Anthropic",
       "top_scores": {
         "legal": 0.1,
-        "math": 17.0,
+        "math": 11.6,
         "multimodal": 0.6,
-        "reasoning": 2.5,
+        "reasoning": 2.4,
         "search": 0.8,
         "frontend_development": 0.9,
-        "general": 2.2,
+        "general": 2.1,
         "healthcare": 0.6,
         "agents": 0.5,
         "code": 0.6,
@@ -630,7 +638,7 @@
         "vision": 0.0
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 0.5,
         "output_price_per_m": 1.5
       },
@@ -665,6 +673,7 @@
       "release_date_guess": "2025-04-14",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.7,
         "instruction_following": 0.8,
         "language": 0.8,
         "legal": 0.9,
@@ -701,6 +710,7 @@
       "release_date_guess": "2025-04-14",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.6,
         "instruction_following": 0.8,
         "language": 0.7,
         "legal": 0.9,
@@ -737,6 +747,7 @@
       "release_date_guess": "2025-04-14",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.4,
         "instruction_following": 0.7,
         "language": 0.6,
         "legal": 0.8,
@@ -772,6 +783,7 @@
       "release_date_guess": "2025-02-27",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.7,
         "instruction_following": 0.8,
         "language": 0.8,
         "legal": 0.9,
@@ -820,7 +832,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -833,6 +845,7 @@
       "release_date_guess": "2024-08-06",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.6,
         "image_to_text": 0.9,
         "instruction_following": 0.7,
         "language": 0.7,
@@ -858,7 +871,7 @@
         "writing": 0.6
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -909,7 +922,7 @@
         "code": 0.9
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 10.0,
         "output_price_per_m": 30.0
       },
@@ -922,6 +935,7 @@
       "release_date_guess": "2025-08-07",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.7,
         "language": 1.0,
         "legal": 0.9,
         "long_context": 1.0,
@@ -956,6 +970,7 @@
       "release_date_guess": "2025-11-13",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.7,
         "math": 0.6,
         "multimodal": 0.9,
         "physics": 0.9,
@@ -1047,6 +1062,7 @@
       "release_date_guess": "2025-11-12",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.7,
         "math": 0.6,
         "multimodal": 0.9,
         "physics": 0.9,
@@ -1094,6 +1110,7 @@
       "release_date_guess": "2025-11-12",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.7,
         "math": 0.6,
         "multimodal": 0.9,
         "physics": 0.9,
@@ -1616,6 +1633,7 @@
       "release_date_guess": "2025-08-05",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.7,
         "language": 0.9,
         "legal": 0.9,
         "math": 0.6,
@@ -1664,6 +1682,7 @@
       "release_date_guess": "2025-08-05",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.5,
         "language": 0.9,
         "legal": 0.9,
         "math": 0.6,
@@ -1705,6 +1724,7 @@
       "release_date_guess": "2024-12-17",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.7,
         "language": 0.9,
         "legal": 0.9,
         "math": 0.8,
@@ -1797,6 +1817,7 @@
       "release_date_guess": "2025-04-16",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.6,
         "language": 1.0,
         "math": 0.6,
         "multimodal": 0.8,
@@ -1826,6 +1847,7 @@
       "release_date_guess": "2025-01-30",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.7,
         "instruction_following": 0.9,
         "language": 0.9,
         "legal": 0.9,
@@ -1867,6 +1889,7 @@
       "release_date_guess": "2025-04-16",
       "tier": "OpenAI",
       "top_scores": {
+        "chat": 0.6,
         "math": 0.7,
         "multimodal": 0.8,
         "physics": 0.8,
@@ -1888,6 +1911,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-08-26T04:44:58.559228+00:00",
+  "last_updated": "2026-08-31T13:07:16.821019+00:00",
   "fetch_warnings": []
 }
