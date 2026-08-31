@@ -2,6 +2,15 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "A milestone in expanding access to AI",
+      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "date_guess": "2026-08-31",
+      "source": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "hash": "fd5739945646f67a",
+      "fetched_at": "2026-08-31T14:17:28.426568+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Supporting Thailand’s next generation of AI startups",
       "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
       "date_guess": "2026-08-28",
@@ -2692,15 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.745753+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Extending single-minus amplitudes to gravitons",
-      "summary": "A new preprint extends single-minus amplitudes to gravitons, with GPT-5.2 Pro helping derive and verify nonzero graviton tree amplitudes in quantum gravity.",
-      "date_guess": "2026-03-04",
-      "source": "https://openai.com/index/extending-single-minus-amplitudes-to-gravitons",
-      "hash": "ba3e9bb8393af678",
-      "fetched_at": "2026-08-21T15:54:17.745764+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "Claude for Teachers, now available for schools and districts",
       "summary": "In July, we introduced Claude for Teachers , which brought free access to premium Claude capabilities to verified U.S. K-12 educators, including teaching skills grounded in learning science and a direct connection to academic standards in all 50 states, with high-quality curricula mapped to them. Starting today, Claude for Teachers is available to schools and districts as a free Enterprise offering. School and district leaders can now bring educators and staff into one centrally managed organiza",
@@ -2971,6 +2971,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-08-30T12:08:12.293182+00:00",
+  "last_checked": "2026-08-31T14:17:28.674381+00:00",
   "fetch_warnings": []
 }
