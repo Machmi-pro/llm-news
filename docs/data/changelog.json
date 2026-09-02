@@ -2,6 +2,42 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "How AI-native companies turn workflows into operating capability",
+      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "date_guess": "2026-09-01",
+      "source": "https://openai.com/index/ai-native-company-workflows",
+      "hash": "d28581e1e439d63f",
+      "fetched_at": "2026-09-02T11:35:32.354558+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "date_guess": "2026-09-01",
+      "source": "https://openai.com/index/path-to-astra",
+      "hash": "c2a2560c8a58dffe",
+      "fetched_at": "2026-09-02T11:35:32.354594+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "date_guess": "2026-09-01",
+      "source": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "hash": "e72096d3bd466671",
+      "fetched_at": "2026-09-02T11:35:32.354612+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+      "date_guess": "2026-09-01",
+      "source": "https://openai.com/index/gilbert-tobin",
+      "hash": "501db187cad666d9",
+      "fetched_at": "2026-09-02T11:35:32.354628+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "A milestone in expanding access to AI",
       "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
       "date_guess": "2026-08-31",
@@ -2665,42 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.745687+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
-      "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard.",
-      "date_guess": "2026-03-05",
-      "source": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
-      "hash": "f314a97b2a4e8ff6",
-      "fetched_at": "2026-08-21T15:54:17.745701+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Ensuring AI use in education leads to opportunity",
-      "summary": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity.",
-      "date_guess": "2026-03-05",
-      "source": "https://openai.com/index/ai-education-opportunity",
-      "hash": "ab5a8a75855ea905",
-      "fetched_at": "2026-08-21T15:54:17.745711+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
-      "summary": "By focusing on people, not pilots, the Bundesliga club is scaling efficiency, creativity, and knowledge—without losing its football identity.",
-      "date_guess": "2026-03-05",
-      "source": "https://openai.com/index/vfl-wolfsburg",
-      "hash": "140f3d9b8a6cd19a",
-      "fetched_at": "2026-08-21T15:54:17.745722+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing the Adoption news channel",
-      "summary": "Practical insights and frameworks to turn AI progress into business advantage",
-      "date_guess": "2026-03-05",
-      "source": "https://openai.com/index/introducing-the-adoption-news-channel",
-      "hash": "d1569f557f1fccb0",
-      "fetched_at": "2026-08-21T15:54:17.745731+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "Claude for Teachers, now available for schools and districts",
       "summary": "In July, we introduced Claude for Teachers , which brought free access to premium Claude capabilities to verified U.S. K-12 educators, including teaching skills grounded in learning science and a direct connection to academic standards in all 50 states, with high-quality curricula mapped to them. Starting today, Claude for Teachers is available to schools and districts as a free Enterprise offering. School and district leaders can now bring educators and staff into one centrally managed organiza",
@@ -2971,6 +2971,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-01T11:54:25.505395+00:00",
+  "last_checked": "2026-09-02T11:35:32.758720+00:00",
   "fetch_warnings": []
 }
