@@ -2,6 +2,15 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+      "date_guess": "2026-09-02",
+      "source": "https://openai.com/index/atv-big-air-tour",
+      "hash": "ff9777174f21cb52",
+      "fetched_at": "2026-09-03T11:32:12.874615+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "How AI-native companies turn workflows into operating capability",
       "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
       "date_guess": "2026-09-01",
@@ -2692,13 +2701,22 @@
       "fetched_at": "2026-08-21T15:54:17.745681+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "GPT-5.4 Thinking System Card",
-      "summary": "",
-      "date_guess": "2026-03-05",
-      "source": "https://openai.com/index/gpt-5-4-thinking-system-card",
-      "hash": "f4edc65150506871",
-      "fetched_at": "2026-08-21T15:54:17.745687+00:00"
+      "vendor": "Anthropic",
+      "title": "Building commerce agents with Claude",
+      "summary": "Many of the world’s largest retailers, marketplaces, e-commerce platforms, and travel companies use Claude to build agents that make shopping easier. Enterprise customers like Shopify, Priceline, and others have agents that let consumers use AI to search for what they want in plain language, find it, compare it, and buy it. Today, we're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce ag",
+      "date_guess": "2026-09-02",
+      "source": "https://claude.com/blog/claude-for-commerce-agents",
+      "hash": "79602a541aa0e16a",
+      "fetched_at": "2026-09-03T11:32:13.213410+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "A guide to the anatomy of effective commerce agents",
+      "summary": "Over the past year, we've worked with teams across the commerce industry — retailers, marketplaces, travel, entertainment, and telecom providers — to build commerce agents using Claude. These agents are in production, and enterprise customers have seen larger carts and more efficient seller operations when using them. They also share a simple architecture: Claude in an agent loop equipped with a set of skills, tools, and a strong eval suite. This post is for the engineers and engineering leaders",
+      "date_guess": "2026-09-02",
+      "source": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+      "hash": "8037b32746489c12",
+      "fetched_at": "2026-09-03T11:32:13.214845+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -2971,6 +2989,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-02T11:35:32.758720+00:00",
+  "last_checked": "2026-09-03T11:32:13.225907+00:00",
   "fetch_warnings": []
 }
