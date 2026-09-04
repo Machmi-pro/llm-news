@@ -2,6 +2,42 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "date_guess": "2026-09-03",
+      "source": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "hash": "70d3fae829945167",
+      "fetched_at": "2026-09-04T11:34:14.733486+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "date_guess": "2026-09-03",
+      "source": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "hash": "de6397041b2519de",
+      "fetched_at": "2026-09-04T11:34:14.733521+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "date_guess": "2026-09-03",
+      "source": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "hash": "12fe4eaadd7a96ee",
+      "fetched_at": "2026-09-04T11:34:14.733538+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Safety overview: GPT-6 Astra",
+      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+      "date_guess": "2026-09-03",
+      "source": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "hash": "2abbff00610d7e67",
+      "fetched_at": "2026-09-04T11:34:14.733553+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
       "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
       "date_guess": "2026-09-02",
@@ -2665,42 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.745634+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Codex Security: now in research preview",
-      "summary": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise.",
-      "date_guess": "2026-03-06",
-      "source": "https://openai.com/index/codex-security-now-in-research-preview",
-      "hash": "d3506d2958e7acf2",
-      "fetched_at": "2026-08-21T15:54:17.745647+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How Balyasny Asset Management built an AI research engine",
-      "summary": "By combining rigorous model evaluation, full-platform use of OpenAI, and agent workflows, Balyasny is reinventing investment research.",
-      "date_guess": "2026-03-06",
-      "source": "https://openai.com/index/balyasny-asset-management",
-      "hash": "8588e60750fac0bc",
-      "fetched_at": "2026-08-21T15:54:17.745658+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How Descript engineers multilingual video dubbing at scale",
-      "summary": "Using OpenAI reasoning models, Descript unlocked automatic localization of large content libraries without losing timing or meaning.",
-      "date_guess": "2026-03-06",
-      "source": "https://openai.com/index/descript",
-      "hash": "ec79765887d42089",
-      "fetched_at": "2026-08-21T15:54:17.745669+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing GPT-5.4",
-      "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
-      "date_guess": "2026-03-05",
-      "source": "https://openai.com/index/introducing-gpt-5-4",
-      "hash": "862d972af0e0bdbe",
-      "fetched_at": "2026-08-21T15:54:17.745681+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "Building commerce agents with Claude",
       "summary": "Many of the world’s largest retailers, marketplaces, e-commerce platforms, and travel companies use Claude to build agents that make shopping easier. Enterprise customers like Shopify, Priceline, and others have agents that let consumers use AI to search for what they want in plain language, find it, compare it, and buy it. Today, we're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce ag",
@@ -2989,6 +2989,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-03T11:32:13.225907+00:00",
+  "last_checked": "2026-09-04T11:34:15.083862+00:00",
   "fetch_warnings": []
 }
