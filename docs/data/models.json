@@ -55,13 +55,13 @@
       "tier": "Anthropic",
       "top_scores": {
         "chat": 0.7,
-        "image_to_text": 1.0,
         "language": 0.9,
         "legal": 0.8,
         "math": 0.9,
         "multimodal": 0.8,
         "physics": 0.7,
         "reasoning": 0.8,
+        "image_to_text": 1.0,
         "finance": 0.8,
         "frontend_development": 0.5,
         "general": 0.8,
@@ -84,13 +84,13 @@
       "tier": "Anthropic",
       "top_scores": {
         "chat": 0.9,
-        "instruction_following": 0.9,
         "language": 0.9,
         "math": 0.8,
         "multimodal": 0.8,
         "physics": 0.8,
         "reasoning": 0.7,
         "structured_output": 0.9,
+        "instruction_following": 0.9,
         "frontend_development": 0.7,
         "general": 0.7,
         "healthcare": 0.8,
@@ -181,7 +181,7 @@
         "legal": 0.1,
         "math": 0.7,
         "multimodal": 0.6,
-        "reasoning": 0.6,
+        "reasoning": 0.5,
         "safety": 0.8,
         "science": 0.5,
         "finance": 0.6,
@@ -193,6 +193,31 @@
         "code": 0.7,
         "tool_calling": 0.5,
         "vision": 0.6
+      },
+      "pricing": {
+        "provider_name": "Anthropic",
+        "input_price_per_m": 10.0,
+        "output_price_per_m": 50.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "claude-fable-5-1",
+      "name": "Claude Fable 5.1",
+      "release_date_guess": "2026-09-01",
+      "tier": "Anthropic",
+      "top_scores": {
+        "legal": 1853.0,
+        "math": 0.7,
+        "multimodal": 0.8,
+        "reasoning": 463.6,
+        "finance": 1853.0,
+        "general": 371.1,
+        "agents": 463.7,
+        "code": 0.6,
+        "tool_calling": 0.4,
+        "vision": 0.7
       },
       "pricing": {
         "provider_name": "Anthropic",
@@ -440,7 +465,7 @@
         "biology": 0.9,
         "chemistry": 0.9,
         "code": 0.7,
-        "tool_calling": 0.7,
+        "tool_calling": 0.6,
         "vision": 0.7
       },
       "pricing": {
@@ -468,7 +493,7 @@
         "agents": 0.5,
         "biology": 0.9,
         "code": 0.6,
-        "tool_calling": 0.3,
+        "tool_calling": 0.4,
         "vision": 0.7
       },
       "pricing": {
@@ -581,14 +606,14 @@
         "legal": 0.1,
         "math": 11.6,
         "multimodal": 0.6,
-        "reasoning": 2.4,
+        "reasoning": 2.3,
         "search": 0.8,
         "frontend_development": 0.9,
         "general": 2.1,
         "healthcare": 0.6,
         "agents": 0.5,
-        "code": 0.6,
-        "tool_calling": 0.5,
+        "code": 0.5,
+        "tool_calling": 0.4,
         "vision": 0.6
       },
       "pricing": {
@@ -638,7 +663,7 @@
         "vision": 0.0
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 0.5,
         "output_price_per_m": 1.5
       },
@@ -674,7 +699,6 @@
       "tier": "OpenAI",
       "top_scores": {
         "chat": 0.7,
-        "instruction_following": 0.8,
         "language": 0.8,
         "legal": 0.9,
         "long_context": 0.4,
@@ -684,6 +708,7 @@
         "reasoning": 0.6,
         "spatial_reasoning": 0.4,
         "structured_output": 0.7,
+        "instruction_following": 0.8,
         "finance": 0.9,
         "frontend_development": 0.5,
         "general": 0.6,
@@ -711,7 +736,6 @@
       "tier": "OpenAI",
       "top_scores": {
         "chat": 0.6,
-        "instruction_following": 0.8,
         "language": 0.7,
         "legal": 0.9,
         "long_context": 0.3,
@@ -721,6 +745,7 @@
         "reasoning": 0.5,
         "spatial_reasoning": 0.4,
         "structured_output": 0.7,
+        "instruction_following": 0.8,
         "finance": 0.9,
         "frontend_development": 0.2,
         "general": 0.5,
@@ -748,7 +773,6 @@
       "tier": "OpenAI",
       "top_scores": {
         "chat": 0.4,
-        "instruction_following": 0.7,
         "language": 0.6,
         "legal": 0.8,
         "long_context": 0.1,
@@ -758,6 +782,7 @@
         "reasoning": 0.3,
         "spatial_reasoning": 0.1,
         "structured_output": 0.5,
+        "instruction_following": 0.7,
         "finance": 0.8,
         "general": 0.3,
         "healthcare": 0.7,
@@ -784,7 +809,6 @@
       "tier": "OpenAI",
       "top_scores": {
         "chat": 0.7,
-        "instruction_following": 0.8,
         "language": 0.8,
         "legal": 0.9,
         "long_context": 0.5,
@@ -794,6 +818,7 @@
         "reasoning": 0.6,
         "spatial_reasoning": 0.7,
         "structured_output": 0.7,
+        "instruction_following": 0.8,
         "factuality": 0.6,
         "finance": 0.9,
         "frontend_development": 0.4,
@@ -832,7 +857,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -846,8 +871,6 @@
       "tier": "OpenAI",
       "top_scores": {
         "chat": 0.6,
-        "image_to_text": 0.9,
-        "instruction_following": 0.7,
         "language": 0.7,
         "legal": 0.8,
         "long_context": 0.6,
@@ -857,6 +880,8 @@
         "reasoning": 0.5,
         "spatial_reasoning": 0.4,
         "structured_output": 0.6,
+        "image_to_text": 0.9,
+        "instruction_following": 0.7,
         "factuality": 0.4,
         "finance": 0.8,
         "frontend_development": 0.3,
@@ -922,7 +947,7 @@
         "code": 0.9
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 10.0,
         "output_price_per_m": 30.0
       },
@@ -1459,7 +1484,7 @@
         "chemistry": 0.9,
         "code": 0.5,
         "systems": 0.2,
-        "tool_calling": 0.7,
+        "tool_calling": 0.6,
         "vision": 0.6
       },
       "pricing": {
@@ -1493,7 +1518,7 @@
         "chemistry": 0.9,
         "code": 0.6,
         "systems": 0.4,
-        "tool_calling": 0.7,
+        "tool_calling": 0.6,
         "vision": 0.7
       },
       "pricing": {
@@ -1527,7 +1552,7 @@
         "chemistry": 0.9,
         "code": 0.6,
         "systems": 0.4,
-        "tool_calling": 0.7,
+        "tool_calling": 0.6,
         "vision": 0.6
       },
       "pricing": {
@@ -1628,6 +1653,38 @@
       "source": "https://llm-stats.com (API v1/models)"
     },
     {
+      "id": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "release_date_guess": "2026-09-03",
+      "tier": "OpenAI",
+      "top_scores": {
+        "math": 0.8,
+        "multimodal": 0.8,
+        "physics": 1.0,
+        "reasoning": 0.7,
+        "safety": 0.8,
+        "science": 0.5,
+        "search": 0.9,
+        "spatial_reasoning": 1.0,
+        "general": 0.7,
+        "grounding": 0.9,
+        "healthcare": 0.6,
+        "agents": 0.6,
+        "biology": 1.0,
+        "chemistry": 1.0,
+        "code": 0.7,
+        "tool_calling": 0.5,
+        "vision": 0.9
+      },
+      "pricing": {
+        "provider_name": "OpenAI",
+        "input_price_per_m": 10.0,
+        "output_price_per_m": 50.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
       "id": "gpt-oss-120b",
       "name": "GPT OSS 120B",
       "release_date_guess": "2025-08-05",
@@ -1658,12 +1715,12 @@
       "release_date_guess": "2025-08-05",
       "tier": "OpenAI",
       "top_scores": {
-        "instruction_following": 0.7,
         "language": 0.8,
         "legal": 0.8,
         "math": 0.9,
         "physics": 0.8,
         "reasoning": 0.8,
+        "instruction_following": 0.7,
         "finance": 0.8,
         "general": 0.8,
         "healthcare": 0.8,
@@ -1848,7 +1905,6 @@
       "tier": "OpenAI",
       "top_scores": {
         "chat": 0.7,
-        "instruction_following": 0.9,
         "language": 0.9,
         "legal": 0.9,
         "long_context": 0.2,
@@ -1857,6 +1913,7 @@
         "reasoning": 0.6,
         "spatial_reasoning": 0.5,
         "structured_output": 0.6,
+        "instruction_following": 0.9,
         "factuality": 0.1,
         "finance": 0.9,
         "frontend_development": 0.5,
@@ -1911,6 +1968,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-08-31T13:07:16.821019+00:00",
+  "last_updated": "2026-09-04T17:06:05.322479+00:00",
   "fetch_warnings": []
 }
