@@ -38,6 +38,15 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "date_guess": "2026-09-03",
+      "source": "https://openai.com/index/gpt-6-astra",
+      "hash": "e9487b9cb5a5e39b",
+      "fetched_at": "2026-09-05T10:50:19.628040+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
       "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
       "date_guess": "2026-09-02",
@@ -2692,15 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.745623+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "OpenAI to acquire Promptfoo",
-      "summary": "OpenAI is acquiring Promptfoo, an AI security platform that helps enterprises identify and remediate vulnerabilities in AI systems during development.",
-      "date_guess": "2026-03-09",
-      "source": "https://openai.com/index/openai-to-acquire-promptfoo",
-      "hash": "a904d80d04b89952",
-      "fetched_at": "2026-08-21T15:54:17.745634+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "Building commerce agents with Claude",
       "summary": "Many of the world’s largest retailers, marketplaces, e-commerce platforms, and travel companies use Claude to build agents that make shopping easier. Enterprise customers like Shopify, Priceline, and others have agents that let consumers use AI to search for what they want in plain language, find it, compare it, and buy it. Today, we're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce ag",
@@ -2989,6 +2989,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-04T11:34:15.083862+00:00",
+  "last_checked": "2026-09-05T10:50:20.525921+00:00",
   "fetch_warnings": []
 }
