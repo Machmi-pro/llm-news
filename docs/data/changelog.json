@@ -2,6 +2,33 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Supporting independent journalism in Ukraine",
+      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "date_guess": "2026-09-07",
+      "source": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "hash": "5ad0258292ef65ff",
+      "fetched_at": "2026-09-07T12:55:21.322229+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "An Alien Mind",
+      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+      "date_guess": "2026-09-06",
+      "source": "https://openai.com/index/an-alien-mind",
+      "hash": "cab6a0af5a06ab4d",
+      "fetched_at": "2026-09-07T12:55:21.322264+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Research acceleration: The view inside OpenAI",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "date_guess": "2026-09-06",
+      "source": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "hash": "c6f5656681116064",
+      "fetched_at": "2026-09-07T12:55:21.322283+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
       "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
       "date_guess": "2026-09-03",
@@ -2674,33 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.745596+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Rakuten fixes issues twice as fast with Codex",
-      "summary": "",
-      "date_guess": "2026-03-11",
-      "source": "https://openai.com/index/rakuten",
-      "hash": "eac330d94016c35f",
-      "fetched_at": "2026-08-21T15:54:17.745602+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Improving instruction hierarchy in frontier LLMs",
-      "summary": "IH-Challenge trains models to prioritize trusted instructions, improving instruction hierarchy, safety steerability, and resistance to prompt injection attacks.",
-      "date_guess": "2026-03-10",
-      "source": "https://openai.com/index/instruction-hierarchy-challenge",
-      "hash": "2f5d6cf9438b6e3b",
-      "fetched_at": "2026-08-21T15:54:17.745613+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "New ways to learn math and science in ChatGPT",
-      "summary": "ChatGPT introduces interactive visual explanations for math and science, helping students explore formulas, variables, and concepts in real time.",
-      "date_guess": "2026-03-10",
-      "source": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt",
-      "hash": "3a245059293eb58e",
-      "fetched_at": "2026-08-21T15:54:17.745623+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "Building commerce agents with Claude",
       "summary": "Many of the world’s largest retailers, marketplaces, e-commerce platforms, and travel companies use Claude to build agents that make shopping easier. Enterprise customers like Shopify, Priceline, and others have agents that let consumers use AI to search for what they want in plain language, find it, compare it, and buy it. Today, we're launching a blueprint to help build commerce agents on Claude. It contains the harnesses, patterns, and guardrails an engineering team needs to get a commerce ag",
@@ -2989,6 +2989,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-06T11:14:39.060814+00:00",
+  "last_checked": "2026-09-07T12:55:21.606436+00:00",
   "fetch_warnings": []
 }
