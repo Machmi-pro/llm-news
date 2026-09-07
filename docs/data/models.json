@@ -857,7 +857,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -896,7 +896,7 @@
         "writing": 0.6
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -1655,7 +1655,7 @@
     {
       "id": "gpt-6-astra",
       "name": "GPT-6 Astra",
-      "release_date_guess": "2026-09-03",
+      "release_date_guess": "2026-09-04",
       "tier": "OpenAI",
       "top_scores": {
         "math": 0.8,
@@ -1968,6 +1968,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-09-04T17:06:05.322479+00:00",
+  "last_updated": "2026-09-07T11:58:49.672251+00:00",
   "fetch_warnings": []
 }
