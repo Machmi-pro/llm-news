@@ -2,6 +2,69 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "date_guess": "2026-09-08",
+      "source": "https://openai.com/index/codex-quantum-computing-experiments",
+      "hash": "dca1f31db356dac2",
+      "fetched_at": "2026-09-09T11:43:35.951004+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The Work Now Within Reach",
+      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+      "date_guess": "2026-09-08",
+      "source": "https://openai.com/index/the-work-now-within-reach",
+      "hash": "f0bad9f9e8579a23",
+      "fetched_at": "2026-09-09T11:43:35.951042+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing ChatGPT Images 2.5",
+      "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+      "date_guess": "2026-09-08",
+      "source": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "hash": "623157cb4fa6b3a4",
+      "fetched_at": "2026-09-09T11:43:35.951061+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "On the Navier–Stokes Millennium Prize Problem",
+      "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+      "date_guess": "2026-09-08",
+      "source": "https://openai.com/index/navier-stokes-solution",
+      "hash": "ff605c6de24ba538",
+      "fetched_at": "2026-09-09T11:43:35.951081+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Funding grants for new research into AI and teen development",
+      "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+      "date_guess": "2026-09-08",
+      "source": "https://openai.com/index/teen-development-research-grants",
+      "hash": "631bb9eb61525351",
+      "fetched_at": "2026-09-09T11:43:35.951099+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+      "date_guess": "2026-09-08",
+      "source": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "hash": "0f31ba234f134749",
+      "fetched_at": "2026-09-09T11:43:35.951115+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "1Password increases engineering productivity 21% with Codex",
+      "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+      "date_guess": "2026-09-08",
+      "source": "https://openai.com/index/1password",
+      "hash": "62f75901e0b64119",
+      "fetched_at": "2026-09-09T11:43:35.951130+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Supporting independent journalism in Ukraine",
       "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
       "date_guess": "2026-09-07",
@@ -2638,67 +2701,13 @@
       "fetched_at": "2026-08-21T15:54:17.745507+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Introducing GPT-5.4 mini and nano",
-      "summary": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
-      "date_guess": "2026-03-17",
-      "source": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
-      "hash": "27293d0f5c2a0713",
-      "fetched_at": "2026-08-21T15:54:17.745518+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
-      "summary": "OpenAI Japan announces the Japan Teen Safety Blueprint, introducing stronger age protections, parental controls, and well-being safeguards for teens using generative AI.",
-      "date_guess": "2026-03-17",
-      "source": "https://openai.com/index/japan-teen-safety-blueprint",
-      "hash": "77b6ccb1ece27559",
-      "fetched_at": "2026-08-21T15:54:17.745539+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Equipping workers with insights about compensation",
-      "summary": "New research shows Americans send nearly 3 million daily messages to ChatGPT asking about compensation and earnings, helping close the wage information gap.",
-      "date_guess": "2026-03-17",
-      "source": "https://openai.com/index/equipping-workers-with-insights-about-compensation",
-      "hash": "36a8890f76d47353",
-      "fetched_at": "2026-08-21T15:54:17.745550+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Why Codex Security Doesn’t Include a SAST Report",
-      "summary": "A deep dive into why Codex Security doesn’t rely on traditional SAST, instead using AI-driven constraint reasoning and validation to find real vulnerabilities with fewer false positives.",
-      "date_guess": "2026-03-16",
-      "source": "https://openai.com/index/why-codex-security-doesnt-include-sast",
-      "hash": "b4b8692fd492d37b",
-      "fetched_at": "2026-08-21T15:54:17.745564+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Designing AI agents to resist prompt injection",
-      "summary": "How ChatGPT defends against prompt injection and social engineering by constraining risky actions and protecting sensitive data in agent workflows.",
-      "date_guess": "2026-03-11",
-      "source": "https://openai.com/index/designing-agents-to-resist-prompt-injection",
-      "hash": "9d042bfab6b999c6",
-      "fetched_at": "2026-08-21T15:54:17.745574+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "From model to agent: Equipping the Responses API with a computer environment",
-      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
-      "date_guess": "2026-03-11",
-      "source": "https://openai.com/index/equip-responses-api-computer-environment",
-      "hash": "c50a2aa06ab81796",
-      "fetched_at": "2026-08-21T15:54:17.745585+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-      "date_guess": "2026-03-11",
-      "source": "https://openai.com/index/wayfair",
-      "hash": "cab3f458921e0561",
-      "fetched_at": "2026-08-21T15:54:17.745596+00:00"
+      "vendor": "Anthropic",
+      "title": "Reducing cost and improving performance with Claude Platform",
+      "summary": "Performance and cost are often viewed as a trade-off: to spend less, you accept worse results. In practice, we've found that many applications using Claude Platform can cut costs without giving up performance with three fixes: maximize the prompt cache hit rate, remove anti-patterns from your prompts when upgrading to frontier Claude models, and calibrate effort to the task. We've put this guidance into the claude-api skill . In this article, we show how Claude Code with the claude-api can often",
+      "date_guess": "2026-09-08",
+      "source": "https://claude.com/blog/reducing-cost-and-improving-performance-with-claude-platform",
+      "hash": "17026ffa50381ff9",
+      "fetched_at": "2026-09-09T11:43:36.224574+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -2989,6 +2998,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-08T11:35:20.689611+00:00",
+  "last_checked": "2026-09-09T11:43:36.239316+00:00",
   "fetch_warnings": []
 }
