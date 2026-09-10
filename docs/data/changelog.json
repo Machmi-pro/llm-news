@@ -2,6 +2,33 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "The AI policy window is open. We need to act.",
+      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "date_guess": "2026-09-09",
+      "source": "https://openai.com/index/ai-policy-window",
+      "hash": "6ac9cdefa092e462",
+      "fetched_at": "2026-09-10T11:40:39.159422+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "date_guess": "2026-09-09",
+      "source": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "hash": "0cbeb2cb9545d81e",
+      "fetched_at": "2026-09-10T11:40:39.159457+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "date_guess": "2026-09-09",
+      "source": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "hash": "9e5e56051876a041",
+      "fetched_at": "2026-09-10T11:40:39.159477+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "How GPT-5.6 Sol helps run quantum computing experiments",
       "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
       "date_guess": "2026-09-08",
@@ -2674,33 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.745474+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Creating with Sora Safely",
-      "summary": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approach is anchored in concrete protections.",
-      "date_guess": "2026-03-23",
-      "source": "https://openai.com/index/creating-with-sora-safely",
-      "hash": "a4186b3b66cc1396",
-      "fetched_at": "2026-08-21T15:54:17.745488+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How we monitor internal coding agents for misalignment",
-      "summary": "How OpenAI uses chain-of-thought monitoring to study misalignment in internal coding agents—analyzing real-world deployments to detect risks and strengthen AI safety safeguards.",
-      "date_guess": "2026-03-19",
-      "source": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
-      "hash": "e55a7523f492ec85",
-      "fetched_at": "2026-08-21T15:54:17.745499+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "OpenAI to acquire Astral",
-      "summary": "Accelerates Codex growth to power the next generation of Python developer tools",
-      "date_guess": "2026-03-19",
-      "source": "https://openai.com/index/openai-to-acquire-astral",
-      "hash": "a4536e8f2c9ef9d0",
-      "fetched_at": "2026-08-21T15:54:17.745507+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "Reducing cost and improving performance with Claude Platform",
       "summary": "Performance and cost are often viewed as a trade-off: to spend less, you accept worse results. In practice, we've found that many applications using Claude Platform can cut costs without giving up performance with three fixes: maximize the prompt cache hit rate, remove anti-patterns from your prompts when upgrading to frontier Claude models, and calibrate effort to the task. We've put this guidance into the claude-api skill . In this article, we show how Claude Code with the claude-api can often",
@@ -2998,6 +2998,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-09T11:43:36.239316+00:00",
+  "last_checked": "2026-09-10T11:40:39.505397+00:00",
   "fetch_warnings": []
 }
