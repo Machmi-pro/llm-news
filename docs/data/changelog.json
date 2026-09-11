@@ -2,6 +2,60 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "date_guess": "2026-09-10",
+      "source": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "hash": "197fc74822bf2a08",
+      "fetched_at": "2026-09-11T11:41:04.248053+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Now everyone can put data to work",
+      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "date_guess": "2026-09-10",
+      "source": "https://openai.com/index/put-data-to-work",
+      "hash": "01a32a30e4847206",
+      "fetched_at": "2026-09-11T11:41:04.248089+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing ChatGPT for Financial Services",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "date_guess": "2026-09-10",
+      "source": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "hash": "e64c43912aa35f91",
+      "fetched_at": "2026-09-11T11:41:04.248107+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "date_guess": "2026-09-10",
+      "source": "https://openai.com/index/expanding-ai-access-us-government",
+      "hash": "ed7b81ebddb6f7e7",
+      "fetched_at": "2026-09-11T11:41:04.248123+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "date_guess": "2026-09-10",
+      "source": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "hash": "69e708280f5e94c0",
+      "fetched_at": "2026-09-11T11:41:04.248145+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing the Agents API",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "date_guess": "2026-09-10",
+      "source": "https://openai.com/index/introducing-the-agents-api",
+      "hash": "75abac7289e31274",
+      "fetched_at": "2026-09-11T11:41:04.248186+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "The AI policy window is open. We need to act.",
       "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
       "date_guess": "2026-09-09",
@@ -2647,58 +2701,22 @@
       "fetched_at": "2026-08-21T15:54:17.745410+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "STADLER reshapes knowledge work at a 230-year-old company",
-      "summary": "Learn how STADLER uses ChatGPT to transform knowledge work, saving time and accelerating productivity across 650 employees.",
-      "date_guess": "2026-03-27",
-      "source": "https://openai.com/index/stadler",
-      "hash": "444416d2f31ac097",
-      "fetched_at": "2026-08-21T15:54:17.745419+00:00"
+      "vendor": "Anthropic",
+      "title": "What 1,000 small business owners taught us about AI",
+      "summary": "Most AI tools and training are built for large companies and venture-backed startups. Small businesses generate 44% of the U.S. GDP and employ close to half the private-sector workforce, and yet they have largely been left to figure it out alone. As a public benefit corporation, part of our job is leveling the playing field for AI, and in this case, that means doing our part to help frontier AI reach small business and entrepreneurs on the same timeline it reaches the Fortune 500. So in May we l",
+      "date_guess": "2026-09-10",
+      "source": "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai",
+      "hash": "91dd62c728b3eefe",
+      "fetched_at": "2026-09-11T11:41:04.631478+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Inside our approach to the Model Spec",
-      "summary": "Learn how OpenAI’s Model Spec serves as a public framework for model behavior, balancing safety, user freedom, and accountability as AI systems advance.",
-      "date_guess": "2026-03-25",
-      "source": "https://openai.com/index/our-approach-to-the-model-spec",
-      "hash": "7023686205573301",
-      "fetched_at": "2026-08-21T15:54:17.745431+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing the OpenAI Safety Bug Bounty program",
-      "summary": "OpenAI launches a Safety Bug Bounty program to identify AI abuse and safety risks, including agentic vulnerabilities, prompt injection, and data exfiltration.",
-      "date_guess": "2026-03-25",
-      "source": "https://openai.com/index/safety-bug-bounty",
-      "hash": "34e53ed8d3cbdd1d",
-      "fetched_at": "2026-08-21T15:54:17.745442+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Helping developers build safer AI experiences for teens",
-      "summary": "OpenAI releases prompt-based teen safety policies for developers using gpt-oss-safeguard, helping moderate age-specific risks in AI systems.",
-      "date_guess": "2026-03-24",
-      "source": "https://openai.com/index/teen-safety-policies-gpt-oss-safeguard",
-      "hash": "5b533f746a481111",
-      "fetched_at": "2026-08-21T15:54:17.745452+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Update on the OpenAI Foundation",
-      "summary": "The OpenAI Foundation announces plans to invest at least $1 billion in curing diseases, economic opportunity, AI resilience, and community programs.",
-      "date_guess": "2026-03-24",
-      "source": "https://openai.com/index/update-on-the-openai-foundation",
-      "hash": "594ab6a74edb56c1",
-      "fetched_at": "2026-08-21T15:54:17.745462+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Powering product discovery in ChatGPT",
-      "summary": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
-      "date_guess": "2026-03-24",
-      "source": "https://openai.com/index/powering-product-discovery-in-chatgpt",
-      "hash": "a16c792c9f235e2d",
-      "fetched_at": "2026-08-21T15:54:17.745474+00:00"
+      "vendor": "Anthropic",
+      "title": "T. Rowe Price brings more of Claude to its investment process",
+      "summary": "T. Rowe Price, a global investment management firm, and Anthropic today announced the expansion of Claude across the firm’s investment organization. Portfolio managers and analysts at the global investment management firm are working with Claude and Claude Cowork on their research, and its developers are building investment tools with Claude Code. T. Rowe Price is an active manager, so its investment decisions rest on its own fundamental research. Analysts and portfolio managers read and evaluat",
+      "date_guess": "2026-09-10",
+      "source": "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process",
+      "hash": "d745e16ffa418cd8",
+      "fetched_at": "2026-09-11T11:41:04.631615+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -2998,6 +3016,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-10T11:40:39.505397+00:00",
+  "last_checked": "2026-09-11T11:41:04.647359+00:00",
   "fetch_warnings": []
 }
