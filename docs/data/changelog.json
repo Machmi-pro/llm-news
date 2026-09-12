@@ -2,6 +2,33 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "date_guess": "2026-09-14",
+      "source": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "hash": "32b4ab7ab1dab235",
+      "fetched_at": "2026-09-12T11:06:13.050877+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "date_guess": "2026-09-11",
+      "source": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "hash": "7469e8dd4972d9fb",
+      "fetched_at": "2026-09-12T11:06:13.050914+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "date_guess": "2026-09-11",
+      "source": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "hash": "2682c97de6fb1561",
+      "fetched_at": "2026-09-12T11:06:13.050945+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
       "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
       "date_guess": "2026-09-10",
@@ -2674,33 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.745380+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Gradient Labs gives every bank customer an AI account manager",
-      "summary": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
-      "date_guess": "2026-04-01",
-      "source": "https://openai.com/index/gradient-labs",
-      "hash": "aeda6cd0eaa53328",
-      "fetched_at": "2026-08-21T15:54:17.745390+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Accelerating the next phase of AI",
-      "summary": "OpenAI raises $122 billion in new funding to expand frontier AI globally, invest in next-generation compute, and meet growing demand for ChatGPT, Codex, and enterprise AI.",
-      "date_guess": "2026-03-31",
-      "source": "https://openai.com/index/accelerating-the-next-phase-ai",
-      "hash": "13970b2dd416d97c",
-      "fetched_at": "2026-08-21T15:54:17.745402+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Helping disaster response teams turn AI into action across Asia",
-      "summary": "AI for Disaster Response in Asia: OpenAI Workshop with Gates Foundation",
-      "date_guess": "2026-03-29",
-      "source": "https://openai.com/index/helping-disaster-response-teams-asia",
-      "hash": "28ad36a5a44a5ea1",
-      "fetched_at": "2026-08-21T15:54:17.745410+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "What 1,000 small business owners taught us about AI",
       "summary": "Most AI tools and training are built for large companies and venture-backed startups. Small businesses generate 44% of the U.S. GDP and employ close to half the private-sector workforce, and yet they have largely been left to figure it out alone. As a public benefit corporation, part of our job is leveling the playing field for AI, and in this case, that means doing our part to help frontier AI reach small business and entrepreneurs on the same timeline it reaches the Fortune 500. So in May we l",
@@ -3016,6 +3016,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-11T11:41:04.647359+00:00",
+  "last_checked": "2026-09-12T11:06:13.327769+00:00",
   "fetch_warnings": []
 }
