@@ -596,6 +596,15 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "date_guess": "2026-08-13",
+      "source": "https://openai.com/index/fyxer",
+      "hash": "96f1c5b9d2f91612",
+      "fetched_at": "2026-09-14T13:11:09.078147+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "From assistance to execution: How enterprises put AI to work",
       "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
       "date_guess": "2026-08-12",
@@ -2692,15 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.745370+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Codex now offers more flexible pricing for teams",
-      "summary": "Codex now includes pay-as-you-go pricing for ChatGPT Business and Enterprise, providing teams a more flexible option to start and scale adoption.",
-      "date_guess": "2026-04-02",
-      "source": "https://openai.com/index/codex-flexible-pricing-for-teams",
-      "hash": "8987381acdf26471",
-      "fetched_at": "2026-08-21T15:54:17.745380+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "What 1,000 small business owners taught us about AI",
       "summary": "Most AI tools and training are built for large companies and venture-backed startups. Small businesses generate 44% of the U.S. GDP and employ close to half the private-sector workforce, and yet they have largely been left to figure it out alone. As a public benefit corporation, part of our job is leveling the playing field for AI, and in this case, that means doing our part to help frontier AI reach small business and entrepreneurs on the same timeline it reaches the Fortune 500. So in May we l",
@@ -3016,6 +3016,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-13T12:12:21.792369+00:00",
+  "last_checked": "2026-09-14T13:11:09.456586+00:00",
   "fetch_warnings": []
 }
