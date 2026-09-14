@@ -254,10 +254,26 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 1.0,
         "output_price_per_m": 5.0
       },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "claude-mythos-5-1",
+      "name": "Claude Mythos 5.1",
+      "release_date_guess": "2026-09-01",
+      "tier": "Anthropic",
+      "top_scores": {
+        "reasoning": 0.6,
+        "general": 0.6,
+        "agents": 0.6,
+        "code": 0.6,
+        "tool_calling": 0.6
+      },
+      "pricing": null,
       "notes": "",
       "source": "https://llm-stats.com (API v1/models)"
     },
@@ -435,7 +451,7 @@
         "vision": 0.7
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
       },
@@ -469,7 +485,7 @@
         "vision": 0.7
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
       },
@@ -663,7 +679,7 @@
         "vision": 0.0
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 0.5,
         "output_price_per_m": 1.5
       },
@@ -947,7 +963,7 @@
         "code": 0.9
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 10.0,
         "output_price_per_m": 30.0
       },
@@ -967,7 +983,7 @@
         "math": 0.7,
         "multimodal": 0.8,
         "physics": 0.9,
-        "reasoning": 1.6,
+        "reasoning": 1.5,
         "search": 0.7,
         "spatial_reasoning": 7.2,
         "structured_output": 0.6,
@@ -1705,7 +1721,11 @@
         "tool_calling": 0.7,
         "vision": 0.1
       },
-      "pricing": null,
+      "pricing": {
+        "provider_name": "DeepInfra",
+        "input_price_per_m": 0.037,
+        "output_price_per_m": 0.17
+      },
       "notes": "",
       "source": "https://llm-stats.com (API v1/models)"
     },
@@ -1754,7 +1774,11 @@
         "tool_calling": 0.5,
         "vision": 0.1
       },
-      "pricing": null,
+      "pricing": {
+        "provider_name": "DeepInfra",
+        "input_price_per_m": 0.03,
+        "output_price_per_m": 0.14
+      },
       "notes": "",
       "source": "https://llm-stats.com (API v1/models)"
     },
@@ -1968,6 +1992,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-09-07T11:58:49.672251+00:00",
+  "last_updated": "2026-09-14T12:14:28.370192+00:00",
   "fetch_warnings": []
 }
