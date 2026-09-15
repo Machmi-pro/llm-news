@@ -11,6 +11,15 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "date_guess": "2026-09-14",
+      "source": "https://openai.com/index/fyxer",
+      "hash": "603969bf1e4b2e93",
+      "fetched_at": "2026-09-15T11:59:06.424167+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
       "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
       "date_guess": "2026-09-11",
@@ -2657,6 +2666,15 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "ChatGPT for marketing teams",
+      "summary": "Learn how marketing teams use ChatGPT to plan campaigns, create content, analyze performance, and turn insights into action with practical AI workflows.",
+      "date_guess": "2026-04-10",
+      "source": "https://openai.com/academy/marketing",
+      "hash": "4beaf4b041c750a7",
+      "fetched_at": "2026-09-15T11:59:06.427978+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
       "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
       "date_guess": "2026-04-09",
@@ -2683,22 +2701,40 @@
       "fetched_at": "2026-08-21T15:54:17.745348+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Announcing the OpenAI Safety Fellowship",
-      "summary": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
-      "date_guess": "2026-04-06",
-      "source": "https://openai.com/index/introducing-openai-safety-fellowship",
-      "hash": "b0346727f3347ee5",
-      "fetched_at": "2026-08-21T15:54:17.745358+00:00"
+      "vendor": "Anthropic",
+      "title": "Deploying AI from pilot to production",
+      "summary": "A successful AI pilot doesn’t guarantee successful deployment to the rest of an organization. According to Accenture’s Pulse of Change report (July 2026), only 23% of C-suite leaders report having achieved sustained, enterprise-wide impact with AI initiatives. Pilots are designed for success. Teams are handpicked, often selected for enthusiasm and capability, and work on a defined scope with clear timelines. Pilot budgets are often protected, with insulation from normal organizational dynamics. ",
+      "date_guess": "2026-09-14",
+      "source": "https://claude.com/blog/deploying-ai-from-pilot-to-production",
+      "hash": "6d928112f8273e11",
+      "fetched_at": "2026-09-15T11:59:06.689896+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "OpenAI acquires TBPN",
-      "summary": "OpenAI acquires TBPN to accelerate global conversations around AI and support independent media, expanding dialogue with builders, businesses, and the broader tech community.",
-      "date_guess": "2026-04-02",
-      "source": "https://openai.com/index/openai-acquires-tbpn",
-      "hash": "5ee20e888052da24",
-      "fetched_at": "2026-08-21T15:54:17.745370+00:00"
+      "vendor": "Anthropic",
+      "title": "How healthcare organizations use Claude Tag",
+      "summary": "Healthcare organizations are using Claude Tag (beta) , which brings Claude into Slack as a teammate , to help them triage production alerts, maintain internal tools, and answer questions about payer rules. While Claude Tag isn't yet covered by Anthropic's Business Associate Agreement , several healthcare organizations are using it today in channels and with connectors that never touch protected health information (PHI). Mention @Claude in a channel and it reads the thread, uses the tools you've ",
+      "date_guess": "2026-09-14",
+      "source": "https://claude.com/blog/how-healthcare-organizations-use-claude-tag",
+      "hash": "f9f69c6513097c69",
+      "fetched_at": "2026-09-15T11:59:06.690322+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Claude for Financial Advisors",
+      "summary": "Today we're releasing Claude for Financial Advisors, a suite of connectors and workflow skills designed to help with research, prep, and documentation tasks that occupy an advisor’s time and keep them from client-facing work. Time is scarce among financial advisors. A typical advisory practice spends only a sixth of its time in client meetings, according to Kitces research . The rest goes to work around those meetings, piecing together information across systems to prepare, plan, and document wh",
+      "date_guess": "2026-09-14",
+      "source": "https://claude.com/blog/claude-for-financial-advisors",
+      "hash": "1dd39d01035c7586",
+      "fetched_at": "2026-09-15T11:59:06.690663+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Agentic coding is straining CI. Here’s how we scaled test impact analysis at Anthropic",
+      "summary": "AI is evolving CI Anthropic engineers on average ship 8x as much code per quarter as they did from 2021-2025. Claude authors 80% of that code and it also plays a large role in reviewing and approving PRs as well . Writing code is no longer the constraint, and once PR review gets accelerated, CI starts feeling the pressure. On top of that, the amount of tests across our codebase grew 10x and we added a nominal amount of engineers. This all led to a 25x increase in CI jobs over a six month period ",
+      "date_guess": "2026-09-14",
+      "source": "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+      "hash": "57c2a93beb1bf0b3",
+      "fetched_at": "2026-09-15T11:59:06.691123+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -3016,6 +3052,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-14T13:11:09.456586+00:00",
+  "last_checked": "2026-09-15T11:59:06.703006+00:00",
   "fetch_warnings": []
 }
