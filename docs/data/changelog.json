@@ -2702,6 +2702,33 @@
     },
     {
       "vendor": "Anthropic",
+      "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+      "summary": "Claude for Small Business now includes 43 workflows and 27 new integrations with tools small businesses already use, including Shopify, Salesforce, TikTok, Atlassian, Zoom, Xero, Gusto, Square, Stripe, and Zapier. The new workflows extend Claude from running the back office to growing the business, and they arrive with a fall schedule of free in-person workshops and partner webinars for owners who want help getting started. We launched Claude for Small Business in May as a set of connectors and ",
+      "date_guess": "2026-09-15",
+      "source": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+      "hash": "fdd09cfbf26479c6",
+      "fetched_at": "2026-09-16T11:56:01.209662+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Building an AI-native revenue organization",
+      "summary": "In our conversations with revenue leaders, we hear the same challenges: half the team barely touches the AI it already has, the best sellers build skills and prompts that no one else uses, and leadership has no visibility into usage and spend. Meanwhile, sellers gather account context before every call from multiple systems: the CRM, email, call recordings, Slack. That can mean spending thirty minutes on prep for fifteen minutes of conversation. Individual reps can save time every day when they ",
+      "date_guess": "2026-09-15",
+      "source": "https://claude.com/blog/building-an-ai-native-revenue-organization",
+      "hash": "e6705f6ade54463a",
+      "fetched_at": "2026-09-16T11:56:01.209770+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Bringing Salesforce into Claude",
+      "summary": "Today we are releasing Salesforce in Claude in beta, a plugin built with Salesforce that brings a seller’s accounts, opportunities, and pipeline into Claude under their existing Salesforce permissions. It includes 37 skills for the work account executives do daily, including account research, call prep, pipeline review, and CRM updates. Sellers often spend hours of their day on meeting prep or follow-up work from customer meetings by manually assembling information scattered across Salesforce, e",
+      "date_guess": "2026-09-15",
+      "source": "https://claude.com/blog/salesforce-in-claude",
+      "hash": "f2be3c1861de2f69",
+      "fetched_at": "2026-09-16T11:56:01.209992+00:00"
+    },
+    {
+      "vendor": "Anthropic",
       "title": "Deploying AI from pilot to production",
       "summary": "A successful AI pilot doesn’t guarantee successful deployment to the rest of an organization. According to Accenture’s Pulse of Change report (July 2026), only 23% of C-suite leaders report having achieved sustained, enterprise-wide impact with AI initiatives. Pilots are designed for success. Teams are handpicked, often selected for enthusiasm and capability, and work on a defined scope with clear timelines. Pilot budgets are often protected, with insulation from normal organizational dynamics. ",
       "date_guess": "2026-09-14",
@@ -3052,6 +3079,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-15T11:59:06.703006+00:00",
+  "last_checked": "2026-09-16T11:56:01.219100+00:00",
   "fetch_warnings": []
 }
