@@ -2,6 +2,51 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Helping older adults use AI in everyday life",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "date_guess": "2026-09-16",
+      "source": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "hash": "5c4cd53455f927ac",
+      "fetched_at": "2026-09-17T11:57:55.283243+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Reimagining advertising with AI",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "date_guess": "2026-09-16",
+      "source": "https://openai.com/index/reimagining-advertising-with-ai",
+      "hash": "6caf59c39ad7e404",
+      "fetched_at": "2026-09-17T11:57:55.283279+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How to connect AI usage to business value",
+      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "date_guess": "2026-09-16",
+      "source": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "hash": "4a1803569ff687cd",
+      "fetched_at": "2026-09-17T11:57:55.283298+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our framework for reporting model misalignment",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "date_guess": "2026-09-16",
+      "source": "https://openai.com/index/model-misalignment-reporting-framework",
+      "hash": "7f401d74057063ed",
+      "fetched_at": "2026-09-17T11:57:55.283314+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How workers are unlocking new ways of working",
+      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "date_guess": "2026-09-16",
+      "source": "https://openai.com/index/unlocking-new-ways-of-working",
+      "hash": "169db2b497fdad36",
+      "fetched_at": "2026-09-17T11:57:55.283354+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
       "date_guess": "2026-09-14",
@@ -854,6 +899,15 @@
       "source": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
       "hash": "38a2ca32522d5712",
       "fetched_at": "2026-08-21T15:54:17.743099+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Disrupting a Cambodia-based criminal scam operation",
+      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
+      "date_guess": "2026-07-31",
+      "source": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+      "hash": "ea2bbf6ae1fe494a",
+      "fetched_at": "2026-09-17T11:57:55.284755+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -2647,58 +2701,13 @@
       "fetched_at": "2026-08-21T15:54:17.745291+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Creating images with ChatGPT",
-      "summary": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/image-generation",
-      "hash": "bca658f4ea6a083d",
-      "fetched_at": "2026-08-21T15:54:17.745301+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Our response to the Axios developer tool compromise",
-      "summary": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/index/axios-developer-tool-compromise",
-      "hash": "c63be18aaefe4f9f",
-      "fetched_at": "2026-08-21T15:54:17.745311+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "ChatGPT for marketing teams",
-      "summary": "Learn how marketing teams use ChatGPT to plan campaigns, create content, analyze performance, and turn insights into action with practical AI workflows.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/marketing",
-      "hash": "4beaf4b041c750a7",
-      "fetched_at": "2026-09-15T11:59:06.427978+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
-      "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
-      "date_guess": "2026-04-09",
-      "source": "https://openai.com/index/cyberagent",
-      "hash": "ca55f6d56441434f",
-      "fetched_at": "2026-08-21T15:54:17.745321+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "The next phase of enterprise AI",
-      "summary": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
-      "date_guess": "2026-04-08",
-      "source": "https://openai.com/index/next-phase-of-enterprise-ai",
-      "hash": "8934aef1e3ecf663",
-      "fetched_at": "2026-08-21T15:54:17.745334+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing the Child Safety Blueprint",
-      "summary": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
-      "date_guess": "2026-04-08",
-      "source": "https://openai.com/index/introducing-child-safety-blueprint",
-      "hash": "b1f9ef31a27808b1",
-      "fetched_at": "2026-08-21T15:54:17.745348+00:00"
+      "vendor": "Anthropic",
+      "title": "Claude Cowork and chat are now one Claude",
+      "summary": "Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. It’s rolling out on Pro and Max plans over the next few weeks, with more plans to follow. What Claude makes doesn’t need its own place either. Claude Docs and Claude Slides are new today, and Claude Design now works inside your conversations too. Ask for a document, and you and Claude write it together",
+      "date_guess": "2026-09-16",
+      "source": "https://claude.com/blog/cowork-is-now-claude",
+      "hash": "b6ae99749498fb17",
+      "fetched_at": "2026-09-17T11:57:55.479927+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -3079,6 +3088,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-16T11:56:01.219100+00:00",
+  "last_checked": "2026-09-17T11:57:55.490683+00:00",
   "fetch_warnings": []
 }
