@@ -2,6 +2,24 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "date_guess": "2026-09-17",
+      "source": "https://openai.com/index/cooley-gopublic",
+      "hash": "acfeb33caee45ec2",
+      "fetched_at": "2026-09-18T11:38:52.085106+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing Astra for Law",
+      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "date_guess": "2026-09-17",
+      "source": "https://openai.com/index/astra-for-law",
+      "hash": "8e635b4837c79994",
+      "fetched_at": "2026-09-18T11:38:52.085144+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Helping older adults use AI in everyday life",
       "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
       "date_guess": "2026-09-16",
@@ -2683,22 +2701,22 @@
       "fetched_at": "2026-08-21T15:54:17.745273+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Learn ChatGPT workflows for sales teams",
-      "summary": "Learn practical ChatGPT workflows for account research, meeting prep, outreach, pipeline reviews, and sales execution.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/sales",
-      "hash": "4fa804ba414dc766",
-      "fetched_at": "2026-08-21T15:54:17.745282+00:00"
+      "vendor": "Anthropic",
+      "title": "Projects redesigned: from folder to conversation",
+      "summary": "Managing multiple sessions across a build used to require you to divide the work, juggle handoffs, and stitch the results back together. Now in a Claude Code project, you describe what needs to get done and Claude manages the work. Claude scopes the request, delegates the work, coordinates parallel threads, reviews the outputs, and assembles the finished result. You can steer progress throughout, even from your phone, and it keeps working after you step away from your computer. For example, conf",
+      "date_guess": "2026-09-17",
+      "source": "https://claude.com/blog/projects-redesigned",
+      "hash": "a10352ec7660e4e1",
+      "fetched_at": "2026-09-18T11:38:52.280214+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Healthcare",
-      "summary": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/healthcare",
-      "hash": "9b3efb9408c60259",
-      "fetched_at": "2026-08-21T15:54:17.745291+00:00"
+      "vendor": "Anthropic",
+      "title": "Working at the frontier: How Balyasny Asset Management evaluates and governs Claude Fable 5",
+      "summary": "Balyasny Asset Management (BAM) is a global, multi-strategy investment firm that manages roughly $38 billion in assets and supports a team of roughly 2,000 investment professionals and staff. Charlie Flanagan, Chief AI Officer, spoke with Anthropic about how the firm evaluates new models on thousands of real financial tasks, why it built its own platform for running agents, and what changed with the launch of Claude Fable 5. How has frontier AI changed for BAM in 2026? 2026 is the year we moved ",
+      "date_guess": "2026-09-17",
+      "source": "https://claude.com/blog/working-at-the-frontier-how-balyasny-asset-management-evaluates-and-governs-claude-fable-5",
+      "hash": "490f6de90c50c935",
+      "fetched_at": "2026-09-18T11:38:52.280565+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -3088,6 +3106,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-17T11:57:55.490683+00:00",
+  "last_checked": "2026-09-18T11:38:52.291729+00:00",
   "fetch_warnings": []
 }
