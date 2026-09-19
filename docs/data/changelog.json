@@ -2,6 +2,15 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "date_guess": "2026-09-18",
+      "source": "https://openai.com/index/australian-youth-safety-blueprint",
+      "hash": "08d93e53ccb618f1",
+      "fetched_at": "2026-09-19T11:20:57.736341+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "How Cooley is accelerating IPO work with ChatGPT",
       "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
       "date_guess": "2026-09-17",
@@ -62,6 +71,15 @@
       "source": "https://openai.com/index/unlocking-new-ways-of-working",
       "hash": "169db2b497fdad36",
       "fetched_at": "2026-09-17T11:57:55.283354+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "date_guess": "2026-09-16",
+      "source": "https://openai.com/index/hex-gpt-6-astra",
+      "hash": "d5f06084c5e505e2",
+      "fetched_at": "2026-09-19T11:20:57.736453+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -2683,24 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.745255+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Analyzing data with ChatGPT",
-      "summary": "Learn how to explore datasets, generate insights, create visualizations, and turn findings into actionable decisions with ChatGPT.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/data-analysis",
-      "hash": "bf74c3824ea445d2",
-      "fetched_at": "2026-08-21T15:54:17.745264+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "ChatGPT for customer success teams",
-      "summary": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/customer-success",
-      "hash": "4161bb54c68dde76",
-      "fetched_at": "2026-08-21T15:54:17.745273+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "Projects redesigned: from folder to conversation",
       "summary": "Managing multiple sessions across a build used to require you to divide the work, juggle handoffs, and stitch the results back together. Now in a Claude Code project, you describe what needs to get done and Claude manages the work. Claude scopes the request, delegates the work, coordinates parallel threads, reviews the outputs, and assembles the finished result. You can steer progress throughout, even from your phone, and it keeps working after you step away from your computer. For example, conf",
@@ -3106,6 +3106,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-18T11:38:52.291729+00:00",
+  "last_checked": "2026-09-19T11:20:57.925970+00:00",
   "fetch_warnings": []
 }
