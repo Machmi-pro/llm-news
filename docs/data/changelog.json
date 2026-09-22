@@ -2,6 +2,51 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "date_guess": "2026-09-21",
+      "source": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "hash": "33d74f6b848a64b3",
+      "fetched_at": "2026-09-22T11:56:47.232527+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "date_guess": "2026-09-21",
+      "source": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "hash": "e4ad11af1d49955c",
+      "fetched_at": "2026-09-22T11:56:47.232561+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Building standards for the next phase of AI",
+      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "date_guess": "2026-09-21",
+      "source": "https://openai.com/index/building-standards-next-phase-ai",
+      "hash": "f20a3f3b82176d3f",
+      "fetched_at": "2026-09-22T11:56:47.232578+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "date_guess": "2026-09-21",
+      "source": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "hash": "9a986235c1c475ea",
+      "fetched_at": "2026-09-22T11:56:47.232597+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How V7 gives AI agents institutional memory",
+      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "date_guess": "2026-09-21",
+      "source": "https://openai.com/index/v7",
+      "hash": "c74cb429b5e964f1",
+      "fetched_at": "2026-09-22T11:56:47.232611+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Introducing the Australian Youth Safety Blueprint",
       "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
       "date_guess": "2026-09-18",
@@ -2656,51 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.745204+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Learn ChatGPT workflows for finance teams",
-      "summary": "Learn practical ChatGPT workflows for financial analysis, reporting, planning, and decision-ready communication.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/finance",
-      "hash": "27d388d486356d15",
-      "fetched_at": "2026-08-21T15:54:17.745215+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Using custom GPTs",
-      "summary": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/custom-gpts",
-      "hash": "8979c86d1b658e85",
-      "fetched_at": "2026-08-21T15:54:17.745224+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Learn ChatGPT workflows for marketing teams",
-      "summary": "Learn practical ChatGPT workflows for campaign planning, research, content creation, and performance analysis, with next steps for business teams.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/marketing",
-      "hash": "de35646a7a98284d",
-      "fetched_at": "2026-08-21T15:54:17.745235+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "AI fundamentals",
-      "summary": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/what-is-ai",
-      "hash": "0a1bef404e0eb876",
-      "fetched_at": "2026-08-21T15:54:17.745245+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "ChatGPT for operations teams",
-      "summary": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/operations",
-      "hash": "c0c9cb0422d4c916",
-      "fetched_at": "2026-08-21T15:54:17.745255+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "Projects redesigned: from folder to conversation",
       "summary": "Managing multiple sessions across a build used to require you to divide the work, juggle handoffs, and stitch the results back together. Now in a Claude Code project, you describe what needs to get done and Claude manages the work. Claude scopes the request, delegates the work, coordinates parallel threads, reviews the outputs, and assembles the finished result. You can steer progress throughout, even from your phone, and it keeps working after you step away from your computer. For example, conf",
@@ -3106,6 +3106,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-21T13:10:12.545370+00:00",
+  "last_checked": "2026-09-22T11:56:47.546676+00:00",
   "fetch_warnings": []
 }
