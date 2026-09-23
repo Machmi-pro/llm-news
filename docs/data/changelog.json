@@ -2,6 +2,51 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "date_guess": "2026-09-23",
+      "source": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "hash": "44f4f2e78c406cb9",
+      "fetched_at": "2026-09-23T11:57:38.886500+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Better prompt caching for GPT-6",
+      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
+      "date_guess": "2026-09-22",
+      "source": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+      "hash": "d40f0047a854ac1d",
+      "fetched_at": "2026-09-23T11:57:38.886536+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
+      "date_guess": "2026-09-22",
+      "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "hash": "8773506c4f7e4a28",
+      "fetched_at": "2026-09-23T11:57:38.886555+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "date_guess": "2026-09-22",
+      "source": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "hash": "d1b2a0aae9bfea8e",
+      "fetched_at": "2026-09-23T11:57:38.886578+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Priorities and principles for effective third party assessments",
+      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "date_guess": "2026-09-22",
+      "source": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "hash": "758f2af22487f42b",
+      "fetched_at": "2026-09-23T11:57:38.886601+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Advisory Group on Mathematics and Artificial Intelligence",
       "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
       "date_guess": "2026-09-21",
@@ -2656,49 +2701,13 @@
       "fetched_at": "2026-08-21T15:54:17.745154+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Research with ChatGPT",
-      "summary": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/search-and-deep-research",
-      "hash": "2013c66417096265",
-      "fetched_at": "2026-08-21T15:54:17.745164+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Brainstorming with ChatGPT",
-      "summary": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/brainstorming",
-      "hash": "9ff3f368cf472f58",
-      "fetched_at": "2026-08-21T15:54:17.745173+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Responsible and safe use of AI",
-      "summary": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/responsible-and-safe-use",
-      "hash": "2147f75935102a25",
-      "fetched_at": "2026-08-21T15:54:17.745184+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Working with files in ChatGPT",
-      "summary": "Learn practical ways to work with files in ChatGPT, from finding information to organizing, transforming, and using documents in workflows.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/working-with-files",
-      "hash": "a1b7c49e6a95e0b9",
-      "fetched_at": "2026-08-21T15:54:17.745193+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Financial services",
-      "summary": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/financial-services",
-      "hash": "451c4c966b5b3f40",
-      "fetched_at": "2026-08-21T15:54:17.745204+00:00"
+      "vendor": "Anthropic",
+      "title": "What a task costs on Opus 5.5",
+      "summary": "The cost of a task, and the cost of a retry You don't set out to buy millions of tokens. You set out to build a feature, finish a migration, or run a task. The token count is whatever the model needed to get there. Two models with the same cost per token can cost very different amounts on the same task. One reads the code once. The other reads it, tries a fix, and reads it again. Each of those steps is a turn, and each turn resends the conversation so far. So the model that needs more turns cost",
+      "date_guess": "2026-09-22",
+      "source": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
+      "hash": "1d971ea911d4e518",
+      "fetched_at": "2026-09-23T11:57:39.226582+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -3106,6 +3115,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-22T11:56:47.546676+00:00",
+  "last_checked": "2026-09-23T11:57:39.237402+00:00",
   "fetch_warnings": []
 }
