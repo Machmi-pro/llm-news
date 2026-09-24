@@ -11,6 +11,87 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "Two years of OpenAI Academy",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "date_guess": "2026-09-23",
+      "source": "https://openai.com/index/two-years-of-openai-academy",
+      "hash": "f032150d7a22057f",
+      "fetched_at": "2026-09-24T12:04:24.663708+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "date_guess": "2026-09-23",
+      "source": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "hash": "d72e468f3ef9cacd",
+      "fetched_at": "2026-09-24T12:04:24.663743+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "date_guess": "2026-09-23",
+      "source": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "hash": "9b93cd1bba6aaadb",
+      "fetched_at": "2026-09-24T12:04:24.663764+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "date_guess": "2026-09-23",
+      "source": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "hash": "b7f1492a5faaf0e8",
+      "fetched_at": "2026-09-24T12:04:24.663776+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "date_guess": "2026-09-23",
+      "source": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "hash": "4925d3bfb139ab3d",
+      "fetched_at": "2026-09-24T12:04:24.663813+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "date_guess": "2026-09-23",
+      "source": "https://openai.com/index/ringg",
+      "hash": "2872c1e8b796c0f7",
+      "fetched_at": "2026-09-24T12:04:24.663827+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing MentalHealthBench",
+      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "date_guess": "2026-09-23",
+      "source": "https://openai.com/index/introducing-mentalhealthbench",
+      "hash": "6358ff5094fa0b80",
+      "fetched_at": "2026-09-24T12:04:24.663840+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+      "date_guess": "2026-09-23",
+      "source": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "hash": "9ba6122e7c5bf7af",
+      "fetched_at": "2026-09-24T12:04:24.663853+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+      "date_guess": "2026-09-23",
+      "source": "https://openai.com/index/airbnb-gpt-6-astra",
+      "hash": "1cec5995943e1e25",
+      "fetched_at": "2026-09-24T12:04:24.663867+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Better prompt caching for GPT-6",
       "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
       "date_guess": "2026-09-22",
@@ -2620,85 +2701,31 @@
       "fetched_at": "2026-08-21T15:54:17.745064+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Trusted access for the next era of cyber defense",
-      "summary": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
-      "date_guess": "2026-04-14",
-      "source": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
-      "hash": "f6e243a4147b2ae6",
-      "fetched_at": "2026-08-21T15:54:17.745075+00:00"
+      "vendor": "Anthropic",
+      "title": "Claude Marketplace: one place to discover plugins, agents, and services from our partners",
+      "summary": "Starting today, the Claude Marketplace brings plugins and connectors, agents and products, and service partners into one place. For customers, it provides a single destination to find the right tools and services. For builders and partners, it offers an easier way to reach teams using Claude. For customers: discover tools and services to help you do more with Claude The Claude Marketplace is where teams find what they need to expand how they use Claude. You can: Add connectors and plugins. Choos",
+      "date_guess": "2026-09-23",
+      "source": "https://claude.com/blog/claude-marketplace",
+      "hash": "169495d3e4c4ac08",
+      "fetched_at": "2026-09-24T12:04:24.968512+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
-      "summary": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
-      "date_guess": "2026-04-13",
-      "source": "https://openai.com/index/cloudflare-openai-agent-cloud",
-      "hash": "7159163aca2d472d",
-      "fetched_at": "2026-08-21T15:54:17.745087+00:00"
+      "vendor": "Anthropic",
+      "title": "How to prepare for AI-driven code modernization projects",
+      "summary": "In our Notes from the Field series, Anthropic forward deployed engineers share best practices inspired by real customer deployments. In this article, we share our experience managing large code modernization projects. Code modernizations once scoped as multi-year, all-hands efforts can now finish in months (or weeks ), but the organizational work on either side often remains the same. For example, every change to a critical banking system must go through change management, review, and approval. ",
+      "date_guess": "2026-09-23",
+      "source": "https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects",
+      "hash": "a5e2bcb5cc63d77f",
+      "fetched_at": "2026-09-24T12:04:24.969360+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "ChatGPT for research",
-      "summary": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/research",
-      "hash": "b7d0b2c741a0451e",
-      "fetched_at": "2026-08-21T15:54:17.745096+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Writing with ChatGPT",
-      "summary": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/writing",
-      "hash": "4adef3e4ad605eea",
-      "fetched_at": "2026-08-21T15:54:17.745106+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Personalizing ChatGPT",
-      "summary": "Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/personalization",
-      "hash": "d13ab7e8d6a890b8",
-      "fetched_at": "2026-08-21T15:54:17.745115+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Using skills",
-      "summary": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/skills",
-      "hash": "6014ff9bb69b3865",
-      "fetched_at": "2026-08-21T15:54:17.745125+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Using projects in ChatGPT",
-      "summary": "Learn how to use projects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/projects",
-      "hash": "718bfea7b05eff36",
-      "fetched_at": "2026-08-21T15:54:17.745134+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "ChatGPT for managers",
-      "summary": "Learn how managers use ChatGPT to prepare for conversations, write clear feedback, stay organized, and improve team effectiveness.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/managers",
-      "hash": "167c15b52f68c8ed",
-      "fetched_at": "2026-08-21T15:54:17.745144+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Applications of AI at OpenAI",
-      "summary": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
-      "date_guess": "2026-04-10",
-      "source": "https://openai.com/academy/applications-of-ai",
-      "hash": "ebaa5f4bd8212dea",
-      "fetched_at": "2026-08-21T15:54:17.745154+00:00"
+      "vendor": "Anthropic",
+      "title": "How CodeRabbit, Power Digital, and ThoughtSpot scale with Snowflake and Vercel on Claude Marketplace",
+      "summary": "Companies building with Claude also rely on other software to get the work done, like Snowflake to store and analyze their data or Vercel to run their apps. Claude Marketplace lets companies with an Anthropic commitment put part of it toward tools their teams already rely on, so one investment covers more of what their teams use every day, without a new budget request. Here's how CodeRabbit, Power Digital and ThoughtSpot used Claude Marketplace to expand their work with Vercel and Snowflake. Pow",
+      "date_guess": "2026-09-23",
+      "source": "https://claude.com/blog/how-coderabbit-power-digital-and-thoughtspot-scale-with-snowflake-and-vercel-on-claude-marketplace",
+      "hash": "99cdef79e55557a1",
+      "fetched_at": "2026-09-24T12:04:24.969609+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -3115,6 +3142,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-23T11:57:39.237402+00:00",
+  "last_checked": "2026-09-24T12:04:24.978935+00:00",
   "fetch_warnings": []
 }
