@@ -173,6 +173,15 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
+      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "date_guess": "2026-09-21",
+      "source": "https://openai.com/index/v7",
+      "hash": "a6822ef95e03d1c5",
+      "fetched_at": "2026-09-25T12:04:38.178830+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Introducing the Australian Youth Safety Blueprint",
       "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
       "date_guess": "2026-09-18",
@@ -2692,13 +2701,22 @@
       "fetched_at": "2026-08-21T15:54:17.745055+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "The next evolution of the Agents SDK",
-      "summary": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
-      "date_guess": "2026-04-15",
-      "source": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "hash": "6730e01df47f15ce",
-      "fetched_at": "2026-08-21T15:54:17.745064+00:00"
+      "vendor": "Anthropic",
+      "title": "Coding sessions are longer and use more context. Claude Opus 5.5 is built with that in mind.",
+      "summary": "We estimate Claude Opus 5.5 costs about 40% less to run than Opus 5 for typical workloads billed by token. For developers, exactly how those savings stack up matters. If you pay by the token, you will see the greatest cost difference for longer-running, higher context sessions–the exact type of Claude Code sessions that have become more prevalent in the last six months. This post will dive into the mechanics of what makes Opus 5.5 cost effective for how developers are coding today (and likely to",
+      "date_guess": "2026-09-24",
+      "source": "https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context",
+      "hash": "f36842abe3dc863b",
+      "fetched_at": "2026-09-25T12:04:38.348015+00:00"
+    },
+    {
+      "vendor": "Anthropic",
+      "title": "Claude Tag now supports personal connectors in channels",
+      "summary": "Claude Tag (beta) lets you add Claude to a Slack channel, where it works alongside your team. Until now, Claude could only use the connectors an admin attached to the channel , and most organizations keep that list short on purpose: they want access to follow the person, not the channel. Now Claude can use your own connectors for a request you make in a channel. For example, your calendar, your drive, your assigned accounts on the CRM, or your staging deploys. If you have connected it to your Cl",
+      "date_guess": "2026-09-24",
+      "source": "https://claude.com/blog/claude-tag-now-supports-personal-connectors-in-channels",
+      "hash": "6ec4277b2951a84b",
+      "fetched_at": "2026-09-25T12:04:38.348163+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -3142,6 +3160,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-24T12:04:24.978935+00:00",
+  "last_checked": "2026-09-25T12:04:38.356858+00:00",
   "fetch_warnings": []
 }
