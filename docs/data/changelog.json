@@ -2,6 +2,15 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "date_guess": "2026-09-25",
+      "source": "https://openai.com/index/proaction",
+      "hash": "c8506ff7ec94cebe",
+      "fetched_at": "2026-09-26T11:40:56.068978+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
       "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
       "date_guess": "2026-09-23",
@@ -809,6 +818,15 @@
       "source": "https://openai.com/index/asana",
       "hash": "201e1564d8c3777b",
       "fetched_at": "2026-08-21T15:54:17.742724+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Asana completed a years-long code migration in 2 weeks with Codex",
+      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, with about $12K in model and infrastructure costs.",
+      "date_guess": "2026-08-18",
+      "source": "https://openai.com/index/asana",
+      "hash": "754b6a1cb230b8e4",
+      "fetched_at": "2026-09-26T11:40:56.069978+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -2683,22 +2701,13 @@
       "fetched_at": "2026-08-21T15:54:17.745033+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Introducing GPT-Rosalind for life sciences research",
-      "summary": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
-      "date_guess": "2026-04-16",
-      "source": "https://openai.com/index/introducing-gpt-rosalind",
-      "hash": "3e8ff812599832c2",
-      "fetched_at": "2026-08-21T15:54:17.745044+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Accelerating the cyber defense ecosystem that protects us all",
-      "summary": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
-      "date_guess": "2026-04-16",
-      "source": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
-      "hash": "1accd68ba2cae91a",
-      "fetched_at": "2026-08-21T15:54:17.745055+00:00"
+      "vendor": "Anthropic",
+      "title": "Build plugins for Claude",
+      "summary": "Every day, millions of people connect Claude to their apps, work tools, and data. Today, we're making it easier for developers to reach them. Plugins package MCP connectors, Agent Skills, or both, and are the main way to build third-party extensions for Claude. Build a plugin, submit it through the new directory submission portal, and once approved, it's listed in the Claude directory . ‍ Submit and track plugins in the directory submission portal The directory submission portal is open to devel",
+      "date_guess": "2026-09-25",
+      "source": "https://claude.com/blog/build-plugins-for-claude",
+      "hash": "5919f3005da9c03b",
+      "fetched_at": "2026-09-26T11:40:56.278828+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -3160,6 +3169,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-25T12:04:38.356858+00:00",
+  "last_checked": "2026-09-26T11:40:56.287579+00:00",
   "fetch_warnings": []
 }
