@@ -195,7 +195,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 10.0,
         "output_price_per_m": 50.0
       },
@@ -211,12 +211,12 @@
         "legal": 1853.0,
         "math": 0.7,
         "multimodal": 0.8,
-        "reasoning": 463.6,
+        "reasoning": 371.0,
         "finance": 1853.0,
-        "general": 371.1,
-        "agents": 463.7,
-        "code": 0.6,
-        "tool_calling": 0.4,
+        "general": 309.3,
+        "agents": 371.0,
+        "code": 0.5,
+        "tool_calling": 0.5,
         "vision": 0.7
       },
       "pricing": {
@@ -254,7 +254,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 1.0,
         "output_price_per_m": 5.0
       },
@@ -516,6 +516,34 @@
         "provider_name": "DeepInfra",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "claude-opus-5-5",
+      "name": "Claude Opus 5.5",
+      "release_date_guess": "2026-09-22",
+      "tier": "Anthropic",
+      "top_scores": {
+        "language": 0.9,
+        "legal": 0.1,
+        "math": 0.7,
+        "multimodal": 0.8,
+        "reasoning": 0.7,
+        "science": 0.9,
+        "general": 0.7,
+        "healthcare": 0.6,
+        "agents": 0.6,
+        "biology": 0.9,
+        "code": 0.8,
+        "tool_calling": 0.6,
+        "vision": 0.8
+      },
+      "pricing": {
+        "provider_name": "Anthropic",
+        "input_price_per_m": 4.0,
+        "output_price_per_m": 20.0
       },
       "notes": "",
       "source": "https://llm-stats.com (API v1/models)"
@@ -873,7 +901,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -912,7 +940,7 @@
         "writing": 0.6
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -963,7 +991,7 @@
         "code": 0.9
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 10.0,
         "output_price_per_m": 30.0
       },
@@ -1689,13 +1717,57 @@
         "biology": 1.0,
         "chemistry": 1.0,
         "code": 0.7,
-        "tool_calling": 0.5,
+        "tool_calling": 0.6,
         "vision": 0.9
       },
       "pricing": {
         "provider_name": "OpenAI",
         "input_price_per_m": 10.0,
         "output_price_per_m": 50.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "release_date_guess": "2026-09-22",
+      "tier": "OpenAI",
+      "top_scores": {
+        "multimodal": 0.5,
+        "reasoning": 0.4,
+        "general": 0.5,
+        "agents": 0.5,
+        "code": 0.5,
+        "tool_calling": 0.4,
+        "vision": 0.5
+      },
+      "pricing": {
+        "provider_name": "OpenAI",
+        "input_price_per_m": 0.1,
+        "output_price_per_m": 0.5
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "gpt-6-sol",
+      "name": "GPT-6 Sol",
+      "release_date_guess": "2026-09-22",
+      "tier": "OpenAI",
+      "top_scores": {
+        "multimodal": 0.6,
+        "reasoning": 0.5,
+        "general": 0.5,
+        "agents": 0.5,
+        "code": 0.6,
+        "tool_calling": 0.4,
+        "vision": 0.6
+      },
+      "pricing": {
+        "provider_name": "OpenAI",
+        "input_price_per_m": 2.0,
+        "output_price_per_m": 10.0
       },
       "notes": "",
       "source": "https://llm-stats.com (API v1/models)"
@@ -1992,6 +2064,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-09-21T12:22:20.604665+00:00",
+  "last_updated": "2026-09-28T13:19:07.083618+00:00",
   "fetch_warnings": []
 }
