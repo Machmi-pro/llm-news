@@ -2,6 +2,33 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Introducing GPT-6.1 Sol",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "date_guess": "2026-09-29",
+      "source": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "hash": "83d539ff4dd09384",
+      "fetched_at": "2026-09-30T12:53:38.064849+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "DevDay 2026 Recap",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "date_guess": "2026-09-29",
+      "source": "https://openai.com/index/devday-2026-recap",
+      "hash": "be21d5de7de15e7f",
+      "fetched_at": "2026-09-30T12:53:38.064885+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing dots",
+      "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "date_guess": "2026-09-29",
+      "source": "https://openai.com/index/introducing-dots",
+      "hash": "82647583dc4fa772",
+      "fetched_at": "2026-09-30T12:53:38.064905+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "How we will do better for Australia",
       "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "date_guess": "2026-09-28",
@@ -2674,31 +2701,13 @@
       "fetched_at": "2026-08-21T15:54:17.744951+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Workspace agents",
-      "summary": "Learn how to build and use workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
-      "date_guess": "2026-04-22",
-      "source": "https://openai.com/academy/workspace-agents",
-      "hash": "e010c5918b0c1ddf",
-      "fetched_at": "2026-08-21T15:54:17.744960+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "date_guess": "2026-04-22",
-      "source": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-      "hash": "c5cf5da4838f5e22",
-      "fetched_at": "2026-08-21T15:54:17.744970+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing workspace agents in ChatGPT",
-      "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-      "date_guess": "2026-04-22",
-      "source": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-      "hash": "8506bbb850bc2d08",
-      "fetched_at": "2026-08-21T15:54:17.744980+00:00"
+      "vendor": "Anthropic",
+      "title": "Agents you can coach: how Asana builds human-agent teams with Claude",
+      "summary": "This is the third post in our series on building human-agent teams. The first shared what we’ve learned working with multiplayer AI at Anthropic. The second shared how Slack turns workplace conversation into the context agents need. This one looks at what changes when agents operate on the same platform where teams work. Years before they introduced AI agents, teams at Asana were iterating on ways to encode structure and accountability into how teams work together. They ultimately built the W or",
+      "date_guess": "2026-09-29",
+      "source": "https://claude.com/blog/agents-you-can-coach-how-asana-builds-human-agent-teams-with-claude",
+      "hash": "73713de14bfb7e39",
+      "fetched_at": "2026-09-30T12:53:38.311390+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -3178,6 +3187,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-29T13:12:52.188771+00:00",
+  "last_checked": "2026-09-30T12:53:38.320529+00:00",
   "fetch_warnings": []
 }
