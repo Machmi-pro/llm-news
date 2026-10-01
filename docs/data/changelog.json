@@ -2,6 +2,24 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "date_guess": "2026-09-30",
+      "source": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "hash": "cf3578a0e05aa6c1",
+      "fetched_at": "2026-10-01T13:44:53.964894+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Helping small businesses put AI to work",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "date_guess": "2026-09-30",
+      "source": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "hash": "76b1cb2a05f53429",
+      "fetched_at": "2026-10-01T13:44:53.964928+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Introducing GPT-6.1 Sol",
       "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "date_guess": "2026-09-29",
@@ -2683,22 +2701,22 @@
       "fetched_at": "2026-08-21T15:54:17.744930+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Everyday work with ChatGPT Work",
-      "summary": "Learn practical ChatGPT Work workflows for recurring tasks, updates, research, planning, and team operations.",
-      "date_guess": "2026-04-23",
-      "source": "https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks",
-      "hash": "aae08e1e8c61cfac",
-      "fetched_at": "2026-08-21T15:54:17.744940+00:00"
+      "vendor": "Anthropic",
+      "title": "How Anthropic's sales team rebuilt inbound with Claude Managed Agents",
+      "summary": "As a sales leader, it pains me to admit that not long ago, people who wanted to buy Claude for their company weren’t getting the answers they needed quickly enough. They had filled out our Contact Sales form but would wait too long to hear back, sometimes for multiple days. Most of their questions were simple: what a plan costs, whether there's a seat minimum, or whether we can meet HIPAA’s contract requirements. The answers were in our documentation and support articles, but customers wanted so",
+      "date_guess": "2026-09-30",
+      "source": "https://claude.com/blog/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents",
+      "hash": "40174549b1716e1e",
+      "fetched_at": "2026-10-01T13:44:54.149418+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Making ChatGPT better for clinicians",
-      "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
-      "date_guess": "2026-04-22",
-      "source": "https://openai.com/index/making-chatgpt-better-for-clinicians",
-      "hash": "72d4871449479437",
-      "fetched_at": "2026-08-21T15:54:17.744951+00:00"
+      "vendor": "Anthropic",
+      "title": "Claude for Government is now generally available",
+      "summary": "Today, Claude for Government is generally available for federal and state agencies. The platform, which delivers Claude's coding and agentic work capabilities through a FedRAMP High authorized environment, has been in public beta since July . Agencies access capabilities comparable to Anthropic’s commercial customers, without compromising compliance requirements. New capabilities generally arrive on the commercial release cadence. Claude works directly with files on the desktop, allowing agency ",
+      "date_guess": "2026-09-30",
+      "source": "https://claude.com/blog/claude-for-government-is-now-generally-available",
+      "hash": "d994526eefd98db0",
+      "fetched_at": "2026-10-01T13:44:54.149523+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -3187,6 +3205,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-09-30T12:53:38.320529+00:00",
+  "last_checked": "2026-10-01T13:44:54.155593+00:00",
   "fetch_warnings": []
 }
