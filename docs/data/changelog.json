@@ -2,6 +2,24 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "A model guide for the GPT-6 family",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "date_guess": "2026-10-02",
+      "source": "https://openai.com/index/practical-guide-building-gpt-6",
+      "hash": "3fc82830372b486d",
+      "fetched_at": "2026-10-03T11:54:03.955239+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "date_guess": "2026-10-02",
+      "source": "https://openai.com/index/chatham-financial",
+      "hash": "990514390f059ecc",
+      "fetched_at": "2026-10-03T11:54:03.955299+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "The eternal complement",
       "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
       "date_guess": "2026-10-01",
@@ -2683,24 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744883+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Choco automates food distribution with AI agents",
-      "summary": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
-      "date_guess": "2026-04-27",
-      "source": "https://openai.com/index/choco",
-      "hash": "a89ce0f15303fe99",
-      "fetched_at": "2026-08-21T15:54:17.744894+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Our principles",
-      "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
-      "date_guess": "2026-04-26",
-      "source": "https://openai.com/index/our-principles",
-      "hash": "4c3e7bdcbebfca3d",
-      "fetched_at": "2026-08-21T15:54:17.744903+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "Customize Claude Code with mods",
       "summary": "Today we're introducing mods, small TypeScript functions that change how Claude Code works. A mod can rewrite a prompt, add new UI, replace a built-in feature, or add entirely new functionality. You can write a mod yourself, or ask Claude Code to write one for you. Mods ship inside plugins, so you install and share them like any plugin. They work in the Claude Code CLI and desktop app. Mods run with the same access to your machine as Claude Code itself. They aren’t sandboxed, and you should only",
@@ -3214,6 +3214,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-02T12:59:47.717574+00:00",
+  "last_checked": "2026-10-03T11:54:04.157675+00:00",
   "fetch_warnings": []
 }
