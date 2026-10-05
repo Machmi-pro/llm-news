@@ -195,7 +195,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "DeepInfra",
+        "provider_name": "Anthropic",
         "input_price_per_m": 10.0,
         "output_price_per_m": 50.0
       },
@@ -513,7 +513,7 @@
         "vision": 0.7
       },
       "pricing": {
-        "provider_name": "DeepInfra",
+        "provider_name": "Anthropic",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
       },
@@ -530,13 +530,14 @@
         "legal": 0.1,
         "math": 0.7,
         "multimodal": 0.8,
-        "reasoning": 0.7,
+        "productivity": 1822.0,
+        "reasoning": 184.0,
         "science": 0.9,
-        "general": 0.7,
+        "general": 136.5,
         "healthcare": 0.6,
-        "agents": 0.6,
+        "agents": 229.8,
         "biology": 0.9,
-        "code": 0.8,
+        "code": 0.7,
         "tool_calling": 0.6,
         "vision": 0.8
       },
@@ -634,7 +635,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "DeepInfra",
+        "provider_name": "Anthropic",
         "input_price_per_m": 3.0,
         "output_price_per_m": 15.0
       },
@@ -659,6 +660,35 @@
         "code": 0.5,
         "tool_calling": 0.4,
         "vision": 0.6
+      },
+      "pricing": {
+        "provider_name": "Anthropic",
+        "input_price_per_m": 2.0,
+        "output_price_per_m": 10.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5",
+      "release_date_guess": "2026-09-28",
+      "tier": "Anthropic",
+      "top_scores": {
+        "language": 0.9,
+        "legal": 0.1,
+        "math": 0.7,
+        "multimodal": 0.8,
+        "productivity": 1811.0,
+        "reasoning": 193.0,
+        "science": 0.9,
+        "general": 146.8,
+        "healthcare": 0.7,
+        "agents": 244.2,
+        "biology": 0.9,
+        "code": 0.7,
+        "tool_calling": 0.6,
+        "vision": 0.8
       },
       "pricing": {
         "provider_name": "Anthropic",
@@ -940,7 +970,7 @@
         "writing": 0.6
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -1697,6 +1727,29 @@
       "source": "https://llm-stats.com (API v1/models)"
     },
     {
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "release_date_guess": "2026-09-29",
+      "tier": "OpenAI",
+      "top_scores": {
+        "multimodal": 0.5,
+        "reasoning": 0.4,
+        "general": 0.6,
+        "healthcare": 0.6,
+        "agents": 0.6,
+        "code": 0.7,
+        "tool_calling": 0.5,
+        "vision": 0.5
+      },
+      "pricing": {
+        "provider_name": "OpenAI",
+        "input_price_per_m": 2.0,
+        "output_price_per_m": 10.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
       "id": "gpt-6-astra",
       "name": "GPT-6 Astra",
       "release_date_guess": "2026-09-04",
@@ -2064,6 +2117,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-09-28T13:19:07.083618+00:00",
+  "last_updated": "2026-10-05T14:02:10.399233+00:00",
   "fetch_warnings": []
 }
