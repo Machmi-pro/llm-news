@@ -2,6 +2,15 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Building advertising for the way people use AI",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "date_guess": "2026-10-05",
+      "source": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "hash": "42d037bd353c93ad",
+      "fetched_at": "2026-10-05T15:07:49.951051+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "A model guide for the GPT-6 family",
       "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
       "date_guess": "2026-10-02",
@@ -2692,15 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744871+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "An open-source spec for orchestration: Symphony",
-      "summary": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
-      "date_guess": "2026-04-27",
-      "source": "https://openai.com/index/open-source-codex-orchestration-symphony",
-      "hash": "6c89c05a794f9f09",
-      "fetched_at": "2026-08-21T15:54:17.744883+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "Customize Claude Code with mods",
       "summary": "Today we're introducing mods, small TypeScript functions that change how Claude Code works. A mod can rewrite a prompt, add new UI, replace a built-in feature, or add entirely new functionality. You can write a mod yourself, or ask Claude Code to write one for you. Mods ship inside plugins, so you install and share them like any plugin. They work in the Claude Code CLI and desktop app. Mods run with the same access to your machine as Claude Code itself. They aren’t sandboxed, and you should only",
@@ -3214,6 +3214,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-04T12:45:46.366714+00:00",
+  "last_checked": "2026-10-05T15:07:50.682211+00:00",
   "fetch_warnings": []
 }
