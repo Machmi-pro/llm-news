@@ -11,6 +11,15 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "Our approach to EU text provenance rules",
+      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "date_guess": "2026-10-05",
+      "source": "https://openai.com/index/eu-text-provenance",
+      "hash": "06381068ef22839e",
+      "fetched_at": "2026-10-06T13:30:35.109306+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "A model guide for the GPT-6 family",
       "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
       "date_guess": "2026-10-02",
@@ -152,6 +161,15 @@
       "source": "https://openai.com/index/proaction",
       "hash": "c8506ff7ec94cebe",
       "fetched_at": "2026-09-26T11:40:56.068978+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "date_guess": "2026-09-25",
+      "source": "https://openai.com/index/wayfair",
+      "hash": "e5a3d32cebc0fc62",
+      "fetched_at": "2026-10-06T13:30:35.109640+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -2683,22 +2701,13 @@
       "fetched_at": "2026-08-21T15:54:17.744825+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "OpenAI available at FedRAMP Moderate",
-      "summary": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
-      "date_guess": "2026-04-27",
-      "source": "https://openai.com/index/openai-available-at-fedramp-moderate",
-      "hash": "40c0d184285bc586",
-      "fetched_at": "2026-08-21T15:54:17.744835+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "The next phase of the Microsoft OpenAI partnership",
-      "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
-      "date_guess": "2026-04-27",
-      "source": "https://openai.com/index/next-phase-of-microsoft-partnership",
-      "hash": "6947fea11ebda1d0",
-      "fetched_at": "2026-08-21T15:54:17.744871+00:00"
+      "vendor": "Anthropic",
+      "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
+      "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
+      "date_guess": "2026-10-05",
+      "source": "https://claude.com/blog/how-cresta-turned-cx-expertise-into-an-agent-builder-on-the-claude-agent-sdk",
+      "hash": "5691fee32a0d9994",
+      "fetched_at": "2026-10-06T13:30:35.417943+00:00"
     },
     {
       "vendor": "Anthropic",
@@ -3214,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-05T15:07:50.682211+00:00",
+  "last_checked": "2026-10-06T13:30:35.428112+00:00",
   "fetch_warnings": []
 }
