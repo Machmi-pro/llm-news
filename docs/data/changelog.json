@@ -2,6 +2,42 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "date_guess": "2026-10-06",
+      "source": "https://openai.com/index/jump-trading",
+      "hash": "34383d1199355a12",
+      "fetched_at": "2026-10-07T13:43:20.371753+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Sharing AI progress in mathematics",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "date_guess": "2026-10-06",
+      "source": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "hash": "b52996fb6e57eb6d",
+      "fetched_at": "2026-10-07T13:43:20.371790+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Advancing computer use with Ironclad",
+      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "date_guess": "2026-10-06",
+      "source": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "hash": "8b830b6f2098145d",
+      "fetched_at": "2026-10-07T13:43:20.371809+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "date_guess": "2026-10-06",
+      "source": "https://openai.com/index/atlassian-partnership",
+      "hash": "5112e6d548fe427a",
+      "fetched_at": "2026-10-07T13:43:20.371825+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Building advertising for the way people use AI",
       "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
       "date_guess": "2026-10-05",
@@ -2665,42 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744782+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Building the compute infrastructure for the Intelligence Age",
-      "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
-      "date_guess": "2026-04-29",
-      "source": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
-      "hash": "f73b199e57a0ab54",
-      "fetched_at": "2026-08-21T15:54:17.744791+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Cybersecurity in the Intelligence Age",
-      "summary": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
-      "date_guess": "2026-04-29",
-      "source": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
-      "hash": "684b72116f5cb7a4",
-      "fetched_at": "2026-08-21T15:54:17.744804+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
-      "date_guess": "2026-04-28",
-      "source": "https://openai.com/index/openai-on-aws",
-      "hash": "1e5f67d8737ba709",
-      "fetched_at": "2026-08-21T15:54:17.744814+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Our commitment to community safety",
-      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
-      "date_guess": "2026-04-28",
-      "source": "https://openai.com/index/our-commitment-to-community-safety",
-      "hash": "bfff4a63ff384d33",
-      "fetched_at": "2026-08-21T15:54:17.744825+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-06T13:30:35.428112+00:00",
+  "last_checked": "2026-10-07T13:43:20.657974+00:00",
   "fetch_warnings": []
 }
