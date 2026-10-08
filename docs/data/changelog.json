@@ -2,6 +2,33 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "date_guess": "2026-10-07",
+      "source": "https://openai.com/index/teens-learn-and-plan",
+      "hash": "80077c1299028965",
+      "fetched_at": "2026-10-08T13:51:36.648471+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "date_guess": "2026-10-07",
+      "source": "https://openai.com/index/radisson",
+      "hash": "11afbc3749ee3d9a",
+      "fetched_at": "2026-10-08T13:51:36.648508+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "date_guess": "2026-10-07",
+      "source": "https://openai.com/index/gpt-6-for-everyone",
+      "hash": "3ab06d4f8b39d182",
+      "fetched_at": "2026-10-08T13:51:36.648533+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "How Jump Trading is scaling quant research with ChatGPT",
       "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
       "date_guess": "2026-10-06",
@@ -2674,33 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744752+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "How OpenAI delivers low-latency voice AI at scale",
-      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
-      "date_guess": "2026-05-04",
-      "source": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-      "hash": "b2ac1888f4d2991e",
-      "fetched_at": "2026-08-21T15:54:17.744763+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing Advanced Account Security",
-      "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
-      "date_guess": "2026-04-30",
-      "source": "https://openai.com/index/advanced-account-security",
-      "hash": "3059f9b4c2bfd4b9",
-      "fetched_at": "2026-08-21T15:54:17.744773+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Where the goblins came from",
-      "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
-      "date_guess": "2026-04-29",
-      "source": "https://openai.com/index/where-the-goblins-came-from",
-      "hash": "ff8e2ec3ce972c00",
-      "fetched_at": "2026-08-21T15:54:17.744782+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-07T13:43:20.657974+00:00",
+  "last_checked": "2026-10-08T13:51:36.900654+00:00",
   "fetch_warnings": []
 }
