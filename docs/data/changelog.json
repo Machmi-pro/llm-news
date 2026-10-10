@@ -11,6 +11,15 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "date_guess": "2026-10-09",
+      "source": "https://openai.com/index/asana-browser-agent",
+      "hash": "5bfd0410e3011686",
+      "fetched_at": "2026-10-10T12:53:00.271619+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
       "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
       "date_guess": "2026-10-08",
@@ -278,6 +287,15 @@
       "source": "https://openai.com/index/wayfair",
       "hash": "e5a3d32cebc0fc62",
       "fetched_at": "2026-10-06T13:30:35.109640+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Lowe’s answers millions of home improvement questions with OpenAI",
+      "summary": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
+      "date_guess": "2026-09-25",
+      "source": "https://openai.com/index/lowes",
+      "hash": "efbaf1ddca2b4e9d",
+      "fetched_at": "2026-10-10T12:53:00.272128+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -2683,24 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744677+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Uber uses OpenAI to help people earn smarter and book faster",
-      "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
-      "date_guess": "2026-05-06",
-      "source": "https://openai.com/index/uber",
-      "hash": "54f88f53c20bfffc",
-      "fetched_at": "2026-08-21T15:54:17.744687+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "GPT-5.5 Instant System Card",
-      "summary": "",
-      "date_guess": "2026-05-05",
-      "source": "https://openai.com/index/gpt-5-5-instant-system-card",
-      "hash": "19b17054bf54a858",
-      "fetched_at": "2026-08-21T15:54:17.744694+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-09T13:36:42.228657+00:00",
+  "last_checked": "2026-10-10T12:53:00.497861+00:00",
   "fetch_warnings": []
 }
