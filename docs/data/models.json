@@ -195,7 +195,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 10.0,
         "output_price_per_m": 50.0
       },
@@ -262,6 +262,34 @@
       "source": "https://llm-stats.com (API v1/models)"
     },
     {
+      "id": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "release_date_guess": "2026-10-07",
+      "tier": "Anthropic",
+      "top_scores": {
+        "language": 0.9,
+        "math": 0.5,
+        "multimodal": 0.6,
+        "productivity": 1578.0,
+        "reasoning": 168.9,
+        "science": 0.6,
+        "general": 128.5,
+        "healthcare": 0.6,
+        "agents": 228.9,
+        "biology": 0.6,
+        "code": 0.6,
+        "tool_calling": 0.3,
+        "vision": 0.6
+      },
+      "pricing": {
+        "provider_name": "Anthropic",
+        "input_price_per_m": 0.1,
+        "output_price_per_m": 0.5
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
       "id": "claude-mythos-5-1",
       "name": "Claude Mythos 5.1",
       "release_date_guess": "2026-09-01",
@@ -293,7 +321,7 @@
         "search": 0.9,
         "spatial_reasoning": 0.8,
         "frontend_development": 0.9,
-        "general": 0.8,
+        "general": 0.9,
         "healthcare": 0.9,
         "agents": 0.8,
         "biology": 0.9,
@@ -451,7 +479,7 @@
         "vision": 0.7
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
       },
@@ -485,7 +513,7 @@
         "vision": 0.7
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
       },
@@ -531,12 +559,12 @@
         "math": 0.7,
         "multimodal": 0.8,
         "productivity": 1822.0,
-        "reasoning": 184.0,
-        "science": 0.9,
-        "general": 136.5,
+        "reasoning": 167.4,
+        "science": 0.7,
+        "general": 115.3,
         "healthcare": 0.6,
-        "agents": 229.8,
-        "biology": 0.9,
+        "agents": 193.6,
+        "biology": 0.7,
         "code": 0.7,
         "tool_calling": 0.6,
         "vision": 0.8
@@ -680,15 +708,15 @@
         "math": 0.7,
         "multimodal": 0.8,
         "productivity": 1811.0,
-        "reasoning": 193.0,
-        "science": 0.9,
-        "general": 146.8,
+        "reasoning": 152.9,
+        "science": 0.7,
+        "general": 114.9,
         "healthcare": 0.7,
-        "agents": 244.2,
-        "biology": 0.9,
+        "agents": 192.9,
+        "biology": 0.7,
         "code": 0.7,
         "tool_calling": 0.6,
-        "vision": 0.8
+        "vision": 0.7
       },
       "pricing": {
         "provider_name": "Anthropic",
@@ -737,7 +765,7 @@
         "vision": 0.0
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 0.5,
         "output_price_per_m": 1.5
       },
@@ -931,7 +959,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -1455,8 +1483,9 @@
         "math": 0.6,
         "multimodal": 0.8,
         "physics": 0.9,
-        "reasoning": 0.7,
+        "reasoning": 0.6,
         "safety": 0.8,
+        "science": 0.2,
         "search": 0.8,
         "spatial_reasoning": 0.7,
         "finance": 0.7,
@@ -1510,11 +1539,12 @@
       "top_scores": {
         "math": 0.5,
         "multimodal": 0.8,
-        "reasoning": 0.7,
+        "reasoning": 0.6,
+        "science": 0.3,
         "search": 0.9,
         "finance": 0.8,
-        "general": 0.7,
-        "agents": 0.9,
+        "general": 0.6,
+        "agents": 0.6,
         "vision": 0.6
       },
       "pricing": null,
@@ -1732,14 +1762,16 @@
       "release_date_guess": "2026-09-29",
       "tier": "OpenAI",
       "top_scores": {
-        "multimodal": 0.5,
-        "reasoning": 0.4,
+        "math": 0.8,
+        "multimodal": 0.6,
+        "reasoning": 0.6,
+        "factuality": 0.7,
         "general": 0.6,
         "healthcare": 0.6,
         "agents": 0.6,
-        "code": 0.7,
+        "code": 0.6,
         "tool_calling": 0.5,
-        "vision": 0.5
+        "vision": 0.6
       },
       "pricing": {
         "provider_name": "OpenAI",
@@ -1763,7 +1795,7 @@
         "science": 0.5,
         "search": 0.9,
         "spatial_reasoning": 1.0,
-        "general": 0.7,
+        "general": 0.8,
         "grounding": 0.9,
         "healthcare": 0.6,
         "agents": 0.6,
@@ -1921,6 +1953,28 @@
         "chemistry": 0.7
       },
       "pricing": null,
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "gpt-rosalind-research",
+      "name": "GPT-Rosalind",
+      "release_date_guess": "2026-09-11",
+      "tier": "OpenAI",
+      "top_scores": {
+        "multimodal": 0.6,
+        "reasoning": 0.4,
+        "science": 0.4,
+        "general": 0.4,
+        "healthcare": 0.4,
+        "agents": 0.4,
+        "vision": 0.6
+      },
+      "pricing": {
+        "provider_name": "OpenAI",
+        "input_price_per_m": 5.0,
+        "output_price_per_m": 25.0
+      },
       "notes": "",
       "source": "https://llm-stats.com (API v1/models)"
     },
@@ -2117,6 +2171,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-10-05T14:02:10.399233+00:00",
+  "last_updated": "2026-10-12T14:51:07.267517+00:00",
   "fetch_warnings": []
 }
