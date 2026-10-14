@@ -2,6 +2,24 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "The EU’s next chapter in AI is agentic",
+      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "date_guess": "2026-10-14",
+      "source": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "hash": "adfb32573e803297",
+      "fetched_at": "2026-10-14T12:14:23.118659+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "date_guess": "2026-10-13",
+      "source": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "hash": "a1ae21915d89ca49",
+      "fetched_at": "2026-10-14T12:14:23.118695+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "date_guess": "2026-10-09",
@@ -2683,24 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744649+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Introducing ChatGPT Futures: Class of 2026",
-      "summary": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
-      "date_guess": "2026-05-06",
-      "source": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
-      "hash": "411d1816e4426554",
-      "fetched_at": "2026-08-21T15:54:17.744666+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How frontier firms are pulling ahead",
-      "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
-      "date_guess": "2026-05-06",
-      "source": "https://openai.com/index/introducing-b2b-signals",
-      "hash": "04e9b219f900d2e9",
-      "fetched_at": "2026-08-21T15:54:17.744677+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-13T14:28:20.811776+00:00",
+  "last_checked": "2026-10-14T12:14:23.431957+00:00",
   "fetch_warnings": []
 }
