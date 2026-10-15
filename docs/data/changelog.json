@@ -11,6 +11,42 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "date_guess": "2026-10-14",
+      "source": "https://openai.com/index/amp-beyond-coding",
+      "hash": "11ade664a87b38d9",
+      "fetched_at": "2026-10-15T11:55:22.421874+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "date_guess": "2026-10-14",
+      "source": "https://openai.com/index/sentinelone",
+      "hash": "a5a068e8a76e3398",
+      "fetched_at": "2026-10-15T11:55:22.421910+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "date_guess": "2026-10-14",
+      "source": "https://openai.com/index/third-moment-research",
+      "hash": "55a8ebbd1a40b9ff",
+      "fetched_at": "2026-10-15T11:55:22.421930+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "date_guess": "2026-10-14",
+      "source": "https://openai.com/index/block-ai-powered-security",
+      "hash": "1ab35a0e1180c4fd",
+      "fetched_at": "2026-10-15T11:55:22.421945+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Higgsfield takes AI video from 1 minute to over 10",
       "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
       "date_guess": "2026-10-13",
@@ -2665,42 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744606+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
-      "date_guess": "2026-05-07",
-      "source": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "hash": "c76040d822465c73",
-      "fetched_at": "2026-08-21T15:54:17.744616+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Simplex rethinks software development with Codex",
-      "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
-      "date_guess": "2026-05-07",
-      "source": "https://openai.com/index/simplex",
-      "hash": "96b908a32cc71145",
-      "fetched_at": "2026-08-21T15:54:17.744626+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How ChatGPT learns about the world while protecting privacy",
-      "summary": "Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.",
-      "date_guess": "2026-05-06",
-      "source": "https://openai.com/index/how-chatgpt-protects-privacy",
-      "hash": "c7db50ff0aea792a",
-      "fetched_at": "2026-08-21T15:54:17.744636+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-      "summary": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
-      "date_guess": "2026-05-06",
-      "source": "https://openai.com/index/singular-bank",
-      "hash": "33a480312dbe437c",
-      "fetched_at": "2026-08-21T15:54:17.744649+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-14T12:14:23.431957+00:00",
+  "last_checked": "2026-10-15T11:55:22.623462+00:00",
   "fetch_warnings": []
 }
