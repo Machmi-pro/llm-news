@@ -2,6 +2,33 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "date_guess": "2026-10-15",
+      "source": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "hash": "d34c72983e37bd86",
+      "fetched_at": "2026-10-16T11:46:02.594827+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Teaching students to think and learn through questions",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "date_guess": "2026-10-15",
+      "source": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "hash": "e354b679a487766b",
+      "fetched_at": "2026-10-16T11:46:02.594869+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "date_guess": "2026-10-15",
+      "source": "https://openai.com/index/sullivan-cromwell",
+      "hash": "41257e97c6a55ed9",
+      "fetched_at": "2026-10-16T11:46:02.594890+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "The EU’s next chapter in AI is agentic",
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "date_guess": "2026-10-14",
@@ -2674,33 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744571+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-      "date_guess": "2026-05-07",
-      "source": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "hash": "71e3b0f3b5262788",
-      "fetched_at": "2026-08-21T15:54:17.744582+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Parloa builds service agents customers want to talk to",
-      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-      "date_guess": "2026-05-07",
-      "source": "https://openai.com/index/parloa",
-      "hash": "1c5f0408c1629b63",
-      "fetched_at": "2026-08-21T15:54:17.744595+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Advancing voice intelligence with new models in the API",
-      "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
-      "date_guess": "2026-05-07",
-      "source": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-      "hash": "23c2f5f64538b4f9",
-      "fetched_at": "2026-08-21T15:54:17.744606+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-15T11:55:22.623462+00:00",
+  "last_checked": "2026-10-16T11:46:02.790533+00:00",
   "fetch_warnings": []
 }
