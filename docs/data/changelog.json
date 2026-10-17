@@ -2,6 +2,33 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "date_guess": "2026-10-16",
+      "source": "https://openai.com/index/itau-generative-ai",
+      "hash": "e28a466a2ed2b4d9",
+      "fetched_at": "2026-10-17T11:02:55.472151+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "date_guess": "2026-10-16",
+      "source": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "hash": "06133edd80da3f99",
+      "fetched_at": "2026-10-17T11:02:55.472174+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "date_guess": "2026-10-16",
+      "source": "https://openai.com/index/benefit-street-partners",
+      "hash": "5a5a0ddabcfdc64e",
+      "fetched_at": "2026-10-17T11:02:55.472185+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Bringing GPT-Rosalind to academic research labs",
       "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
       "date_guess": "2026-10-15",
@@ -2674,33 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744529+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "OpenAI Campus Network: Student club interest form",
-      "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
-      "date_guess": "2026-05-11",
-      "source": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "hash": "8f7c393342b6a782",
-      "fetched_at": "2026-08-21T15:54:17.744549+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
-      "date_guess": "2026-05-11",
-      "source": "https://openai.com/index/openai-launches-the-deployment-company",
-      "hash": "788313e10da5b048",
-      "fetched_at": "2026-08-21T15:54:17.744561+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Running Codex safely at OpenAI",
-      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
-      "date_guess": "2026-05-08",
-      "source": "https://openai.com/index/running-codex-safely",
-      "hash": "b104840f26bef158",
-      "fetched_at": "2026-08-21T15:54:17.744571+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-16T11:46:02.790533+00:00",
+  "last_checked": "2026-10-17T11:02:55.997617+00:00",
   "fetch_warnings": []
 }
