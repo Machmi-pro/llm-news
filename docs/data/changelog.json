@@ -2,6 +2,15 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Advancing coding in low‑resource programming languages",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "date_guess": "2026-10-19",
+      "source": "https://openai.com/index/low-resource-programming-languages",
+      "hash": "1f97382749d82592",
+      "fetched_at": "2026-10-20T11:57:01.227585+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "How Itaú is building generative AI for its entire customer base",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "date_guess": "2026-10-16",
@@ -2692,15 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744519+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "How enterprises are scaling AI",
-      "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
-      "date_guess": "2026-05-11",
-      "source": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "hash": "28b6f36517941ec6",
-      "fetched_at": "2026-08-21T15:54:17.744529+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-19T13:47:47.941324+00:00",
+  "last_checked": "2026-10-20T11:57:01.599776+00:00",
   "fetch_warnings": []
 }
