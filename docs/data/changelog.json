@@ -2,6 +2,33 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "date_guess": "2026-10-20",
+      "source": "https://openai.com/index/ted-taylor-restaurant",
+      "hash": "7e625e9f959be037",
+      "fetched_at": "2026-10-21T12:11:19.036152+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "date_guess": "2026-10-20",
+      "source": "https://openai.com/index/terminal-x",
+      "hash": "55849369724de701",
+      "fetched_at": "2026-10-21T12:11:19.036192+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI acquires Orchestra Bio",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "date_guess": "2026-10-20",
+      "source": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "hash": "2c0b8932681268e3",
+      "fetched_at": "2026-10-21T12:11:19.036218+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Advancing coding in low‑resource programming languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "date_guess": "2026-10-19",
@@ -2674,33 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744490+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "date_guess": "2026-05-12",
-      "source": "https://openai.com/index/nvidia",
-      "hash": "ac22014e4a4c718e",
-      "fetched_at": "2026-08-21T15:54:17.744499+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-      "date_guess": "2026-05-12",
-      "source": "https://openai.com/index/autoscout24",
-      "hash": "353b988b261e48dc",
-      "fetched_at": "2026-08-21T15:54:17.744509+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How ChatGPT adoption broadened in early 2026",
-      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
-      "date_guess": "2026-05-11",
-      "source": "https://openai.com/signals/research/2026q1-update",
-      "hash": "fbece65e530c5897",
-      "fetched_at": "2026-08-21T15:54:17.744519+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-20T11:57:01.599776+00:00",
+  "last_checked": "2026-10-21T12:11:19.272550+00:00",
   "fetch_warnings": []
 }
