@@ -2,6 +2,87 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "date_guess": "2026-10-21",
+      "source": "https://openai.com/index/att-legal",
+      "hash": "7546573996f69c78",
+      "fetched_at": "2026-10-22T12:14:49.079370+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Broad access through consistent standards",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "date_guess": "2026-10-21",
+      "source": "https://openai.com/index/broad-access-through-consistent-standards",
+      "hash": "61375cf9867ac50c",
+      "fetched_at": "2026-10-22T12:14:49.079402+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "OpenAI models are coming to Google Cloud",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "date_guess": "2026-10-21",
+      "source": "https://openai.com/index/openai-models-google-cloud",
+      "hash": "83052008949b710c",
+      "fetched_at": "2026-10-22T12:14:49.079423+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+      "date_guess": "2026-10-21",
+      "source": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "hash": "21e331395e641aa8",
+      "fetched_at": "2026-10-22T12:14:49.079440+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "date_guess": "2026-10-21",
+      "source": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "hash": "ea8c574ed492b1b4",
+      "fetched_at": "2026-10-22T12:14:49.079456+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "date_guess": "2026-10-21",
+      "source": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "hash": "e76e33bb465a5f32",
+      "fetched_at": "2026-10-22T12:14:49.079471+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "date_guess": "2026-10-21",
+      "source": "https://openai.com/index/cloudflare-cyber",
+      "hash": "3468da56316e9708",
+      "fetched_at": "2026-10-22T12:14:49.079489+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "date_guess": "2026-10-21",
+      "source": "https://openai.com/index/building-chatgpt-ad-stack",
+      "hash": "9e383f97800f97e6",
+      "fetched_at": "2026-10-22T12:14:49.079510+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "date_guess": "2026-10-21",
+      "source": "https://openai.com/index/empowering-cyber-defenders",
+      "hash": "6700dc99be6b25ee",
+      "fetched_at": "2026-10-22T12:14:49.079524+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
       "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "date_guess": "2026-10-20",
@@ -2620,87 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744385+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
-      "date_guess": "2026-05-15",
-      "source": "https://openai.com/index/databricks",
-      "hash": "e83d37d11cf82b69",
-      "fetched_at": "2026-08-21T15:54:17.744395+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "A new personal finance experience in ChatGPT",
-      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
-      "date_guess": "2026-05-15",
-      "source": "https://openai.com/index/personal-finance-chatgpt",
-      "hash": "bb25eaaedea03435",
-      "fetched_at": "2026-08-21T15:54:17.744408+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Sea's View on the Future of Agentic Software Development with Codex",
-      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
-      "date_guess": "2026-05-14",
-      "source": "https://openai.com/index/sea-david-chen",
-      "hash": "6576009a717ea334",
-      "fetched_at": "2026-08-21T15:54:17.744417+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Work with Codex from anywhere",
-      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
-      "date_guess": "2026-05-14",
-      "source": "https://openai.com/index/work-with-codex-from-anywhere",
-      "hash": "e2758c4e2da29e32",
-      "fetched_at": "2026-08-21T15:54:17.744427+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
-      "date_guess": "2026-05-14",
-      "source": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "hash": "b4f7d71b417ffda0",
-      "fetched_at": "2026-08-21T15:54:17.744437+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "summary": "Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.",
-      "date_guess": "2026-05-13",
-      "source": "https://openai.com/index/building-codex-windows-sandbox",
-      "hash": "4ee015d998dec98d",
-      "fetched_at": "2026-08-21T15:54:17.744447+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Our response to the TanStack npm supply chain attack",
-      "summary": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats.",
-      "date_guess": "2026-05-13",
-      "source": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
-      "hash": "788091ddd531885e",
-      "fetched_at": "2026-08-21T15:54:17.744469+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Finance workflows with ChatGPT Work",
-      "summary": "Learn practical ChatGPT Work workflows for reporting, variance analysis, forecasts, monthly reviews, and decision-ready finance deliverables.",
-      "date_guess": "2026-05-12",
-      "source": "https://openai.com/academy/how-finance-teams-use-codex",
-      "hash": "90a2a8ca59ab40fa",
-      "fetched_at": "2026-08-21T15:54:17.744479+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
-      "date_guess": "2026-05-12",
-      "source": "https://openai.com/index/what-parameter-golf-taught-us",
-      "hash": "c4fdd6efb864d056",
-      "fetched_at": "2026-08-21T15:54:17.744490+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-21T12:11:19.272550+00:00",
+  "last_checked": "2026-10-22T12:14:49.291946+00:00",
   "fetch_warnings": []
 }
