@@ -2,6 +2,42 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "date_guess": "2026-10-23",
+      "source": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "hash": "b9524bb2dc34065f",
+      "fetched_at": "2026-10-23T11:56:03.666833+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Build more responsive apps with the Decisions API",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "date_guess": "2026-10-22",
+      "source": "https://openai.com/index/decisions-api",
+      "hash": "c1f818d84330e7aa",
+      "fetched_at": "2026-10-23T11:56:03.666858+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "What FDE means at OpenAI",
+      "summary": "What forward deployed engineering means at OpenAI",
+      "date_guess": "2026-10-22",
+      "source": "https://openai.com/index/forward-deployed-engineering-means",
+      "hash": "3ed22d3786cbc0b4",
+      "fetched_at": "2026-10-23T11:56:03.666867+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "date_guess": "2026-10-22",
+      "source": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "hash": "9c00140af3ebb38b",
+      "fetched_at": "2026-10-23T11:56:03.666878+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "How AT&T is rethinking in-house legal work with OpenAI",
       "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "date_guess": "2026-10-21",
@@ -2665,42 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744343+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
-      "date_guess": "2026-05-19",
-      "source": "https://openai.com/index/advancing-content-provenance",
-      "hash": "4f42c1e55270d8a5",
-      "fetched_at": "2026-08-21T15:54:17.744353+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
-      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
-      "date_guess": "2026-05-18",
-      "source": "https://openai.com/index/dell-codex-enterprise-partnership",
-      "hash": "2cf0734ef47367fc",
-      "fetched_at": "2026-08-21T15:54:17.744364+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
-      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
-      "date_guess": "2026-05-16",
-      "source": "https://openai.com/index/malta-chatgpt-plus-partnership",
-      "hash": "d3b759eb8417c4d5",
-      "fetched_at": "2026-08-21T15:54:17.744375+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Operations workflows with ChatGPT Work",
-      "summary": "Learn practical ChatGPT Work workflows for initiative briefs, strategy updates, decision packets, and progress reporting.",
-      "date_guess": "2026-05-15",
-      "source": "https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex",
-      "hash": "43c7a19c9a9f106c",
-      "fetched_at": "2026-08-21T15:54:17.744385+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-22T12:14:49.291946+00:00",
+  "last_checked": "2026-10-23T11:56:04.054328+00:00",
   "fetch_warnings": []
 }
