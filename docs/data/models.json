@@ -195,7 +195,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 10.0,
         "output_price_per_m": 50.0
       },
@@ -765,7 +765,7 @@
         "vision": 0.0
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 0.5,
         "output_price_per_m": 1.5
       },
@@ -998,7 +998,7 @@
         "writing": 0.6
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -1049,7 +1049,7 @@
         "code": 0.9
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 10.0,
         "output_price_per_m": 30.0
       },
@@ -2171,6 +2171,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-10-19T12:35:55.881186+00:00",
+  "last_updated": "2026-10-26T12:31:20.615318+00:00",
   "fetch_warnings": []
 }
