@@ -11,6 +11,24 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "date_guess": "2026-10-28",
+      "source": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "hash": "022cb17520772264",
+      "fetched_at": "2026-10-29T13:31:06.983702+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The future of the firm",
+      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+      "date_guess": "2026-10-28",
+      "source": "https://openai.com/index/the-future-of-the-firm",
+      "hash": "5f698b2aeb8aab3d",
+      "fetched_at": "2026-10-29T13:31:06.983742+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
       "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
       "date_guess": "2026-10-27",
@@ -2683,24 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744145+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "How Braintrust turns customer requests into code with Codex",
-      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-      "date_guess": "2026-05-29",
-      "source": "https://openai.com/index/braintrust",
-      "hash": "e1944c5823482666",
-      "fetched_at": "2026-08-21T15:54:17.744154+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Strengthening societal resilience with Rosalind Biodefense",
-      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
-      "date_guess": "2026-05-29",
-      "source": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "hash": "1c6696b21f252da6",
-      "fetched_at": "2026-08-21T15:54:17.744167+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-28T13:21:29.196691+00:00",
+  "last_checked": "2026-10-29T13:31:07.134983+00:00",
   "fetch_warnings": []
 }
