@@ -2,6 +2,33 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Making it easier for websites to express AI training preferences",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "date_guess": "2026-10-30",
+      "source": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "hash": "35bf19d6af8ca08c",
+      "fetched_at": "2026-10-31T12:56:13.260425+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Community safety report and new protections for teens",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "date_guess": "2026-10-30",
+      "source": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "hash": "e64d51573982187c",
+      "fetched_at": "2026-10-31T12:56:13.260460+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Fair use benefits everyone",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "date_guess": "2026-10-30",
+      "source": "https://openai.com/index/fair-use-benefits-everyone",
+      "hash": "3b87f60009411c88",
+      "fetched_at": "2026-10-31T12:56:13.260480+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "An updated Model Spec for more capable and beneficial AI",
       "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "date_guess": "2026-10-29",
@@ -26,6 +53,15 @@
       "source": "https://openai.com/index/ropes-gray-ai-diligence",
       "hash": "3e095cc998c3fd3a",
       "fetched_at": "2026-10-30T13:20:31.880875+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+      "date_guess": "2026-10-29",
+      "source": "https://openai.com/index/credit-saison",
+      "hash": "573153e160d04680",
+      "fetched_at": "2026-10-31T12:56:13.260553+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -2665,42 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744057+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Codex is becoming a productivity tool for everyone",
-      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
-      "date_guess": "2026-06-02",
-      "source": "https://openai.com/index/codex-for-knowledge-work",
-      "hash": "6d412d63ee3a9cf3",
-      "fetched_at": "2026-08-21T15:54:17.744068+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Our views on AI policy and political advocacy",
-      "summary": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
-      "date_guess": "2026-06-01",
-      "source": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
-      "hash": "2ff95c85bc7c40b8",
-      "fetched_at": "2026-08-21T15:54:17.744081+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Building the infrastructure for the Intelligence Age in Michigan",
-      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
-      "date_guess": "2026-06-01",
-      "source": "https://openai.com/index/stargate-michigan-data-center",
-      "hash": "31d37107caf01d82",
-      "fetched_at": "2026-08-21T15:54:17.744092+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can get started with OpenAI on AWS and move faster from evaluation to production.",
-      "date_guess": "2026-06-01",
-      "source": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "hash": "c516d1b40884f497",
-      "fetched_at": "2026-08-21T15:54:17.744111+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-10-30T13:20:32.139883+00:00",
+  "last_checked": "2026-10-31T12:56:13.846994+00:00",
   "fetch_warnings": []
 }
