@@ -180,7 +180,7 @@
       "top_scores": {
         "legal": 0.1,
         "math": 0.7,
-        "multimodal": 0.6,
+        "multimodal": 0.5,
         "reasoning": 0.5,
         "safety": 0.8,
         "science": 0.5,
@@ -195,7 +195,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "DeepInfra",
+        "provider_name": "Anthropic",
         "input_price_per_m": 10.0,
         "output_price_per_m": 50.0
       },
@@ -479,7 +479,7 @@
         "vision": 0.7
       },
       "pricing": {
-        "provider_name": "DeepInfra",
+        "provider_name": "Anthropic",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
       },
@@ -541,7 +541,7 @@
         "vision": 0.7
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
       },
@@ -765,7 +765,7 @@
         "vision": 0.0
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 0.5,
         "output_price_per_m": 1.5
       },
@@ -959,7 +959,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -998,7 +998,7 @@
         "writing": 0.6
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -1782,6 +1782,27 @@
       "source": "https://llm-stats.com (API v1/models)"
     },
     {
+      "id": "gpt-6.1-terra",
+      "name": "GPT-6.1 Terra",
+      "release_date_guess": "2026-10-26",
+      "tier": "OpenAI",
+      "top_scores": {
+        "reasoning": 0.6,
+        "general": 0.6,
+        "healthcare": 0.6,
+        "agents": 0.6,
+        "code": 0.5,
+        "tool_calling": 0.6
+      },
+      "pricing": {
+        "provider_name": "OpenAI",
+        "input_price_per_m": 1.0,
+        "output_price_per_m": 5.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
       "id": "gpt-6-astra",
       "name": "GPT-6 Astra",
       "release_date_guess": "2026-09-04",
@@ -2171,6 +2192,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-10-26T12:31:20.615318+00:00",
+  "last_updated": "2026-11-02T15:08:46.399212+00:00",
   "fetch_warnings": []
 }
