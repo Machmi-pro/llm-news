@@ -2,6 +2,15 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Introducing the Grid Protectors Program",
+      "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "date_guess": "2026-11-02",
+      "source": "https://openai.com/index/grid-protectors-program",
+      "hash": "06855b00d30c88d1",
+      "fetched_at": "2026-11-02T16:26:07.011289+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Making it easier for websites to express AI training preferences",
       "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
       "date_guess": "2026-10-30",
@@ -2692,15 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.744046+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Advancing youth safety and opportunity through global leadership",
-      "summary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
-      "date_guess": "2026-06-02",
-      "source": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
-      "hash": "b6dd9a73bed8b991",
-      "fetched_at": "2026-08-21T15:54:17.744057+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-01T13:41:11.370486+00:00",
+  "last_checked": "2026-11-02T16:26:07.183371+00:00",
   "fetch_warnings": []
 }
