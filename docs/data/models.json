@@ -243,7 +243,7 @@
         "safety": 0.5,
         "finance": 0.3,
         "frontend_development": 0.7,
-        "general": 0.5,
+        "general": 0.6,
         "healthcare": 0.5,
         "agents": 0.4,
         "biology": 0.7,
@@ -254,7 +254,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 1.0,
         "output_price_per_m": 5.0
       },
@@ -469,7 +469,7 @@
         "search": 0.8,
         "finance": 0.6,
         "frontend_development": 0.9,
-        "general": 0.7,
+        "general": 0.6,
         "healthcare": 0.3,
         "agents": 0.6,
         "biology": 0.9,
@@ -479,7 +479,7 @@
         "vision": 0.7
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
       },
@@ -541,7 +541,7 @@
         "vision": 0.7
       },
       "pricing": {
-        "provider_name": "DeepInfra",
+        "provider_name": "Anthropic",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
       },
@@ -561,7 +561,7 @@
         "productivity": 1822.0,
         "reasoning": 167.4,
         "science": 0.7,
-        "general": 115.3,
+        "general": 119.0,
         "healthcare": 0.6,
         "agents": 193.6,
         "biology": 0.7,
@@ -765,7 +765,7 @@
         "vision": 0.0
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 0.5,
         "output_price_per_m": 1.5
       },
@@ -959,7 +959,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -998,7 +998,7 @@
         "writing": 0.6
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -1454,7 +1454,7 @@
         "spatial_reasoning": 8.8,
         "structured_output": 0.8,
         "finance": 0.4,
-        "general": 2.1,
+        "general": 2.2,
         "healthcare": 0.3,
         "agents": 0.4,
         "biology": 0.8,
@@ -1816,7 +1816,7 @@
         "science": 0.5,
         "search": 0.9,
         "spatial_reasoning": 1.0,
-        "general": 0.8,
+        "general": 0.7,
         "grounding": 0.9,
         "healthcare": 0.6,
         "agents": 0.6,
@@ -1830,6 +1830,39 @@
         "provider_name": "OpenAI",
         "input_price_per_m": 10.0,
         "output_price_per_m": 50.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "gpt-6-astra-law",
+      "name": "GPT-6 Astra Law",
+      "release_date_guess": "2026-09-17",
+      "tier": "OpenAI",
+      "top_scores": {},
+      "pricing": {
+        "provider_name": "OpenAI",
+        "input_price_per_m": 10.0,
+        "output_price_per_m": 50.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "gpt-6-cyber",
+      "name": "GPT-6 Cyber",
+      "release_date_guess": "2026-11-05",
+      "tier": "OpenAI",
+      "top_scores": {
+        "safety": 0.5,
+        "general": 0.5,
+        "agents": 0.5,
+        "code": 0.5
+      },
+      "pricing": {
+        "provider_name": "OpenAI",
+        "input_price_per_m": 20.0,
+        "output_price_per_m": 100.0
       },
       "notes": "",
       "source": "https://llm-stats.com (API v1/models)"
@@ -1852,6 +1885,20 @@
         "provider_name": "OpenAI",
         "input_price_per_m": 0.1,
         "output_price_per_m": 0.5
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "gpt-6-rosalind",
+      "name": "GPT-6 Rosalind",
+      "release_date_guess": "2026-10-30",
+      "tier": "OpenAI",
+      "top_scores": {},
+      "pricing": {
+        "provider_name": "OpenAI",
+        "input_price_per_m": 15.0,
+        "output_price_per_m": 75.0
       },
       "notes": "",
       "source": "https://llm-stats.com (API v1/models)"
@@ -2192,6 +2239,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-11-02T15:08:46.399212+00:00",
+  "last_updated": "2026-11-09T15:39:15.826880+00:00",
   "fetch_warnings": []
 }
