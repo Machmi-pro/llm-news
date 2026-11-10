@@ -2,6 +2,60 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Helping caregivers use AI in everyday life",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "date_guess": "2026-11-10",
+      "source": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "hash": "96b42cf822fec684",
+      "fetched_at": "2026-11-10T15:07:58.573741+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Closing the AI guidance gap in education",
+      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "date_guess": "2026-11-10",
+      "source": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "hash": "b3ebdfcb387142b3",
+      "fetched_at": "2026-11-10T15:07:58.573796+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "date_guess": "2026-11-09",
+      "source": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "hash": "be72a3615d5c8ef0",
+      "fetched_at": "2026-11-10T15:07:58.573814+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "date_guess": "2026-11-09",
+      "source": "https://openai.com/index/control-room",
+      "hash": "ded07f2de950d17c",
+      "fetched_at": "2026-11-10T15:07:58.573830+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "date_guess": "2026-11-09",
+      "source": "https://openai.com/index/coderabbit-codex-daybreak",
+      "hash": "424d1b1b1a6b0d85",
+      "fetched_at": "2026-11-10T15:07:58.573845+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "date_guess": "2026-11-09",
+      "source": "https://openai.com/index/kuken",
+      "hash": "b9b6e355ed43e561",
+      "fetched_at": "2026-11-10T15:07:58.573861+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
       "date_guess": "2026-11-06",
@@ -2647,60 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743714+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Improving health intelligence in ChatGPT",
-      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "date_guess": "2026-06-18",
-      "source": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "hash": "89386de79b905ed7",
-      "fetched_at": "2026-08-21T15:54:17.743725+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "date_guess": "2026-06-18",
-      "source": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "hash": "1bb8a00ec1aee616",
-      "fetched_at": "2026-08-21T15:54:17.743735+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "date_guess": "2026-06-17",
-      "source": "https://openai.com/index/ai-chemist-improves-reaction",
-      "hash": "8766c289870710d6",
-      "fetched_at": "2026-08-21T15:54:17.743746+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing LifeSciBench",
-      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "date_guess": "2026-06-17",
-      "source": "https://openai.com/index/introducing-life-sci-bench",
-      "hash": "51d858e17ce51c9e",
-      "fetched_at": "2026-08-21T15:54:17.743758+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Predicting model behavior before release by simulating deployment",
-      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "date_guess": "2026-06-16",
-      "source": "https://openai.com/index/deployment-simulation",
-      "hash": "916742014a6ed0fa",
-      "fetched_at": "2026-08-21T15:54:17.743769+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing the OpenAI Partner Network",
-      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
-      "date_guess": "2026-06-14",
-      "source": "https://openai.com/index/introducing-openai-partner-network",
-      "hash": "af8f764f98bbc11c",
-      "fetched_at": "2026-08-21T15:54:17.743779+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-09T16:44:21.749774+00:00",
+  "last_checked": "2026-11-10T15:07:58.994275+00:00",
   "fetch_warnings": []
 }
