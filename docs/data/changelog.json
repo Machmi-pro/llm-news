@@ -2,6 +2,24 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "date_guess": "2026-11-12",
+      "source": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "hash": "183b222d2b6badbf",
+      "fetched_at": "2026-11-11T14:38:46.909646+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "date_guess": "2026-11-11",
+      "source": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "hash": "12b9fc8901ec33c4",
+      "fetched_at": "2026-11-11T14:38:46.909685+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Helping caregivers use AI in everyday life",
       "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "date_guess": "2026-11-10",
@@ -17,6 +35,42 @@
       "source": "https://openai.com/index/closing-ai-guidance-gap-education",
       "hash": "b3ebdfcb387142b3",
       "fetched_at": "2026-11-10T15:07:58.573796+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing Businesses in ChatGPT",
+      "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "date_guess": "2026-11-10",
+      "source": "https://openai.com/index/introducing-businesses-chatgpt",
+      "hash": "2ff8507987776a73",
+      "fetched_at": "2026-11-11T14:38:46.909718+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+      "date_guess": "2026-11-10",
+      "source": "https://openai.com/index/singapore-airlines-travel-work",
+      "hash": "00e1a0109c1bf5a3",
+      "fetched_at": "2026-11-11T14:38:46.909753+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "date_guess": "2026-11-10",
+      "source": "https://openai.com/index/ai-effect-on-freelance-work",
+      "hash": "b782c67a9474237e",
+      "fetched_at": "2026-11-11T14:38:46.909772+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+      "date_guess": "2026-11-10",
+      "source": "https://openai.com/index/cogent-security",
+      "hash": "fd718814af4eb145",
+      "fetched_at": "2026-11-11T14:38:46.909784+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -2647,60 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743648+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "How Omio is building the future of conversational travel",
-      "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
-      "date_guess": "2026-06-23",
-      "source": "https://openai.com/index/omio",
-      "hash": "2e008bfa7b8ce608",
-      "fetched_at": "2026-08-21T15:54:17.743659+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "date_guess": "2026-06-22",
-      "source": "https://openai.com/index/patch-the-planet",
-      "hash": "b458cb9fa265af4a",
-      "fetched_at": "2026-08-21T15:54:17.743671+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "date_guess": "2026-06-22",
-      "source": "https://openai.com/index/daybreak-securing-the-world",
-      "hash": "be62093e04add44c",
-      "fetched_at": "2026-08-21T15:54:17.743682+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Codex-maxxing for long-running work",
-      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
-      "date_guess": "2026-06-22",
-      "source": "https://openai.com/index/codex-maxxing-long-running-work",
-      "hash": "3c831873898f30a6",
-      "fetched_at": "2026-08-21T15:54:17.743692+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-      "date_guess": "2026-06-21",
-      "source": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "hash": "6532ac452773d966",
-      "fetched_at": "2026-08-21T15:54:17.743703+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "date_guess": "2026-06-18",
-      "source": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "hash": "41b4ffac65ef7426",
-      "fetched_at": "2026-08-21T15:54:17.743714+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-10T15:07:58.994275+00:00",
+  "last_checked": "2026-11-11T14:38:47.115349+00:00",
   "fetch_warnings": []
 }
