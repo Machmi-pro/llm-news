@@ -11,12 +11,39 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "date_guess": "2026-11-12",
+      "source": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "hash": "0bdb1ba225c95753",
+      "fetched_at": "2026-11-12T15:30:10.857675+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Supporting research on AI and children’s safety",
+      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "date_guess": "2026-11-12",
+      "source": "https://openai.com/index/children-first-declaration",
+      "hash": "f45af83ac5d10a1d",
+      "fetched_at": "2026-11-12T15:30:10.857713+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "ChatGPT Plus for veterans and servicemembers",
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "date_guess": "2026-11-11",
       "source": "https://openai.com/index/chatgpt-plus-for-veterans",
       "hash": "12b9fc8901ec33c4",
       "fetched_at": "2026-11-11T14:38:46.909685+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "date_guess": "2026-11-11",
+      "source": "https://openai.com/index/jiostar-vijay-seshadri",
+      "hash": "cd8656aff2f174fa",
+      "fetched_at": "2026-11-12T15:30:10.857744+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -2674,33 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743614+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "date_guess": "2026-06-24",
-      "source": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "hash": "758b318fc97407e6",
-      "fetched_at": "2026-08-21T15:54:17.743626+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Helping build shared standards for advanced AI",
-      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "date_guess": "2026-06-23",
-      "source": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "hash": "bd6653b073c6d0a8",
-      "fetched_at": "2026-08-21T15:54:17.743637+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-      "date_guess": "2026-06-23",
-      "source": "https://openai.com/index/gpt-5-immunology-mystery",
-      "hash": "f5125725b7f92474",
-      "fetched_at": "2026-08-21T15:54:17.743648+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-11T14:38:47.115349+00:00",
+  "last_checked": "2026-11-12T15:30:11.037687+00:00",
   "fetch_warnings": []
 }
