@@ -29,6 +29,24 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "date_guess": "2026-11-12",
+      "source": "https://openai.com/business/customer-stories/amplitude",
+      "hash": "6990a9a04d1ca93e",
+      "fetched_at": "2026-11-13T14:48:40.999829+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "date_guess": "2026-11-12",
+      "source": "https://openai.com/business/customer-stories/gondola",
+      "hash": "e26a309a871a2016",
+      "fetched_at": "2026-11-13T14:48:40.999865+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "ChatGPT Plus for veterans and servicemembers",
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "date_guess": "2026-11-11",
@@ -2683,24 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743591+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-      "date_guess": "2026-06-26",
-      "source": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "hash": "57d6e155c58601f8",
-      "fetched_at": "2026-08-21T15:54:17.743601+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How agents are transforming work",
-      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "date_guess": "2026-06-25",
-      "source": "https://openai.com/index/how-agents-are-transforming-work",
-      "hash": "b44fa6d4c3035f87",
-      "fetched_at": "2026-08-21T15:54:17.743614+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-12T15:30:11.037687+00:00",
+  "last_checked": "2026-11-13T14:48:41.184720+00:00",
   "fetch_warnings": []
 }
