@@ -2,6 +2,24 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Introducing ChatGPT Wallet",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "date_guess": "2026-11-13",
+      "source": "https://openai.com/index/introducing-chatgpt-wallet",
+      "hash": "b030076f4f53c0fb",
+      "fetched_at": "2026-11-14T13:43:51.407204+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "date_guess": "2026-11-13",
+      "source": "https://openai.com/business/customer-stories/shield",
+      "hash": "db8758fad526669b",
+      "fetched_at": "2026-11-14T13:43:51.407241+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Gilbert + Tobin rethinks the business of law with AI",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "date_guess": "2026-11-12",
@@ -2683,24 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743570+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Mapping Europe’s AI Workforce Opportunity",
-      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-      "date_guess": "2026-06-29",
-      "source": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "hash": "daf9143724dee7fe",
-      "fetched_at": "2026-08-21T15:54:17.743581+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-      "date_guess": "2026-06-28",
-      "source": "https://openai.com/index/hp-frontier-partnership",
-      "hash": "8438cb5d173c4ed1",
-      "fetched_at": "2026-08-21T15:54:17.743591+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-13T14:48:41.184720+00:00",
+  "last_checked": "2026-11-14T13:43:51.585831+00:00",
   "fetch_warnings": []
 }
