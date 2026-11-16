@@ -195,7 +195,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 10.0,
         "output_price_per_m": 50.0
       },
@@ -228,6 +228,32 @@
       "source": "https://llm-stats.com (API v1/models)"
     },
     {
+      "id": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "release_date_guess": "2026-11-09",
+      "tier": "Anthropic",
+      "top_scores": {
+        "language": 1.0,
+        "math": 0.7,
+        "multimodal": 0.8,
+        "productivity": 1785.0,
+        "reasoning": 201.6,
+        "general": 129.8,
+        "healthcare": 0.7,
+        "agents": 213.3,
+        "code": 0.7,
+        "tool_calling": 0.6,
+        "vision": 0.8
+      },
+      "pricing": {
+        "provider_name": "Anthropic",
+        "input_price_per_m": 8.0,
+        "output_price_per_m": 40.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
       "id": "claude-haiku-4-5-20251001",
       "name": "Claude Haiku 4.5",
       "release_date_guess": "2025-10-15",
@@ -254,7 +280,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "DeepInfra",
+        "provider_name": "Anthropic",
         "input_price_per_m": 1.0,
         "output_price_per_m": 5.0
       },
@@ -272,11 +298,12 @@
         "multimodal": 0.6,
         "productivity": 1578.0,
         "reasoning": 168.9,
-        "science": 0.6,
-        "general": 119.0,
+        "science": 0.5,
+        "general": 94.6,
         "healthcare": 0.6,
-        "agents": 200.3,
-        "biology": 0.6,
+        "agents": 188.6,
+        "biology": 0.5,
+        "chemistry": 0.6,
         "code": 0.6,
         "tool_calling": 0.3,
         "vision": 0.6
@@ -302,6 +329,31 @@
         "tool_calling": 0.6
       },
       "pricing": null,
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "claude-mythos-5-2",
+      "name": "Claude Mythos 5.2",
+      "release_date_guess": "2026-11-09",
+      "tier": "Anthropic",
+      "top_scores": {
+        "multimodal": 0.6,
+        "reasoning": 0.7,
+        "science": 0.7,
+        "general": 0.7,
+        "agents": 0.7,
+        "biology": 0.7,
+        "chemistry": 0.7,
+        "code": 0.7,
+        "tool_calling": 0.7,
+        "vision": 0.6
+      },
+      "pricing": {
+        "provider_name": "Anthropic",
+        "input_price_per_m": 8.0,
+        "output_price_per_m": 40.0
+      },
       "notes": "",
       "source": "https://llm-stats.com (API v1/models)"
     },
@@ -709,11 +761,12 @@
         "multimodal": 0.7,
         "productivity": 1811.0,
         "reasoning": 152.9,
-        "science": 0.7,
-        "general": 108.2,
+        "science": 0.6,
+        "general": 89.8,
         "healthcare": 0.7,
-        "agents": 174.6,
-        "biology": 0.7,
+        "agents": 166.7,
+        "biology": 0.6,
+        "chemistry": 0.7,
         "code": 0.7,
         "tool_calling": 0.6,
         "vision": 0.7
@@ -765,7 +818,7 @@
         "vision": 0.0
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 0.5,
         "output_price_per_m": 1.5
       },
@@ -959,7 +1012,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -998,7 +1051,7 @@
         "writing": 0.6
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -2239,6 +2292,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-11-09T15:39:15.826880+00:00",
+  "last_updated": "2026-11-16T15:14:17.238990+00:00",
   "fetch_warnings": []
 }
