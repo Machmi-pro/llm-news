@@ -2,6 +2,60 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "date_guess": "2026-11-16",
+      "source": "https://openai.com/index/lvmh-media-division-partnership",
+      "hash": "c7d8a9620e995ccf",
+      "fetched_at": "2026-11-16T16:16:16.698346+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Advancing computer-use agents for healthcare teams",
+      "summary": "",
+      "date_guess": "2026-11-16",
+      "source": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "hash": "86e33a418cdd603d",
+      "fetched_at": "2026-11-16T16:16:16.698371+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "date_guess": "2026-11-16",
+      "source": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "hash": "4dcc95733e0cd063",
+      "fetched_at": "2026-11-16T16:16:16.698386+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "The King’s Trust and OpenAI launch £1m partnership",
+      "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+      "date_guess": "2026-11-16",
+      "source": "https://openai.com/index/the-kings-trust-and-openai",
+      "hash": "7f6565a1c9f17170",
+      "fetched_at": "2026-11-16T16:16:16.698399+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "date_guess": "2026-11-15",
+      "source": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "hash": "1d1ca95d17fa6390",
+      "fetched_at": "2026-11-16T16:16:16.698410+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our new blog for science",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "date_guess": "2026-11-15",
+      "source": "https://openai.com/index/our-new-blog-for-science",
+      "hash": "cbe7f941a48f0748",
+      "fetched_at": "2026-11-16T16:16:16.698420+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Introducing ChatGPT Wallet",
       "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
       "date_guess": "2026-11-13",
@@ -2647,60 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743494+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-      "date_guess": "2026-07-07",
-      "source": "https://openai.com/index/australian-payments-plus",
-      "hash": "210c4a3ddec019e6",
-      "fetched_at": "2026-08-21T15:54:17.743507+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "date_guess": "2026-07-07",
-      "source": "https://openai.com/index/mufg",
-      "hash": "50356785aa5fd062",
-      "fetched_at": "2026-08-21T15:54:17.743517+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How ChatGPT adoption has expanded",
-      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-      "date_guess": "2026-06-30",
-      "source": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "hash": "19aa7af292fa9ebf",
-      "fetched_at": "2026-08-21T15:54:17.743540+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "date_guess": "2026-06-30",
-      "source": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "hash": "c6318b555931a65a",
-      "fetched_at": "2026-08-21T15:54:17.743552+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Inside Genebench-Pro",
-      "summary": "",
-      "date_guess": "2026-06-30",
-      "source": "https://openai.com/index/genebench-pro/case-studies",
-      "hash": "b31b1629fdc2d7d5",
-      "fetched_at": "2026-08-21T15:54:17.743558+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing GeneBench-Pro",
-      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "date_guess": "2026-06-30",
-      "source": "https://openai.com/index/introducing-genebench-pro",
-      "hash": "47d669c99488e45d",
-      "fetched_at": "2026-08-21T15:54:17.743570+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-15T14:12:57.340073+00:00",
+  "last_checked": "2026-11-16T16:16:16.830964+00:00",
   "fetch_warnings": []
 }
