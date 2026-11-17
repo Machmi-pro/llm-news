@@ -2,6 +2,24 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "date_guess": "2026-11-17",
+      "source": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "hash": "a3e270c8ca10b294",
+      "fetched_at": "2026-11-17T16:21:28.753077+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing OpenAI for Chile",
+      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "date_guess": "2026-11-17",
+      "source": "https://openai.com/index/introducing-openai-for-chile",
+      "hash": "1e087c4481db3723",
+      "fetched_at": "2026-11-17T16:21:28.753106+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
       "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
       "date_guess": "2026-11-16",
@@ -35,6 +53,60 @@
       "source": "https://openai.com/index/the-kings-trust-and-openai",
       "hash": "7f6565a1c9f17170",
       "fetched_at": "2026-11-16T16:16:16.698399+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Broadening access to AI for scientists",
+      "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "date_guess": "2026-11-16",
+      "source": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "hash": "8ea0b618d73904da",
+      "fetched_at": "2026-11-17T16:21:28.753121+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "date_guess": "2026-11-16",
+      "source": "https://openai.com/index/strengthening-online-child-safety",
+      "hash": "c6d1cbf34fdee552",
+      "fetched_at": "2026-11-17T16:21:28.753132+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "date_guess": "2026-11-16",
+      "source": "https://openai.com/index/science-at-the-frontier",
+      "hash": "81cc90ac57b79bce",
+      "fetched_at": "2026-11-17T16:21:28.753143+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "date_guess": "2026-11-16",
+      "source": "https://openai.com/business/customer-stories/revolut",
+      "hash": "9ca74d51faf66f46",
+      "fetched_at": "2026-11-17T16:21:28.753154+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Our first phase of embedded assessments",
+      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "date_guess": "2026-11-16",
+      "source": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "hash": "449b076365d3c90f",
+      "fetched_at": "2026-11-17T16:21:28.753179+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "At Holiday Extras, dots get to work before anyone asks",
+      "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+      "date_guess": "2026-11-16",
+      "source": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "hash": "47d21b648793065c",
+      "fetched_at": "2026-11-17T16:21:28.753242+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -2629,78 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743409+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "date_guess": "2026-07-09",
-      "source": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "hash": "d48b7fbfe5663dcc",
-      "fetched_at": "2026-08-21T15:54:17.743419+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "ChatGPT is now a partner for your most ambitious work",
-      "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
-      "date_guess": "2026-07-09",
-      "source": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
-      "hash": "958ed086d8a27a6f",
-      "fetched_at": "2026-08-21T15:54:17.743431+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-      "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
-      "date_guess": "2026-07-09",
-      "source": "https://openai.com/index/gpt-5-6",
-      "hash": "c390973b5f8c8c4c",
-      "fetched_at": "2026-08-21T15:54:17.743442+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "summary": "Details about the OpenAI Bio Bounty program",
-      "date_guess": "2026-07-09",
-      "source": "https://openai.com/index/bio-bug-bounty",
-      "hash": "43e69ae99bf94958",
-      "fetched_at": "2026-08-21T15:54:17.743450+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Our approach to government and national security partnerships",
-      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-      "date_guess": "2026-07-08",
-      "source": "https://openai.com/index/government-national-security-partnerships",
-      "hash": "63c11dd52d43fd84",
-      "fetched_at": "2026-08-21T15:54:17.743460+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Separating signal from noise in coding evaluations",
-      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "date_guess": "2026-07-08",
-      "source": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "hash": "92ced11f123e0778",
-      "fetched_at": "2026-08-21T15:54:17.743472+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Helping K–12 educators build practical AI skills",
-      "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
-      "date_guess": "2026-07-08",
-      "source": "https://openai.com/index/k-12-educators-practical-skills",
-      "hash": "b483b67469347d51",
-      "fetched_at": "2026-08-21T15:54:17.743485+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing GPT-Live",
-      "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-      "date_guess": "2026-07-08",
-      "source": "https://openai.com/index/introducing-gpt-live",
-      "hash": "d750433e5ea6aa84",
-      "fetched_at": "2026-08-21T15:54:17.743494+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-16T16:16:16.830964+00:00",
+  "last_checked": "2026-11-17T16:21:28.874448+00:00",
   "fetch_warnings": []
 }
