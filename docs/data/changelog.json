@@ -2,6 +2,15 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "date_guess": "2026-11-18",
+      "source": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "hash": "cc17f5be9e8c95e2",
+      "fetched_at": "2026-11-18T15:54:00.631201+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Strengthening NATO and allied cyber defenses with AI",
       "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
       "date_guess": "2026-11-17",
@@ -17,6 +26,33 @@
       "source": "https://openai.com/index/introducing-openai-for-chile",
       "hash": "1e087c4481db3723",
       "fetched_at": "2026-11-17T16:21:28.753106+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "date_guess": "2026-11-17",
+      "source": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "hash": "25f9545d19eddeae",
+      "fetched_at": "2026-11-18T15:54:00.631234+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Introducing ChatGPT for Sales",
+      "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "date_guess": "2026-11-17",
+      "source": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "hash": "f232b362ee868ea7",
+      "fetched_at": "2026-11-18T15:54:00.631262+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Astra for Law leads in legal intelligence",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "date_guess": "2026-11-17",
+      "source": "https://openai.com/index/astra-law-6-2",
+      "hash": "88b4f3ba68f4b388",
+      "fetched_at": "2026-11-18T15:54:00.631275+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -191,6 +227,15 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "ChatGPT Ads increases its market presence in 44 countries",
+      "summary": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
+      "date_guess": "2026-11-12",
+      "source": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+      "hash": "3f7f4373ca84b6d5",
+      "fetched_at": "2026-11-18T15:54:00.631509+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "ChatGPT Plus for veterans and servicemembers",
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
       "date_guess": "2026-11-11",
@@ -296,6 +341,15 @@
       "source": "https://openai.com/index/kuken",
       "hash": "b9b6e355ed43e561",
       "fetched_at": "2026-11-10T15:07:58.573861+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How VistaPrint helps small businesses get the word out",
+      "summary": "Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded merchandise can help them get the word out.",
+      "date_guess": "2026-11-09",
+      "source": "https://openai.com/ads/customers/vistaprint",
+      "hash": "7a736224bc1ac020",
+      "fetched_at": "2026-11-18T15:54:00.631673+00:00"
     },
     {
       "vendor": "OpenAI",
@@ -2647,60 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743347+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "date_guess": "2026-07-15",
-      "source": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "hash": "7f80961f5a783d49",
-      "fetched_at": "2026-08-21T15:54:17.743357+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How to manage AI investments in the agentic era",
-      "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-      "date_guess": "2026-07-14",
-      "source": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-      "hash": "1e24734a42b802d3",
-      "fetched_at": "2026-08-21T15:54:17.743368+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Data science workflows with ChatGPT Work",
-      "summary": "Learn practical ChatGPT Work workflows for root-cause briefs, KPI memos, scoped analyses, and dashboard specifications.",
-      "date_guess": "2026-07-14",
-      "source": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
-      "hash": "c70d1cd95ff6b958",
-      "fetched_at": "2026-08-21T15:54:17.743378+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Sales workflows with ChatGPT Work",
-      "summary": "Learn practical ChatGPT Work workflows for pipeline briefs, meeting prep, account plans, forecast reviews, and deal diagnosis.",
-      "date_guess": "2026-07-14",
-      "source": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
-      "hash": "51ef75fe80753254",
-      "fetched_at": "2026-08-21T15:54:17.743388+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
-      "date_guess": "2026-07-10",
-      "source": "https://openai.com/index/deutsche-telekom",
-      "hash": "c3b7345afd9f1737",
-      "fetched_at": "2026-08-21T15:54:17.743399+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Getting started with ChatGPT",
-      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "date_guess": "2026-07-10",
-      "source": "https://openai.com/academy/getting-started",
-      "hash": "2070b5c731cffddf",
-      "fetched_at": "2026-08-21T15:54:17.743409+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-17T16:21:28.874448+00:00",
+  "last_checked": "2026-11-18T15:54:00.839989+00:00",
   "fetch_warnings": []
 }
