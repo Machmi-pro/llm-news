@@ -11,6 +11,60 @@
     },
     {
       "vendor": "OpenAI",
+      "title": "The Silent Consensus",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "date_guess": "2026-11-18",
+      "source": "https://openai.com/index/the-silent-consensus",
+      "hash": "988086c36f908f81",
+      "fetched_at": "2026-11-19T15:57:59.256128+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Research acceleration: The jagged frontier",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "date_guess": "2026-11-18",
+      "source": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "hash": "b80dd31fbdd18024",
+      "fetched_at": "2026-11-19T15:57:59.256163+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "date_guess": "2026-11-18",
+      "source": "https://openai.com/business/customer-stories/sumitomo-life",
+      "hash": "893de4d98ed05d69",
+      "fetched_at": "2026-11-19T15:57:59.256184+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Inside the Codex sandbox",
+      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "date_guess": "2026-11-18",
+      "source": "https://openai.com/index/inside-the-codex-sandbox",
+      "hash": "d198091c0f02e317",
+      "fetched_at": "2026-11-19T15:57:59.256199+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "date_guess": "2026-11-18",
+      "source": "https://openai.com/index/managing-frontier-ai-risk",
+      "hash": "964fc863679b2a2f",
+      "fetched_at": "2026-11-19T15:57:59.256212+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Advancing chip design with OpenAI models",
+      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "date_guess": "2026-11-18",
+      "source": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "hash": "7496ed11ae8eb320",
+      "fetched_at": "2026-11-19T15:57:59.256261+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Strengthening NATO and allied cyber defenses with AI",
       "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
       "date_guess": "2026-11-17",
@@ -2647,60 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743280+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
-      "date_guess": "2026-07-20",
-      "source": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "hash": "cab6ba76d24fc384",
-      "fetched_at": "2026-08-21T15:54:17.743291+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "A scorecard for the AI age",
-      "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
-      "date_guess": "2026-07-17",
-      "source": "https://openai.com/index/a-scorecard-for-the-ai-age",
-      "hash": "5a5844253da0e93e",
-      "fetched_at": "2026-08-21T15:54:17.743302+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Why teens deserve access to safe AI",
-      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-      "date_guess": "2026-07-16",
-      "source": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-      "hash": "261cbb03dac9dcfa",
-      "fetched_at": "2026-08-21T15:54:17.743312+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How Codex became a collaborator for OpenAI’s creative team",
-      "summary": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
-      "date_guess": "2026-07-16",
-      "source": "https://openai.com/index/codex-collaborator-creative-team",
-      "hash": "9561a782a5c9af8d",
-      "fetched_at": "2026-08-21T15:54:17.743324+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-      "date_guess": "2026-07-16",
-      "source": "https://openai.com/index/cars24",
-      "hash": "5102a9a77eb892d9",
-      "fetched_at": "2026-08-21T15:54:17.743335+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "The US is advancing AI safety through state and federal action",
-      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "date_guess": "2026-07-15",
-      "source": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "hash": "131ff55998e9b101",
-      "fetched_at": "2026-08-21T15:54:17.743347+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-18T15:54:00.839989+00:00",
+  "last_checked": "2026-11-19T15:57:59.573129+00:00",
   "fetch_warnings": []
 }
