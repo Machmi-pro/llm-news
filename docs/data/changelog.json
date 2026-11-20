@@ -2,6 +2,51 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "date_guess": "2026-11-19",
+      "source": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "hash": "75cc15d1c9729777",
+      "fetched_at": "2026-11-20T15:40:52.509748+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Deploying Daybreak Red",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "date_guess": "2026-11-19",
+      "source": "https://openai.com/business/learn/deploying-daybreak-red",
+      "hash": "8a955ecd472894ee",
+      "fetched_at": "2026-11-20T15:40:52.509777+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "See PR scans in action",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "date_guess": "2026-11-19",
+      "source": "https://openai.com/business/learn/pr-scans-demo",
+      "hash": "00d4a2354c47b665",
+      "fetched_at": "2026-11-20T15:40:52.509789+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Explore the Codex Security Plugin",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "date_guess": "2026-11-19",
+      "source": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "hash": "690508f5ca1d9a1f",
+      "fetched_at": "2026-11-20T15:40:52.509800+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Get started with Daybreak Blue",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "date_guess": "2026-11-19",
+      "source": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "hash": "3ff11232f67280a1",
+      "fetched_at": "2026-11-20T15:40:52.509811+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
       "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
       "date_guess": "2026-11-18",
@@ -2656,51 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743220+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Introducing OpenAI Presence",
-      "summary": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.",
-      "date_guess": "2026-07-22",
-      "source": "https://openai.com/index/introducing-openai-presence",
-      "hash": "bf0be9cb5bf2a6dd",
-      "fetched_at": "2026-08-21T15:54:17.743231+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "date_guess": "2026-07-22",
-      "source": "https://openai.com/index/ntt-data",
-      "hash": "f2224190a72b4bad",
-      "fetched_at": "2026-08-21T15:54:17.743244+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Introducing the ChatGPT for small business program",
-      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "date_guess": "2026-07-21",
-      "source": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "hash": "88feba5097ba16ba",
-      "fetched_at": "2026-08-21T15:54:17.743254+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
-      "date_guess": "2026-07-21",
-      "source": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-      "hash": "cba146720d52c769",
-      "fetched_at": "2026-08-21T15:54:17.743266+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "summary": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
-      "date_guess": "2026-07-21",
-      "source": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-      "hash": "cd04243277f17cac",
-      "fetched_at": "2026-08-21T15:54:17.743280+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-19T15:57:59.573129+00:00",
+  "last_checked": "2026-11-20T15:40:52.635526+00:00",
   "fetch_warnings": []
 }
