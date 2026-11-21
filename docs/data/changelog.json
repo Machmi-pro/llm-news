@@ -2,6 +2,33 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Combatting adversarial distillation",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "date_guess": "2026-11-20",
+      "source": "https://openai.com/index/combatting-adversarial-distillation",
+      "hash": "a29659f1052cb893",
+      "fetched_at": "2026-11-21T14:51:24.893480+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "date_guess": "2026-11-20",
+      "source": "https://openai.com/business/customer-stories/hebbia",
+      "hash": "dceb101b85699cbd",
+      "fetched_at": "2026-11-21T14:51:24.893515+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "date_guess": "2026-11-20",
+      "source": "https://openai.com/index/introducing-medchembench",
+      "hash": "adfaa7a96ff7093e",
+      "fetched_at": "2026-11-21T14:51:24.893534+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
       "date_guess": "2026-11-19",
@@ -2674,33 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743189+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Building AI infrastructure with the Effingham County community",
-      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-      "date_guess": "2026-07-22",
-      "source": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "hash": "97c81a204aa7f3ab",
-      "fetched_at": "2026-08-21T15:54:17.743199+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How news organizations are using AI to advance their vital missions",
-      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "date_guess": "2026-07-22",
-      "source": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "hash": "5928a45887677339",
-      "fetched_at": "2026-08-21T15:54:17.743210+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Advancing the next era of national science",
-      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
-      "date_guess": "2026-07-22",
-      "source": "https://openai.com/index/advancing-the-next-era-of-national-science",
-      "hash": "8eb4160cf7d6ae5b",
-      "fetched_at": "2026-08-21T15:54:17.743220+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-20T15:40:52.635526+00:00",
+  "last_checked": "2026-11-21T14:51:25.173193+00:00",
   "fetch_warnings": []
 }
