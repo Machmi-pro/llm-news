@@ -195,7 +195,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "DeepInfra",
+        "provider_name": "Anthropic",
         "input_price_per_m": 10.0,
         "output_price_per_m": 50.0
       },
@@ -280,7 +280,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "Anthropic",
+        "provider_name": "DeepInfra",
         "input_price_per_m": 1.0,
         "output_price_per_m": 5.0
       },
@@ -531,7 +531,7 @@
         "vision": 0.7
       },
       "pricing": {
-        "provider_name": "DeepInfra",
+        "provider_name": "Anthropic",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
       },
@@ -565,7 +565,7 @@
         "vision": 0.7
       },
       "pricing": {
-        "provider_name": "DeepInfra",
+        "provider_name": "Anthropic",
         "input_price_per_m": 5.0,
         "output_price_per_m": 25.0
       },
@@ -1012,7 +1012,7 @@
         "vision": 0.6
       },
       "pricing": {
-        "provider_name": "OpenAI",
+        "provider_name": "Azure",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -1051,7 +1051,7 @@
         "writing": 0.6
       },
       "pricing": {
-        "provider_name": "Azure",
+        "provider_name": "OpenAI",
         "input_price_per_m": 2.5,
         "output_price_per_m": 10.0
       },
@@ -1856,6 +1856,58 @@
       "source": "https://llm-stats.com (API v1/models)"
     },
     {
+      "id": "gpt-6.2-astra",
+      "name": "GPT-6.2 Astra",
+      "release_date_guess": "2026-11-17",
+      "tier": "OpenAI",
+      "top_scores": {
+        "physics": 1.0,
+        "reasoning": 0.7,
+        "safety": 0.9,
+        "general": 0.7,
+        "healthcare": 0.7,
+        "agents": 0.7,
+        "biology": 1.0,
+        "chemistry": 1.0,
+        "code": 0.7,
+        "systems": 0.6,
+        "tool_calling": 0.7
+      },
+      "pricing": {
+        "provider_name": "OpenAI",
+        "input_price_per_m": 8.0,
+        "output_price_per_m": 40.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
+      "id": "gpt-6.2-sol",
+      "name": "GPT-6.2 Sol",
+      "release_date_guess": "2026-11-17",
+      "tier": "OpenAI",
+      "top_scores": {
+        "physics": 1.0,
+        "reasoning": 0.6,
+        "safety": 0.9,
+        "general": 0.7,
+        "healthcare": 0.7,
+        "agents": 0.6,
+        "biology": 1.0,
+        "chemistry": 1.0,
+        "code": 0.6,
+        "systems": 0.4,
+        "tool_calling": 0.6
+      },
+      "pricing": {
+        "provider_name": "OpenAI",
+        "input_price_per_m": 2.0,
+        "output_price_per_m": 10.0
+      },
+      "notes": "",
+      "source": "https://llm-stats.com (API v1/models)"
+    },
+    {
       "id": "gpt-6-astra",
       "name": "GPT-6 Astra",
       "release_date_guess": "2026-09-04",
@@ -2292,6 +2344,6 @@
       "source": "https://llm-stats.com (API v1/models)"
     }
   ],
-  "last_updated": "2026-11-16T15:14:17.238990+00:00",
+  "last_updated": "2026-11-23T17:42:03.553052+00:00",
   "fetch_warnings": []
 }
