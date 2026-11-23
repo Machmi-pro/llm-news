@@ -2,6 +2,15 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "Perplexity and Intelligence",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "date_guess": "2026-11-22",
+      "source": "https://openai.com/index/perplexity-and-intelligence",
+      "hash": "8a0a48e68be60200",
+      "fetched_at": "2026-11-23T18:37:13.046795+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Combatting adversarial distillation",
       "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "date_guess": "2026-11-20",
@@ -2692,15 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743178+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Launching Health in ChatGPT",
-      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-      "date_guess": "2026-07-23",
-      "source": "https://openai.com/index/health-in-chatgpt",
-      "hash": "bb93d042994c7d7f",
-      "fetched_at": "2026-08-21T15:54:17.743189+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-22T14:47:11.854019+00:00",
+  "last_checked": "2026-11-23T18:37:13.362398+00:00",
   "fetch_warnings": []
 }
