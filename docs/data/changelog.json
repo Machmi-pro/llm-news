@@ -2,6 +2,33 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "date_guess": "2026-11-23",
+      "source": "https://openai.com/index/introducing-shirudo",
+      "hash": "fb9f712a0b4a1529",
+      "fetched_at": "2026-11-24T18:06:00.190735+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Connected intelligence for in-house legal",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "date_guess": "2026-11-23",
+      "source": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "hash": "9c41a81862c5a627",
+      "fetched_at": "2026-11-24T18:06:00.190774+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "date_guess": "2026-11-23",
+      "source": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "hash": "2d804cb19246efd7",
+      "fetched_at": "2026-11-24T18:06:00.190802+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "Perplexity and Intelligence",
       "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
       "date_guess": "2026-11-22",
@@ -2674,33 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743146+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "date_guess": "2026-07-29",
-      "source": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "hash": "7c000c23115d326a",
-      "fetched_at": "2026-08-21T15:54:17.743156+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Scientific computing in the age of agentic AI",
-      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "date_guess": "2026-07-28",
-      "source": "https://openai.com/index/scientific-computing-agentic-ai",
-      "hash": "a0555cf4aad583ff",
-      "fetched_at": "2026-08-21T15:54:17.743167+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How AI is expanding what people do at work",
-      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "date_guess": "2026-07-27",
-      "source": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "hash": "f9192cbb18081757",
-      "fetched_at": "2026-08-21T15:54:17.743178+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-23T18:37:13.362398+00:00",
+  "last_checked": "2026-11-24T18:06:00.386984+00:00",
   "fetch_warnings": []
 }
