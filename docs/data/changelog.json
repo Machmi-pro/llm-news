@@ -2,6 +2,51 @@
   "entries": [
     {
       "vendor": "OpenAI",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "date_guess": "2026-11-24",
+      "source": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "hash": "7aa648bf2ee435fa",
+      "fetched_at": "2026-11-25T17:30:07.233435+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Searching for distant planets with Astra",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "date_guess": "2026-11-24",
+      "source": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "hash": "5e6572efa2da87ee",
+      "fetched_at": "2026-11-25T17:30:07.233476+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How Intentful uses dots to make more time for growth",
+      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "date_guess": "2026-11-24",
+      "source": "https://openai.com/business/customer-stories/intentful-dots",
+      "hash": "596b436057b16bb5",
+      "fetched_at": "2026-11-25T17:30:07.233495+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "summary": "",
+      "date_guess": "2026-11-24",
+      "source": "https://openai.com/business/customer-stories/ifood",
+      "hash": "317284a6ababcfca",
+      "fetched_at": "2026-11-25T17:30:07.233506+00:00"
+    },
+    {
+      "vendor": "OpenAI",
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "date_guess": "2026-11-24",
+      "source": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "hash": "27a11be3c6442d11",
+      "fetched_at": "2026-11-25T17:30:07.233524+00:00"
+    },
+    {
+      "vendor": "OpenAI",
       "title": "OpenAI and Cisco introduce Shirudo",
       "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
       "date_guess": "2026-11-23",
@@ -2656,51 +2701,6 @@
       "fetched_at": "2026-08-21T15:54:17.743099+00:00"
     },
     {
-      "vendor": "OpenAI",
-      "title": "Disrupting a Cambodia-based criminal scam operation",
-      "summary": "OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes.",
-      "date_guess": "2026-07-31",
-      "source": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
-      "hash": "ea2bbf6ae1fe494a",
-      "fetched_at": "2026-09-17T11:57:55.284755+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-      "date_guess": "2026-07-30",
-      "source": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "hash": "73c54cbab1f5497c",
-      "fetched_at": "2026-08-21T15:54:17.743111+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-      "date_guess": "2026-07-30",
-      "source": "https://openai.com/index/avatarin",
-      "hash": "3ac4365d6625d62c",
-      "fetched_at": "2026-08-21T15:54:17.743124+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-      "date_guess": "2026-07-29",
-      "source": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "hash": "0b825075701170c5",
-      "fetched_at": "2026-08-21T15:54:17.743134+00:00"
-    },
-    {
-      "vendor": "OpenAI",
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-      "date_guess": "2026-07-29",
-      "source": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "hash": "e7d567c51dae6f26",
-      "fetched_at": "2026-08-21T15:54:17.743146+00:00"
-    },
-    {
       "vendor": "Anthropic",
       "title": "How Cresta turned CX expertise into an agent builder on the Claude Agent SDK",
       "summary": "In our series, How startups build with Claude , we look at the decisions behind AI products. Here, we explore how Cresta brought its expertise building AI-native customer experience into Conductor , an agent that helps developers build and improve other agents. The quick pitch Name Cresta Founded 2017 CEO Ping Wu Growth $270M+ raised. $100M+ ARR. Helping organizations like United Airlines, CVS Health, and Marriott deliver exceptional customer experiences Building enterprise AI agents for custome",
@@ -3223,6 +3223,6 @@
       "fetched_at": "2026-08-21T15:54:17.871452+00:00"
     }
   ],
-  "last_checked": "2026-11-24T18:06:00.386984+00:00",
+  "last_checked": "2026-11-25T17:30:07.416669+00:00",
   "fetch_warnings": []
 }
